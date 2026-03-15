@@ -245,23 +245,11 @@ He served in the proconsular administration of Africa, based at Carthage — not
 ---
 
 ### CARACALLUS HOLCUS
-**~160 AD — Rome / Constantinople**
+**~160 AD — Rome / Byzantium**
 
 Caracallus Holcus grew up in the years of the Severan dynasty and reached maturity as the empire's third-century crisis began to gather — the decades of plague, invasion, economic disruption, and imperial instability that would kill fifty emperors in fifty years and nearly kill Rome itself. He read the situation, as men of his family read all situations, with cold clarity, and drew from his reading a conclusion that was becoming increasingly obvious to anyone who would face it: the empire's centre of gravity was moving east.
 
-He moved with it. Relocating from Rome to the city on the Bosphorus that Constantine would shortly transform into the new capital of the world, Caracallus Holcus established the family in a position from which they could observe, and participate in, the great administrative shift from Latin west to Greek east that was the defining structural fact of the later empire. He was an early man in a city that would become, within two generations, the centre of the world — which gave him advantages that he was careful to use.
-
-*Children:*
-- **Diocletianus Holcus** — direct line; see next entry.
-
----
-
-### DIOCLETIANUS HOLCUS
-**~190 AD — Constantinople**
-
-Diocletianus Holcus served in the administrative apparatus of the eastern empire during the decades when that apparatus was expanding to absorb the functions that the western administration was progressively failing to discharge. He was a specialist in legal documentation — the codification of edicts, the reconciliation of conflicting legal traditions, the production of the clear, authoritative texts that a diverse empire needed to govern itself consistently across its vast extent.
-
-He worked under several emperors, survived their successions — which in the third century required both luck and judgement, and he had the second in abundance — and produced a body of administrative work that was characterised, above all else, by its accuracy. In an age of institutional decay, accuracy was a form of heroism.
+He moved with it. Relocating from Rome to Byzantium — the ancient Greek city on the Bosphorus that would, within two generations, be transformed into the new capital of the world — Caracallus Holcus established the family in a position from which they could observe, and participate in, the great administrative shift from Latin west to Greek east that was the defining structural fact of the later empire. He was an early man in a city that was already important and would become, in his grandchildren's time, the centre of the world — which gave him advantages that he was careful to use.
 
 *Children:*
 - **Constantinus Holcus** — direct line; see next entry.
@@ -269,11 +257,11 @@ He worked under several emperors, survived their successions — which in the th
 ---
 
 ### CONSTANTINUS HOLCUS
-**~220 AD — Constantinople**
+**~220 AD — Byzantium**
 
-Constantinus Holcus lived through the reign of Constantine the Great — the emperor who made Christianity the favoured religion of the Roman state and rebuilt the city on the Bosphorus as the new Rome of the east. He served in the imperial household administration during the great building programme of the 330s, managing the documentation of land acquisition, construction contracts, and the complex resettlement of populations that the creation of a new capital from an existing city required.
+Constantinus Holcus was born in Byzantium in the worst decades of the third-century crisis — the fifty years of plague, invasion, and imperial instability that saw Rome come closer to dissolution than at any point since Hannibal stood at the gates. He served in the legal administration of the eastern empire through those decades with the steadiness of a man who understood that institutions are most necessary precisely when they are most threatened, and that the administrator who keeps the records accurate and the procedures intact through a period of chaos is performing a service that history rarely adequately acknowledges.
 
-He was a man at the intersection of two worlds — the old pagan Roman one of his upbringing and the new Christian one that was asserting itself around him — and he navigated the transition with the pragmatic flexibility that his family had always brought to such moments. He converted to Christianity in 330, at a point neither suspiciously early nor dangerously late, and observed the new faith with the same quality of thoughtful, somewhat detached attention with which his ancestors had observed every other system of belief they had encountered across three thousand years.
+He lived long enough to see Diocletian's great administrative reforms begin to stabilise the empire and to watch, in his final years, the early stirrings of the Christian question that would define the next century. He did not live to see Constantine's conversion or the founding of the new capital — those events belonged to his son's generation — but he understood, from the patterns he had spent a lifetime reading, that both were coming.
 
 *Children:*
 - **Byzantos Holkos** — direct line; see next entry.
@@ -281,9 +269,9 @@ He was a man at the intersection of two worlds — the old pagan Roman one of hi
 ---
 
 ### BYZANTOS HOLKOS
-**~250 AD — Constantinople**
+**~255 AD — Byzantium / Constantinople**
 
-The name shifted back toward Greek in his generation — "Holkos" rather than "Holcus," the Latin veneer thinning as the eastern empire recovered its Greek identity with increasing confidence. Byzantos Holkos was a man of the new Constantinople in the deepest sense: formed by its mixture of Roman law, Greek culture, Christian theology, and the commercial energy of the Bosphorus crossing, he embodied the synthesis that Byzantium would spend the next thousand years elaborating.
+The name shifted back toward Greek in his generation — "Holkos" rather than "Holcus," the Latin veneer thinning as the eastern empire recovered its Greek identity with increasing confidence. Byzantos Holkos was born in Byzantium and came into his career precisely as Constantine was transforming the city into Constantinople — the new Rome of the east, built with the speed and ambition that only an emperor's will could command. He served in the imperial household administration during the great building programme of the 330s, managing the documentation of land acquisition, construction contracts, and the complex resettlement of populations that the creation of a new capital from an existing city required. He was a man of the transition — present when the city changed its name, its religion, and its destiny within the space of a single decade.
 
 He worked as a notarios — a legal secretary and drafter of official documents — in the imperial chancery, a position that placed him at the centre of the documentary life of the eastern empire. His particular value was a facility for detecting the falsified document — the forged seal, the altered date, the interpolated clause — that made him the court's first resort in cases of suspected fraud in legal instruments. It was a gift with very old roots, and he exercised it with the quiet, unhurried confidence of a man who had inherited it rather than acquired it.
 
@@ -293,11 +281,11 @@ He worked as a notarios — a legal secretary and drafter of official documents 
 ---
 
 ### HOLKOS THE BYZANTINE
-**~280 AD — Constantinople**
+**~290 AD — Constantinople**
 
-Holkos the Byzantine was a scholar of the early Byzantine type — that distinctive blend of Christian theologian, classical philosopher, and natural scientist that the eastern empire produced in the fourth century and that has no precise equivalent in any other culture. He taught at the school attached to the great church of the Holy Apostles, where the curriculum combined the classical trivium with Christian scriptural study in a manner that satisfied neither the purely classical nor the purely theological mind, but that produced, in its best students, a habit of rigorous inquiry applied across all domains of knowledge.
+Holkos the Byzantine came of age in the city that was still being built around him — Constantinople in the 350s and 360s, its great churches and colonnaded streets not yet finished, the smell of new stone everywhere, the sense of a world being deliberately constructed rather than gradually accumulated. He was among the first generation for whom the city was simply home rather than a transformation, and he brought to it the analytical habits of a family that had been reading the world's changes since before Greece existed.
 
-He was known principally as a teacher — the kind of teacher remembered not for what he said but for the questions he asked, the ones that left students unable to rest until they had found the answer. He did not tell his students what to think. He showed them how, which was the harder gift, and the more durable one.
+He taught at one of the schools attached to the new ecclesiastical foundations of the city, where the curriculum combined the classical philosophical tradition with the Christian intellectual culture that was now the empire's official framework — a synthesis that was still being worked out in his lifetime and that produced, in those willing to engage with both traditions honestly, a habit of rigorous inquiry that owed as much to Plato and Aristotle as to the Gospels. He was known principally as a teacher — the kind remembered not for what he said but for the questions he asked, the ones that left students unable to rest until they had found the answer. He did not tell his students what to think. He showed them how, which was the harder gift, and the more durable one.
 
 *Children:*
 - **Holkos-Theodoros** — direct line; see next entry.
@@ -305,7 +293,7 @@ He was known principally as a teacher — the kind of teacher remembered not for
 ---
 
 ### HOLKOS-THEODOROS
-**~310 AD — Constantinople / Gothic territory**
+**~325 AD — Constantinople / Gothic territory**
 
 Theodoros — gift of god in Greek — was the name added to mark the family's Christian accommodation, grafted onto the old name-element as a declaration of faith and a practical adaptation to a world in which such declarations were increasingly necessary. Holkos-Theodoros served in the frontier administration of the eastern empire, posted to the territories where Roman authority met Gothic power along the lower Danube, in the generation before the great migrations would sweep that frontier away entirely.
 
