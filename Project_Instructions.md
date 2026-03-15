@@ -11,6 +11,14 @@ The premise is drawn from the Phantom ("The Ghost Who Walks") model: Sherlock Ho
 
 ---
 
+## THE CANON PRINCIPLE
+
+**Arthur Conan Doyle's works are the inviolable foundation of this project.** Everything established in the canonical Sherlock Holmes stories and novels stands exactly as written. No story in this chronicle may contradict, reframe, or cast doubt on anything Doyle established. No writer has the right to gainsay the creator.
+
+Non-Doyle extensions — the Nero Wolfe connection, Charlotte Holmes, Raffles Holmes, the Wold Newton family tree, Baring-Gould's biography, and similar pastiches — are available to use or set aside as suits the story at hand. They are neither required nor forbidden, and no one version of them is treated as authoritative.
+
+---
+
 ## THE CORE CONCEPT
 
 Every generation of this family, without exception, shares three characteristics:
@@ -34,11 +42,7 @@ The criminal network of each age is always more organised than the authorities b
 
 **Moriarty is not an aberration. He is the latest expression of something ancient.**
 
-The Holmes of each age has always known this, and has always been quietly dismantling it — one generation at a time, ensuring that the credit goes elsewhere and the family remains obscured.
-
-**The pastiche literature is deliberate misdirection.** The Wold Newton family tree, Baring-Gould's biography, the Nero Wolfe connection, the Charlotte Holmes novels — all of it has been planted and maintained by the Holmes of each recent generation to manage the legend. The published Watson cases are not vanity. They are a carefully curated public face that draws attention toward Baker Street and away from everything else. Sherlock Holmes VI — the man who appears in no public document — is the logical endpoint of a strategy that has been running for centuries.
-
-Each Holmes understands that obscurity is protection, and that the deliberate seeding of false trails is itself an expression of the family's analytical intelligence turned outward.
+The Holmes of each age has always known this, and has always been quietly dismantling it — one generation at a time, ensuring that the credit goes to the appropriate authority while the family remains in the background.
 
 ---
 
@@ -87,17 +91,19 @@ Each entry currently contains:
 3. **Children** — direct line noted, with cross-reference to next entry or next book.
 
 **The story should:**
+- Be structured like a Doyle short story: a problem presented, the method working through it, a resolution
 - Present a specific problem native to the world of that entry
 - Show the analytical method working — observation, inference, resolution
 - Feel suspenseful: there should be a moment where the outcome is genuinely uncertain
 - Reflect the criminal network thread — the problem should connect to something larger than itself
-- End with the Holmes of that generation ensuring the credit goes to the appropriate authority, while remaining obscured
+- End with the Holmes of that generation ensuring the credit goes to the appropriate authority, while remaining in the background
 - Be written in the voice appropriate to that book
 
 **The story should not:**
 - Explain the method too explicitly (show, don't tell)
 - Use anachronistic vocabulary or concepts
 - Contradict any historical detail established in the biographical section
+- Contradict anything established in Doyle's canonical works
 - Break the register of the surrounding prose
 
 ---
@@ -125,7 +131,7 @@ Write 3–5 paragraph stories for each of the 140 entries, working book by book.
 Expand all biographical sections from 1–2 paragraphs to 2–3, particularly for the thinner entries in Books III and IV.
 
 ### Phase 3 — Integration
-Review the complete chronicle for thematic consistency — ensure the criminal network thread runs coherently from Book I to Book IX, that the misdirection meta-narrative is seeded appropriately from Book VI onward, and that the register shifts feel graduated rather than abrupt.
+Review the complete chronicle for thematic consistency — ensure the criminal network thread runs coherently from Book I to Book IX and that the register shifts feel graduated rather than abrupt.
 
 ### Phase 4 — Final document
 Compile all nine books into a single formatted document with front matter, a note on sources, and an afterword.
@@ -138,7 +144,7 @@ Compile all nine books into a single formatted document with front matter, a not
 - At the start of each conversation, state which book and which entries are being worked on
 - Update the relevant .md file at the end of each conversation and re-upload to project knowledge
 - If a story introduces a historical detail not already in the biographical section, verify it before committing
-- If a story creates a continuity implication for another book (a criminal network thread, a recurring family, a planted false trail), note it explicitly so it can be seeded into the relevant earlier or later entry
+- If a story creates a continuity implication for another book (a criminal network thread, a recurring family), note it explicitly so it can be seeded into the relevant earlier or later entry
 
 ---
 
@@ -152,4 +158,4 @@ This line is the project's closing note. It should not be altered.
 
 ---
 
-*Four thousand years. One gift. One vocation. The ghost who never dies.*
+*Four thousand years. One gift. One vocation. The private investigator who never dies.*
