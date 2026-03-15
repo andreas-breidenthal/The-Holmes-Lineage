@@ -11,15 +11,15 @@ The project begins from the observation Sherlock Holmes himself made: that his a
 
 | Book | Period | Locations | Entries |
 |------|--------|-----------|---------|
-| [Book I: The Ancient World](Book_I_The_Ancient_World.md) | ~2050 – ~1390 BC | Mesopotamia · Egypt · Canaan · Phoenicia · Crete · Mycenae | 24 |
-| [Book II: The Greek World](Book_II_The_Greek_World.md) | ~1360 – ~460 BC | Mycenaean Greece · Hittite Anatolia · Phoenicia · Assyria · Lydia · Ionia | 31 |
-| [Book III: The Roman World](Book_III_The_Roman_World.md) | ~460 BC – ~370 AD | Rome · Carthage · Judea · Constantinople | 26 |
-| [Book IV: The Frankish & Norse World](Book_IV_The_Frankish_and_Norse_World.md) | ~370 – ~1110 AD | Gothic Lands · Frankish Territory · Frisia · Vestfold · Yorkshire | 24 |
-| [Book V: Halstead Manor](Book_V_Halstead_Manor.md) | ~1140 – 1461 | Yorkshire, England | 13 |
-| [Book VI: The Elizabethan Holmes](Book_VI_The_Elizabethan_Holmes.md) | 1461 – 1687 | Yorkshire · London, England | 8 |
-| [Book VII: Decline & Restoration](Book_VII_Decline_and_Restoration.md) | 1687 – 1854 | Yorkshire · London, England | 5 |
-| [Book VIII: The Great Detective](Book_VIII_The_Great_Detective.md) | 1854 – c.1957 | Yorkshire · London · Sussex, England | 2 |
-| [Book IX: The Line Continues](Book_IX_The_Line_Continues.md) | 1893 – 2021 | London · Boston · United States | 7 |
+| [Book I: The Ancient World](Book_1_The_Ancient_World.md) | ~2050 – ~1390 BC | Mesopotamia · Egypt · Canaan · Phoenicia · Crete · Mycenae | 24 |
+| [Book II: The Greek World](Book_2_The_Greek_World.md) | ~1360 – ~460 BC | Mycenaean Greece · Hittite Anatolia · Phoenicia · Assyria · Lydia · Ionia | 31 |
+| [Book III: The Roman World](Book_3_The_Roman_World.md) | ~460 BC – ~370 AD | Rome · Carthage · Judea · Constantinople | 26 |
+| [Book IV: The Frankish & Norse World](Book_4_The_Frankish_and_Norse_World.md) | ~370 – ~1110 AD | Gothic Lands · Frankish Territory · Frisia · Vestfold · Yorkshire | 24 |
+| [Book V: Halstead Manor](Book_5_Halstead_Manor.md) | ~1140 – 1461 | Yorkshire, England | 13 |
+| [Book VI: The Elizabethan Holmes](Book_6_The_Elizabethan_Holmes.md) | 1461 – 1687 | Yorkshire · London, England | 8 |
+| [Book VII: Decline & Restoration](Book_7_Decline_and_Restoration.md) | 1687 – 1854 | Yorkshire · London, England | 5 |
+| [Book VIII: The Great Detective](Book_8_The_Great_Detective.md) | 1854 – c.1957 | Yorkshire · London · Sussex, England | 2 |
+| [Book IX: The Line Continues](Book_9_The_Line_Continues.md) | 1893 – 2021 | London · Boston · United States | 7 |
 
 **Total: 140 entries · ~4,000 years**
 
