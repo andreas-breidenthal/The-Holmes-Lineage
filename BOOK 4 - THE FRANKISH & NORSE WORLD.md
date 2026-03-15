@@ -149,7 +149,7 @@ He served as a skald of sorts — not primarily a poet, but a keeper of the oral
 ---
 
 ### LEIFR HOLMR
-**~730 AD — Vestfold, Norway**
+**~765 AD — Vestfold, Norway**
 
 Leifr Holmr was his father's student in the art of memory and his own man in the application of it — where Sigr had used the accumulated knowledge of precedent to resolve disputes, Leifr used it to anticipate them. He could trace an inheritance dispute three generations before it became one, identify the competing claims before either party had articulated them, and in several recorded instances approached the families concerned with a proposed settlement before either had thought to quarrel. This was not meddling; it was the recognition, arrived at early in his career, that a conflict prevented is worth considerably more than a conflict resolved.
 
@@ -161,9 +161,9 @@ He was a man of the assembly — the thing, the Norse gathering where matters of
 ---
 
 ### RAGNARR HOLMR
-**~760 AD — Vestfold, Norway**
+**~795 AD — Vestfold, Norway**
 
-The Viking Age began, by the reckoning of those who lived through it, in the summer of 793, when the longships appeared off the coast of Lindisfarne and the monks of that holy island learned what the men of the north had become. Ragnarr Holmr was thirty years old that summer, and he had watched the preparations for years — the building of the ships, the training of the warriors, the accumulation of the particular kind of restless, calculating ambition that the Vestfold chieftains had been developing for a generation. He had seen it coming because he had been watching carefully, and because watching carefully was what the men of his line did.
+The Viking Age began, by the reckoning of those who lived through it, in the summer of 793, when the longships appeared off the coast of Lindisfarne and the monks of that holy island learned what the men of the north had become. Ragnarr was a young boy that summer, and he grew up in the world that followed — the generation for whom raiding was not a new and shocking thing but simply the condition of their age, the background noise of an expanding Norse world. He watched the expeditions depart from Vestfold across his entire childhood and youth, building from those observations the detailed understanding of what the raids were actually for, what they found, and what they left undone.
 
 He did not go raiding himself — he was not that kind of man, and he understood his own value clearly enough to know that it was not enhanced by a sword. He stayed in Vestfold, managing the networks of intelligence and supply that the raiding expeditions depended on more than they admitted, and ensuring that his son grew up understanding both the world that was passing and the one that was arriving. He gave Sigurðr the Norse world at its height — and the analytical tools to survive whatever came next.
 
@@ -173,7 +173,7 @@ He did not go raiding himself — he was not that kind of man, and he understood
 ---
 
 ### SIGURÐR HOLMR
-**~790 AD — Vestfold / Yorkshire, England**
+**~830 AD — Vestfold / Yorkshire, England**
 
 Sigurðr Holmr crossed the North Sea with the great Danish armies of the 860s — the micel here, the Great Heathen Army that descended on Northumbria in 866 and took York before the English understood what was happening. He was not among the axemen at the gates; he was among the men behind the axemen, the ones who had studied the English kingdoms for years through the accounts of Frisian traders and returned raiders and had built, from those accounts, a detailed picture of where the resistance would be strongest, where the harvest was richest, and where a man of intelligence and patience might put down roots that would outlast the initial violence.
 
@@ -185,9 +185,9 @@ Yorkshire was his answer. He settled in the North Riding after the conquest of J
 ---
 
 ### LEIFR HOLMR II
-**~820 AD — Yorkshire, England**
+**~870 AD — Yorkshire, England**
 
-Leifr Holmr II was the first of the line to be born in English soil, in the farmstead his father had carved out of the North Riding — a child of the Danelaw, shaped by the particular culture of a Scandinavian people in the process of becoming English without knowing it yet. He grew up bilingual, Norse at home and English in the market and the moot, moving between the two worlds with the ease of someone for whom cultural boundaries had always been permeable rather than fixed.
+Leifr Holmr II was the first of the line to be born in English soil, in the farmstead his father had established in the North Riding in the years following the Danish conquest of Jorvik. He came into the world as the Danelaw was consolidating — the Norse settlements taking root, the Danish administration organising itself, a new hybrid culture forming in the space between the conquerors and the conquered. He grew up bilingual, Norse at home and English in the market and the moot, moving between the two worlds with the ease of someone for whom cultural boundaries had always been permeable rather than fixed.
 
 He was a farmer and a local arbitrator — a man of the thing, the assembly, as his great-grandfather had been in Vestfold, called upon by his neighbours to resolve the disputes that the Danelaw's uneasy cohabitation of Norse and English custom generated in abundance. Property disputes, inheritance claims, the conflicting obligations of men who owed service under two incompatible legal traditions — these were the problems that came to Leifr Holmr II, and he resolved them with a practical ingenuity that owed as much to his Norse heritage of oral jurisprudence as to the English common law that was slowly asserting itself across the North.
 
@@ -197,9 +197,9 @@ He was a farmer and a local arbitrator — a man of the thing, the assembly, as 
 ---
 
 ### RAGNARR HOLMR II
-**~850 AD — Yorkshire, England**
+**~900 AD — Yorkshire, England**
 
-He grew up in the years when the Danelaw was at its most confident and most vulnerable simultaneously — a Norse dominion that had sunk deep roots into the English north while remaining perpetually aware that the kingdoms of the south had not accepted its existence and would, when strong enough, contest it. Ragnarr Holmr II understood this dynamic with the clarity of someone who had been reading it since childhood, watching the slow consolidation of Wessex under Alfred and his successors with the attention of a man who knows that the outcome of a distant conflict will eventually determine the terms of his own life.
+He grew up in the years when the Danelaw was at its most confident and most vulnerable simultaneously — a Norse dominion that had sunk deep roots into the English north while remaining perpetually aware that the kingdoms of the south had not accepted its existence and would, when strong enough, contest it. Ragnarr Holmr II understood this dynamic with the clarity of someone who had been reading it since childhood, watching the growing power of the southern English kingdoms under Edward the Elder and his son Æthelstan with the attention of a man who knows that the outcome of a distant conflict will eventually determine the terms of his own life.
 
 He managed the family's land with his father's methodical precision and added to it a political alertness — a habit of maintaining connections across the boundary between the Danish and English communities, cultivating relationships on both sides of a line that he suspected, correctly, would not always be where it currently stood. When the English kings began extending their authority northward in the early tenth century, the Holmr family was positioned to accommodate the change without catastrophe.
 
@@ -209,9 +209,9 @@ He managed the family's land with his father's methodical precision and added to
 ---
 
 ### SIGURÐR HOLMR II
-**~880 AD — Yorkshire, England**
+**~930 AD — Yorkshire, England**
 
-Sigurðr Holmr II lived through the gradual erosion of the Danelaw — the slow reassertion of English royal authority that Æthelstan's campaigns would complete in his lifetime, the Norse culture of the north receding year by year before the administrative and ecclesiastical machinery of a unified English kingdom. He adapted, as his family had always adapted, by making himself useful to whoever was consolidating power at any given moment.
+Sigurðr Holmr II lived through the gradual erosion of the Danelaw — the slow reassertion of English royal authority that Edgar's consolidation of a unified kingdom would complete in his lifetime, the Norse culture of the north receding year by year before the administrative and ecclesiastical machinery of a unified English kingdom. He adapted, as his family had always adapted, by making himself useful to whoever was consolidating power at any given moment.
 
 His particular contribution was a facility with the documentary record — the land charters, the court rolls, the ecclesiastical records that the English administration used to govern in ways the Norse oral tradition had not required. He had taught himself to read Latin in middle age, at a point when most men of his background considered such learning either unnecessary or vaguely suspicious, because he had identified it as the key to the kind of influence his family had always sought — the influence of the person who understands the document on which everything else depends.
 
@@ -221,7 +221,7 @@ His particular contribution was a facility with the documentary record — the l
 ---
 
 ### ÞORFINNR HOLMR
-**~910 AD — Yorkshire, England**
+**~960 AD — Yorkshire, England**
 
 Þorfinnr Holmr bore a fully Norse name in a Yorkshire that was becoming, generation by generation, less Norse — the Danelaw's cultural distinctiveness fading under the pressure of English kingship, English law, and the English Church, which had been working steadily northward since the conversion of the Danish settlers had given it a foothold in the region. He was a man caught between identities and comfortable in neither, which may explain why he invested so heavily in the one identity that transcended both: the family's ancient role as the man who knew things.
 
@@ -233,9 +233,9 @@ He served in the household of a Yorkshire thegn as a steward and counsellor, man
 ---
 
 ### GUNNARR HOLMR
-**~940 AD — Yorkshire, England**
+**~990 AD — Yorkshire, England**
 
-Gunnarr Holmr grew up in the reign of Edgar the Peaceful — a period of unusual stability in the north, the old conflicts between English and Danish communities softened by a king intelligent enough to govern his mixed kingdom with a degree of legal pluralism that his predecessors had not managed. It was a good time to be a man of Gunnarr's type: methodical, observant, trusted equally by both communities, without the sharp edges that periods of crisis tend to produce and periods of peace make unnecessary.
+Gunnarr Holmr grew up in the reign of Æthelred — not the later years of crisis and Danegeld, but the earlier decades when the administration inherited from Edgar the Peaceful still functioned with something of its predecessor's order, and when the North Riding enjoyed a period of relative stability that suited a man of Gunnarr's type: methodical, observant, trusted equally by both communities, without the sharp edges that periods of crisis tend to produce and periods of peace make unnecessary.
 
 He worked as a wool assessor and market overseer in the North Riding — an official role in the local economy, responsible for certifying weights, resolving disputes between traders, and detecting the falsifications of measure and quality that were the endemic fraud of every medieval market. He was very good at it. He had, colleagues noted, a peculiar facility for identifying adulterated goods — wool mixed with inferior fibres, ale diluted beyond what custom permitted, grain that had been stored wet and dried artificially before sale — by examination alone, without needing to be told what he was looking for. He simply looked, and found it.
 
@@ -245,23 +245,11 @@ He worked as a wool assessor and market overseer in the North Riding — an offi
 ---
 
 ### HALFDAN HOLMR
-**~970 AD — Yorkshire, England**
+**~1020 AD — Yorkshire, England**
 
-The name Halfdan — half-Dane — was, by the time he bore it, almost an anachronism; the Danelaw was dissolving into the England of Æthelred's troubled reign, and the distinction between Danish and English in the North Riding was less one of culture than of memory. Halfdan Holmr was English in everything that mattered legally and Danish in the oral traditions of his household — the stories told at the fire, the names given to children, the particular cast of a family mind that had come, centuries ago, from Vestfold.
+The name Halfdan — half-Dane — was, by the time he bore it, almost an anachronism; the Danelaw had dissolved into Cnut's England, and then into the restored English monarchy after him, and the distinction between Danish and English in the North Riding was less one of culture than of memory. Halfdan Holmr was English in everything that mattered legally and Danish in the oral traditions of his household — the stories told at the fire, the names given to children, the particular cast of a family mind that had come, centuries ago, from Vestfold.
 
-He served as a reeve — a local official responsible for the Crown's interests in a district of the North Riding — in the years when Æthelred's administration was struggling with the renewed Danish raids that would eventually put Cnut on the English throne. The position required constant negotiation between loyalty to the Crown and the practical demands of a community with divided sympathies, a negotiation that Halfdan conducted with the family's characteristic facility for finding the position that was simultaneously principled and survivable.
-
-*Children:*
-- **Ulfr Holmr** — direct line; see next entry.
-
----
-
-### ULFR HOLMR
-**~1000 AD — Yorkshire, England**
-
-Ulfr — wolf — was a name that suited the age. England at the turn of the millennium was a kingdom under siege: Æthelred paying Danegeld, the coastal raids intensifying, the political order visibly weakening, and the household of every English thegn making its private calculations about what the next years would bring. Ulfr Holmr made his calculations with more precision than most, having grown up in a reeve's household where the machinery of governance was visible in its workings and its failures both.
-
-He had his father's Norse fatalism and his mother's English pragmatism, and from the combination he derived a quality that those around him found either reassuring or unsettling depending on their temperament: an absolute refusal to be surprised by events. He had, in most cases, anticipated them. When Cnut took the throne in 1016, Ulfr Holmr had been preparing for the possibility for three years, and the transition cost his family nothing. The Norman Conquest was still fifty years away, and he would not live to see it; but the habit of preparation he established would serve his descendants well when it came.
+He served as a reeve — a local official responsible for the Crown's interests in a district of the North Riding — in the unsettled years after Cnut's death, when the succession lurched between Danish and English claimants before settling, temporarily, on Edward the Confessor. The position required constant negotiation between the administrative continuity that the local community needed and the political volatility that successive royal changes produced, a negotiation that Halfdan conducted with the family's characteristic facility for finding the position that was simultaneously principled and survivable.
 
 *Children:*
 - **Eadmund Holmr** — direct line; see next entry.
@@ -269,11 +257,11 @@ He had his father's Norse fatalism and his mother's English pragmatism, and from
 ---
 
 ### EADMUND HOLMR
-**~1030 AD — Yorkshire, England**
+**~1055 AD — Yorkshire, England**
 
-The name Eadmund was Anglo-Saxon — a deliberate choice, or perhaps an instinctive one, reflecting the family's recognition that the Scandinavian phase of their identity was ending and the English one asserting itself as the permanent condition. Cnut's Danish empire had not outlasted Cnut; England was English again, after a fashion, and the men of the North Riding were adjusting their self-presentation accordingly.
+The name Eadmund was Anglo-Saxon — a deliberate choice reflecting the family's recognition that the Scandinavian phase of their identity was ending and the English one asserting itself as the permanent condition. Cnut's Danish empire had not outlasted Cnut; England was English again, after a fashion, and the men of the North Riding were adjusting their self-presentation accordingly. His father had spent the last decade of his life watching the succession question grow more dangerous with each passing year — Harold Godwinson, Duke William of Normandy, and Harald Hardrada of Norway all casting their shadows over a throne that Edward the Confessor seemed unlikely to fill for much longer — and had raised Eadmund in the understanding that a reckoning was coming and that the family's survival would depend on reading it clearly. Eadmund Holmr was perhaps ten years old when Harold was crowned, and a young man of eleven when the world changed at Hastings in October 1066.
 
-Eadmund Holmr served in the local ecclesiastical administration — the Church in Yorkshire was rebuilding its infrastructure after a century of disruption, and men who could read Latin and keep accurate records were in high demand. He worked for the canons of York Minster as a chapter clerk, maintaining the documentary record of the Minster's extensive land holdings with a thoroughness that his employers found exemplary and his counterparts in the secular administration found, occasionally, inconvenient. He had a gift for finding discrepancies in accounts — errors of addition, transpositions of figures, and occasionally something less innocent — that kept the Minster's records cleaner than most of its neighbours. He was not suspicious by temperament; he simply noticed.
+The Conquest was catastrophic for most English landholders in Yorkshire, and doubly so after the Harrying of the North in 1069-70, when William I's army systematically destroyed the agricultural infrastructure of the region, leaving a landscape of burned settlements and starving survivors that observers described as uninhabitable for years afterward. Eadmund Holmr survived it — the family's land survived, diminished but intact. What accommodations were made, what services rendered to the new Norman overlords, what was surrendered to preserve what remained, is not fully recorded. What is recorded is that the Holmr family held their land in the North Riding in 1086, when the Domesday survey was compiled, and that Eadmund presented himself to the commissioners with accurate accounts, answered their questions without hesitation, and was noted as a reliable witness. The entry stood. The name on it was already shifting toward the Norman form.
 
 *Children:*
 - **Willelm Holmr** — direct line; see next entry.
@@ -281,11 +269,11 @@ Eadmund Holmr served in the local ecclesiastical administration — the Church i
 ---
 
 ### WILLELM HOLMR
-**~1060 AD — Yorkshire, England**
+**~1080 AD — Yorkshire, England**
 
-Willelm — the name William, in its Norman form — was the name that exploded across England after October 1066, parents in their thousands reaching for it as a signal of accommodation with the new order, and Willelm Holmr bore it with a slight chronological awkwardness that suggests his father had anticipated the Conquest before it occurred, or had simply, in the manner of the family, read which way the wind was turning and named his son accordingly.
+Willelm — the name William in its Norman form — was the name his father had given him as a declaration of the new order, and he grew up entirely within it: post-Conquest Yorkshire, Norman French in the courts and the castles, Latin in the Church, English in the fields, and a man of his type needed all three. The Holmr family's land was intact but their position reduced, and Willelm spent his adult life rebuilding the local standing that the Harrying had cost them, doing it the way the family had always rebuilt — through competence, through the careful cultivation of useful relationships, and through being the man in any room whose assessment of a situation proved, in time, to have been accurate.
 
-The Conquest, when it came, was catastrophic for most English landholders in Yorkshire and doubly so after the Harrying of the North in 1069-70, when William I's army systematically destroyed the agricultural infrastructure of the region in response to rebellion, leaving a landscape of burned settlements and starving survivors that observers described as uninhabitable for years afterward. Willelm Holmr survived it. The family's land survived, diminished but intact. How this was managed — what accommodations were made, what services were offered to the new Norman overlords, what was surrendered to preserve what remained — is not recorded. What is recorded is that the Holmr family held their land in the North Riding in 1086, when the Domesday survey was compiled, and that the name on the entry was Norman in form.
+He served in the local ecclesiastical administration — the Church in Yorkshire was reconstructing its infrastructure after decades of disruption, and men who could read Latin and keep accurate records were in high demand. He worked for the canons of York Minster as a chapter clerk, maintaining the documentary record of the Minster's extensive land holdings with a thoroughness that his employers found exemplary. He had a gift for finding discrepancies in accounts — errors of addition, transpositions of figures, and occasionally something less innocent — that kept the Minster's records cleaner than most of its neighbours. He was not suspicious by temperament; he simply noticed.
 
 *Children:*
 - **Robert Holmr** — direct line; see next entry.
@@ -293,11 +281,11 @@ The Conquest, when it came, was catastrophic for most English landholders in Yor
 ---
 
 ### ROBERT HOLMR
-**~1090 AD — Yorkshire, England**
+**~1110 AD — Yorkshire, England**
 
-Robert Holmr bore a Norman name, spoke Norman French when necessary and English when preferred, and managed the family's diminished but surviving estate in the North Riding with the methodical competence that had characterised his line for as long as anyone could trace it. He was a man of the new England — William's England, then Rufus's, then Henry I's — navigating the complex obligations of feudal tenure with the analytical precision that the system demanded of those who wished to keep their land and the flexibility that it demanded of those who wished to keep their heads.
+Robert Holmr grew up in the reign of Henry I — the Beauclerc, the scholar-king, the man who brought a measure of administrative order to his father's conquest — and came of age in the chaos of the Anarchy, the civil war between Stephen and Matilda that tore England apart from 1135 to 1154 and reduced large parts of the country to the condition that the chroniclers described, with unusual precision, as a time when God and his angels slept. Yorkshire was not the worst of it, but it was not untouched, and Robert Holmr spent the middle decades of his life managing an estate through conditions of radical uncertainty.
 
-He had one distinction beyond administrative competence: a reputation in the local courts as a man whose testimony could be relied upon. Not merely honest — honest men were common enough — but accurate. He observed things that other witnesses had not thought to observe, remembered them in the detail that courts required, and presented them without the embellishment that made most testimony unreliable. The judges of the itinerant courts, when they came north, learned to give particular weight to what Robert Holmr said he had seen. He was, in the understated fashion of his age and position, a man whose evidence settled cases.
+He managed it well. He had a Norman name and an English temperament and his family's imperturbable habit of reading the situation as it actually was rather than as he might have wished it to be, and in the Anarchy that combination was worth more than allegiance to either claimant. He supported order where it existed, kept his head down where it did not, and emerged from the civil war with the estate intact and his reputation for sound judgement enhanced by the simple fact of having survived a period when a great many men of property had not. He was, in the understated fashion of his age and position, a man whose evidence settled cases — whose word, in the local courts that resumed their function under Henry II, was accepted without question.
 
 *Children:*
 - **William Holmr** — direct line; see Book V.
