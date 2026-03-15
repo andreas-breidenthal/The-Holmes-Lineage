@@ -1,15 +1,15 @@
 # BOOK V: HALSTEAD MANOR
-## *~1090 AD – 1461*
+## *~1140 AD – 1461*
 ### Yorkshire, England
 
 ---
 
 ### WILLIAM HOLMR
-**~1090 — Yorkshire, England**
+**~1140 — Yorkshire, England**
 
-William Holmr was born into the uneasy generation that followed the Conquest — a time when the Norse families of Yorkshire, diminished but not destroyed by Hastings and its aftermath, were learning to hold their land under new masters who spoke a different language and enforced a different law. His father Robert had navigated the transition with the family's characteristic pragmatism; William consolidated what Robert had preserved. He spoke both Norse and the emerging Norman French, which made him useful to the new administration in ways that translated directly into security of tenure — the gift of this generation being, as it had been in one form or another since the scribal schools of Nippur, the ability to make oneself indispensable to whoever held power.
+William Holmr was born in the worst years of the Anarchy and grew up in the peace that Henry II imposed upon a country exhausted by civil war — the Plantagenet settlement, with its systematic reconstruction of royal justice and administrative order, providing precisely the kind of environment in which a man of his particular gifts could find productive employment. The family estate in the North Riding had come through the chaos intact, thanks to his father's careful management, and William inherited both the land and the reputation that went with it: a family known for accurate accounts, reliable testimony, and the uncommon quality of meaning exactly what they said.
 
-He held land in the North Riding, administered it carefully, and left it intact to his son. The name was already shifting — less "Holmr" in the old Norse form, more "Holmes" as the English tongue reshaped it. The place had a name before the family did; now the family was becoming the place.
+He made himself useful to the new Plantagenet administration in the way the family had always made itself useful — by being the most reliable reader of a situation in whatever room he was in. He served as a local assessor under the early Assize system that Henry II was extending across England, evaluating land valuations and witnessing charters with the scrupulous precision of a man who understood that the document, once sealed, became the reality it described, and that errors in documents had consequences that outlasted the men who made them.
 
 *Children:*
 - **Robert Holmes** — direct line; see next entry.
@@ -17,11 +17,11 @@ He held land in the North Riding, administered it carefully, and left it intact 
 ---
 
 ### ROBERT HOLMES
-**~1120 — Halstead, Yorkshire**
+**~1160 — Halstead, Yorkshire**
 
 Robert Holmes was the man who made the family seat. The house at Halstead — a modest stone structure on rising ground above the valley, looking north toward the moors — was built in his time, on land the family had held since before the Conquest but never before formalised into a manor. It was Robert who established the household, organised the demesne, and created the permanent base from which the family would operate for the next three centuries and more.
 
-He was a man of local consequence rather than national ambition — a justice in the manor court, a wool dealer, a neighbour whose opinion was sought in disputes because he was known to weigh evidence before pronouncing. The North Riding in the reign of Stephen was no place for a man who could not distinguish quickly between a true claim and a false one; Robert Holmes made that distinction as a matter of daily practice, and the reputation it gave him was, in its modest way, the foundation on which everything that followed was built.
+He was a man of local consequence rather than national ambition — a justice in the manor court, a wool dealer, a neighbour whose opinion was sought in disputes because he was known to weigh evidence before pronouncing. He administered Halstead through the latter years of Henry II's long reign, when the itinerant justices were bringing the king's law to every corner of England and the local court system was being formalised into something more durable than it had been. Robert Holmes made himself a useful part of that system, and the reputation it gave him was, in its modest way, the foundation on which everything that followed was built.
 
 *Children:*
 - **Geoffrey Holmes** — direct line; see next entry.
@@ -29,11 +29,11 @@ He was a man of local consequence rather than national ambition — a justice in
 ---
 
 ### GEOFFREY HOLMES
-**~1150 — Halstead Manor, Yorkshire**
+**~1190 — Halstead Manor, Yorkshire**
 
-Geoffrey Holmes was the first of the line to bear the name in its settled English form — no longer the Norse "Holmr," not yet the Norman "de Holmes," but plainly and durably "Holmes," the name of a family attached to a place. He administered Halstead Manor through the turbulent reign of Henry II, a period that combined genuine legal reform with spectacular violence, the murder of Thomas Becket in Canterbury Cathedral in 1170 casting a shadow across every household in England that had any connection to the Church or the Crown.
+Geoffrey Holmes was the first of the line to bear the name in its settled English form — no longer the Norse "Holmr," not yet the Norman "de Holmes," but plainly and durably "Holmes," the name of a family attached to a place. He came of age in the reign of Richard I and lived through the early years of John — a transition from an absentee king to a disastrous one, which kept the practical business of English local administration largely in the hands of men like Geoffrey Holmes, who understood the system and kept it running while those above them were otherwise occupied.
 
-Geoffrey had both. He served as a minor official in the ecclesiastical courts of the Diocese of York — a position that required, above all else, the ability to assess testimony: to determine, from the manner of a witness as much as from his words, whether what was being said corresponded to what was true. It was work that the family mind was peculiarly suited to, and Geoffrey Holmes pursued it with a quiet thoroughness that earned him the trust of his superiors and the wariness of anyone who came before him with a fabricated account. He could not always say how he knew a man was lying; he simply knew, and was almost never wrong.
+He served as a minor official in the ecclesiastical courts of the Diocese of York — a position that required, above all else, the ability to assess testimony: to determine, from the manner of a witness as much as from his words, whether what was being said corresponded to what was true. It was work that the family mind was peculiarly suited to, and Geoffrey Holmes pursued it with a quiet thoroughness that earned him the trust of his superiors and the wariness of anyone who came before him with a fabricated account. He could not always say how he knew a man was lying; he simply knew, and was almost never wrong.
 
 *Children:*
 - **Aldric Holmes** — direct line; see next entry.
@@ -41,7 +41,7 @@ Geoffrey had both. He served as a minor official in the ecclesiastical courts of
 ---
 
 ### ALDRIC HOLMES
-**~1180 — Halstead Manor, Yorkshire**
+**~1215 — Halstead Manor, Yorkshire**
 
 Aldric Holmes grew up in the years of Richard I and came of age under John — a reign of such comprehensive misrule that it required a man of considerable analytical detachment to navigate it without losing either his estate or his liberty. The baronial unrest that culminated in Magna Carta in 1215 was not merely a constitutional event; it was a prolonged period of threat, counter-threat, forced loans, and arbitrary justice in which a Yorkshire landowner of middling rank needed to read the political weather with considerable accuracy in order to survive.
 
