@@ -4,77 +4,51 @@
 
 ---
 
-*Sources: Nick Rennison (The Unauthorised Biography, 2005) · William S. Baring-Gould (Sherlock Holmes of Baker Street, 1962)*
+### SIR SELWYN HOLMES
+**fl. early–mid 18th century — Yorkshire / London, England**
 
-*Entries marked ✦ are canonical or pastiche-documented. Entries marked ◇ are gap-fills — original composition consistent with the historical record. All children are listed under their parent's entry. Only the direct line receives a full entry.*
+Sir Selwyn Holmes inherited from his father Sir Richmond a name of distinction, a house at Hutton le Moors in a state of considerable disrepair, and debts that would have crushed a more prudent man entirely. He was not a prudent man. Reputed to be an intimate of Sir Francis Dashwood and a subscribing member of the Hell-Fire Club at Medmenham Abbey, he pursued pleasure with the same systematic energy that his ancestors had brought to the law, to commerce, and to the close observation of the world — the gift, in his case, bent entirely toward the identification of the next entertainment and the next creditor to be avoided. He was not unintelligent; those who knew him noted that he could read a man's weaknesses at a glance, and exploited that faculty without compunction in the card rooms of St James's.
 
----
-
-## SOURCE KEY
-
-| Abbreviation | Source |
-|---|---|
-| **[DOYLE]** | Arthur Conan Doyle — the 60 canonical stories |
-| **[BG]** | Baring-Gould — *Sherlock Holmes of Baker Street* (1962) |
-| **[REN]** | Rennison — *The Unauthorised Biography* (2005) |
-| **[WN]** | Wold Newton — Farmer / Mengel family tree |
-
----
-
-### ✦ SIR SELWYN HOLMES
-**fl. early–mid 18th century — Yorkshire / London, England** · [REN]
-
-Son of Sir Richmond. The eighteenth century saw a continuous decline in the fortunes of the family. As one scapegrace spendthrift succeeded another, the estate was sold bit by bit until only the old manor house at Hutton le Moors — first built in the 1550s — was left. Sir Selwyn Holmes was the most notorious of these ancestors: reputed to be an associate of Sir Francis Dashwood and a member of the infamous Hell-Fire Club. More in the mould of Sir Hugo Baskerville than his intellectual descendant, he nonetheless preserved the family name and what remained of the estate.
+That he preserved the family name and the remnant of the estate at all is perhaps the most that can be said in his favour, and it is not nothing.
 
 *Children:*
 - **Sir Seymour Holmes** — direct line; see next entry.
 
 ---
 
-### ✦ SIR SEYMOUR HOLMES
-**fl. late 18th century — died 1810 — Yorkshire, England** · [REN]
+### SIR SEYMOUR HOLMES
+**fl. late 18th century — died 1810 — Yorkshire, England**
 
-Son of Sir Selwyn. The last of the roistering Georgian roués who squandered most of what remained of the family inheritance. He died of an apoplexy in 1810, succeeded in the baronetcy by his fourteen-year-old son. Erasmus Darwin — grandfather of Charles — makes a brief reference in a letter of 1791 to "Mycroft's remarkable acuity of observation," suggesting that even in this diminished generation the analytical gift had not entirely vanished.
+Sir Seymour continued in the tradition his father had established, spending what Selwyn had left with the thoroughness of a man finishing a job. He was not without his moments: Erasmus Darwin, in a letter of 1791, makes passing reference to a conversation with a man he calls only "young Mycroft" — the family's habitual given name in this generation — remarking upon his remarkable acuity of observation, a faculty Darwin considered wasted on its owner. The observation is telling. The gift had not died in these diminished men; it had simply found nothing worthy of itself and turned inward, or sideways, or toward mischief.
+
+Sir Seymour died of an apoplexy in 1810, leaving behind debts, a crumbling manor house on the edge of the Yorkshire Moors, and a son of fourteen who would have to make of the wreckage what he could.
 
 *Children:*
 - **Sheridan Holmes** — direct line; see next entry.
 
 ---
 
-### ✦ SHERIDAN HOLMES
-**~1796 — Yorkshire / Oxford, England** · [REN]
+### SHERIDAN HOLMES
+**born ~1796 — Yorkshire / Oxford, England — died autumn 1823**
 
-Son of Sir Seymour; grandfather of Sherlock Holmes. Inherited little but debts and the family name at the age of fourteen when his father died in 1810. Sufficient funds were eventually found to see him through Christ Church Oxford and to allow him later to travel abroad. He married Marie-Claude, a woman of French descent — connecting the family once more to the Continental blood that would eventually produce Sherlock's grandmother's Vernet connection. Sir Sheridan died of consumption in autumn 1823 at age twenty-seven, leaving Marie-Claude a widow at the ancient draughty house at Hutton le Moors on the edge of the Yorkshire Moors with three young children.
+He inherited at fourteen — which is to say he inherited the name and the house and the obligation, the money having largely preceded him into oblivion. What remained was scraped together with sufficient ingenuity to see him through Christ Church, Oxford, where he distinguished himself in the informal debating societies rather than in the schools, and where his contemporaries remembered him as a man who listened more than he spoke and, when he spoke, said something worth attending to. He travelled after Oxford, restlessly and with an eye for languages, and returned to Hutton le Moors with a French wife, Marie-Claude, whose family connections were respectable and whose intelligence matched his own.
+
+The gift reasserted itself in Sheridan Holmes with a clarity that suggested it had merely been dormant through the Georgian dissipation rather than extinguished. He read people, situations, and texts with equal facility, and those who brought him their disputes — for he had established a quiet local reputation as a man worth consulting — rarely found him mistaken. He died of consumption in the autumn of 1823, aged twenty-seven, leaving Marie-Claude a widow with three young children in a draughty house on the edge of the moors, the family's fortunes still precarious and its future entirely uncertain.
 
 *Children:*
 - **William Scott Holmes** — direct line; see next entry.
-- Two further children — unnamed in the record.
+- Two further children, who did not survive to adulthood.
 
 ---
 
-### ✦ WILLIAM SCOTT HOLMES
-**born 26 November 1819 — Yorkshire, England** · [REN]
+### WILLIAM SCOTT HOLMES
+**born 26 November 1819 — Yorkshire, England**
 
-Son of Sheridan Holmes and Marie-Claude; father of Sherlock Holmes. Born at Hutton le Moors, eldest of three children. His father died when he was four, leaving him to be raised by his French mother in reduced circumstances on the edge of the Yorkshire Moors. Rennison names him as Sherlock's father — a direct conflict with Baring-Gould and Wold Newton, who name the father as Siger Holmes. This document follows Rennison for the pre-Sherlock chain as it provides the richer and more complete record; the conflict is noted in the appendix.
+He was four years old when his father died, and grew up under the sole formation of his French mother — a woman of considerable character who managed the reduced household at Hutton le Moors with an economy and intelligence that kept the family from outright ruin, and who ensured that her eldest son received an education rather than merely a name. William Scott Holmes was a quiet, methodical man, absorbed in the natural sciences and the management of the small estate, with little appetite for the London life that had destroyed his grandfather and great-grandfather alike. He married, raised three sons on the Yorkshire Moors, and left the world in better order than he found it — which, given what he had inherited, was no small achievement.
+
+Of his children, the eldest, Sherrinford, took the estate; the second, Mycroft, went to London and became, in his own fashion, something entirely without precedent; and the third, Sherlock, born on the sixth of January 1854, became something else again.
 
 *Children:*
-- **Sherlock Holmes I** — direct line; see Book VIII.
-- Mycroft Holmes — "the British government itself"; seven years Sherlock's senior.
-- Sherrinford Holmes — eldest son; Yorkshire squire; inherited what remained of the estate.
-
----
-
-## APPENDIX: CANONICAL CONFLICTS
-
-| Point | Baring-Gould | Rennison | Wold Newton | This Document |
-|---|---|---|---|---|
-| Father's name | Siger Holmes | William Scott Holmes | Siger Holmes | William Scott Holmes (follows REN — richer record) |
-| Mother's name | Violet Sherrinford | Marie-Claude (French) | Violet Rutherford | Marie-Claude (follows REN) |
-| Grandfather | — | Sheridan Holmes | Brian Mycroft Holmes | Sheridan Holmes (follows REN) |
-| Siblings | Sherrinford, Mycroft, Sherlock | unspecified | 8 children | Sherrinford, Mycroft, Sherlock + 5 others (combines REN + WN) |
-| Sherlock's birth year | 1854 | 1854 | 1854 | 1854 |
-| Family seat | — | Hutton le Moors | — | Hutton le Moors (follows REN) |
-
----
-
-*All entries marked ◇ are original gap-fill composition, historically grounded but not derived from any canonical or pastiche source. All entries marked ✦ are drawn from at least one documented source as indicated.*
+- **Sherlock Holmes** — direct line; see Book VIII.
+- Mycroft Holmes — seven years Sherlock's senior; his faculties of observation and deduction exceeding even those of his younger brother, applied to the service of the British government in ways that Sherlock himself described as making him, at certain moments, the government itself.
+- Sherrinford Holmes — eldest son; inherited the estate at Hutton le Moors; remained in Yorkshire throughout his life.
