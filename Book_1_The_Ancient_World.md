@@ -151,7 +151,7 @@ The books differ in register because the centuries differ in the nature of their
 ---
 
 ### BOOK V: HALSTEAD MANOR
-*~1140 AD – 1461 · Yorkshire, England*
+*~AD 1140 – 1461 · Yorkshire, England*
 
 - William Holmr — *~1140 — Yorkshire, England*
 - Robert Holmes — *~1160 — Halstead, Yorkshire*
