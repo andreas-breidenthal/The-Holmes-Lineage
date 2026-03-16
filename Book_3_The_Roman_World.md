@@ -570,3 +570,9 @@ He left for the west with his family, moving toward the Gothic lands rather than
 
 *Children:*
 - **Hulmar the Goth** — direct line; see Book IV.
+
+---
+
+*End of Book III: The Roman World*
+
+---
