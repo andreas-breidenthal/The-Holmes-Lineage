@@ -100,3 +100,9 @@ Of his children, the eldest, Sherrinford, took the estate; the second, Mycroft, 
 - **Sherlock Holmes** — direct line; see Book VIII.
 - Mycroft Holmes — seven years Sherlock's senior; his faculties of observation and deduction exceeding even those of his younger brother, applied to the service of the British government in ways that Sherlock himself described as making him, at certain moments, the government itself.
 - Sherrinford Holmes — eldest son; inherited the estate at Hutton le Moors; remained in Yorkshire throughout his life.
+
+---
+
+*End of Book VII: Decline and Restoration*
+
+---
