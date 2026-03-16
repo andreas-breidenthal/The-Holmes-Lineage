@@ -145,3 +145,9 @@ He did not do this from principle. He did it because he had noticed something wr
 
 *Children:*
 - **Sir Selwyn Holmes** — direct line; see Book VII.
+
+---
+
+*End of Book VI: The Elizabethan Holmes*
+
+---
