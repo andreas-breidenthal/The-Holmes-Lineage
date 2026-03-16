@@ -729,3 +729,9 @@ He stood at the crossing-place between the world of the first book and the world
 
 *Children:*
 - **Holkos of Athens** — direct line; see Book II.
+
+---
+
+*End of Book I: The Ancient World*
+
+---
