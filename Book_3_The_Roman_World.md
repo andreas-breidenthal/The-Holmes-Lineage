@@ -1,5 +1,5 @@
 # BOOK III: THE ROMAN WORLD
-## *~460 BC – ~370 AD*
+## *~460 BC – ~AD 370*
 ### Rome · Carthage · Judea · Constantinople
 
 ---
@@ -311,18 +311,18 @@ He had not, however, been idle on the question of the third party. In his final 
 ---
 
 ### VESPASIAN HOLCUS
-**~10 AD — Rome / Judea**
+**~AD 10 — Rome / Judea**
 
-He was named for the general who would later become emperor — a choice that reflected either prophetic confidence in Vespasian's eventual rise or, more probably, the family's habitual sensitivity to which names were ascending in Roman estimation. Vespasian Holcus served in the military administration of Judea in the years before the great revolt of 66 AD, in the deteriorating conditions of a province that Roman misgovernance had been pushing toward explosion for two generations, and which was now, as he reported in dispatches that went largely unheeded, within a very few years of one.
+He was named for the general who would later become emperor — a choice that reflected either prophetic confidence in Vespasian's eventual rise or, more probably, the family's habitual sensitivity to which names were ascending in Roman estimation. Vespasian Holcus served in the military administration of Judea in the years before the great revolt of AD 66, in the deteriorating conditions of a province that Roman misgovernance had been pushing toward explosion for two generations, and which was now, as he reported in dispatches that went largely unheeded, within a very few years of one.
 
-He read the situation with complete accuracy and was ignored with complete consistency, which was, by this point in the family's Roman history, a familiar experience. When the revolt came he had already arranged his removal from the immediate theatre, and he watched the destruction of Jerusalem in 70 AD from a comfortable distance, with the particular grief of a man who had known it was coming and had failed to make anyone listen. He died in Rome, in the reign of the emperor whose name he bore, leaving behind a private memoir of Judea that was not the document of a man who had been surprised by anything.
+He read the situation with complete accuracy and was ignored with complete consistency, which was, by this point in the family's Roman history, a familiar experience. When the revolt came he had already arranged his removal from the immediate theatre, and he watched the destruction of Jerusalem in AD 70 from a comfortable distance, with the particular grief of a man who had known it was coming and had failed to make anyone listen. He died in Rome, in the reign of the emperor whose name he bore, leaving behind a private memoir of Judea that was not the document of a man who had been surprised by anything.
 
 ---
 
 The dispatches that Vespasian Holcus sent from Judea in the decade before the revolt were methodical documents — not alarmist, not rhetorical, not the expressions of a man who wished to be noticed, but the accumulated observations of an administrator who had understood, from his father's account of the same province a generation earlier, that the pressure building in the country was not the ordinary friction of Roman occupation but something categorically different. He sent seventeen of them over nine years. None was formally acted upon. Several were not formally acknowledged.
-The specific matter that brought his analytical attention to its sharpest focus was not the political temperature of the country in general but a particular transaction that crossed his desk in the winter of 58 AD: a report from the customs house at Caesarea of a shipment of dried goods whose declared weight did not correspond to the weight at offloading, and whose discrepancy — modest in absolute terms, and not the kind of thing that a busy customs official would normally pursue — followed a pattern that Vespasian Holcus recognised from a set of similar anomalies he had noted in the records of the previous three years. He pulled the relevant records. The pattern held. Over four years, a series of shipments through Caesarea showed the same class of discrepancy — weight declared too high on departure, corrected at arrival — in a way that indicated systematic concealment of space within the cargo, not fraud on the customs duty, but the use of legitimate commercial traffic to move something whose nature the weight differential itself did not disclose.
+The specific matter that brought his analytical attention to its sharpest focus was not the political temperature of the country in general but a particular transaction that crossed his desk in the winter of AD 58: a report from the customs house at Caesarea of a shipment of dried goods whose declared weight did not correspond to the weight at offloading, and whose discrepancy — modest in absolute terms, and not the kind of thing that a busy customs official would normally pursue — followed a pattern that Vespasian Holcus recognised from a set of similar anomalies he had noted in the records of the previous three years. He pulled the relevant records. The pattern held. Over four years, a series of shipments through Caesarea showed the same class of discrepancy — weight declared too high on departure, corrected at arrival — in a way that indicated systematic concealment of space within the cargo, not fraud on the customs duty, but the use of legitimate commercial traffic to move something whose nature the weight differential itself did not disclose.
 He traced the receiving parties for each anomalous shipment. They were diverse — merchants, householders, a religious foundation in the hills east of Jerusalem — but they shared a single financial connection: all were clients, in one form or another, of a banking house in Caesarea whose ownership, when examined, reached back through several intermediaries to the same Alexandrian network that his father's archive had described. The network was now financing something in Judea. Vespasian Holcus could not determine, from the evidence available to him, whether it was the coming revolt directly or simply the conditions that would make the revolt inevitable. He suspected the latter: that the network's interest was not in the outcome of a rebellion but in the disruption of Roman commercial arrangements that a rebellion would produce, and the advantageous position it would occupy in whatever reconstruction followed.
-He wrote a final dispatch summarising everything he had found. He gave it to the legate's office in Antioch. It arrived; it was filed; it was not read by anyone with the authority or inclination to act on it. When the revolt came in 66 AD, Vespasian Holcus watched from Rome, where he had been for three years, and felt the particular sensation of a man who has been proved right at a cost he had spent nine years trying to prevent. He gave his archive — all seventeen dispatches, the customs records, the financial tracings — to his son, with the instruction that it was to be kept, not discarded, because the network it described was the kind of thing that did not disappear simply because one of its projects had reached its conclusion.
+He wrote a final dispatch summarising everything he had found. He gave it to the legate's office in Antioch. It arrived; it was filed; it was not read by anyone with the authority or inclination to act on it. When the revolt came in AD 66, Vespasian Holcus watched from Rome, where he had been for three years, and felt the particular sensation of a man who has been proved right at a cost he had spent nine years trying to prevent. He gave his archive — all seventeen dispatches, the customs records, the financial tracings — to his son, with the instruction that it was to be kept, not discarded, because the network it described was the kind of thing that did not disappear simply because one of its projects had reached its conclusion.
 
 *Children:*
 - **Trajanus Holcus** — direct line; see next entry.
@@ -330,11 +330,11 @@ He wrote a final dispatch summarising everything he had found. He gave it to the
 ---
 
 ### TRAJANUS HOLCUS
-**~40 AD — Rome / Britain**
+**~AD 40 — Rome / Britain**
 
-Trajanus Holcus was named for the emperor Trajan — a generation early, in the confident manner of a family that watched the political horizon and made its bets accordingly. He served in the Roman administration of Britain in the years following the Claudian conquest of 43 AD, a posting that combined the administrative challenges of a newly subjugated and deeply resistant province with the particular intellectual interest of encountering a culture that was, to Roman eyes, entirely foreign.
+Trajanus Holcus was named for the emperor Trajan — a generation early, in the confident manner of a family that watched the political horizon and made its bets accordingly. He served in the Roman administration of Britain in the years following the Claudian conquest of AD 43, a posting that combined the administrative challenges of a newly subjugated and deeply resistant province with the particular intellectual interest of encountering a culture that was, to Roman eyes, entirely foreign.
 
-He was stationed in the south-east initially, in the developing town of Londinium, where the administrative infrastructure of the new province was being assembled from nothing with the systematic energy that Roman colonisation required. He proved useful in the assessment of the Celtic tribal politics of the region — the reading of which chieftains were genuinely pacified and which were performing pacification while waiting for an opportunity — and provided, in 60 AD, an early warning of the Boudiccan revolt that was acted upon too slowly to prevent it but quickly enough to preserve the garrison he was with. He left Britain before the province had been fully secured, having understood it, he maintained, well enough.
+He was stationed in the south-east initially, in the developing town of Londinium, where the administrative infrastructure of the new province was being assembled from nothing with the systematic energy that Roman colonisation required. He proved useful in the assessment of the Celtic tribal politics of the region — the reading of which chieftains were genuinely pacified and which were performing pacification while waiting for an opportunity — and provided, in AD 60, an early warning of the Boudiccan revolt that was acted upon too slowly to prevent it but quickly enough to preserve the garrison he was with. He left Britain before the province had been fully secured, having understood it, he maintained, well enough.
 
 ---
 
@@ -349,7 +349,7 @@ He could not read the content of the communication; it was conducted through met
 ---
 
 ### HADRIANUS HOLCUS
-**~70 AD — Rome / Britain**
+**~AD 70 — Rome / Britain**
 
 Hadrianus Holcus returned to Britain — the province his father had served in a generation before — in the years of Hadrian's great tour of the empire's frontiers, and was part of the administrative staff that accompanied the emperor's comprehensive survey of what Rome held, what it could hold, and where the honest line between the two needed to be drawn. He was present when the decision was made to build the wall — the great stone barrier from the Solway to the Tyne that would bear the emperor's name — and understood it for what it was: not a declaration of defeat but a masterpiece of strategic intelligence, the formal acknowledgement that the world beyond was not, at this time, worth the cost of holding.
 
@@ -368,7 +368,7 @@ Hadrianus Holcus brought the evidence to the emperor's staff directly — a step
 ---
 
 ### MARCUS HOLCUS AURELIUS
-**~100 AD — Rome, Roman Empire**
+**~AD 100 — Rome, Roman Empire**
 
 Named in deliberate echo of the philosopher-emperor, Marcus Holcus Aurelius was born at the height of the Antonine age — the period that Gibbon would one day describe as the happiest in human history, which is perhaps an exaggeration but captures something true about the particular quality of light that falls on an empire at its zenith. He was a man formed by that light: educated in Stoic philosophy, committed to the life of reason, convinced that the examined life was the only one worth living, and possessed of a detachment from his own comfort and advancement that his contemporaries found either admirable or impractical depending on their temperament.
 
@@ -400,7 +400,7 @@ He added what he had learned to the family record, and said nothing publicly tha
 ---
 
 ### SEPTIMIUS HOLCUS
-**~130 AD — Rome / Carthage**
+**~AD 130 — Rome / Carthage**
 
 Named for the African-born emperor Septimius Severus, whose rise to power demonstrated once again that the Roman world had grown too large for the city of Rome to contain, Septimius Holcus followed the family's old Carthaginian connection back to North Africa — a connection that had been dormant since Publius crossed the sea three centuries before, but had never entirely vanished from the family's sense of itself.
 
@@ -408,7 +408,7 @@ He served in the proconsular administration of Africa, based at Carthage — not
 
 ---
 
-The Proconsul of Africa received a letter in the spring of 168 AD from the quaestor of three North African grain districts — Byzacena, Numidia, and the proconsular heartland itself — advising that the declared yields of the previous harvest season were materially inconsistent with the area under cultivation as recorded in the land censuses, the rainfall patterns as observed by the district agronomists, and the volume of oxen fodder purchased by the large estate holders in the months following harvest. On any one of those measures, the discrepancy might have had an innocent explanation. On all three simultaneously, it had only one: a coordinated under-declaration of yield across the major producing estates, designed to reduce the grain tithe payable to Rome while the actual surplus was sold through private channels at market prices.
+The Proconsul of Africa received a letter in the spring of AD 168 from the quaestor of three North African grain districts — Byzacena, Numidia, and the proconsular heartland itself — advising that the declared yields of the previous harvest season were materially inconsistent with the area under cultivation as recorded in the land censuses, the rainfall patterns as observed by the district agronomists, and the volume of oxen fodder purchased by the large estate holders in the months following harvest. On any one of those measures, the discrepancy might have had an innocent explanation. On all three simultaneously, it had only one: a coordinated under-declaration of yield across the major producing estates, designed to reduce the grain tithe payable to Rome while the actual surplus was sold through private channels at market prices.
 
 The letter was signed by Septimius Holcus, sub-administrator for supply logistics, and it was accompanied by a table of figures — yield declarations set against census acreage, against fodder purchase records, against seasonal rainfall tallies — so methodically assembled that its logic was self-evident to any reader who gave it proper attention. The Proconsul gave it proper attention.
 
@@ -420,7 +420,7 @@ The Proconsul appointed a special commission. The commission's findings, deliver
 
 None of which reached the deeper arrangement. The under-declarations had been organised — not separately decided by individual estate holders acting from individual self-interest, but co-ordinated across districts by a mechanism that the commission did not have the mandate or the orientation to detect. The grain that was not declared was not merely sold at private market prices; it was sold through a specific set of intermediaries, all of whom were connected to a shipping enterprise based in Carthage but with substantial interests in Ostia, which enterprise had, Septimius Holcus noted in the private family record, connections that bore a close structural resemblance to the trading-house arrangement his father had identified in Rome a generation before. The name had changed again. The mechanism — the legitimate operation as the visible face of an illegitimate one, the intermediary who appeared in no official document, the silver that moved through a clean account before arriving at a destination that the audit trail did not reach — was the same mechanism it had always been.
 
-He retired from the administration in 183 AD, having given the proconsular commission everything it needed to pursue the estates and the assessors, and nothing that would direct it toward the deeper structure. That record he kept for the family. He had by this point a comprehensive understanding of what the network was and how it operated. What he did not have, and what he knew no single man in a single career could have, was the leverage to remove it.
+He retired from the administration in AD 183, having given the proconsular commission everything it needed to pursue the estates and the assessors, and nothing that would direct it toward the deeper structure. That record he kept for the family. He had by this point a comprehensive understanding of what the network was and how it operated. What he did not have, and what he knew no single man in a single career could have, was the leverage to remove it.
 
 *Children:*
 - **Caracallus Holcus** — direct line; see next entry.
@@ -428,7 +428,7 @@ He retired from the administration in 183 AD, having given the proconsular commi
 ---
 
 ### CARACALLUS HOLCUS
-**~160 AD — Rome / Byzantium**
+**~AD 160 — Rome / Byzantium**
 
 Caracallus Holcus grew up in the years of the Severan dynasty and reached maturity as the empire's third-century crisis began to gather — the decades of plague, invasion, economic disruption, and imperial instability that would kill fifty emperors in fifty years and nearly kill Rome itself. He read the situation, as men of his family read all situations, with cold clarity, and drew from his reading a conclusion that was becoming increasingly obvious to anyone who would face it: the empire's centre of gravity was moving east.
 
@@ -454,7 +454,7 @@ What the treasury examination did not pursue — because its mandate was the spe
 ---
 
 ### CONSTANTINUS HOLCUS
-**~220 AD — Byzantium**
+**~AD 220 — Byzantium**
 
 Constantinus Holcus was born in Byzantium in the worst decades of the third-century crisis — the fifty years of plague, invasion, and imperial instability that saw Rome come closer to dissolution than at any point since Hannibal stood at the gates. He served in the legal administration of the eastern empire through those decades with the steadiness of a man who understood that institutions are most necessary precisely when they are most threatened, and that the administrator who keeps the records accurate and the procedures intact through a period of chaos is performing a service that history rarely adequately acknowledges.
 
@@ -462,7 +462,7 @@ He lived long enough to see Diocletian's great administrative reforms begin to s
 
 ---
 
-The usurpation of Maximinus Thrax in 235 AD — the first of the soldier-emperors, the first man to take the purple without any senatorial legitimacy whatsoever — produced, among its many immediate consequences, a crisis in legal documentation. The records of the previous administration were, in the ordinary way of abrupt imperial transitions, subject to interpretation: deeds confirmed by the previous emperor, contracts given imperial endorsement, appointments made under his seal, all of these now occupied a legal twilight. Were they valid? Were they superseded? The new administration had not said, because the new administration was a Pannonian soldier of enormous physical presence and limited administrative interest who was occupied with the military campaigns that had brought him to power and had not turned his attention to the documentary inheritance of the reign he had displaced.
+The usurpation of Maximinus Thrax in AD 235 — the first of the soldier-emperors, the first man to take the purple without any senatorial legitimacy whatsoever — produced, among its many immediate consequences, a crisis in legal documentation. The records of the previous administration were, in the ordinary way of abrupt imperial transitions, subject to interpretation: deeds confirmed by the previous emperor, contracts given imperial endorsement, appointments made under his seal, all of these now occupied a legal twilight. Were they valid? Were they superseded? The new administration had not said, because the new administration was a Pannonian soldier of enormous physical presence and limited administrative interest who was occupied with the military campaigns that had brought him to power and had not turned his attention to the documentary inheritance of the reign he had displaced.
 
 Into this twilight stepped, in considerable numbers, the men who specialised in exploiting the gap between what the law said and what the law's administration could enforce. Constantinus Holcus was a iuridicus — a judge-administrator — in Byzantium's district courts, and he observed the exploitation with the weary precision of a man who had been reading the same text in different editions his entire career. Disputed property claims, suddenly re-litigated on the grounds that the previous resolution had depended on an imperial rescript whose validity was now uncertain. Old debts, denied on the grounds that the instruments recording them bore an imperial confirmation that the debtor's advocate argued was no longer operative. And, most systematically, a series of fresh claims to property that had been confiscated during the last reign, supported by documentation purporting to establish prior title that predated the confiscation.
 
@@ -482,7 +482,7 @@ He added the workshop's connections — it had supplied clients in Antioch, in A
 ---
 
 ### BYZANTOS HOLKOS
-**~255 AD — Byzantium / Constantinople**
+**~AD 255 — Byzantium / Constantinople**
 
 The name shifted back toward Greek in his generation — "Holkos" rather than "Holcus," the Latin veneer thinning as the eastern empire recovered its Greek identity with increasing confidence. Byzantos Holkos was born in Byzantium and came into his career precisely as Constantine was transforming the city into Constantinople — the new Rome of the east, built with the speed and ambition that only an emperor's will could command. He served in the imperial household administration during the great building programme of the 330s, managing the documentation of land acquisition, construction contracts, and the complex resettlement of populations that the creation of a new capital from an existing city required. He was a man of the transition — present when the city changed its name, its religion, and its destiny within the space of a single decade.
 
@@ -514,7 +514,7 @@ He added Euboulos's name and connections to the family record. He had, by the en
 ---
 
 ### HOLKOS THE BYZANTINE
-**~290 AD — Constantinople**
+**~AD 290 — Constantinople**
 
 Holkos the Byzantine came of age in the city that was still being built around him — Constantinople in the 350s and 360s, its great churches and colonnaded streets not yet finished, the smell of new stone everywhere, the sense of a world being deliberately constructed rather than gradually accumulated. He was among the first generation for whom the city was simply home rather than a transformation, and he brought to it the analytical habits of a family that had been reading the world's changes since before Greece existed.
 
@@ -544,7 +544,7 @@ He taught his students, in the years that followed, a method of reasoning about 
 ---
 
 ### HOLKOS-THEODOROS
-**~325 AD — Constantinople / Gothic territory**
+**~AD 325 — Constantinople / Gothic territory**
 
 Theodoros — gift of god in Greek — was the name added to mark the family's Christian accommodation, grafted onto the old name-element as a declaration of faith and a practical adaptation to a world in which such declarations were increasingly necessary. Holkos-Theodoros served in the frontier administration of the eastern empire, posted to the territories where Roman authority met Gothic power along the lower Danube, in the generation before the great migrations would sweep that frontier away entirely.
 
