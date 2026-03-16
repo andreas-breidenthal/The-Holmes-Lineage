@@ -7,7 +7,7 @@
 
 The record begins in Ur.
 
-Not because the family began in Ur — the evidence does not permit so precise a claim. It begins there because Ur is where the record first becomes legible: a scribe in the temple of Nanna, in the forty-eighth year of the Third Dynasty, whose name has survived in the administrative tablets of that civilisation and whose method of reading a grain account has survived, in forms appropriate to each successive era, for four thousand years after the city that employed him burned to the ground.
+It begins there because Ur is where the record first becomes legible: a scribe in the temple of Nanna, in the forty-eighth year of the Third Dynasty, whose name has survived in the administrative tablets of that civilisation and whose method of reading a grain account has survived, in forms appropriate to each successive era, for four thousand years after the city that employed him burned to the ground.
 
 This chronicle traces one hundred and thirty-two members of the Holmes line from that temple scribe to a child born in 2021. It is assembled from the evidence that each era has left: clay tablets and papyrus, court rolls and ecclesiastical registers, commercial correspondence and legal proceedings, intelligence memoranda and the private papers of men who understood that a document, once written, could be used against its author. Where the record is rich, the chronicle reports it. Where it is thin, the chronicle follows the thread that connects what survives. Where it is silent, the chronicle says so.
 
