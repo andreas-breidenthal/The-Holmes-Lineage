@@ -159,3 +159,9 @@ The record will resume when there is something to record.
 *The scribe of Ur did not know that his grandson would carry what he had discovered. The seventh Sherlock does not yet know what he will discover, or what his children will carry forward from it.*
 
 *The record waits.*
+
+---
+
+*End of Book IX: The Line Continues*
+
+---
