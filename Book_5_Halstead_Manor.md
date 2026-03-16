@@ -1,5 +1,5 @@
 # BOOK V: HALSTEAD MANOR
-## *~1140 AD – 1461*
+## *~AD 1140 – 1461*
 ### Yorkshire, England
 
 ---
@@ -322,4 +322,6 @@ Edward Holmes was not named in any official record of the affair. He was fifty y
 
 ---
 
-*End of Book V*
+*End of Book IV: Halstead Manor*
+
+---
