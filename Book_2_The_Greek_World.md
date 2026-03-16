@@ -830,3 +830,9 @@ He sealed the account in its cylinder case and put it with the other family pape
 
 *Children:*
 - **Marcus-Holkos** — direct line; see Book III.
+
+---
+
+*End of Book II: The Greek World*
+
+---
