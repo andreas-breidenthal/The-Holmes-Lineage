@@ -166,3 +166,9 @@ The chronicle does not disagree.
 *The book ends here, as it must. The sixty accounts are elsewhere, and better, and complete. The reader who has not yet read them has a great pleasure ahead.*
 
 *The chronicle passes the line to Book IX.*
+
+---
+
+*End of Book VIII: The Great Detective*
+
+---
