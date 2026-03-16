@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Holmes Chronicle — Complete Series</title>
+  <meta name="description" content="The Holmes Chronicle — a speculative biographical chronicle of 140 Holmes ancestors, 2050 BC to 2021 AD.">
+  <style>
+
+/* ── Google Fonts ── */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;500;600&family=Cinzel+Decorative:wght@400&display=swap');
+
+/* ── Custom Properties ── */
+:root {
+  --ink:        #1a1612;
+  --ink-light:  #3d3530;
+  --ink-faint:  #7a6f68;
+  --parchment:  #f7f3ec;
+  --cream:      #ede8df;
+  --gold:       #8b6914;
+  --gold-light: #c9a84c;
+  --gold-pale:  #e8d9a8;
+  --rule:       #c4b28a;
+  --rule-faint: #ddd3b8;
+  --red:        #7a1f1f;
+  --max-w:      68ch;
+  --wide-w:     90ch;
+}
+
+/* ── Reset & Base ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  font-size: 18px;
+}
+
+body {
+  background-color: #2b2520;
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0,0,0,0.03) 2px,
+      rgba(0,0,0,0.03) 4px
+    );
+  color: var(--ink);
+  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  line-height: 1.8;
+  min-height: 100vh;
+}
+
+/* ── Page Shell ── */
+.page-shell {
+  max-width: 820px;
+  margin: 0 auto;
+  background-color: var(--parchment);
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+  box-shadow: 0 0 60px rgba(0,0,0,0.6), inset 0 0 120px rgba(139,105,20,0.04);
+  min-height: 100vh;
+}
+
+/* ── Site Header ── */
+.site-header {
+  background-color: var(--ink);
+  background-image: linear-gradient(135deg, #1a1612 0%, #2d2318 50%, #1a1612 100%);
+  padding: 0.5rem 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--gold);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.site-header a {
+  color: var(--gold-light);
+  text-decoration: none;
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+.site-header a:hover { opacity: 1; }
+
+.header-series {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 0.65rem;
+  color: var(--gold-pale);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.header-nav {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+/* ── Book Hero ── */
+.book-hero {
+  padding: 4rem 3rem 3rem;
+  text-align: center;
+  border-bottom: 1px solid var(--rule);
+  background-image: linear-gradient(180deg, rgba(139,105,20,0.05) 0%, transparent 100%);
+  position: relative;
+}
+
+.book-hero::before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  margin: 0 auto 2rem;
+}
+
+.book-hero::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  margin: 2rem auto 0;
+}
+
+.book-numeral {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.book-title-main {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02em;
+}
+
+.book-dates {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--ink-faint);
+  margin-bottom: 0.4rem;
+}
+
+.book-regions {
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  font-family: 'Cinzel', serif;
+  font-weight: 400;
+}
+
+/* ── Table of Contents ── */
+.toc-section {
+  padding: 2.5rem 3rem;
+  border-bottom: 1px solid var(--rule);
+  background-color: rgba(196,178,138,0.08);
+}
+
+.toc-heading {
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.toc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.15rem 2rem;
+  max-width: var(--wide-w);
+  margin: 0 auto;
+}
+
+.toc-entry {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.3rem 0;
+  border-bottom: 1px dotted var(--rule-faint);
+}
+
+.toc-entry a {
+  text-decoration: none;
+  color: var(--ink-light);
+  font-family: 'EB Garamond', serif;
+  font-size: 0.95rem;
+  transition: color 0.15s;
+  flex: 1;
+}
+
+.toc-entry a:hover {
+  color: var(--gold);
+}
+
+.toc-date {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-size: 0.82rem;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+
+/* ── Main Content ── */
+.content-body {
+  padding: 3rem 3rem 5rem;
+  max-width: var(--wide-w);
+  margin: 0 auto;
+}
+
+/* ── Prefatory Note ── */
+.prefatory-note {
+  background-color: rgba(196,178,138,0.12);
+  border-left: 3px solid var(--gold);
+  border-right: 3px solid var(--gold);
+  padding: 1.5rem 2rem;
+  margin: 2rem 0 3rem;
+  font-style: italic;
+  color: var(--ink-light);
+  font-size: 0.97rem;
+  line-height: 1.9;
+}
+
+.prefatory-note p + p { margin-top: 1em; }
+
+/* ── Ancestor Entry ── */
+.ancestor-entry {
+  margin-bottom: 4rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--rule-faint);
+  scroll-margin-top: 80px;
+}
+
+.ancestor-entry:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.entry-nameplate {
+  margin-bottom: 1.5rem;
+}
+
+.entry-name {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(1.1rem, 3vw, 1.55rem);
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
+}
+
+.entry-dateline {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-size: 0.97rem;
+  color: var(--gold);
+  letter-spacing: 0.02em;
+}
+
+/* ── Paragraphs ── */
+.ancestor-entry p {
+  margin-bottom: 1.1em;
+  font-size: 1.02rem;
+  color: var(--ink);
+  max-width: var(--max-w);
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* Story separator (---) */
+.story-rule {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, var(--rule) 30%, var(--rule) 70%, transparent 100%);
+  margin: 2rem 0;
+  position: relative;
+}
+
+.story-rule::after {
+  content: '❧';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--parchment);
+  padding: 0 0.75rem;
+  color: var(--gold);
+  font-size: 0.9rem;
+}
+
+/* ── Children Block ── */
+.children-block {
+  margin-top: 1.5rem;
+  padding: 1rem 1.25rem;
+  background-color: rgba(196,178,138,0.1);
+  border-left: 2px solid var(--rule);
+  font-size: 0.93rem;
+  color: var(--ink-light);
+}
+
+.children-block p {
+  font-style: italic;
+  margin-bottom: 0.4rem !important;
+  max-width: 100% !important;
+  text-align: left !important;
+}
+
+.children-block ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.children-block li {
+  padding: 0.2rem 0;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.children-block li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+}
+
+/* ── Special sections (Book VIII sub-headings) ── */
+.section-heading {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--ink-light);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--rule-faint);
+}
+
+.sub-section-heading {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--ink-light);
+  margin: 2rem 0 0.75rem;
+}
+
+/* ── Book Footer ── */
+.book-footer {
+  background-color: var(--ink);
+  background-image: linear-gradient(135deg, #1a1612 0%, #2d2318 50%, #1a1612 100%);
+  padding: 2.5rem 3rem;
+  text-align: center;
+  border-top: 2px solid var(--gold);
+}
+
+.footer-ornament {
+  color: var(--gold);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5rem;
+}
+
+.footer-series {
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: var(--gold-pale);
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  font-family: 'Cinzel', serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  color: var(--gold-light);
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.footer-nav a:hover { opacity: 1; }
+
+/* ── Back to top ── */
+.back-to-top {
+  display: inline-block;
+  margin-top: 1rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.15em;
+  color: var(--gold-light);
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+.back-to-top:hover { opacity: 1; }
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .content-body { padding: 2rem 1.5rem 4rem; }
+  .book-hero    { padding: 2.5rem 1.5rem 2rem; }
+  .toc-section  { padding: 2rem 1.5rem; }
+  .site-header  { padding: 0.5rem 1.25rem; }
+  .toc-grid     { grid-template-columns: 1fr; }
+}
+
+/* ── Print ── */
+@media print {
+  .site-header, .book-footer { display: none; }
+  body { background: white; }
+  .page-shell { box-shadow: none; }
+}
+
+
+.index-hero {
+  padding: 5rem 3rem 4rem;
+  text-align: center;
+  border-bottom: 1px solid var(--rule);
+  background-image: linear-gradient(180deg, rgba(139,105,20,0.07) 0%, transparent 80%);
+}
+
+.series-eyebrow {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+}
+
+.series-title {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.75rem;
+}
+
+.series-subtitle {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--ink-faint);
+  margin-bottom: 1rem;
+}
+
+.series-description {
+  max-width: 56ch;
+  margin: 0 auto;
+  font-family: 'EB Garamond', serif;
+  font-size: 1rem;
+  color: var(--ink-light);
+  line-height: 1.85;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 0;
+  padding: 0;
+}
+
+.book-card {
+  display: block;
+  text-decoration: none;
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid var(--rule-faint);
+  border-right: 1px solid var(--rule-faint);
+  transition: background-color 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+
+.book-card::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--gold);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.25s ease;
+}
+
+.book-card:hover {
+  background-color: rgba(139,105,20,0.04);
+}
+
+.book-card:hover::before {
+  transform: scaleY(1);
+}
+
+.card-numeral {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+.card-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 0.3rem;
+  letter-spacing: 0.02em;
+}
+
+.card-dates {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--ink-faint);
+  margin-bottom: 0.4rem;
+}
+
+.card-regions {
+  font-family: 'EB Garamond', serif;
+  font-size: 0.82rem;
+  color: var(--ink-faint);
+  letter-spacing: 0.03em;
+}
+
+.index-colophon {
+  padding: 3rem;
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-size: 0.92rem;
+  color: var(--ink-faint);
+  line-height: 1.9;
+  border-top: 1px solid var(--rule);
+  max-width: 60ch;
+  margin: 0 auto;
+}
+
+  </style>
+</head>
+<body>
+<div class="page-shell">
+<header class="site-header">
+  <nav class="header-nav">
+    <span class="header-series">The Holmes Chronicle</span>
+  </nav>
+</header>
+<div id="top" class="index-hero">
+  <div class="series-eyebrow">A Speculative Biographical Chronicle</div>
+  <h1 class="series-title">The Holmes Chronicle</h1>
+  <p class="series-subtitle">~2050 BC – 2021 AD</p>
+  <p class="series-description">One hundred and forty ancestors across four thousand years — each bearing the same inherited analytical gift, each embedded at the heart of their civilisation, each quietly dismantling the organised criminal networks that persist, in one form or another, across every age of human history.</p>
+</div>
+<div class="books-grid">
+<a class="book-card" href="book-1.html">
+  <div class="card-numeral">Book I</div>
+  <div class="card-title">The Ancient World</div>
+  <div class="card-dates">~2050 BC – ~1390 BC</div>
+  <div class="card-regions">Mesopotamia · Egypt · Canaan · Phoenicia · Crete · Mycenae</div>
+</a>
+<a class="book-card" href="book-2.html">
+  <div class="card-numeral">Book II</div>
+  <div class="card-title">The Greek World</div>
+  <div class="card-dates">~1350 BC – ~30 BC</div>
+  <div class="card-regions">Mycenae · Athens · Alexandria · The Hellenistic World</div>
+</a>
+<a class="book-card" href="book-3.html">
+  <div class="card-numeral">Book III</div>
+  <div class="card-title">The Roman World</div>
+  <div class="card-dates">~60 BC – ~410 AD</div>
+  <div class="card-regions">Rome · The Provinces · Britannia · Constantinople</div>
+</a>
+<a class="book-card" href="book-4.html">
+  <div class="card-numeral">Book IV</div>
+  <div class="card-title">The Frankish and Norse World</div>
+  <div class="card-dates">~410 AD – ~1150 AD</div>
+  <div class="card-regions">Gaul · Northumbria · The Carolingian Court · Byzantium</div>
+</a>
+<a class="book-card" href="book-5.html">
+  <div class="card-numeral">Book V</div>
+  <div class="card-title">Halstead Manor</div>
+  <div class="card-dates">~1150 AD – ~1485 AD</div>
+  <div class="card-regions">England · Normandy · The Holy Land · The Low Countries</div>
+</a>
+<a class="book-card" href="book-6.html">
+  <div class="card-numeral">Book VI</div>
+  <div class="card-title">The Elizabethan Holmes</div>
+  <div class="card-dates">~1485 AD – ~1660 AD</div>
+  <div class="card-regions">London · The English Provinces · The Continent</div>
+</a>
+<a class="book-card" href="book-7.html">
+  <div class="card-numeral">Book VII</div>
+  <div class="card-title">Decline and Restoration</div>
+  <div class="card-dates">~1660 AD – ~1854 AD</div>
+  <div class="card-regions">London · Edinburgh · The Empire</div>
+</a>
+<a class="book-card" href="book-8.html">
+  <div class="card-numeral">Book VIII</div>
+  <div class="card-title">The Great Detective</div>
+  <div class="card-dates">1854 – c.1957</div>
+  <div class="card-regions">Yorkshire · London · Sussex, England</div>
+</a>
+<a class="book-card" href="book-9.html">
+  <div class="card-numeral">Book IX</div>
+  <div class="card-title">The Line Continues</div>
+  <div class="card-dates">1893 – 2021</div>
+  <div class="card-regions">London · Boston · United States</div>
+</a>
+</div>
+<p class="index-colophon">
+The gift survived the fire. It always did.<br>
+From the scribe of Ur to the present day, the same faculty — methodical observation,
+inference from particulars, the patient dismantling of what ordinary intelligence
+cannot see — passed from parent to child across one hundred and forty generations,
+finding in each the form that the age required.
+</p>
+</div>
+</body>
+</html>
