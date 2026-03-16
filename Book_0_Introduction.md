@@ -90,7 +90,7 @@ The books differ in register because the centuries differ in the nature of their
 ---
 
 ### BOOK III: THE ROMAN WORLD
-*~460 BC – ~370 AD · Rome · Carthage · Judea · Constantinople*
+*~460 BC – ~AD 370 · Rome · Carthage · Judea · Constantinople*
 
 - Marcus-Holkos — *~460 BC — Athens / Rome*
 - Marcus Holcus — *~430 BC — Rome, Roman Republic*
@@ -107,46 +107,46 @@ The books differ in register because the centuries differ in the nature of their
 - Flavius Holcus — *~100 BC — Rome, Roman Republic*
 - Tiberius Holcus — *~70 BC — Rome, late Roman Republic*
 - Claudius Holcus — *~40 BC — Rome / Judea*
-- Vespasian Holcus — *~10 AD — Rome / Judea*
-- Trajanus Holcus — *~40 AD — Rome / Britain*
-- Hadrianus Holcus — *~70 AD — Rome / Britain*
-- Marcus Holcus Aurelius — *~100 AD — Rome, Roman Empire*
-- Septimius Holcus — *~130 AD — Rome / Carthage*
-- Caracallus Holcus — *~160 AD — Rome / Byzantium*
-- Constantinus Holcus — *~220 AD — Byzantium*
-- Byzantos Holkos — *~255 AD — Byzantium / Constantinople*
-- Holkos the Byzantine — *~290 AD — Constantinople*
-- Holkos-Theodoros — *~325 AD — Constantinople / Gothic territory*
+- Vespasian Holcus — *~AD 10 — Rome / Judea*
+- Trajanus Holcus — *~AD 40 — Rome / Britain*
+- Hadrianus Holcus — *~AD 70 — Rome / Britain*
+- Marcus Holcus Aurelius — *~AD 100 — Rome, Roman Empire*
+- Septimius Holcus — *~AD 130 — Rome / Carthage*
+- Caracallus Holcus — *~AD 160 — Rome / Byzantium*
+- Constantinus Holcus — *~AD 220 — Byzantium*
+- Byzantos Holkos — *~AD 255 — Byzantium / Constantinople*
+- Holkos the Byzantine — *~AD 290 — Constantinople*
+- Holkos-Theodoros — *~AD 325 — Constantinople / Gothic territory*
 
 ---
 
 ### BOOK IV: THE FRANKISH & NORSE WORLD
-*~370 AD – ~1090 AD · Gothic Lands · Frankish Territory · Frisia · Vestfold · Yorkshire*
+*~AD 370 – ~AD 1090 · Gothic Lands · Frankish Territory · Frisia · Vestfold · Yorkshire*
 
-- Hulmar the Goth — *~370 AD — Gothic territory / Frankish lands*
-- Hulmar of the Rhine — *~400 AD — Frankish territory*
-- Holmar of Burgundy — *~430 AD — Burgundy, Frankish territory*
-- Holmar the Frank — *~460 AD — Frankish territory*
-- Holmar of the Merovingians — *~490 AD — Frankish territory*
-- Holmar of Austrasia — *~520 AD — Austrasia, Frankish territory*
-- Holmar of the Rhine — *~550 AD — Rhine, Frankish territory*
-- Holmar Northward — *~580 AD — Rhine / Frisia*
-- Holmar of Frisia — *~610 AD — Frisia, North Sea coast*
-- Holmar of Jutland — *~640 AD — Jutland, Denmark*
-- Holmar of Vestfold — *~670 AD — Vestfold, Norway*
-- Sigr Holmr — *~700 AD — Vestfold, Norway*
-- Leifr Holmr — *~765 AD — Vestfold, Norway*
-- Ragnarr Holmr — *~795 AD — Vestfold, Norway*
-- Sigurðr Holmr — *~830 AD — Vestfold / Yorkshire, England*
-- Leifr Holmr II — *~870 AD — Yorkshire, England*
-- Ragnarr Holmr II — *~900 AD — Yorkshire, England*
-- Sigurðr Holmr II — *~930 AD — Yorkshire, England*
-- Þorfinnr Holmr — *~960 AD — Yorkshire, England*
-- Gunnarr Holmr — *~990 AD — Yorkshire, England*
-- Halfdan Holmr — *~1020 AD — Yorkshire, England*
-- Eadmund Holmr — *~1055 AD — Yorkshire, England*
-- Willelm Holmr — *~1080 AD — Yorkshire, England*
-- Robert Holmr — *~1110 AD — Yorkshire, England*
+- Hulmar the Goth — *~AD 370 — Gothic territory / Frankish lands*
+- Hulmar of the Rhine — *~AD 400 — Frankish territory*
+- Holmar of Burgundy — *~AD 430 — Burgundy, Frankish territory*
+- Holmar the Frank — *~AD 460 — Frankish territory*
+- Holmar of the Merovingians — *~AD 490 — Frankish territory*
+- Holmar of Austrasia — *~AD 520 — Austrasia, Frankish territory*
+- Holmar of the Rhine — *~AD 550 — Rhine, Frankish territory*
+- Holmar Northward — *~AD 580 — Rhine / Frisia*
+- Holmar of Frisia — *~AD 610 — Frisia, North Sea coast*
+- Holmar of Jutland — *~AD 640 — Jutland, Denmark*
+- Holmar of Vestfold — *~AD 670 — Vestfold, Norway*
+- Sigr Holmr — *~AD 700 — Vestfold, Norway*
+- Leifr Holmr — *~AD 765 — Vestfold, Norway*
+- Ragnarr Holmr — *~AD 795 — Vestfold, Norway*
+- Sigurðr Holmr — *~AD 830 — Vestfold / Yorkshire, England*
+- Leifr Holmr II — *~AD 870 — Yorkshire, England*
+- Ragnarr Holmr II — *~AD 900 — Yorkshire, England*
+- Sigurðr Holmr II — *~AD 930 — Yorkshire, England*
+- Þorfinnr Holmr — *~AD 960 — Yorkshire, England*
+- Gunnarr Holmr — *~AD 990 — Yorkshire, England*
+- Halfdan Holmr — *~AD 1020 — Yorkshire, England*
+- Eadmund Holmr — *~AD 1055 — Yorkshire, England*
+- Willelm Holmr — *~AD 1080 — Yorkshire, England*
+- Robert Holmr — *~AD 1110 — Yorkshire, England*
 
 ---
 
