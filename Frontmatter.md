@@ -5,11 +5,9 @@
 
 ---
 
-The record begins in Ur.
+The record begins in Ur with a scribe in the temple of Nanna, in the forty-eighth year of the Third Dynasty, whose name has survived in the administrative tablets of that civilisation and whose method of reading a grain account has survived, in forms appropriate to each successive era, for four thousand years after the city that employed him burned to the ground.
 
-Not because the family began in Ur — the evidence does not permit so precise a claim. It begins there because Ur is where the record first becomes legible: a scribe in the temple of Nanna, in the forty-eighth year of the Third Dynasty, whose name has survived in the administrative tablets of that civilisation and whose method of reading a grain account has survived, in forms appropriate to each successive era, for four thousand years after the city that employed him burned to the ground.
-
-This chronicle traces one hundred and thirty-two members of the Holmes line from that temple scribe to a child born in 2021. It is assembled from the evidence that each era has left: clay tablets and papyrus, court rolls and ecclesiastical registers, commercial correspondence and legal proceedings, intelligence memoranda and the private papers of men who understood that a document, once written, could be used against its author. Where the record is rich, the chronicle reports it. Where it is thin, the chronicle follows the thread that connects what survives. Where it is silent, the chronicle says so.
+This chronicle traces one hundred and thirty-one members of the Holmes line from that temple scribe to a child born in 2021. It is assembled from the evidence that each era has left: clay tablets and papyrus, court rolls and ecclesiastical registers, commercial correspondence and legal proceedings, intelligence memoranda and the private papers of men who understood that a document, once written, could be used against its author. Where the record is rich, the chronicle reports it. Where it is thin, the chronicle follows the thread that connects what survives. Where it is silent, the chronicle says so.
 
 The analytical faculty that Watson documented in his accounts of Sherlock Holmes — the methodical observation, the precise inference, the refusal to conclude before the evidence permits — did not originate in Baker Street. It was inherited. Each generation of this line exercised it in the language of its own era: as scribal precision in the temples of Mesopotamia, as commercial intelligence in the Levantine ports, as forensic advocacy in the Roman basilica, as the reading of oral testimony in the Norse assembly, as the detection of forgery in the English manor courts, and as the structural analysis of criminal financial networks in the modern federal courts. The instrument changes with the century. The faculty is constant.
 
@@ -156,7 +154,6 @@ The books differ in register because the centuries differ in the nature of their
 - William Holmr — *~1140 — Yorkshire, England*
 - Robert Holmes — *~1160 — Halstead, Yorkshire*
 - Geoffrey Holmes — *~1190 — Halstead Manor, Yorkshire*
-- Aldric Holmes — *~1215 — Halstead Manor, Yorkshire*
 - Urkell de Holmes — *fl. 1219 — Yorkshire, England*
 - Thomas de Holmes — *~1240 — Yorkshire, England*
 - John de Holmes — *~1270 — Yorkshire, England*
