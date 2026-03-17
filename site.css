@@ -91,7 +91,7 @@ body {
 
 .header-nav {
   grid-column: 2;
-  justify-self: centre;
+  justify-self: center;
   display: flex;
   gap: 1.5rem;
 }
