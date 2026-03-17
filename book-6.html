@@ -3,476 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book VI: The Elizabethan Holmes — The Holmes Chronicle</title>
-  <meta name="description" content="The Holmes Chronicle — a chronicle of 132 generations of the Holmes line, 2050 BC to 2021 AD.">
-  <style>
-
-/* ── Google Fonts ── */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;500;600&family=Cinzel+Decorative:wght@400&display=swap');
-
-/* ── Custom Properties ── */
-:root {
-  --ink:        #1a1612;
-  --ink-light:  #3d3530;
-  --ink-faint:  #7a6f68;
-  --parchment:  #f7f3ec;
-  --cream:      #ede8df;
-  --gold:       #8b6914;
-  --gold-light: #c9a84c;
-  --gold-pale:  #e8d9a8;
-  --rule:       #c4b28a;
-  --rule-faint: #ddd3b8;
-  --red:        #7a1f1f;
-  --max-w:      68ch;
-  --wide-w:     90ch;
-}
-
-/* ── Reset & Base ── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-html {
-  scroll-behavior: smooth;
-  font-size: 18px;
-}
-
-body {
-  background-color: #2b2520;
-  background-image:
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 2px,
-      rgba(0,0,0,0.03) 2px,
-      rgba(0,0,0,0.03) 4px
-    );
-  color: var(--ink);
-  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
-  line-height: 1.8;
-  min-height: 100vh;
-}
-
-/* ── Page Shell ── */
-.page-shell {
-  max-width: 820px;
-  margin: 0 auto;
-  background-color: var(--parchment);
-  background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
-  box-shadow: 0 0 60px rgba(0,0,0,0.6), inset 0 0 120px rgba(139,105,20,0.04);
-  min-height: 100vh;
-}
-
-/* ── Site Header ── */
-.site-header {
-  background-color: var(--ink);
-  background-image: linear-gradient(135deg, #1a1612 0%, #2d2318 50%, #1a1612 100%);
-  padding: 0.5rem 2.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 2px solid var(--gold);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.site-header a {
-  color: var(--gold-light);
-  text-decoration: none;
-  font-family: 'Cinzel', serif;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  opacity: 0.85;
-  transition: opacity 0.2s;
-}
-
-.site-header a:hover { opacity: 1; }
-
-.header-series {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 0.65rem;
-  color: var(--gold-pale);
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-}
-
-.header-nav {
-  display: flex;
-  gap: 1.5rem;
-  align-items: center;
-}
-
-/* ── Book Hero ── */
-.book-hero {
-  padding: 4rem 3rem 3rem;
-  text-align: center;
-  border-bottom: 1px solid var(--rule);
-  background-image: linear-gradient(180deg, rgba(139,105,20,0.05) 0%, transparent 100%);
-  position: relative;
-}
-
-.book-hero::before {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--gold), transparent);
-  margin: 0 auto 2rem;
-}
-
-.book-hero::after {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--gold), transparent);
-  margin: 2rem auto 0;
-}
-
-.book-numeral {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 0.75rem;
-  letter-spacing: 0.25em;
-  color: var(--gold);
-  text-transform: uppercase;
-  margin-bottom: 0.75rem;
-}
-
-.book-title-main {
-  font-family: 'Cinzel', serif;
-  font-size: clamp(1.8rem, 5vw, 3rem);
-  font-weight: 600;
-  color: var(--ink);
-  line-height: 1.2;
-  margin-bottom: 0.5rem;
-  letter-spacing: 0.02em;
-}
-
-.book-dates {
-  font-family: 'EB Garamond', serif;
-  font-style: italic;
-  font-size: 1.15rem;
-  color: var(--ink-faint);
-  margin-bottom: 0.4rem;
-}
-
-.book-regions {
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
-  color: var(--ink-faint);
-  text-transform: uppercase;
-  font-family: 'Cinzel', serif;
-  font-weight: 400;
-}
-
-/* ── Table of Contents ── */
-.toc-section {
-  padding: 2.5rem 3rem;
-  border-bottom: 1px solid var(--rule);
-  background-color: rgba(196,178,138,0.08);
-}
-
-.toc-heading {
-  font-family: 'Cinzel', serif;
-  font-size: 0.8rem;
-  letter-spacing: 0.2em;
-  color: var(--gold);
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.toc-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 0.15rem 2rem;
-  max-width: var(--wide-w);
-  margin: 0 auto;
-}
-
-.toc-entry {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  padding: 0.3rem 0;
-  border-bottom: 1px dotted var(--rule-faint);
-}
-
-.toc-entry a {
-  text-decoration: none;
-  color: var(--ink-light);
-  font-family: 'EB Garamond', serif;
-  font-size: 0.95rem;
-  transition: color 0.15s;
-  flex: 1;
-}
-
-.toc-entry a:hover {
-  color: var(--gold);
-}
-
-.toc-date {
-  font-family: 'EB Garamond', serif;
-  font-style: italic;
-  font-size: 0.82rem;
-  color: var(--ink-faint);
-  white-space: nowrap;
-}
-
-/* ── Main Content ── */
-.content-body {
-  padding: 3rem 3rem 5rem;
-  max-width: var(--wide-w);
-  margin: 0 auto;
-}
-
-/* ── Prefatory Note ── */
-.prefatory-note {
-  background-color: rgba(196,178,138,0.12);
-  border-left: 3px solid var(--gold);
-  border-right: 3px solid var(--gold);
-  padding: 1.5rem 2rem;
-  margin: 2rem 0 3rem;
-  font-style: italic;
-  color: var(--ink-light);
-  font-size: 0.97rem;
-  line-height: 1.9;
-}
-
-.prefatory-note p + p { margin-top: 1em; }
-
-/* ── Ancestor Entry ── */
-.ancestor-entry {
-  margin-bottom: 4rem;
-  padding-top: 2.5rem;
-  border-top: 1px solid var(--rule-faint);
-  scroll-margin-top: 80px;
-}
-
-.ancestor-entry:first-of-type {
-  border-top: none;
-  padding-top: 0;
-}
-
-.entry-nameplate {
-  margin-bottom: 1.5rem;
-}
-
-.entry-name {
-  font-family: 'Cinzel', serif;
-  font-size: clamp(1.1rem, 3vw, 1.55rem);
-  font-weight: 600;
-  color: var(--ink);
-  letter-spacing: 0.04em;
-  line-height: 1.2;
-  margin-bottom: 0.3rem;
-}
-
-.entry-dateline {
-  font-family: 'EB Garamond', serif;
-  font-style: italic;
-  font-size: 0.97rem;
-  color: var(--gold);
-  letter-spacing: 0.02em;
-}
-
-/* ── Paragraphs ── */
-.ancestor-entry p {
-  margin-bottom: 1.1em;
-  font-size: 1.02rem;
-  color: var(--ink);
-  max-width: var(--max-w);
-  text-align: justify;
-  hyphens: auto;
-}
-
-/* Story separator (---) */
-.story-rule {
-  border: none;
-  height: 1px;
-  background: linear-gradient(90deg, transparent 0%, var(--rule) 30%, var(--rule) 70%, transparent 100%);
-  margin: 2rem 0;
-  position: relative;
-}
-
-.story-rule::after {
-  content: '❧';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background: var(--parchment);
-  padding: 0 0.75rem;
-  color: var(--gold);
-  font-size: 0.9rem;
-}
-
-/* ── Story Block ── */
-.story-block {
-  background-color: rgba(139,105,20,0.05);
-  border-left: 3px solid var(--gold);
-  border-right: 1px solid var(--rule-faint);
-  padding: 1.5rem 1.75rem;
-  margin: 0;
-}
-
-.story-block p {
-  max-width: var(--max-w) !important;
-}
-
-
-.children-block {
-  margin-top: 1.5rem;
-  padding: 1rem 1.25rem;
-  background-color: rgba(196,178,138,0.1);
-  border-left: 2px solid var(--rule);
-  font-size: 0.93rem;
-  color: var(--ink-light);
-}
-
-.children-block p {
-  font-style: italic;
-  margin-bottom: 0.4rem !important;
-  max-width: 100% !important;
-  text-align: left !important;
-}
-
-.children-block ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.children-block li {
-  padding: 0.2rem 0;
-  padding-left: 1rem;
-  position: relative;
-}
-
-.children-block li::before {
-  content: '—';
-  position: absolute;
-  left: 0;
-  color: var(--gold);
-}
-
-/* ── Special sections (Book VIII sub-headings) ── */
-.section-heading {
-  font-family: 'Cinzel', serif;
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--ink-light);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin: 2.5rem 0 1rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--rule-faint);
-}
-
-.sub-section-heading {
-  font-family: 'EB Garamond', serif;
-  font-size: 1.1rem;
-  font-weight: 600;
-  font-style: italic;
-  color: var(--ink-light);
-  margin: 2rem 0 0.75rem;
-}
-
-/* ── Book Footer ── */
-.book-footer {
-  background-color: var(--ink);
-  background-image: linear-gradient(135deg, #1a1612 0%, #2d2318 50%, #1a1612 100%);
-  padding: 2.5rem 3rem;
-  text-align: center;
-  border-top: 2px solid var(--gold);
-}
-
-.footer-ornament {
-  color: var(--gold);
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  letter-spacing: 0.5rem;
-}
-
-.footer-series {
-  font-family: 'Cinzel', serif;
-  font-size: 0.7rem;
-  letter-spacing: 0.2em;
-  color: var(--gold-pale);
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
-}
-
-.footer-nav {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.footer-nav a {
-  font-family: 'Cinzel', serif;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  color: var(--gold-light);
-  text-decoration: none;
-  text-transform: uppercase;
-  opacity: 0.8;
-  transition: opacity 0.2s;
-}
-
-.footer-nav a:hover { opacity: 1; }
-
-/* ── Back to top ── */
-.back-to-top {
-  display: inline-block;
-  margin-top: 1rem;
-  font-family: 'Cinzel', serif;
-  font-size: 0.68rem;
-  letter-spacing: 0.15em;
-  color: var(--gold-light);
-  text-decoration: none;
-  text-transform: uppercase;
-  opacity: 0.6;
-  transition: opacity 0.2s;
-}
-.back-to-top:hover { opacity: 1; }
-
-/* ── Responsive ── */
-@media (max-width: 640px) {
-  .content-body { padding: 2rem 1.5rem 4rem; }
-  .book-hero    { padding: 2.5rem 1.5rem 2rem; }
-  .toc-section  { padding: 2rem 1.5rem; }
-  .site-header  { padding: 0.5rem 1.25rem; }
-  .toc-grid     { grid-template-columns: 1fr; }
-}
-
-/* ── Print ── */
-@media print {
-  .site-header, .book-footer { display: none; }
-  body { background: white; }
-  .page-shell { box-shadow: none; }
-}
-
-
-  </style>
+  <title>The Holmes Chronicle — Book Ⅵ</title>
+  <meta name="description" content="The Holmes Chronicle">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;500;600&family=Cinzel+Decorative:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
 </head>
 <body>
 <div class="page-shell">
-<header class="site-header"><nav class="header-nav"><span><a href="book-5.html">← Book V</a></span>
-<span><a href="index.html" class="header-series">The Holmes Chronicle</a></span>
-<span><a href="book-7.html">Book VII →</a></span></nav></header>
+<header class="site-header">
+  <nav class="header-nav">
+    <span class="header-nav"><a href="book-5.html">← Book Ⅴ</a></span>
+    <span class="header-series"><a href="index.html">The Holmes Chronicle</a></span>
+    <span class="header-nav"><a href="index.html">← Series</a></span>
+  </nav></header>
 <div id="top" class="book-hero">
-  <div class="book-numeral">Book VI</div>
-  <h1 class="book-title-main">The Elizabethan Holmes</h1>
-  <div class="book-dates">~1485 AD – ~1660 AD</div>
-  <div class="book-regions">London · The English Provinces · The Continent</div>
+  <div class="book-numeral">Book Ⅵ</div>
+  <h1 class="book-title-main">The Great Detective</h1>
+  <div class="book-dates">1852 – 2021</div>
+  <div class="book-regions">Yorkshire · London · Sussex · Boston · United States</div>
 </div>
 <section class="toc-section">
   <div class="toc-heading">Contents</div>
   <div class="toc-grid">
-    <div class="toc-entry"><a href="#sir-walter-holmes">SIR WALTER HOLMES</a><span class="toc-date">~1461</span></div><div class="toc-entry"><a href="#sir-edward-holmes">SIR EDWARD HOLMES</a><span class="toc-date">~1480</span></div><div class="toc-entry"><a href="#sir-ralph-holmes">SIR RALPH HOLMES</a><span class="toc-date">~1530</span></div><div class="toc-entry"><a href="#sir-stamford-holmes">SIR STAMFORD HOLMES</a><span class="toc-date">~1570</span></div><div class="toc-entry"><a href="#sir-henry-holmes">SIR HENRY HOLMES</a><span class="toc-date">~1615</span></div><div class="toc-entry"><a href="#sir-symonds-holmes">SIR SYMONDS HOLMES</a><span class="toc-date">~1640</span></div><div class="toc-entry"><a href="#sir-richmond-holmes">SIR RICHMOND HOLMES</a><span class="toc-date">~1670</span></div>
+    <div class="toc-entry"><a href="#Dr-John-H-Watson">DR. JOHN H. WATSON</a><span class="toc-date">The Chronicler</span></div><div class="toc-entry"><a href="#sherlock-holmes"><strong><u>THE</u></strong> SHERLOCK HOLMES</a><span class="toc-date">6 January 1854</span></div><div class="toc-entry"><a href="#sherlock-holmes-ii">SHERLOCK HOLMES Ⅱ</a><span class="toc-date">1893</span></div><div class="toc-entry"><a href="#sherlock-holmes-iii">SHERLOCK HOLMES Ⅲ</a><span class="toc-date">1914</span></div><div class="toc-entry"><a href="#sherlock-holmes-iv">SHERLOCK HOLMES Ⅳ</a><span class="toc-date">1945</span></div><div class="toc-entry"><a href="#sherlock-holmes-v">SHERLOCK HOLMES Ⅴ</a><span class="toc-date">1970</span></div><div class="toc-entry"><a href="#sherlock-holmes-vi">SHERLOCK HOLMES Ⅵ</a><span class="toc-date">1999</span></div><div class="toc-entry"><a href="#sherlock-holmes-vii">SHERLOCK HOLMES Ⅶ</a><span class="toc-date">2021</span></div>
   </div>
 </section>
 <p style="text-align:center; margin: 1.5rem 0 2rem;">
@@ -485,155 +39,250 @@ body {
 <main class="content-body">
 <div class="prose-block">
 <div class="prefatory-note">
-<p><strong>A note on the network:</strong><br>The reader who has followed this chronicle from Ur to the Wars of the Roses will have observed that in every age there is, behind the particular crime, the particular fraud, the particular act of organised malice that each Holmes encounters, a shadow — a system of coordination that exceeds the scope of any individual criminal. In Babylon it was the syndicate of false assessors; in Rome the ring of falsified supply contracts; in the Plantagenet courts the brotherhood of document-forgers whose work could unseat a lord and seat another in his place. These organisations did not die. They adapted. They acquired new names and new methods as the centuries furnished new opportunities, but the essential structure — the hierarchy of deniable intermediaries, the intelligence apparatus turned to criminal purpose, the careful insulation of those at the centre from the evidence that implicated those at the margins — remained constant.</p>
-<p>In the Tudor age, the network found its most congenial environment yet. A court dependent on informers, a Church in convulsion, a realm in which the written declaration of theological allegiance was a matter of life and death — all of these provided the conditions in which organised intelligence-for-hire could flourish. The network the Tudors' Holmes line encountered was known, among the few who knew it at all, as the Fellowship of the Broken Seal: a loosely confederated body of forgers, intelligencers, suborned witnesses, and financial manipulators who offered their services to whoever could pay, and whose coordinating principle was not ideology but profit. Its shadow falls across every entry in this book.</p>
+<p><strong>A note on this book:</strong><br>The chronicler who has followed this line from the temple of Nanna at Ur — through the courts of Babylon and Athens, through the legions and the Frankish halls, through the monasteries and the Elizabethan counting houses, through the long silence and the slow restoration — arrives now at a generation for which the record is not sparse but inexhaustible, and for which, accordingly, invention would be an impertinence.</p>
+<p>In every preceding book, the chronicle has been obliged to reconstruct: to work from fragments, from a clay tablet's inventory margin, from a bishop's register, from a Lloyd's memorandum and a solicitor's reply. The analytical gift, exercised across forty centuries, has had to be inferred from the residue it left, and the stories that embody it have been assembled from what survives. This book is different. For the generation at the apex of the line — the man born on the sixth of January 1854 into the freezing dark of a Yorkshire winter — the record was made complete, and made willingly complete, by a man who understood before anyone else that what he was witnessing was worth preserving: Dr. John Hamish Watson, late of the Army Medical Department, of Baker Street, and of all the places to which his friend's extraordinary temperament eventually led him.</p>
+<p>This book does not add to Watson's record. It could not, without diminishing it. What it does, instead, is read that record as the chronicle reads all its records — with an eye for what the writer did not know he was writing, and with the gratitude owed to the only chronicler in four thousand years who was present at the events he described, who understood their significance in the moment of their occurrence, and who possessed, beneath the unassuming manner that so thoroughly deceived those who did not attend to him closely enough, a literary gift that has ensured his subject's immortality as thoroughly as his subject's analytical gift ensured his own.</p>
+<p>Watson was not a simple man. The chronicle wishes to say this plainly, because the tradition of reading him as one is both widespread and wrong. He was a man who had been to war, who had been wounded in circumstances his own accounts are not entirely consistent about, who had lost a wife and survived the loss, who had watched his closest friend apparently die and had mourned him genuinely and then had watched him return and had not, on reflection, made as much fuss about that as either of them would probably have liked. He was a man of medicine and of letters, of loyalty and of judgment — and his judgment, regularly and falsely characterised as inferior to his companion's, was in practice the indispensable complement to it: the human sympathy that recognised what the pure analytical faculty could not reach, the moral clarity that knew when the law was not quite adequate to justice, the steady decency that kept the work grounded in something larger than the problem to be solved.</p>
+<p>Sherlock himself would agree to including the following summary of the chronicles of Dr. Watson before proceeding with the Holmes family.</p>
 </div>
-<article class="ancestor-entry" id="sir-walter-holmes">
+<article class="ancestor-entry" id="Dr-John-H-Watson">
   <div class="entry-nameplate">
-    <h2 class="entry-name">SIR WALTER HOLMES of Kirkbymoorside</h2>
-    <div class="entry-dateline">~1461 — Yorkshire, England</div>
+    <h2 class="section-header">ON THE CHRONICLES OF DR. JOHN H. WATSON</h2>
+    <div class="entry-dateline">Being a survey of the sixty accounts preserved by Watson, with observations on what those accounts reveal, to the reader of this chronicle, about the inheritance they embody</div>
   </div>
-  <p>Walter Holmes of Kirkbymoorside, a market town eight miles from Pickering in the North Riding, was a man who understood, with a clarity unusual in his age, that battles are decided before they are fought — by the reading of allegiances, the assessment of resources, and the cold calculation of which side, on a given morning, was more likely to prevail. He fought with the Yorkist forces of Edward IV at the Battle of Towton on the twenty-ninth of March 1461, Palm Sunday, in a snowstorm, in what became the bloodiest engagement ever fought on English soil. He chose correctly and survived. He was knighted by Edward in the years following, the family ascending another rung on the ladder they had been climbing, in one form or another, since the wool merchants of the fourteenth century.</p>
-<p>What distinguished Walter Holmes was not his courage, which was unremarkable for the age, but his political intelligence — the same faculty that had kept his ancestors alive through plague, war, and dynastic upheaval, now applied to the most dangerous game available. He had come to the Yorkist cause not through inheritance but through calculation: his father had raised him to study men rather than to follow them, and his study of the available options in 1460 had produced a conclusion so clear that when the time came to act upon it, he did so without hesitation. He was perhaps thirty years old at Towton, a man already formed, and the battle confirmed rather than created him.</p>
-<hr class="story-rule">
-<div class="story-block">
-<p>In the years following the Yorkist settlement, Sir Walter served the new administration as a commissioner of array for the North Riding — the official responsible for mustering the local levies and, more practically, for assessing which Yorkshire gentlemen's loyalty to Edward was genuine and which was the loyalty of men waiting to see how things resolved. He was a shrewd reader of this question. He had a method: he asked each man not what he thought of the King, but what he thought his neighbour thought of the King. The indirect question, he had found, produced the unguarded answer in a way that the direct one never did. Men were careful about their own professions of loyalty; they were rather less careful about their neighbours'.</p>
-<p>It was in this capacity that he first encountered what he would later describe, in a letter to his son that survives among the family papers, as "a concerted practice of false testimony, working not for any one lord but for any lord that would pay." The occasion was an inquiry into the allegiance of a Yorkshire knight named Thursby, against whom a case of Lancastrian sympathy had been assembled with suspicious efficiency — three witnesses, all giving evidence of the same acts in the same words, their depositions so closely aligned as to suggest a common source rather than independent recollection. Sir Walter noted the alignment, and noted also that the three witnesses were all men who had passed through the coaching inn at Boroughbridge within the same fortnight — a fact he established not by interrogating them but by examining the inn's tallage roll, which he obtained from the keeper on the pretext of an inquiry into a disputed debt.</p>
-<p>He found, in the Boroughbridge roll, the name of a fourth man: a notary of York by the name of Roper, who had lodged two nights before any of the witnesses arrived, and who had departed the morning of the first deposition. He did not arrest Roper, who had committed no act that could be directly proved. He reported his findings to the sheriff, identified the discrepancies in the depositions, and left the determination of Thursby's guilt or innocence to the process he had served. Thursby was acquitted. Roper was noted. When the Yorkist sun began to set and Henry Tudor's star to rise, Walter read the shift early and repositioned himself accordingly, supporting Henry before Bosworth in 1485 with sufficient conviction to preserve the family's standing through the transition. He died with his name intact and his estate unforfeited, which in the England of the 1480s was an achievement requiring both intelligence and nerve. He left among his private papers a list of names — seven men in four counties, connected by their proximity to a series of false witness cases over twenty years — and a note in the margin, in his careful clerk's hand: <em>These are not separate men acting separately. Follow the notary.</em></p>
-</div>
+<h4 class="sub-section-heading">Ⅰ. The Chronicler</h4>
+<p>John Hamish Watson was born in 1852, took his degree of Doctor of Medicine from the University of London in 1878, and was attached, as assistant surgeon, to the Fifth Northumberland Fusiliers when that regiment was ordered to India. He was wounded at the Battle of Maiwand in July 1880, returned to England in a constitution shaken by wound and enteric fever, and was introduced to Sherlock Holmes in the chemical laboratory of St Bartholomew's Hospital in the early months of 1881 by a mutual acquaintance named Stamford who could not, on reflection, have had the least understanding of what he was arranging.</p>
+<p>Watson's qualifications for the role he was about to assume — and which he could not have known he was about to assume — were not obvious. He was not analytical in the fashion of his companion. He did not read a stranger's history from their cuffs and their bootlaces. He could not identify, at a glance, the soil of forty-seven different London parishes, or distinguish between a hundred and forty varieties of tobacco ash, or tell a Stradivarius from its neck alone. These were not his gifts.</p>
+<p>His gifts were different, and they were essential. He was observant in the ordinary human sense — he noticed what people looked like, how they moved, what they said and what they chose not to say. He was loyal without servility, which is the rarest kind of loyalty. He was brave in the uncomplicated, physical manner of a man who has been under fire and has established, empirically, that he does not panic. He was honest — not in the ostentatious way of a man who makes a virtue of his honesty, but in the quiet way of a man who finds dishonesty effortful and has long since decided that the effort is not worth making. And he could write: which was the gift that, in the end, mattered most to the chronicle. Because the chronicle, across four thousand years, has depended on its scribes, and Watson was the greatest of them.</p>
+<p>He began writing up the cases, as he later explained, partly because he found them extraordinary and could not resist, and partly because Holmes, who was indifferent to his own celebrity and rather contemptuous of the official police's appetite for it, appeared unlikely to document them himself. The first account — <em>A Study in Scarlet</em>, published in 1887 — was Watson's experiment in a form he had not previously attempted; the uncertainty of a first effort is visible in it, and is part of its charm. By the time he came to write <em>The Final Problem</em> in 1893, he was one of the most accomplished narrative writers of his generation, and he knew it, though he would not have said so.</p>
+<p>He wrote sixty accounts in all: four novels and fifty-six short stories, published across four decades, spanning cases from 1878 to 1914. He continued to write after Holmes's retirement, publishing the last collection in 1927 when both men were in their seventies, long past the period the accounts describe. He chose, in the final years, what to preserve and what to withhold; and the student of these chronicles who attends closely to what Watson chose <em>not</em> to write will find there a record as illuminating, in its silences, as the record he chose to make.</p>
+<p>What Watson could not know — what the present chronicle, reading him from a distance of more than a century, is obliged to know on his behalf — is that he was not merely documenting the career of one remarkable man. He was documenting the apex of a line. Every quality he recorded in Holmes — the methodical observation, the precise inference, the habit of allowing authorities their credit, the discreet dismantling of organised criminal structures, the compulsion to serve that coexisted with the constitutional inability to serve in any conventional capacity — had been exercised, in forms appropriate to each era, by every member of the line since the first scribe of Ur bent his gift toward the hidden discrepancy in the grain tally. Watson saw Holmes whole. He could not see what stood behind Holmes. This chronicle, which can, regards Watson's achievement with an admiration that is, if anything, increased by the understanding of how much more he had witnessed than he could have known.</p>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<hr />
+<h4 class="sub-section-heading">Ⅱ. The Novels</h4>
+<p>Watson's four extended accounts — the novels, as they came to be called — are the fullest canvases on which the gift was displayed, and each illuminates a different facet of the inheritance.</p>
+<p><em>A Study in Scarlet</em> (1887) is the origin account, and as such it serves the chronicle's purposes in a particular way: it shows the gift in the moment of its first public recognition. Holmes, encountering Watson at Barts, reads him in thirty seconds: soldier, Afghanistan, wounded — the whole history assembled from the man's tan, his bearing, his arm. For the reader of this chronicle, that moment is not merely a debut; it is the clearest possible demonstration that what the line had carried, quietly and often obscurely, for forty centuries, had arrived in this generation at a new pitch of refinement. The case itself — the murders in Lauriston Gardens, the cipher, the revenge from Utah — establishes the method: observation, inference, the refusal to theorise ahead of data, the willingness to remain in the uncomfortable position of not yet knowing. Lestrade and Gregson receive the credit. Holmes, who arranged this, does not trouble to explain why to Watson, who has not yet been told.</p>
+<p><em>The Sign of the Four</em> (1890) deepens the picture in a direction Watson did not entirely intend to go. It introduced Irene Mary Morstan, who became Watson's first wife, and in this respect it is Watson's most personally consequential account. But it is also, for the chronicle, the account in which the gift operates most purely in its characteristic mode: the reconstruction of a hidden history — the Agra Treasure, the pact between Sholto and Morstan, the loyalty and treachery compacted in Tonga's blow dart — from a chain of physical evidence that begins with a pearl and ends in a boat chase on the Thames. The case is, at its root, about what inheritance means: the treasure that was never properly anyone's, the loyalty that persisted beyond any rational claim, the old crime that emerged into the present because crimes of that quality always do. For Watson, who was falling in love, it was also a lesson in what Holmes could not do — could not feel, or would not, or had decided not to, for reasons he kept to himself and Watson, loyally, did not press.</p>
+<p><em>The Hound of the Baskervilles</em> (1902) is Watson's masterwork, and the chronicle acknowledges it as such without reservation. It is the account that demonstrated, definitively, that Watson could sustain a narrative of novel length without his subject present for the central portion of it — could hold the reader's attention with his own observations, his own judgments, his own growing unease on Dartmoor — and that the partnership was not, as it might superficially have appeared, one of a brilliant man and his useful assistant. It was a partnership of two different kinds of intelligence that were, in combination, greater than either was alone. Holmes, absent from the moor, was thinking; Watson, present on it, was seeing. The solution required both. The criminal — Stapleton, the vanished Baskerville, the patient planner who had laid his trap and waited — is one of the chronicle's more illuminating villains, because his patience and his organisation and his layers of concealment are, in miniature, the structural characteristics that the great network had always displayed. He was not connected to that network; he was simply shaped by the same conditions that had always produced such men. Holmes read him from his distance, as the scribe of Ur read the grain tally: by attending to what was missing as much as what was present.</p>
+<p><em>The Valley of Fear</em> (1915) is, of the four, the most explicit about the great network and what it represented. Published after <em>The Final Problem</em> and <em>The Empty House</em> had established the outline of the Moriarty story, it reaches back to an earlier encounter and places the Professor in his proper context: not as a singular villain but as the apex of a structure, the Napoleon of a criminal empire that would survive him because empires of that kind always survive their Napoleons. The case moves between an English country house and the coalfields of Pennsylvania, between an English murder and an American labour conspiracy, and in doing so performs, perhaps more clearly than any other of the accounts, the characteristic operation of the line: showing that what appears to be a local problem is the local expression of a system, and that the system must be read before the problem can be resolved. The Scowrers, the secret society that controlled the Valley with terror and blood — these were not unique; they were a provincial chapter of something much older. Holmes knew this. He told Watson rather less than he knew, which was his consistent habit, and which Watson recorded faithfully without always understanding it.</p>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<hr />
+<h4 class="sub-section-heading">Ⅲ. The Short Accounts: A Survey by Theme</h4>
+<p>Watson's fifty-six shorter accounts resist simple summary, and the chronicle will not attempt it; each deserves its own reading, and the reader who has come this far will not be deterred from that reading by any précis offered here. What can usefully be done is to trace through the collection the threads that concern this chronicle most directly: the gift in operation; the network in shadow; the question of credit; and the recurring presence, in Watson's writing, of something he could not quite name but consistently recognised — the thing that made Holmes not merely clever but necessary.</p>
+<p><strong>The Gift in Operation</strong><br>The method Watson documented, case by case, was always the same in its fundamentals: look first, conclude last; attend to what is missing as much as what is present; read the particular and infer the general; never form a theory in advance of the data because the mind bends its facts to suit its theories, and a bent fact is worse than no fact at all. What varied was the material to which the method was applied — the speckled band and the five orange pips, the dancing men and the crooked man, the blue carbuncle and the golden pince-nez — and the infinite variety of that material is what gives the collection its inexhaustible quality. Holmes did not repeat himself because the world did not repeat itself; but the method was always there, the same tool applied to the new problem, wearing down toward its conclusion with the patience that the line had always brought to its work.</p>
+<p>Watson was not always certain what he was watching. He noted the conclusions; he recorded the steps; he occasionally failed to follow the reasoning, as he honestly admitted, and was obliged to wait for Holmes to explain it. But he was attentive enough, and honest enough, to record it accurately even when he did not fully understand it. The result is that the accounts constitute, in aggregate, the most thorough documentary record of the analytical method in action that exists in any language — and the reader who approaches them looking not for entertainment, which they also amply provide, but for the operational logic of the gift, will find it there, case by case, as fully displayed as the gift was in any generation of the line.</p>
+<p>The chronicle would draw particular attention to <em>The Adventure of Silver Blaze</em>, in which Holmes solved a case from the fact that a dog did not bark in the night — not from what was present but from what was conspicuously absent. This operation — the reading of the absence, the inference from the silence — is the signature of the gift at its most refined, and it appears in the chronicles of the line wherever the records are rich enough to show it: in the scribe of Ur who read the gap in the grain tally; in the Byzantine notary who read the clause that was not in the contract; in the Elizabethan intelligencer who read the blank space where a seal should have been. Holmes, reading the silent dog at King's Pycroft, was exercising a faculty that had been exercised, in analogous forms, across forty centuries. Watson recorded it as a brilliant deduction. The chronicle reads it as a homecoming.</p>
+<p><strong>The Network in Shadow</strong><br>The great network — the organisation that this chronicle has tracked from the temple frauds of Mesopotamia through the Fellowship of the Broken Seal and its various incarnations — appears in Watson's accounts in the person of Professor James Moriarty, and in the person of Colonel Sebastian Moran who survived him, and in the background of perhaps a dozen other cases where the structure, if not the name, is recognisable to the reader who has read what preceded this book.</p>
+<p>Moriarty himself appears in very few of the accounts directly, which is precisely correct: a directing intelligence at that level of an organisation does not appear at the surface. He appears in <em>The Final Problem</em>, in <em>The Valley of Fear</em>, and in Holmes's references to him elsewhere — and in each appearance he is defined not by what he does himself but by what he causes others to do. He is the spider at the centre of the web, to use Holmes's own description; and Holmes's private papers, of which Watson had partial knowledge, suggested that the web had been accumulating since before either of them was born. Holmes knew, by 1891, that he was not dealing with a man but with a structure; that killing Moriarty would not kill the structure; and that the structure, reorganised under new management, would be his successors' problem as it had been his predecessors'. He went over the Reichenbach Falls knowing this, which is perhaps why Watson, who did not know it, found the loss so much more absolute than Holmes had intended him to.</p>
+<p>The network surfaces in other accounts in forms Watson identified accurately but could not fully contextualise. The cases of <em>The Red Circle</em>, <em>The Illustrious Client</em>, and <em>The Adventure of the Three Garridebs</em> all involve, at their margins, the kind of organised criminal infrastructure — international, hierarchical, insulated from prosecution by layers of respectability — that defines the network's operations in each era. Watson noted the connections where they were visible and did not speculate beyond them. Holmes, in each case, removed the local manifestation and allowed the official police their credit. The deeper structure, as always, was addressed in private.</p>
+<p><strong>The Question of Credit</strong><br>In every generation of this line, the credit for the resolution of the cases — the arrests, the prosecutions, the public recognition — has been given to the constituted authorities. This was not modesty, though it was sometimes expressed in the language of modesty; it was operational wisdom. The gift worked best from the shadows, and the work itself — the actual thinking, the actual reading of the evidence — required no audience. The member of the line who sought credit for their work would, by definition, be distorted by the seeking, because the seeking would shape the work toward the demonstrable and the public rather than the true and the necessary.</p>
+<p>Holmes's indifference to official recognition is one of Watson's most consistently noted characteristics of his companion, and it has been read as a personal eccentricity — a component of the general difficult temperament, the irregular hours and the tobacco and the violin at three in the morning. It was not an eccentricity. It was the inheritance. Lestrade and Gregson and Hopkins and MacDonald and all the others received the credit; Holmes received, at most, a private acknowledgement that the police valued more than they publicly admitted; and Watson received the satisfaction of having been present at something extraordinary, which he then gave to the reading public, who received it with the enthusiasm it deserved. The arrangement suited everyone, and it was, the chronicle notes, the same arrangement that had governed the line's operations in every preceding generation where the record is rich enough to confirm it.</p>
+<p>Watson wrote about this arrangement with a dry affection that is one of his most appealing literary qualities. He did not moralize about it; he did not explain it as self-abnegation or as principled refusal of celebrity. He simply noted, repeatedly, that this was how Holmes operated, and allowed the reader to draw their own conclusions. The reader of this chronicle, equipped with four thousand years of context, will draw rather more specific conclusions than Watson intended — but they are conclusions that Watson's own scrupulous fidelity to the facts has made possible.</p>
+<p><strong>The Thing Watson Could Not Name</strong><br>There is a quality in Watson's accounts, most visible in the moments when he steps back from the immediate narrative and reflects on his companion at some distance, that suggests he understood something about Holmes that he could not quite articulate. He described it variously as genius, as the analytical faculty, as a power that was beyond his own capacity to follow. He acknowledged it as the reason he stayed, case after case, year after year, despite the inconvenience and the danger and the irregular hours and the violin. He acknowledged it, in <em>The Final Problem</em>, as the reason his grief at the Reichenbach Falls had the quality of a bereavement so total that he could not immediately continue with the accounts at all.</p>
+<p>What Watson could not name was the weight of the inheritance. He knew he was in the presence of something extraordinary; he did not know that the extraordinary thing had been building toward this generation for four thousand years, that it had been carried by obscure scribes and battlefield surgeons and Venetian merchants and Northumbrian monks and Elizabethan intelligencers and all the rest, each adding what they could and passing what they had to the next. He knew only the man in front of him — the long figure in the mouse-coloured dressing gown, the hawk-face in the Baker Street gaslight, the voice saying that when you have eliminated the impossible, whatever remains, however improbable, must be the truth. He knew that man completely, in the way that a man can know another man after twenty years of close companionship in circumstances that test the limits of both. And that knowledge, rendered in his clear, warm, deceptively simple prose, has given the rest of the world access to something it would not otherwise have had.</p>
+<p>The chronicle is grateful for it.</p>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<hr />
+<h4 class="sub-section-heading">Ⅳ. The Moriarty Thread</h4>
+<p>The chronicle has traced, through eight books, the persistence of a criminal organisation that has been known by many names and has never been entirely destroyed. In this generation it found its most explicit adversary and its most articulate description. Holmes, in the letter he wrote in 1895 for his own reference — a copy of which reached his son, and through his son the subsequent generations — described the organisation with the precision of a man who had spent three years of his professional life studying it: hierarchical, durable, insulated from prosecution by layers of apparent respectability, operating through legitimate commercial fronts, directing criminal activity at a remove from any individual who might be prosecuted for it. He had identified, he wrote, the structure. He had not destroyed it, because structures of this kind could not be destroyed by removing their personnel, however senior. He had disrupted it, significantly, at the level of its current direction. He expected it to recover.</p>
+<p>He was correct. The record of subsequent generations confirms it. But Holmes's encounter with the organisation — the three years of close study, the confrontation at Reichenbach, the return and the destruction of Moran's network in <em>The Adventure of the Empty House</em>, the unwritten years of the Great Hiatus during which he gathered material across three continents — constitutes the most thorough engagement with the organisation's structure that any single member of the line had yet achieved. He did not win. The chronicles of no generation record a final victory. But he understood it as no one before him had, and the understanding he transmitted, in that 1895 letter, gave his successors tools they would need.</p>
+<p>Watson knew about Moriarty. He wrote about him with the controlled horror of a man who had been given, by degrees, access to a truth he found genuinely frightening: that the pleasant, tolerably ordered world of late Victorian England was underlain by a criminal intelligence of the first order who had made himself, as Holmes said, the organiser of half that is evil and of nearly all that is undetected in it. Watson did not know that this criminal intelligence was the latest iteration of something very much older. He simply knew that his friend had spent years studying it, had risked his life to confront it, and had gone over a waterfall in Switzerland in the course of doing so. That was enough to be going on with.</p>
+<p><em>The Final Problem</em> is Watson's most personal account, and the chronicle reads it as such. The grief in it is real. The sense of an ending — of a light gone out of the world — is not a literary effect but an accurate record of what Watson felt, in his lodgings in Kensington, when he accepted that his friend was dead. He did not know that Holmes had calculated the Hiatus as a necessary strategic withdrawal rather than a final defeat. He did not know that Holmes was in Tibet, reading his Lhasa monastery records for whatever trace of the network's eastern operations might have passed through those mountains. He knew only that the man who had defined the last decade of his life was gone, and he wrote about it with the simplicity that real grief produces in good writers.</p>
+<p><em>The Adventure of the Empty House</em> — the return — is correspondingly joyful in a fashion Watson does not quite allow himself, as if he is embarrassed by the magnitude of his own relief. Holmes, characteristically, expected to resume where he had left off. Watson, characteristically, accommodated him. The next seven years produced thirty-three more accounts. The chronicle notes, and Watson did not, that this second period of active work coincided with the decade in which the organisation's recovery from the Reichenbach disruption made it most active and most dangerous. Holmes's return was not sentimental. It was operational. He came back because the work was not finished, and he continued until it was, or as near to finished as it was ever going to get.</p>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<hr />
+<h4 class="sub-section-heading">Ⅴ. What Watson Knew and What He Did Not</h4>
+<p>Watson, across sixty accounts and a friendship of thirty years, came to know Holmes with a completeness that was the product of sustained, loyal, clear-eyed attention over time. He knew his methods; he knew his habits; he knew his limitations as well as his gifts, and he recorded the limitations with the same fidelity he gave the gifts, which is one of the reasons the accounts are trustworthy in a way that mere hagiography never is. He knew about the cocaine and the moods, the periods of black inertia between cases when the gift had nothing to exercise itself on and turned inward with uncomfortable results. He knew about the violin, the chemistry, the revolver shots into the sitting-room wall, the gasogene and the tobacco in the Persian slipper and the correspondence impaled on the mantelpiece by a jackknife. He knew Holmes's contempt for sentiment and his private capacity for it, which was greater than the contempt suggested.</p>
+<p>What he did not know — could not have known, in the absence of this chronicle — was the full context of what he was witnessing. He did not know that the quality he observed, case by case, year by year, had been exercised by forty or more preceding generations in every civilisation that had shaped the world Holmes moved through. He did not know that the organisation his friend had dedicated his professional life to studying was the latest form of a structure that had been operating, under varying names and in varying instruments, since the temple scribes of Mesopotamia first learned that the gap between what was recorded and what was counted could be made to serve a private interest. He did not know that the 1895 letter — which Holmes wrote for himself, without telling Watson — would be read by a son Watson did not know Holmes had, and by that son's sons and daughters after him, and that the chain of understanding transmitted in that letter would continue to equip the line's members against the network's continuing operations for as long as both persisted.</p>
+<p>He knew the man. He gave the man to the world. The chronicle, which knows the rest, is grateful for the gift, and will not presume to improve upon it.</p>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<hr />
+<h4 class="sub-section-heading">Ⅵ. The Last Cases and the Sussex Retirement</h4>
+<p>Holmes retired to the Sussex Downs in 1903. He kept bees, as he had intended; he wrote his <em>Practical Handbook of Bee Culture, with Some Observations upon the Segregation of the Queen</em>, which was, by the account of those who knew the subject, a serious contribution to apiculture; and he pursued, in the downland air with the Channel visible from his garden on clear days, the reflective life that his temperament had never previously permitted. He was forty-nine years old. He had been working, in one form or another, since his early twenties. Watson visited. The Sussex cottage was the nearest either of them came, in their professional lives, to rest.</p>
+<p><em>His Last Bow</em>, published in 1917 but describing events of August 1914, shows Holmes emerging from that retirement at the request of his country — playing the American agent Altamont for two years, penetrating a German intelligence network, delivering its chief to the authorities on the eve of the war. Watson was present. The closing scene of that account — Holmes on the terrace, Watson beside him, the great German war about to begin, Holmes saying that there is an east wind coming such as never blew on England yet — is Watson at his literary finest, and it is the last piece of Watson's writing in which both men appear together in active collaboration.</p>
+<p>The retirement proper resumed after the war, and the post-1918 accounts in <em>The Case-Book of Sherlock Holmes</em>, the last collection, were written differently from the earlier ones. Some were narrated by Holmes himself; some by a third party; and Watson, in his editorial comments, is a man in his sixties writing about things that happened to both of them when they were younger, with the particular quality of retrospective regard that good memory and great affection produce. He published the last of the accounts in 1927. By then the events described were thirty, forty years past; the Baker Street rooms were long since occupied by others; and the world that had provided the cases — hansom cabs and gas-lit streets and the great colonial empire at its uneasy zenith — was gone as thoroughly as the Rome of the Twelve Caesars or the Athens of Pericles.</p>
+<p>Holmes outlived all of it. He died, as the biographical record at the head of this book notes, at an age exceeding one hundred years, on the Sussex Downs he had chosen for his retreat. Watson had predeceased him. The last word on Holmes's lips was a woman's name, and Watson, who had survived him, never wrote about this.</p>
+<p>The chronicle records it simply. Some things belong to the man rather than the line.</p>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<hr />
+<h4 class="sub-section-heading">Ⅶ. A Final Note on the Chronicle's Debt</h4>
+<p>The reader who has come to this point through eight books of the chronicle — who has met the scribe of Ur in his temple, the Athenian physician in the agora, the Roman lawyer on the Palatine, the Byzantine notary in Constantinople, the Frankish lord in his hall, the Norse navigator on his longship, the Venetian merchant in the Rialto, the Benedictine scholar in his scriptorium, the Elizabethan intelligencer in his office, the Restoration lawyer with his seal-press, and all the rest — has been carried here, to Baker Street, to the gaslight and the Stradivarius and the cold cases spread across the bearskin rug, by the same unbroken thread. Each member of the line carried it forward without knowing, in most cases, quite what they were carrying. Watson, who carried nothing in his own name but gave everything to the preservation of his friend's, is perhaps the purest expression of what a chronicler can do.</p>
+<p>The chronicle, which records the line, records here its gratitude. To Watson, who saw the gift and named it, who preserved it in sixty accounts when the man who possessed it would have preserved nothing, who understood instinctively that this was the kind of thing the world needed to know about — without knowing, and without needing to know, the four-thousand-year story behind the knowledge.</p>
+<p>He was, as Holmes said of him on more than one occasion and in more than one register, the best and wisest man he had ever known.</p>
+<p>The chronicle does not disagree.</p>
+<br><p><em>The sixty accounts are elsewhere, better and complete.<br>The reader who has not yet read them has a great pleasure ahead.</em></p>
+</article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry" id="sherlock-holmes">
+  <div class="entry-nameplate">
+    <h2 class="entry-name"><strong><u>THE</u></strong> SHERLOCK HOLMES</h2>
+    <div class="entry-dateline">born 6 January 1854, Yorkshire — died c.1957, Sussex, England</div>
+  </div>
+  <p>He was born in the depth of a Yorkshire winter, the second son of William Scott Holmes and his wife Marie-Claude, and gave early evidence of a mind so singular in its operations that his family, accustomed as they were to analytical distinction, found themselves at a loss to account for it. He attended university — reading chemistry and pursuing his own irregular course of study in anatomy, law, and the properties of tobacco ash — before abandoning the formal life of a scholar for London and the career he had already determined upon: that of a consulting detective, the world's first and, as he was not reluctant to observe, its only. He established himself in rooms at 221B Baker Street in 1881, where his friendship with Dr. John H. Watson began at St Bartholomew's Hospital, and where Watson's careful chronicling of his cases preserved for posterity what Holmes's own disregard for celebrity might otherwise have consigned to oblivion. The cases were many and various — spanning three decades, touching every stratum of society from the highest to the lowest, and demonstrating again and again that quality which had expressed itself, in one form or another, in every generation of his line since the first scribe of Ur: the ability to read, from the smallest particular, the whole of a hidden truth.</p>
+<p>He disappeared at the Reichenbach Falls in May of 1891, locked in final struggle with Professor James Moriarty, the Napoleon of crime; he was mourned by Watson and by London; and he returned in the spring of 1894 as if from the dead, having spent the intervening years in Tibet, Persia, and elsewhere, because the work was not yet finished. He retired to the Sussex Downs in 1903 to keep bees, write his monograph on the subject, and pursue, at last, a life of his own choosing. He came out of that retirement once more, in 1914, to break a German intelligence network at the request of his country; and then withdrew again, for good. He died, on the evidence available, at an age exceeding one hundred years, and those who attended him in his final hours recorded that the last word on his lips was a woman's name. Watson, who survived him by many years, never wrote about this.</p>
 <div class="children-block">
 <p><em>Children:</em><br>
-- <strong>Sir Edward Holmes</strong> — see next entry.<br>
-- Sir Charles Holmes — knighted subsequently by Queen Elizabeth; a distinguished branch of the line.</p>
+- <strong>Sherlock Holmes Ⅱ</strong> — direct line; son by Miss Falkland; see next entry.<br>
+- Raffles Holmes — son by Marjorie Raffles.<br>
+- Mycroft Adler Norton — elder son by Irene Adler; raised as the son of Godfrey Norton.<br>
+- Nero Wolfe — twin son by Irene Adler; born 1892 in Montenegro; known in his earlier life as Auguste Lupa; subsequently the foremost private detective in America, conducting his cases from a brownstone on West 35th Street, New York, without, wherever possible, leaving his chair.<br>
+- Marko Vukcic — twin son by Irene Adler; born 1892 in Montenegro; his brother's closest friend and the finest restaurateur in New York.<br>
+- Shirley Holmes — daughter by Miss Falkland.<br>
+- Minerva Holmes — daughter by Vivian La Graine.<br>
+- Alice La Graine — daughter by Vivian La Graine.</p>
 </div>
 </article>
 <div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
-<article class="ancestor-entry" id="sir-edward-holmes">
-  <div class="entry-nameplate">
-    <h2 class="entry-name">SIR EDWARD HOLMES</h2>
-    <div class="entry-dateline">~1480 — Yorkshire, England</div>
-  </div>
-  <p>Sir Edward Holmes inherited from his father a knighthood, a Yorkshire estate, and a political position of careful neutrality carefully maintained. He was a consolidator rather than an adventurer — a man who understood that the Tudor settlement, whatever its costs, represented stability, and that stability rewarded those who did not press their claims too vigorously or attract the attention of those above them. He managed the estate through the reigns of Henry VII and the early years of Henry VIII with the methodical competence that had characterised the family's best generations, keeping his accounts in order, his tenants in reasonable contentment, and his opinions largely to himself.</p>
-<p>His particular gift was the reading of men in authority — the assessment, from posture and precedent and the small signals of royal favour, of who stood well at court and who did not. He made himself useful not by courting favour, which required a suppleness of character he did not possess, but by being the sort of man whom those who held favour wished to consult: a man whose assessments were accurate, whose counsel was disinterested, and who would not subsequently be found to have told both sides the same thing in different words. This was a rarer combination than it sounds, particularly at the court of the second Henry Tudor, where the performance of loyalty had become an art form requiring almost daily revision.</p>
-<hr class="story-rule">
-<div class="story-block">
-<p>In the spring of 1523, Sir Edward became involved, through no design of his own, in a matter that required the particular quality of attention his father had passed to him. A merchant of York, one Thomas Batley, came to him with a document: a deed of conveyance purporting to transfer the title of a substantial wool-grazing farm to a gentleman creditor of his. Batley maintained he had never signed such a deed, and that the signature upon it was a forgery. The gentleman creditor — a man named Vessey, with connections to the Inns of Court in London — maintained otherwise, and had the support of two witnesses.</p>
-<p>Sir Edward examined the deed carefully. He knew something of documents; his father had taught him to read a manuscript not merely for its stated content but for the physical evidence of its production — the weight of the ink, the regularity of the hand, the quality of the parchment, the placement of the seal in relation to the fold marks. What he found, after an hour's examination by the light of his study window, was that the deed had been written on parchment that showed fold marks inconsistent with the seal's position: the document had been folded, the seal applied, and then the body of the text written afterward, which meant that the sealed blank had been prepared in advance and the conveyance written into it later. This was a sophisticated forgery, not a crude one — the work of someone who understood the process well enough to subvert it from within.</p>
-<p>He brought his findings not to Vessey's witnesses but directly to the Archbishop of York's commissary court, presenting the physical evidence with the precision of a man who understood that what cannot be argued away is what must be placed before the court. Vessey's case collapsed. The witnesses proved, under examination, to be men who had given testimony in similar proceedings twice before — both times in the Court of Common Pleas, both times in cases brought by creditors whose solicitor was connected, through a chain of introductions, to a notary whose name Sir Edward found, in the footnotes of his father's private papers, in a list of seven names with a marginal note: <em>Follow the notary.</em></p>
-<p>He wrote a memorandum of his findings — carefully, without accusation, in the form of an account of what he had observed and what he had concluded — and sent it to Thomas Cromwell, who was at that time principal secretary to Wolsey and already a man to whom such intelligence was welcome. What Cromwell did with it, the record does not say. What it does say is that the notary Roper's son, who had continued his father's practice, was disbarred from the York courts the following year on grounds unspecified in the formal record. The chain was not broken; but a link of it was removed.</p>
-</div>
-<div class="children-block">
-<p><em>Children:</em><br>
-- <strong>Sir Ralph Holmes</strong> — see next entry.</p>
+<article class="ancestor-entry">
+<div class="prefatory-note">
+<p><strong>A note on the record:</strong><br>The chronicler who has followed this line from its beginning — from the scribe of Ur who first bent his gift toward the hidden discrepancy in the grain tally — arrives now at the period closest to his own time, and finds the record both more abundant and more difficult than any that preceded it. More abundant because the modern world documents everything; more difficult because the modern world also obscures everything, and the members of this line, from the second Sherlock onward, appear to have understood this and acted accordingly. What follows is assembled from private memoranda, legal archives, a handful of unpublished intelligence summaries, and one annotated copy of a family document that passed through several hands before reaching this account. Where the record is thin, the chronicle says so. Where it is absent entirely, the chronicle says that too.</p>
+<p>The organisation that the great detective knew as Moriarty's empire did not die with its Napoleon. It had not died with any of its previous commanders, across the four thousand years this chronicle spans. It reorganised. It found new instruments, new languages, new legitimate fronts behind which the same essential structure — hierarchical, durable, insulated from prosecution by layers of apparent respectability — continued its operations. The Whitechapel counting house that appears in the records of the second Sherlock's time bore a different name in each subsequent generation. The address did not change. Addresses, unlike names, are harder to fabricate from nothing.</p>
 </div>
 </article>
 <div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
-<article class="ancestor-entry" id="sir-ralph-holmes">
+<article class="ancestor-entry" id="sherlock-holmes-ii">
   <div class="entry-nameplate">
-    <h2 class="entry-name">SIR RALPH HOLMES</h2>
-    <div class="entry-dateline">~1530 — Yorkshire, England</div>
+    <h2 class="entry-name">SHERLOCK HOLMES Ⅱ</h2>
+    <div class="entry-dateline">born 1893 — London, England</div>
   </div>
-  <p>Sir Ralph Holmes came of age in the decade when the world turned. Henry VIII's break with Rome, and the dissolution of the monasteries that followed, redistributed more land and wealth in a shorter time than any event in English history since the Conquest. It required only a clear eye and a willingness to act to profit considerably from the upheaval — and Sir Ralph, surveying the situation with the analytical detachment that ran in his blood, saw exactly what was available, converted to the new religion at a moment precisely calculated to be neither suspiciously early nor dangerously late, and acquired monastic lands in the North Riding at prices that reflected the Crown's eagerness to sell rather than the property's actual worth.</p>
-<p>He was not a man of principle in the theological sense; he was a man of observation in the practical one. The Reformation, to Sir Ralph Holmes, was a set of facts to be read and responded to, not a spiritual crisis to be resolved. He read them correctly, but reading them correctly was not, in the England of the 1530s and 1540s, sufficient to avoid all difficulty. The convulsion of the Church had created conditions of extraordinary opportunity for those whose business was the production of false documents: land titles disputed by dissolved monasteries and their former tenants, heresy accusations weaponised as instruments of financial pressure, recusancy charges deployed against men whose crime was not their religion but their land. The Fellowship of the Broken Seal — the network his father had brushed against and his grandfather had first identified — was operating at the height of its powers.</p>
+  <p>He was born in the autumn of the Great Hiatus, in the months when London mourned a detective who was not, in fact, dead — which meant that the boy's father was alive somewhere in the world, and entirely unavailable, and known to the public only as a man who had gone over a waterfall in Switzerland with the most dangerous criminal mind in Europe. His mother, Miss Falkland, was a woman of considerable intelligence and deliberate social invisibility, who had managed, in the years preceding the birth and in the years following it, to keep her son's parentage a matter of inference rather than record. She raised him in Holborn, in respectable obscurity, among books and the careful habits of a woman who understood that knowledge, properly ordered, was the only reliable protection a person of limited means could acquire. The boy grew up knowing, in the way that such things are known — not told but observed, deduced, confirmed by the particular quality of his own mind when set against the minds of those around him — exactly who his father was.</p>
+<p>Watson encountered him once, in the autumn of 1903, when Holmes Ⅱ was ten years old and already possessed of that quality of watchful attention that the old doctor, who had spent twenty years in its company, could not mistake. He noted, in a private memorandum that survived among his papers, that the boy's eyes were his father's exactly — and that when introduced to a stranger, he had spent the first thirty seconds in a silence that was not shyness but assessment. Watson did not record what conclusion the boy had reached. He recorded that the stranger, a solicitor of his acquaintance, had been visibly unsettled by it.</p>
 <hr class="story-rule">
 <div class="story-block">
-<p>In 1547, in the first year of Edward VI's reign and the most radical phase of the English Reformation, Sir Ralph was approached by a man named Cordell, a wool broker of Halifax, who came to him in some distress. Cordell's title to a grazing estate — acquired legitimately from the Crown at the dissolution of Rievaulx Abbey — had been challenged by a document asserting a prior claim by a gentleman of the West Riding named Dacre. The document was a pre-dissolution lease, purportedly granted by the last abbot of Rievaulx to Dacre's father for a term of ninety-nine years and therefore still valid. Cordell maintained he had never heard of any such lease in the twenty years he had held the land.</p>
-<p>Sir Ralph visited the estate, which he had occasion to know from his own land dealings, and spent two days in methodical examination. He did not begin with the document itself. He began with the land: the hedges, the drainage channels, the patterns of grazing evident in the turf, and the testimony of the oldest tenant, a man of seventy who had been born on the farm in the last decade of the previous century. From the tenant he learned that the land had been directly farmed by the abbey until its dissolution — that there had been no tenant of the family Dacre, no subtenant, no evidence of any occupation but the abbey's own in living memory.</p>
-<p>Then he examined the document, and found three things. The first was that the ink of the abbot's signature was of a slightly different shade from the ink of the body text — the shade consistent with writing done in an unheated room in cold weather, which the signature was, and the body text was not. The second was that the abbot's seal, which should have been affixed at the foot with a tongue of parchment cut from the foot of the document itself, was affixed with a separate tongue that had been added — the cutting edge of the original document foot visible as a faint line beneath the attached tongue. The third was that the witnesses listed in the document included a monk who, according to the abbey's own surviving records — which Sir Ralph obtained from the new owners of the Rievaulx buildings — had died in 1521, three years before the lease was purportedly executed.</p>
-<p>He presented these findings to the Court of Augmentations, which had jurisdiction over dissolved monastic property, with a written account of his method and his conclusions and a rider noting that the Dacre family's solicitor was a man named Whitmore, who had offices in Gray's Inn and had appeared as solicitor in eleven previous title disputes involving dissolved monastic property, in eight of which the challenging document had shown similar physical anomalies. The Court found for Cordell. Whitmore was referred to the relevant benchers of Gray's Inn, who suspended him from practice for a period of two years — at the end of which he returned to practice under a different name, in different chambers, working through a different set of intermediaries. The network was not destroyed. It was inconvenienced, and a portion of its income was redirected. Sir Ralph Holmes died considerably wealthier than he had been born, the family's position stronger than at any point since Walter's knighthood at Towton — and left his son, alongside the deeds to those newly acquired acres, a careful account of the solicitor's method and the physical tells of his forger's hand.</p>
+<p>Holmes Ⅱ established himself in the first years of the new century as an inquiry agent of quiet distinction in the Holborn district, operating under his own name without publicly connecting it to the Baker Street legend — an omission that suited him perfectly, since the legend invited expectations he had no interest in managing, and the work, in his experience, went better when the subject of an inquiry did not know they were being observed. He was not his father; the flamboyant reconstruction, the dramatic disclosure, the audience arranged for maximum effect — these were not his methods. He was quieter, more patient, content to allow the truth to arrive at its own pace so long as it arrived. His clients were merchants, solicitors, insurance companies, and occasionally individuals who had found themselves in circumstances they could not account for and did not know where else to turn.</p>
+<p>It was the insurance work that brought him, in the spring of 1912, to the case that would occupy the next two years of his professional life and confirm, beyond any further personal doubt, that the organisation his father had faced at Reichenbach had not ended there.</p>
+<p>The matter began with a routine referral from a marine underwriter at Lloyd's — a firm of Holborn shipping factors, T. Hargreave &amp; Sons, had filed three substantial claims in eighteen months for cargo lost in transit between the Port of London and Rotterdam. The losses were well documented, the manifests in order, the captain's depositions consistent and detailed. The underwriter had paid the first claim without suspicion, made enquiries before paying the second, and declined the third pending investigation. The enquiry that followed was, on its face, unremarkable: goods did vanish in transit, captains were not always honest, port officials were occasionally compromised. Holmes Ⅱ was asked to review the documentation and offer an opinion.</p>
+<p>He began, as he always began, not with the claims themselves but with the pattern of the claims. The first loss had occurred on a Tuesday in March; the second on a Thursday in October; the third on a Tuesday in February. He noted this without yet attaching significance to it. He noted also that all three vessels had been loaded at the same Thames-side wharf, by the same gang of stevedores, under the supervision of the same wharfinger — a man named Crale, twenty-two years in the trade, unremarkable record, lodgings in Bermondsey. He noted that the manifest for each lost cargo had been countersigned, at the factor's office, by the same clerk. He noted that the clerk had resigned his position three weeks after the third claim was filed, giving no forwarding address.</p>
+<p>The resigned clerk was, ordinarily, where the matter would have ended — a dishonest employee, a crooked wharfinger, a straightforward fraud. But Holmes Ⅱ was his father's son, and his father's son had been left, among his mother's papers, a single document: a letter, written in 1895 and never sent, in which the original Sherlock Holmes had set down, for his own reference, the structural characteristics of the Moriarty organisation as he had observed them over three years of close study. Among those characteristics was this: the organisation never operated through a single corruptible employee. It always operated through a corruptible employee, a legitimate commercial front, and a directing intelligence at a third remove from the actual fraud — insulated by two layers of apparent innocence from any consequence that might follow discovery. The clerk was layer one. Crale the wharfinger, Holmes Ⅱ suspected, was layer two. Layer three was elsewhere.</p>
+<p>He found it by following the money, which led not to the clerk's lodgings in Bermondsey but to a bill-discounting house in a court off Bishopsgate, which led in turn to a counting house in Whitechapel, the senior partner of which was a man named Gruner — not the Baron Gruner his father had dealt with in 1902, but a cousin, it emerged, a man of careful commercial reputation and no criminal record, whose name did not appear in any public connection with the Hargreave frauds or with any of the eleven other insurance claims that Holmes Ⅱ identified, over the following eight months, as sharing the same structural signature. The Whitechapel address, when checked against the records his mother had kept of his father's papers, was the same counting house that had appeared in the background of two Moriarty-adjacent cases from the 1880s — different names both times, same address.</p>
+<p>He brought his analysis to the underwriter at Lloyd's, who brought it to a King's Counsel, who brought it before a special examiner appointed by the Board of Trade. Holmes Ⅱ did not appear at the examination. His name does not appear in any of the proceedings. Gruner's firm was wound up in December 1913; Gruner himself left for the Continent and did not return; Crale the wharfinger was convicted of fraud at the Old Bailey in February 1914 and sentenced to seven years. The network, as always, contracted but did not cease. The address in Whitechapel stood empty for six months, then acquired new tenants and a new name.</p>
+<p>He lived quietly, worked methodically, and died in 1946, having seen the world he had been born into become something he could not entirely have imagined. He never sought public acknowledgement of his parentage. That was, one imagines, exactly as he intended.</p>
 </div>
 <div class="children-block">
 <p><em>Children:</em><br>
-- <strong>Sir Stamford Holmes</strong> — see next entry.</p>
+- <strong>Sherlock Holmes Ⅲ</strong> — see next entry.<br>
+- Richard Holmes — no further record.</p>
 </div>
 </article>
 <div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
-<article class="ancestor-entry" id="sir-stamford-holmes">
+<article class="ancestor-entry" id="sherlock-holmes-iii">
   <div class="entry-nameplate">
-    <h2 class="entry-name">SIR STAMFORD HOLMES</h2>
-    <div class="entry-dateline">~1570 — Yorkshire / London, England</div>
+    <h2 class="entry-name">SHERLOCK HOLMES Ⅲ</h2>
+    <div class="entry-dateline">born 1914 — Sussex, England</div>
   </div>
-  <p>Sir Stamford Holmes sat in successive Elizabethan and Jacobean parliaments and left almost no mark upon their proceedings, which was, one suspects, entirely deliberate. His two recorded contributions were these: in the first, he suggested during a debate on the transportation of convicts that the colonies of New England might serve as a destination for lawbreakers, and was informed by a colleague that felons were already being sent there as indentured labourers; in the second, he requested that the doors of St Stephen's Chapel be closed against the draught. He was a man who attended, observed, and kept his own counsel — the family's analytical habit turned, in this generation, toward the preservation of a comfortable anonymity in dangerous times. He understood, with the cold clarity of his line, that Elizabethan London was a city in which the difference between an intelligencer and a man being watched was entirely a matter of who held the warrant, and that conspicuousness of any kind was an invitation to both.</p>
-<p>He was not idle. He had inherited his father's knowledge of the Fellowship of the Broken Seal, and he had added to it: the years at Westminster had given him a view of the network's operations at the level of national politics that his Yorkshire predecessors had only glimpsed. He saw how the Fellowship served the various factions of the Elizabethan court — providing false witnesses for the prosecution of inconvenient men, fabricating treasonous correspondence on behalf of those who needed enemies convicted, supplying the apparatus of legal destruction to whoever had the money to commission it. He understood that the network's coordinator — the man his grandfather had called simply the notary, whose successors had moved through a succession of aliases and addresses — was now operating from London rather than the North, had graduated from land disputes to matters of state, and had become, in the language of a later century, a criminal intelligence service.</p>
+  <p>He was born in the year his grandfather came out of Sussex retirement to break a German intelligence network — which meant that his first year of life coincided with the outbreak of a war that would kill a generation, and that his childhood was shaped by the long aftermath of that killing: the silence in households where the men had not come back, the particular English habit of not speaking about things that had happened, the sense, pervasive in the twenties and thirties, that something fundamental had been broken and not yet repaired. He grew up in Holborn, in his father's household, a spare and watchful boy who read everything and spoke selectively, and who demonstrated the family gift early enough that his father, recognising it, did the thing his own father had apparently not done with him: he explained it. He told the boy what it was, where it came from, what it was for, and what it had cost the men who had carried it before them. It was, by all accounts, an unusual education.</p>
+<p>He did not attend university. He was recruited instead, in the spring of 1936, by a department of the Foreign Office whose precise functions were not described in his letter of appointment, which was brief and which he was asked to destroy. He spent the next three years learning languages — German, principally, and enough French and Italian to be useful — and the related disciplines of close observation, documentary analysis, and the careful management of what other people believed about you. He was good at all of these. He was particularly good at the last.</p>
 <hr class="story-rule">
 <div class="story-block">
-<p>In the spring of 1601, in the weeks following the Essex rebellion and its bloody aftermath, Sir Stamford became aware — through channels he never recorded — that a document was in circulation purporting to show that a member of the Privy Council had corresponded with Essex before the rising. The document was a forgery; Sir Stamford was certain of this before he had examined it, because the accused councillor was a man he had known for fifteen years, and because the content of the alleged correspondence was of a kind that could only have been written by someone who did not know how the man actually expressed himself. But certainty was not evidence, and evidence was what was needed.</p>
-<p>He obtained the document through an intermediary, spent four days in examination, and identified what he found not in its physical properties — which were carefully executed — but in its language. The supposed correspondent was a man who habitually employed the Latin ablative absolute in his written English, a syntactical habit so consistent across twenty years of correspondence that it amounted to a signature. The forged document contained none. It contained instead a phrase — <em>in consequence of which</em> — that appeared, in identical form, in three previous documents Sir Stamford had in his possession: the fabricated testimony of a case in York in 1547, the false lease of 1543, and a suborned deposition in a Chancery case of 1588. The phrase was the forger's own. He had used it reflexively, as a man uses a verbal tic in speech, and had carried it from document to document across half a century of criminal practice — or rather, across three generations of criminal practice, since the original forger's hand and the present forger's hand were visibly distinct but stylistically continuous, as a craft tradition passes from master to student.</p>
-<p>Sir Stamford brought his analysis to Robert Cecil, then principal secretary and effectively the director of Elizabethan intelligence, in a private meeting of which no official record was made. Cecil, who understood information and its applications better than almost any man in England, accepted the analysis, acted upon it, and ensured that the accused councillor's name was removed from the proceedings without the reason being publicly stated. He did not thank Sir Stamford formally, which Sir Stamford had not expected; Cecil's form of gratitude was the form most useful to a man in Sir Stamford's position — a continued willingness to receive him, and a corresponding willingness to forget where the information had come from.</p>
-<p>The Fellowship of the Broken Seal lost its most productive client — the Essex faction having ceased to exist — and contracted accordingly. Its central figure, who had been operating for thirty years under the name Crane, disappeared from the London record after 1601. Whether he died, retired, or simply changed his name and his address, Sir Stamford could not determine. He noted the disappearance and drew the only conclusion available: the organisation survived. Organisations of this kind always survived. They were, in their way, more durable than the states that tried to suppress them, because they had no fixed structure to destroy and no stated cause to defeat — only the permanent human appetite for the destruction of enemies and the protection of guilt.</p>
-<p>His more consequential domestic act was the marriage of his daughter into the Mycroft family of Yorkshire, connecting the Holmes line to George Riley Mycroft, naturalist and author of <em>The Beauties of Creation</em>, a man of considerable local reputation whose surname the family adopted as a given name and carried forward through every subsequent generation. It was a small act with a long echo.</p>
+<p>The wartime record, such as it is accessible, suggests that he operated primarily in the counter-intelligence capacity — the identification and neutralisation of German agents and networks operating within Britain — from 1940 onward, working in coordination with the Intelligence Inner Council and, on specific occasions, with the British Security Coordination in New York and Washington. His companion through much of this period was Dr. James Watson, grandson of the original, a physician of the Royal Army Medical Corps who had been seconded to intelligence duties in 1941 and who possessed, in addition to his grandfather's loyal practicality, a fund of medical knowledge that proved unexpectedly useful in the assessment of what a man's physical condition could disclose about where he had recently been. The partnership attracted, in certain circles, precisely the kind of half-suppressed recognition that Holmes Ⅲ would have preferred to avoid: people who encountered them noted that the tall, spare, hawk-featured consulting detective and his somewhat rotund, affable doctor companion presented a silhouette that the popular imagination had been trained, by forty years of Watson's chronicles, to associate with Baker Street. Holmes Ⅲ dealt with this by the simple method of never addressing it. The Intelligence Inner Council, for their part, found the association useful; it gave their consulting asset a quality of legendary invulnerability that an unknown operative would have lacked.</p>
+<p>The case that this chronicle selects from among those years — not for its dramatic surface but for what lay beneath it, and for the thread it contributed to the long record — concerned not a German intelligence operation but something older, and in some respects more dangerous.</p>
+<p>It began in the winter of 1942, when a set of intercepted communications between a London-registered import firm and a banking correspondent in Lisbon revealed a pattern that Holmes Ⅲ recognised as anomalous in a specific way: the transactions were not moving money toward Germany, as a conventional enemy financial operation would have done, but were moving it into a neutral account structure in Switzerland — accessible, in principle, to either side, or to neither. The firm, Meridian Trade and Finance, occupied an office in the City; its registered address for correspondence was a counting house in Whitechapel. Holmes Ⅲ noted the Whitechapel address in his file, remembered where he had seen it before, and began to attend to the matter with a focus that went beyond its immediate intelligence value.</p>
+<p>What he found, over the following four months, was a financial structure of considerable sophistication: a network of nominally independent firms in London, Lisbon, and Geneva, connected by overlapping directorships and shared banking correspondents, that had been in operation — under varying names, with varying personnel, but with a consistent underlying architecture — since at least the early years of the century. The London anchor was the Whitechapel counting house. The Swiss account structure was administered by a Geneva fiduciary whose client list was, officially, confidential, but whose correspondence with Lisbon disclosed at least three clients with addresses traceable, by Holmes Ⅲ's meticulous cross-referencing of commercial registers, back to directorship structures that appeared in his father's files on the Hargreave fraud of 1912.</p>
+<p>The organisation was not working for Germany. It was not working for Britain. It was working for itself — sustaining the war by ensuring that both sides continued to have access to certain categories of strategic materiel, routed through neutral intermediaries, at prices that reflected the operational costs of a network that had been maintaining this kind of service, across conflicts and across generations, for longer than anyone currently directing it could personally remember. Holmes Ⅲ spent a weekend with his father's files, read his grandfather's 1895 letter, and sat for some time in silence.</p>
+<p>He delivered a sealed memorandum to the Intelligence Inner Council in March 1943, identifying the network, its structure, its personnel, and its mechanism of operation. He did not speculate, in the memorandum, about the organisation's historical depth; that was not what the Council required. What they required was actionable intelligence, and he provided it with the precision that was his particular gift. The Meridian firm was wound up; its directors were interned under Defence Regulation 18B; the Swiss account structure was frozen through diplomatic channels. Holmes Ⅲ's name did not appear in any of the proceedings.</p>
+<p>He was in Washington six weeks later, on a separate matter connected to a stolen document and the protection of an allied intelligence asset — a case that the record, characteristically, does not detail — when he met Eleanor Marsh of Boston, Massachusetts, at a reception at the British Embassy. Eleanor Marsh was a woman of intelligence, directness, and an immunity to oblique conversational management that Holmes Ⅲ found, after a professional lifetime of dealing with people who concealed things, entirely refreshing. She told her grandchildren, many years later, that she had known within ten minutes of meeting him that he intended to marry her, and had found this less alarming than it perhaps ought to have been, because it was, she had concluded by the end of the evening, the correct outcome.</p>
+<p>They married in London in June 1944. After the war he followed her home to America, where he lived quietly in Massachusetts and died in 1977. The Yorkshire connection, such as it still was, passed to a cousin of his father's branch. Eleanor outlived him by twelve years and described him, in a letter to her eldest grandchild, as the most completely honest man she had ever known — noting, with the dry precision that her grandchildren recognised as a family inheritance on both sides, that this was consistent with his being also the most completely certain man she had ever known, which was occasionally less comfortable to live with than honesty alone.</p>
 </div>
 <div class="children-block">
 <p><em>Children:</em><br>
-- <strong>Sir Henry Holmes</strong> — see next entry.<br>
-- A daughter, who married into the Mycroft family of Yorkshire.</p>
+- <strong>Sherlock Holmes Ⅳ</strong> — see next entry.</p>
 </div>
 </article>
 <div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
-<article class="ancestor-entry" id="sir-henry-holmes">
+<article class="ancestor-entry" id="sherlock-holmes-iv">
   <div class="entry-nameplate">
-    <h2 class="entry-name">SIR HENRY HOLMES</h2>
-    <div class="entry-dateline">~1615 — Yorkshire, England</div>
+    <h2 class="entry-name">SHERLOCK HOLMES Ⅳ</h2>
+    <div class="entry-dateline">born 1945 — Boston, Massachusetts</div>
   </div>
-  <p>Sir Henry Holmes was born in the reign of James I and came of age watching the country slide, with gathering speed, toward catastrophe. He was not a political man by temperament — the family had cultivated a careful distance from controversy since Sir Stamford's parliamentary career of studied insignificance — but the 1640s did not permit neutrality, and Henry Holmes, when forced to declare himself, declared for the King. He raised his son Symonds in a Royalist household, instilled in him the obligations of loyalty and the habits of careful observation, and appears to have died during the Interregnum years, leaving his son to reclaim what he could when the monarchy was restored.</p>
-<p>The England of the 1630s had produced a new instrument of the Fellowship's art: the false informer, reporting to the Privy Council or to Parliament's committees the recusancy, sedition, or delinquency of men who could be ruined by the accusation alone, regardless of its truth. Henry Holmes had encountered this instrument once, in 1636, when a neighbour of his in the North Riding — a gentleman of old Catholic family named Pickering — came to him having received notice that an information had been laid against him for harbouring a recusant priest. Pickering maintained he had done no such thing. Henry Holmes, who knew Pickering's household as well as his own, was inclined to believe him, not from friendship but from evidence: Pickering's religion was his business, but his household management was meticulous and his staff loyal in the manner of a man who paid well and treated fairly, neither of which qualities was consistent with the harbouring of a fugitive without universal knowledge below stairs.</p>
+  <p>He was born in September 1945, six weeks after the Japanese surrender, into a household where the war's end had produced not relief but a particular quality of English silence that his American relatives found difficult to interpret and his mother had long since learned not to attempt to explain. His father's silences were not unhappy; they were the silences of a man who had spent a professional lifetime reading what other people concealed, and who had made, on arriving in America, a private decision to direct that faculty inward rather than outward — to observe his own life, for once, with the same attention he had previously given to the lives of others. He was, by his son's account, an exceptional father: present, attentive, and constitutionally incapable of pretending not to know things he knew, which meant that the usual parental fictions were unavailable to him and that the boy grew up in a household of considerable, occasionally startling, transparency.</p>
+<p>He inherited the gift fully and expressed it in the language of his time and place, which was the language of the law. He read at Harvard, was called to the bar in 1969, and spent the early years of his career in a Boston firm of commercial solicitors before moving to the federal practice that would occupy the remainder of his professional life. His particular facility was financial fraud — cases built not on witness testimony or physical evidence but on documentation: the ten thousand pages of ledgers, correspondence, incorporation filings, and banking records that told, to a reader with the patience and the precision to follow them, a story entirely different from the one their authors had intended. He was not, his colleagues noted, a brilliant advocate; he did not perform in court with any of the theatrical authority that juries respond to. He was something rarer and, in the federal context, considerably more useful: a man who could read a fraudulent financial structure from its documentary residue the way his great-great-grandfather had read a criminal from his boots and his cuffs, and who could explain what he had found in terms precise enough to survive cross-examination by the best commercial barristers in New York.</p>
 <hr class="story-rule">
 <div class="story-block">
-<p>He spent a day at Pickering's house, not examining the property — which had already been searched, without result — but examining the information itself, which Pickering had obtained a copy of through a connection in the Council. It was anonymous, as such informations tended to be, but it was specific: it named the room in which the priest had supposedly been concealed, the date, and the route by which he had been brought to the house. The route was wrong. Not improbably wrong — wrong in a way that only a man who had actually ridden it would know, because the stated route crossed a ford that had been bridged eight years earlier, and no person travelling in the direction described would have used a ford when a bridge stood a hundred yards away. The informer had described a journey he had learned of rather than made.</p>
-<p>Henry Holmes could not identify the informer from this fact alone. What he could do was demonstrate to the Council official responsible for pursuing the charge that the information contained evidence of its own fabrication — that whoever had supplied it had used directions to Pickering's house that predated the bridge, which was a matter of county record, and had therefore not been present when the supposed concealment occurred. The charge was not proceeded with. The official who received Henry Holmes's memorandum on the subject was a man named Welford, who was, as Henry would subsequently establish with some certainty, himself connected to the Fellowship — receiving commissions for the pursuit of false informations in exchange for a share of the fines and forfeitures that successful prosecution produced. Welford was not prosecuted; he was, instead, simply aware that Sir Henry Holmes had identified the tell in his informer's method, and this awareness constrained the informer's future work somewhat.</p>
-<p>He is a figure known almost entirely through his son — the generation that prepares rather than acts, whose significance lies in what it transmits rather than what it accomplishes. In a lineage as long as this one, such men are not the least important.</p>
+<p>He married in 1972, late by his generation's standards, and said very little about it then or afterward. His wife, a woman of considerable private force, died young; and Holmes Ⅳ, who had not been demonstrative in his happiness, was similarly unrevealing in his grief, which his son later understood to have been considerable.</p>
+<p>The case that defined the middle period of his career came to him indirectly, in the winter of 1977, through a referral from a colleague at the Securities and Exchange Commission who had noticed, in the wreckage of a collapsed Boston pension fund, something he could not quite account for — a structural anomaly in the fund's investment allocations that suggested, to his colleague's less developed but genuinely alert instinct, that the collapse had not been accidental.</p>
+<p>Holmes Ⅳ took the files home over a weekend and read them with the quality of attention he reserved for problems that interested him — which was, as his son observed in later life, the quality of attention other men reserve for very little. What he found in that first weekend was the anomaly his colleague had noticed: a pattern of investment decisions that had systematically directed the fund's assets toward instruments that were, by any reasonable analysis, almost certain to lose value, in a way that was too consistent to be incompetence and too subtle to be immediately legible as fraud. What he found in the three months that followed, as he acquired the files of four more collapsed pension funds in New York, New Jersey, and Connecticut, was that the same structural signature appeared in all five — and that each fund, at the moment of its collapse, had been holding a significant position in instruments issued by a cluster of connected financial vehicles that traced back, through a series of nominee directorships and shared legal counsel, to a single New York investment management firm: Aldgate Capital Partners.</p>
+<p>The name Aldgate was not, on its face, significant. But Holmes Ⅳ had his father's papers, and his father's papers included the sealed memorandum of 1943, and the sealed memorandum of 1943 included, in a footnote, the observation that the London anchor of the wartime financial network had maintained a New York correspondent under a series of names, all of them featuring either a reference to London postal districts or a reference to the trade routes along which the network's historical operations had been conducted. He noted this. He did not yet conclude from it.</p>
+<p>He concluded from it six weeks later, when a subpoena to Aldgate Capital's incorporation documents revealed that the firm's registered legal counsel in its 1958 incorporation filing was a London solicitors' firm, now dissolved, whose senior partner's name appeared in a 1946 Board of Trade enquiry into the winding-up of a City of London import company called Meridian Trade and Finance.</p>
+<p>He sat with this for a day. Then he assembled his analysis — five pension fund collapses, one New York investment firm, one London legal connection, one wartime precedent — and delivered it to the United States Attorney for the District of Massachusetts in a memorandum of forty-seven pages, accompanied by twelve lever-arch files of supporting documentation. He did not include the historical analysis; he included only what was legally actionable. Seventeen individuals associated with Aldgate Capital and its connected vehicles were indicted in 1979; eleven were convicted; the firm was dissolved. Holmes Ⅳ was never called as a witness. His name does not appear in the indictment or in the trial record.</p>
+<p>He retired in 1998, having spent fifty years in the law, and died in 2009 at sixty-four — too young, his son thought, for a man who had always seemed to him to have more of the work left to do.</p>
 </div>
 <div class="children-block">
 <p><em>Children:</em><br>
-- <strong>Sir Symonds Holmes</strong> — see next entry.</p>
+- <strong>Sherlock Holmes Ⅴ</strong> — see next entry.</p>
 </div>
 </article>
 <div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
-<article class="ancestor-entry" id="sir-symonds-holmes">
+<article class="ancestor-entry" id="sherlock-holmes-v">
   <div class="entry-nameplate">
-    <h2 class="entry-name">SIR SYMONDS HOLMES</h2>
-    <div class="entry-dateline">~1640 — Yorkshire / London, England</div>
+    <h2 class="entry-name">SHERLOCK HOLMES Ⅴ</h2>
+    <div class="entry-dateline">born 1970 — Boston, Massachusetts</div>
   </div>
-  <p>Sir Symonds Holmes rode with Prince Rupert's cavalry at Marston Moor on the second of July 1644 and was present at one of the decisive defeats of the Royalist cause, surviving the rout that followed with his life and his convictions intact. The battle was not his finest hour — cavalry actions at that scale and in those conditions offered limited scope for the particular kind of intelligence his family excelled at — but the aftermath was. In the confusion of the Parliamentary pursuit, he gathered and preserved the dispatches of three Royalist officers, reading them in a ditch while the sound of musket fire faded, and extracting from them a clear picture of the Royalist commanders' intentions that he conveyed to Prince Rupert in time to prevent a mismanagement of the remaining forces that would have turned a defeat into an annihilation. He was commended for this, quietly, in terms that his commanding officer would later be unable to recall making.</p>
-<p>The family's estates suffered during the Interregnum years — sequestration, fines, the grinding attrition of supporting a losing side — but Sir Symonds did not go into exile, and at the Restoration he was among those who found themselves, after years of patient loyalty, in a position to be rewarded. He used that position with the precision of a man who had been waiting. He applied for and received a modest annuity in recognition of his service, cultivated the right connections at the restored court without becoming dependent on any of them, and retrieved the sequestered portion of his estate through a legal process so carefully documented that the Parliamentary committee's own records furnished the evidence of the restoration.</p>
+  <p>He was his father's son in the way that the line had always produced its sons: not by any particular intention on either side, but by the operation of something in the blood that expressed itself, in each generation, as the same fundamental faculty in a new set of circumstances. His father had explained it to him, as his great-great-grandfather had explained it to Holmes Ⅲ, as a thing to be understood rather than celebrated — a tool with specific purposes and specific limitations, not a general superiority but a particular kind of sight that came with the obligation to use it for something other than personal advantage. Holmes Ⅴ absorbed this instruction and, by his own account, failed to live up to it in approximately the ways that his father had predicted he would: he was impatient with people who did not follow his reasoning; he was poor at concealing what he had concluded; and he had, as his daughter Charlotte observed in her less guarded moments, the intermittent quality of being entirely present and the more frequent quality of being present in body while absent in everything else, which was difficult to live with and impossible to argue with because he was, when challenged about it, always able to explain precisely where he had been and why.</p>
+<p>He was educated at Harvard, like his father, read law, and then did not practice it — turning instead to the adjacent but less constrained world of policy analysis and congressional consultation, where the analytical faculty he had inherited could be applied to the large, complex, poorly documented systems of power and money that his generation had inherited from the Cold War and were dismantling, or believed they were dismantling, with varying degrees of success. He worked as a consultant to several Senate committees through the nineties and into the first years of the new century, with a reputation for finding the thing in a document collection that everyone else had looked at and not seen.</p>
 <hr class="story-rule">
 <div class="story-block">
-<p>What he did with the restored peace was characteristic of the best of his line. In the 1660s he became an early subscriber to Robert Hooke's <em>Micrographia</em> and a fellow of the newly chartered Royal Society — the first Holmes to apply the family's gift of close observation explicitly to the natural world, to set it within a framework of experiment and verification, to understand that the careful examination of minute particulars was not merely a practical skill but a method capable of unlocking the deepest secrets of nature. He corresponded with Hooke about the application of the microscope to the examination of documents — the magnification of ink strokes, the analysis of parchment fibre, the investigation of seal wax composition — and Hooke's notes on these conversations, preserved among his papers at the Royal Society, contain passages that read, to any student of a later Holmes, with an uncanny familiarity: <em>My friend S.H. observes that the forger cannot suppress his natural hand entirely; in the small strokes, the unattended particulars, it reasserts itself as a man's character reasserts itself when he believes he is not being observed.</em></p>
-<p>His great contribution to the Fellowship's eventual accounting was less dramatic but more consequential than any of his predecessors': he completed the genealogy. Working from his grandfather's list, his father's papers, and his own observations, he traced the succession of the network's central figures across one hundred and forty years — not continuously, for there were gaps, but with sufficient clarity to establish that they were a succession rather than a series of coincidences, and that the Fellowship was an institution rather than a conspiracy. He drafted this account carefully and sent it, with a covering letter he composed in a single evening and never redrafted, to Joseph Williamson, who was at that time the effective head of Charles II's intelligence apparatus. Williamson's response was brief: <em>Your account is received and its significance is not lost upon me. I should wish to speak with you at your convenience.</em> The meeting that followed was not recorded. The Fellowship's operations in London contracted sharply in the years 1667 to 1670, in ways that suggested a dismantling rather than a natural decline. Sir Symonds's grandson Sherlock would say that he believed in the science of deduction; Sir Symonds Holmes, two centuries earlier, had understood something very similar, and had found the institution that would one day give it a name.</p>
+<p>In the autumn of 2001, in the weeks immediately following the attacks of September 11th, he was engaged by the Senate Select Committee on Intelligence to assist in a review of pre-attack intelligence failures — one of several such engagements across multiple departments and committees, overlapping and partially duplicating one another in the way that governmental responses to catastrophe tend to do. Holmes Ⅴ accepted the engagement with the private reservation that intelligence failures of that scale were rarely simple failures and that the more productive question was usually not what had been missed but what had been noticed and not acted upon, and why.</p>
+<p>He found what he was looking for in the second month, in a sub-collection of interagency communications that had been marked for the review's attention as evidence of missed connections. What he found was not, in itself, incriminating: a pattern of threat assessments, originating from different agencies and concerning different threat streams, that had been routed through a Washington-based interagency coordination unit and had each, at that unit's level, received the same processing designation — a designation that, in practice, resulted in the assessment being forwarded to a secondary queue rather than the primary action queue, and consequently being acted on with a delay that, in three specific cases, had meant it was not acted on at all. The unit had existed since 1995. Its director had retired in August 2001.</p>
+<p>That was, on its face, administrative incompetence of the kind that large bureaucracies produce habitually and that reviews of this kind document regularly without consequence. What made it not that — what made Holmes Ⅴ sit with the sub-collection for three days and read it again from the beginning with a different set of questions — was the pattern of what had been delayed. The delayed assessments were not random. They were, without exception, assessments that, if acted upon, would have exposed the operational activities of a cluster of private security and intelligence contractors who held clearances for access to the same category of information the assessments concerned. The delay had systematically protected those contractors from scrutiny. The protection had the structural signature of design rather than accident.</p>
+<p>He spent another month tracing the contractors. They led, through the familiar mechanism of nominee directorships and shared legal counsel, to a Delaware holding company, which led to a Cayman Islands beneficial ownership structure, which led — at the third remove, through a document he obtained from the SEC's historical filings under a FOIA request — to a New York investment management firm that had been dissolved in 1979 following a federal indictment. The name in the dissolution filing, as legal representative of the dissolved firm's residual interests, was the same Washington attorney who had incorporated the Delaware holding company in 1987.</p>
+<p>He submitted a sealed memorandum to the committee chairman in January 2003. The contractors in question lost their security clearances in the subsequent review cycle; the precise grounds were not made public. Holmes Ⅴ's name does not appear in any public record of the committee's proceedings. He was, by then, accustomed to this.</p>
+<p>He recognised the gift in both his children before either of them recognised it in themselves, and handled the recognition imperfectly in the ways that men of his temperament handle most intimate things — with precision about the what and considerable uncertainty about the how. He loved them in the way that the line had always loved: completely, silently, and with an attention to their qualities that they experienced, alternately, as the most sustaining and the most unsettling thing about him.</p>
 </div>
 <div class="children-block">
 <p><em>Children:</em><br>
-- <strong>Sir Richmond Holmes</strong> — see next entry.</p>
+- <strong>Sherlock Holmes Ⅵ</strong> — see next entry.<br>
+- Charlotte Holmes (born 2001) — also possessed of the full inheritance.</p>
 </div>
 </article>
 <div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
-<article class="ancestor-entry" id="sir-richmond-holmes">
+<article class="ancestor-entry" id="sherlock-holmes-vi">
   <div class="entry-nameplate">
-    <h2 class="entry-name">SIR RICHMOND HOLMES</h2>
-    <div class="entry-dateline">~1670 — London / Yorkshire, England</div>
+    <h2 class="entry-name">SHERLOCK HOLMES Ⅵ</h2>
+    <div class="entry-dateline">born 1999 — United States</div>
   </div>
-  <p>Sir Richmond Holmes moved to London after his father's death and discovered, as a number of clever men have discovered before and since, that cleverness in the company of the dissolute court of Charles II is an insufficient protection against its pleasures. His friendship with the Earl of Rochester — the most brilliant and most ruinous companion available to a young man of means in the 1670s — was expensive in every sense of the word, and Sir Richmond pursued it with an enthusiasm that his estate could not sustain. He could read men well enough; he simply chose, with the clarity of someone who knows exactly what they are doing, to read them toward his own entertainment rather than his own advantage.</p>
-<p>And yet there was one occasion — one moment in which the family's deeper nature asserted itself over the surface pleasures that Richmond had chosen as his medium — which warrants recording, not because it redeems him in any comprehensive sense, but because it demonstrates that the gift does not vanish in those who decline to cultivate it; it waits.</p>
+  <p>Of all the members of this line since the first Sherlock, he is the most difficult to write about. The difficulty is not a function of the record's scarcity, though the record is scarce; it is a function of a quality in the man himself that the record, where it exists, consistently reflects. He moves through documentation as he apparently moved through rooms: leaving the minimum necessary trace, attending to everything, committing to nothing that would fix his position for the benefit of anyone who might, at a later point, wish to know where he had been.</p>
+<p>His father observed the gift in him early — earlier, perhaps, than in any generation since the first Sherlock — and transmitted to him, as his own father had transmitted it to him, the instruction that had accompanied it through the line: what it was, where it came from, what it was for. Holmes Ⅵ received this instruction and drew from it a conclusion that no previous member of the line had quite reached, or had reached and not acted on so completely: that the gift, properly exercised, operated most effectively in advance of the event rather than in response to it. His predecessors had been detectives in the fullest sense — readers of what had happened, tracers of what was hidden, resolvers of crises already in progress. Holmes Ⅵ was something different. He was a preventer.</p>
 <hr class="story-rule">
 <div class="story-block">
-<p>In the autumn of 1678, Rochester lay dying at Woodstock, and Richmond Holmes had come to visit him. The journey took him through Oxford, where the city was in a state of considerable agitation: the Popish Plot, Titus Oates's magnificent and murderous fabrication, had reached its peak of credibility, and an acquaintance of Richmond's — a Jesuit-educated gentleman named Vane who had been at school with him and who was emphatically not a Jesuit — had been named in a deposition as a suspected conspirator. The deposition was anonymous. The charge was, in practical terms, a death sentence, since no jury in England in 1678 would acquit a man accused of Popish conspiracy, guilty or innocent.</p>
-<p>Richmond Holmes spent three days in Oxford — not for Vane's sake, exactly, but because the deposition had been brought to his attention and he had, reading it, noticed something that interested him the way a particular turn of card interests the dedicated gambler: the deposition described a meeting that was supposed to have taken place in a tavern in St Giles's on a date when Richmond himself had been in the same tavern and had not seen Vane, which proved nothing, but which suggested the possibility of establishing where Vane actually had been. He found it by the method his family had always used: he began not with what had allegedly happened but with what must have happened in parallel — the landlord, the ledgers, the serving boys, the physical evidence of an October evening that the deposition's author had chosen precisely because it appeared to offer no witness.</p>
-<p>He was wrong about that. There was a witness: a chandler's apprentice who had delivered candles to the tavern that evening and had noted Vane's absence, because Vane was a regular customer who owed the chandler money and the apprentice had been specifically instructed to look for him. The apprentice had not been asked about this by anyone. Richmond Holmes asked him, and obtained from him a sworn statement that he delivered to the counsel for the defence in Vane's preliminary examination, together with a letter identifying the deposition as the work of a professional witness — a man named Bedloe, who had already given testimony in two previous Popish Plot prosecutions and whose financial relationship with certain of Shaftesbury's associates Richmond had identified through a chain of tavern debts he had traced with the amused thoroughness of a man who understood the London credit market rather better than was good for his own solvency. The charge against Vane was not proceeded with.</p>
-<p>He did not do this from principle. He did it because he had noticed something wrong, and the family mind could not let a thing noticed go unexamined. It was the last serious application of the gift in his life. He died in 1687 owing large sums to a considerable number of people, the estate at Hutton le Moors mortgaged against debts that would take three generations to fully account for. He left his son Selwyn the name, the house, and the problem — and, folded into the back of his father's private papers, Sir Symonds's careful account of the Fellowship of the Broken Seal, with a marginal note in Richmond's own hand: <em>The old firm. Still trading, after its fashion. I leave it to someone with more patience than I have.</em></p>
+<p>In the spring of 2021, a series of coordinated intrusions into the settlement infrastructure of several major financial institutions — attributed by the public and official record to a state actor whose name appeared in the relevant intelligence assessments with a specificity that Holmes Ⅵ found, on reflection, too convenient — came to his attention through a channel that this record does not identify. The attribution, he concluded after three days of analysis, was the point of the operation, not its by-product. Someone had constructed an attack whose most valuable feature was not what it compromised but whom it implicated; the actual data exfiltrated was, by any reasonable assessment of the attributed state actor's intelligence priorities, of negligible value to that actor. It was of considerable value to a financial network that needed, for reasons Holmes Ⅵ had to reconstruct from his father's sealed memorandum and his grandfather's 1943 document, to know the settlement positions of those specific institutions at that specific moment.</p>
+<p>He identified the actual origin of the intrusion through three convergent observations: the timing of the attacks, which followed a pattern inconsistent with a state actor's operational security discipline but consistent with a commercial entity operating across multiple time zones; the specific nature of the data extracted, which mapped to the settlement exposure of a cluster of financial vehicles that appeared, under current names, in a corporate genealogy he had assembled from regulatory filings going back to 1979; and a cryptographic signature embedded in the intrusion's command-and-control infrastructure that had appeared, in a slightly different form, in a 2003 classified annex to the Senate intelligence committee report that his father had been involved in producing — an annex that had never been made public, and whose appearance now, repurposed as an operational tool, indicated that whoever had designed the current operation had access to material that had been classified for twenty years.</p>
+<p>He routed his findings through a single trusted contact within the relevant federal authority, accompanied by documentation sufficient to allow that contact to act without requiring further explanation. The correct attribution was established in classified channels within six weeks; the financial vehicles lost a major operation; the state actor's name was quietly removed from the public assessments. No announcement was made. No name was attached to the analysis.</p>
+<p>His name appears in no public document. That, as this chronicle has noted before of him, is almost certainly deliberate. The gift, in his hands, became finally and completely what it had always been at its most essential: not a performance, not even a service in the acknowledged sense, but a form of attention — sustained, precise, and directed always at the thing that most required it, regardless of who received the credit for the consequence.</p>
 </div>
 <div class="children-block">
 <p><em>Children:</em><br>
-- <strong>Sir Selwyn Holmes</strong> — <a href="book-7.html">Book VII</a></p>
+- <strong>Sherlock Holmes Ⅶ</strong> — see next entry.</p>
 </div>
-<hr class="story-rule">
-<div style="text-align:center"><em>End of Book VI</em></div>
 </article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry" id="sherlock-holmes-vii">
+  <div class="entry-nameplate">
+    <h2 class="entry-name">SHERLOCK HOLMES Ⅶ</h2>
+    <div class="entry-dateline">born 2021 — United States</div>
+  </div>
+  <p>Son of Sherlock Holmes Ⅵ. The seventh to bear the name; the latest in a line that stretches back, through England and Rome and Greece and Egypt and Mesopotamia, to a scribe in the temple of Nanna at Ur who could read discrepancy in a grain tally as other men read weather, and who understood, in whatever language available to him across four thousand years of distance, that the gift was not his own — that it had come to him from somewhere behind him and was going somewhere ahead of him, and that his obligation was to exercise it faithfully and pass it on intact.</p>
+<p>He is, at the time of this writing, a child.</p>
+<hr class="story-rule">
+<div class="story-block">
+<p>The record will resume when there is something to record.</p>
+</div>
+<div class="children-block">
+<p><em>Children:</em><br>
+- Not yet recorded.</p></div>
+<hr class="story-rule">
+<p><em>The chronicle ends here, for now.<br>The organisation whose operations this record has traced across four millennia — from the temple fraud at Ur to the financial networks of the present century — has not been destroyed. It has not been destroyed in any generation. It has contracted, reorganised, changed its name, moved its address, found new instruments, and continued. It will continue. The line that has opposed it has also continued, generation by generation, without public acknowledgement and without any formal appointment, sustained by nothing more and nothing less than the inheritance of a particular quality of mind and the understanding, transmitted from each member of the line to the next, of what that quality was for.</em></p>
+<p><em>The scribe of Ur did not know that his grandson would carry what he had discovered. The seventh Sherlock does not yet know what he will discover, or what his children will carry forward from it.</em></p>
+<p><em>The record waits.</em></p>
+</div>
+</article>
+<hr class="story-rule">
+<div style="text-align:center"><em>End of Book Ⅵ</em></div>
 </main>
-<div style="text-align:center;padding:1rem 0 0;"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
 <footer class="book-footer">
   <div class="footer-ornament">✦ ✦ ✦</div>
-  <div class="footer-series">The Holmes Chronicle</div>
-  <nav class="footer-nav"><a href="book-5.html">← Book V: Halstead Manor</a><a href="index.html">Series Index</a><a href="book-7.html">Book VII: Decline and Restoration →</a></nav>
+  <div class="footer-series" ><a href="index.html">The Holmes Chronicle</a></div>
+  <nav class="footer-nav"><a href="book-5.html">← Book Ⅴ</a><a href="index.html">← Series</a></nav>
 </footer>
 </div>
 </body>

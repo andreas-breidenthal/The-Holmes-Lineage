@@ -3,476 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book IV: The Frankish and Norse World — The Holmes Chronicle</title>
-  <meta name="description" content="The Holmes Chronicle — a chronicle of 132 generations of the Holmes line, 2050 BC to 2021 AD.">
-  <style>
-
-/* ── Google Fonts ── */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;500;600&family=Cinzel+Decorative:wght@400&display=swap');
-
-/* ── Custom Properties ── */
-:root {
-  --ink:        #1a1612;
-  --ink-light:  #3d3530;
-  --ink-faint:  #7a6f68;
-  --parchment:  #f7f3ec;
-  --cream:      #ede8df;
-  --gold:       #8b6914;
-  --gold-light: #c9a84c;
-  --gold-pale:  #e8d9a8;
-  --rule:       #c4b28a;
-  --rule-faint: #ddd3b8;
-  --red:        #7a1f1f;
-  --max-w:      68ch;
-  --wide-w:     90ch;
-}
-
-/* ── Reset & Base ── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-html {
-  scroll-behavior: smooth;
-  font-size: 18px;
-}
-
-body {
-  background-color: #2b2520;
-  background-image:
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 2px,
-      rgba(0,0,0,0.03) 2px,
-      rgba(0,0,0,0.03) 4px
-    );
-  color: var(--ink);
-  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
-  line-height: 1.8;
-  min-height: 100vh;
-}
-
-/* ── Page Shell ── */
-.page-shell {
-  max-width: 820px;
-  margin: 0 auto;
-  background-color: var(--parchment);
-  background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
-  box-shadow: 0 0 60px rgba(0,0,0,0.6), inset 0 0 120px rgba(139,105,20,0.04);
-  min-height: 100vh;
-}
-
-/* ── Site Header ── */
-.site-header {
-  background-color: var(--ink);
-  background-image: linear-gradient(135deg, #1a1612 0%, #2d2318 50%, #1a1612 100%);
-  padding: 0.5rem 2.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 2px solid var(--gold);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.site-header a {
-  color: var(--gold-light);
-  text-decoration: none;
-  font-family: 'Cinzel', serif;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  opacity: 0.85;
-  transition: opacity 0.2s;
-}
-
-.site-header a:hover { opacity: 1; }
-
-.header-series {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 0.65rem;
-  color: var(--gold-pale);
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-}
-
-.header-nav {
-  display: flex;
-  gap: 1.5rem;
-  align-items: center;
-}
-
-/* ── Book Hero ── */
-.book-hero {
-  padding: 4rem 3rem 3rem;
-  text-align: center;
-  border-bottom: 1px solid var(--rule);
-  background-image: linear-gradient(180deg, rgba(139,105,20,0.05) 0%, transparent 100%);
-  position: relative;
-}
-
-.book-hero::before {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--gold), transparent);
-  margin: 0 auto 2rem;
-}
-
-.book-hero::after {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--gold), transparent);
-  margin: 2rem auto 0;
-}
-
-.book-numeral {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 0.75rem;
-  letter-spacing: 0.25em;
-  color: var(--gold);
-  text-transform: uppercase;
-  margin-bottom: 0.75rem;
-}
-
-.book-title-main {
-  font-family: 'Cinzel', serif;
-  font-size: clamp(1.8rem, 5vw, 3rem);
-  font-weight: 600;
-  color: var(--ink);
-  line-height: 1.2;
-  margin-bottom: 0.5rem;
-  letter-spacing: 0.02em;
-}
-
-.book-dates {
-  font-family: 'EB Garamond', serif;
-  font-style: italic;
-  font-size: 1.15rem;
-  color: var(--ink-faint);
-  margin-bottom: 0.4rem;
-}
-
-.book-regions {
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
-  color: var(--ink-faint);
-  text-transform: uppercase;
-  font-family: 'Cinzel', serif;
-  font-weight: 400;
-}
-
-/* ── Table of Contents ── */
-.toc-section {
-  padding: 2.5rem 3rem;
-  border-bottom: 1px solid var(--rule);
-  background-color: rgba(196,178,138,0.08);
-}
-
-.toc-heading {
-  font-family: 'Cinzel', serif;
-  font-size: 0.8rem;
-  letter-spacing: 0.2em;
-  color: var(--gold);
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.toc-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 0.15rem 2rem;
-  max-width: var(--wide-w);
-  margin: 0 auto;
-}
-
-.toc-entry {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  padding: 0.3rem 0;
-  border-bottom: 1px dotted var(--rule-faint);
-}
-
-.toc-entry a {
-  text-decoration: none;
-  color: var(--ink-light);
-  font-family: 'EB Garamond', serif;
-  font-size: 0.95rem;
-  transition: color 0.15s;
-  flex: 1;
-}
-
-.toc-entry a:hover {
-  color: var(--gold);
-}
-
-.toc-date {
-  font-family: 'EB Garamond', serif;
-  font-style: italic;
-  font-size: 0.82rem;
-  color: var(--ink-faint);
-  white-space: nowrap;
-}
-
-/* ── Main Content ── */
-.content-body {
-  padding: 3rem 3rem 5rem;
-  max-width: var(--wide-w);
-  margin: 0 auto;
-}
-
-/* ── Prefatory Note ── */
-.prefatory-note {
-  background-color: rgba(196,178,138,0.12);
-  border-left: 3px solid var(--gold);
-  border-right: 3px solid var(--gold);
-  padding: 1.5rem 2rem;
-  margin: 2rem 0 3rem;
-  font-style: italic;
-  color: var(--ink-light);
-  font-size: 0.97rem;
-  line-height: 1.9;
-}
-
-.prefatory-note p + p { margin-top: 1em; }
-
-/* ── Ancestor Entry ── */
-.ancestor-entry {
-  margin-bottom: 4rem;
-  padding-top: 2.5rem;
-  border-top: 1px solid var(--rule-faint);
-  scroll-margin-top: 80px;
-}
-
-.ancestor-entry:first-of-type {
-  border-top: none;
-  padding-top: 0;
-}
-
-.entry-nameplate {
-  margin-bottom: 1.5rem;
-}
-
-.entry-name {
-  font-family: 'Cinzel', serif;
-  font-size: clamp(1.1rem, 3vw, 1.55rem);
-  font-weight: 600;
-  color: var(--ink);
-  letter-spacing: 0.04em;
-  line-height: 1.2;
-  margin-bottom: 0.3rem;
-}
-
-.entry-dateline {
-  font-family: 'EB Garamond', serif;
-  font-style: italic;
-  font-size: 0.97rem;
-  color: var(--gold);
-  letter-spacing: 0.02em;
-}
-
-/* ── Paragraphs ── */
-.ancestor-entry p {
-  margin-bottom: 1.1em;
-  font-size: 1.02rem;
-  color: var(--ink);
-  max-width: var(--max-w);
-  text-align: justify;
-  hyphens: auto;
-}
-
-/* Story separator (---) */
-.story-rule {
-  border: none;
-  height: 1px;
-  background: linear-gradient(90deg, transparent 0%, var(--rule) 30%, var(--rule) 70%, transparent 100%);
-  margin: 2rem 0;
-  position: relative;
-}
-
-.story-rule::after {
-  content: '❧';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background: var(--parchment);
-  padding: 0 0.75rem;
-  color: var(--gold);
-  font-size: 0.9rem;
-}
-
-/* ── Story Block ── */
-.story-block {
-  background-color: rgba(139,105,20,0.05);
-  border-left: 3px solid var(--gold);
-  border-right: 1px solid var(--rule-faint);
-  padding: 1.5rem 1.75rem;
-  margin: 0;
-}
-
-.story-block p {
-  max-width: var(--max-w) !important;
-}
-
-
-.children-block {
-  margin-top: 1.5rem;
-  padding: 1rem 1.25rem;
-  background-color: rgba(196,178,138,0.1);
-  border-left: 2px solid var(--rule);
-  font-size: 0.93rem;
-  color: var(--ink-light);
-}
-
-.children-block p {
-  font-style: italic;
-  margin-bottom: 0.4rem !important;
-  max-width: 100% !important;
-  text-align: left !important;
-}
-
-.children-block ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.children-block li {
-  padding: 0.2rem 0;
-  padding-left: 1rem;
-  position: relative;
-}
-
-.children-block li::before {
-  content: '—';
-  position: absolute;
-  left: 0;
-  color: var(--gold);
-}
-
-/* ── Special sections (Book VIII sub-headings) ── */
-.section-heading {
-  font-family: 'Cinzel', serif;
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--ink-light);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin: 2.5rem 0 1rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--rule-faint);
-}
-
-.sub-section-heading {
-  font-family: 'EB Garamond', serif;
-  font-size: 1.1rem;
-  font-weight: 600;
-  font-style: italic;
-  color: var(--ink-light);
-  margin: 2rem 0 0.75rem;
-}
-
-/* ── Book Footer ── */
-.book-footer {
-  background-color: var(--ink);
-  background-image: linear-gradient(135deg, #1a1612 0%, #2d2318 50%, #1a1612 100%);
-  padding: 2.5rem 3rem;
-  text-align: center;
-  border-top: 2px solid var(--gold);
-}
-
-.footer-ornament {
-  color: var(--gold);
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  letter-spacing: 0.5rem;
-}
-
-.footer-series {
-  font-family: 'Cinzel', serif;
-  font-size: 0.7rem;
-  letter-spacing: 0.2em;
-  color: var(--gold-pale);
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
-}
-
-.footer-nav {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.footer-nav a {
-  font-family: 'Cinzel', serif;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  color: var(--gold-light);
-  text-decoration: none;
-  text-transform: uppercase;
-  opacity: 0.8;
-  transition: opacity 0.2s;
-}
-
-.footer-nav a:hover { opacity: 1; }
-
-/* ── Back to top ── */
-.back-to-top {
-  display: inline-block;
-  margin-top: 1rem;
-  font-family: 'Cinzel', serif;
-  font-size: 0.68rem;
-  letter-spacing: 0.15em;
-  color: var(--gold-light);
-  text-decoration: none;
-  text-transform: uppercase;
-  opacity: 0.6;
-  transition: opacity 0.2s;
-}
-.back-to-top:hover { opacity: 1; }
-
-/* ── Responsive ── */
-@media (max-width: 640px) {
-  .content-body { padding: 2rem 1.5rem 4rem; }
-  .book-hero    { padding: 2.5rem 1.5rem 2rem; }
-  .toc-section  { padding: 2rem 1.5rem; }
-  .site-header  { padding: 0.5rem 1.25rem; }
-  .toc-grid     { grid-template-columns: 1fr; }
-}
-
-/* ── Print ── */
-@media print {
-  .site-header, .book-footer { display: none; }
-  body { background: white; }
-  .page-shell { box-shadow: none; }
-}
-
-
-  </style>
+  <title>The Holmes Chronicle — Book Ⅳ</title>
+  <meta name="description" content="The Holmes Chronicle">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;500;600&family=Cinzel+Decorative:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
 </head>
 <body>
 <div class="page-shell">
-<header class="site-header"><nav class="header-nav"><span><a href="book-3.html">← Book III</a></span>
-<span><a href="index.html" class="header-series">The Holmes Chronicle</a></span>
-<span><a href="book-5.html">Book V →</a></span></nav></header>
+<header class="site-header"><nav class="header-nav">
+  <nav class="header-nav">
+    <span class="header-nav"><a href="book-3.html">← Book Ⅲ</a></span>
+    <span class="header-series"><a href="index.html">The Holmes Chronicle</a></span>
+    <span class="header-nav"><a href="book-5.html">Book Ⅴ →</a></span>
+  </nav></header>
 <div id="top" class="book-hero">
-  <div class="book-numeral">Book IV</div>
-  <h1 class="book-title-main">The Frankish and Norse World</h1>
+  <div class="book-numeral">Book Ⅳ</div>
+  <h1 class="book-title-main">The Frankish & Norse World</h1>
   <div class="book-dates">~410 AD – ~1150 AD</div>
   <div class="book-regions">Gaul · Northumbria · The Carolingian Court · Byzantium</div>
 </div>
 <section class="toc-section">
   <div class="toc-heading">Contents</div>
   <div class="toc-grid">
-    <div class="toc-entry"><a href="#hulmar-the-goth">HULMAR THE GOTH</a><span class="toc-date">~370 AD</span></div><div class="toc-entry"><a href="#hulmar-of-the-rhine">HULMAR OF THE RHINE</a><span class="toc-date">~400 AD</span></div><div class="toc-entry"><a href="#holmar-of-burgundy">HOLMAR OF BURGUNDY</a><span class="toc-date">~430 AD</span></div><div class="toc-entry"><a href="#holmar-the-frank">HOLMAR THE FRANK</a><span class="toc-date">~460 AD</span></div><div class="toc-entry"><a href="#holmar-of-the-merovingians">HOLMAR OF THE MEROVINGIANS</a><span class="toc-date">~490 AD</span></div><div class="toc-entry"><a href="#holmar-of-austrasia">HOLMAR OF AUSTRASIA</a><span class="toc-date">~520 AD</span></div><div class="toc-entry"><a href="#holmar-of-the-rhine">HOLMAR OF THE RHINE</a><span class="toc-date">~550 AD</span></div><div class="toc-entry"><a href="#holmar-northward">HOLMAR NORTHWARD</a><span class="toc-date">~580 AD</span></div><div class="toc-entry"><a href="#holmar-of-frisia">HOLMAR OF FRISIA</a><span class="toc-date">~610 AD</span></div><div class="toc-entry"><a href="#holmar-of-jutland">HOLMAR OF JUTLAND</a><span class="toc-date">~640 AD</span></div><div class="toc-entry"><a href="#holmar-of-vestfold">HOLMAR OF VESTFOLD</a><span class="toc-date">~670 AD</span></div><div class="toc-entry"><a href="#sigr-holmr">SIGR HOLMR</a><span class="toc-date">~700 AD</span></div><div class="toc-entry"><a href="#leifr-holmr">LEIFR HOLMR</a><span class="toc-date">~765 AD</span></div><div class="toc-entry"><a href="#ragnarr-holmr">RAGNARR HOLMR</a><span class="toc-date">~795 AD</span></div><div class="toc-entry"><a href="#sigurr-holmr">SIGURÐR HOLMR</a><span class="toc-date">~830 AD</span></div><div class="toc-entry"><a href="#leifr-holmr-ii">LEIFR HOLMR II</a><span class="toc-date">~870 AD</span></div><div class="toc-entry"><a href="#ragnarr-holmr-ii">RAGNARR HOLMR II</a><span class="toc-date">~900 AD</span></div><div class="toc-entry"><a href="#sigurr-holmr-ii">SIGURÐR HOLMR II</a><span class="toc-date">~930 AD</span></div><div class="toc-entry"><a href="#orfinnr-holmr">ÞORFINNR HOLMR</a><span class="toc-date">~960 AD</span></div><div class="toc-entry"><a href="#gunnarr-holmr">GUNNARR HOLMR</a><span class="toc-date">~990 AD</span></div><div class="toc-entry"><a href="#halfdan-holmr">HALFDAN HOLMR</a><span class="toc-date">~1020 AD</span></div><div class="toc-entry"><a href="#eadmund-holmr">EADMUND HOLMR</a><span class="toc-date">~1055 AD</span></div><div class="toc-entry"><a href="#willelm-holmr">WILLELM HOLMR</a><span class="toc-date">~1080 AD</span></div><div class="toc-entry"><a href="#robert-holmr">ROBERT HOLMR</a><span class="toc-date">~1110 AD</span></div>
+    <div class="toc-entry"><a href="#hulmar-the-goth">HULMAR THE GOTH</a><span class="toc-date">~370 AD</span></div><div class="toc-entry"><a href="#hulmar-of-the-rhine">HULMAR OF THE RHINE</a><span class="toc-date">~400 AD</span></div><div class="toc-entry"><a href="#holmar-of-burgundy">HOLMAR OF BURGUNDY</a><span class="toc-date">~430 AD</span></div><div class="toc-entry"><a href="#holmar-the-frank">HOLMAR THE FRANK</a><span class="toc-date">~460 AD</span></div><div class="toc-entry"><a href="#holmar-of-the-merovingians">HOLMAR OF THE MEROVINGIANS</a><span class="toc-date">~490 AD</span></div><div class="toc-entry"><a href="#holmar-of-austrasia">HOLMAR OF AUSTRASIA</a><span class="toc-date">~520 AD</span></div><div class="toc-entry"><a href="#holmar-of-the-rhine">HOLMAR OF THE RHINE</a><span class="toc-date">~550 AD</span></div><div class="toc-entry"><a href="#holmar-northward">HOLMAR NORTHWARD</a><span class="toc-date">~580 AD</span></div><div class="toc-entry"><a href="#holmar-of-frisia">HOLMAR OF FRISIA</a><span class="toc-date">~610 AD</span></div><div class="toc-entry"><a href="#holmar-of-jutland">HOLMAR OF JUTLAND</a><span class="toc-date">~640 AD</span></div><div class="toc-entry"><a href="#holmar-of-vestfold">HOLMAR OF VESTFOLD</a><span class="toc-date">~670 AD</span></div><div class="toc-entry"><a href="#sigr-holmr">SIGR HOLMR</a><span class="toc-date">~700 AD</span></div><div class="toc-entry"><a href="#leifr-holmr">LEIFR HOLMR</a><span class="toc-date">~765 AD</span></div><div class="toc-entry"><a href="#ragnarr-holmr">RAGNARR HOLMR</a><span class="toc-date">~795 AD</span></div><div class="toc-entry"><a href="#sigurr-holmr">SIGURÐR HOLMR</a><span class="toc-date">~830 AD</span></div><div class="toc-entry"><a href="#leifr-holmr-ii">LEIFR HOLMR Ⅱ</a><span class="toc-date">~870 AD</span></div><div class="toc-entry"><a href="#ragnarr-holmr-ii">RAGNARR HOLMR Ⅱ</a><span class="toc-date">~900 AD</span></div><div class="toc-entry"><a href="#sigurr-holmr-ii">SIGURÐR HOLMR Ⅱ</a><span class="toc-date">~930 AD</span></div><div class="toc-entry"><a href="#orfinnr-holmr">ÞORFINNR HOLMR</a><span class="toc-date">~960 AD</span></div><div class="toc-entry"><a href="#gunnarr-holmr">GUNNARR HOLMR</a><span class="toc-date">~990 AD</span></div><div class="toc-entry"><a href="#halfdan-holmr">HALFDAN HOLMR</a><span class="toc-date">~1020 AD</span></div><div class="toc-entry"><a href="#eadmund-holmr">EADMUND HOLMR</a><span class="toc-date">~1055 AD</span></div><div class="toc-entry"><a href="#willelm-holmr">WILLELM HOLMR</a><span class="toc-date">~1080 AD</span></div><div class="toc-entry"><a href="#robert-holmr">ROBERT HOLMR</a><span class="toc-date">~1110 AD</span></div>
   </div>
 </section>
 <p style="text-align:center; margin: 1.5rem 0 2rem;">
@@ -568,7 +122,7 @@ Holmar read the bishop's report with the particular attention he gave to documen
     <h2 class="entry-name">HOLMAR OF THE MEROVINGIANS</h2>
     <div class="entry-dateline">~490 AD — Frankish territory</div>
   </div>
-  <p>Clovis I converted to Catholic Christianity in 496 AD — an act of political calculation as much as spiritual conviction, aligning the Frankish kingdom with the bishops of Rome and the remaining Roman population of Gaul in a single stroke of extraordinary strategic intelligence. Holmar of the Merovingians was a young man in Clovis's court when the conversion occurred, and he recognised it for what it was with an admiration that was partly professional. Here was the gift applied at the scale of kingdoms: the reading of a situation — religious, political, demographic — and the identification of the single decisive act that would reshape it permanently.</p>
+  <p>Clovis Ⅰ converted to Catholic Christianity in 496 AD — an act of political calculation as much as spiritual conviction, aligning the Frankish kingdom with the bishops of Rome and the remaining Roman population of Gaul in a single stroke of extraordinary strategic intelligence. Holmar of the Merovingians was a young man in Clovis's court when the conversion occurred, and he recognised it for what it was with an admiration that was partly professional. Here was the gift applied at the scale of kingdoms: the reading of a situation — religious, political, demographic — and the identification of the single decisive act that would reshape it permanently.</p>
 <p>He served in the Merovingian administration through the consolidation of the Frankish realm, managing the correspondence between the court and the ecclesiastical hierarchy that was now the kingdom's most important political relationship. He was a Catholic, as all sensible men became Catholic in that decade, and he wore the faith with the same comfortable practicality with which his ancestors had worn their successive identities — sincerely enough to function, without allowing it to obstruct his judgement.</p>
 <hr class="story-rule">
 <div class="story-block"><p>The conversion of Clovis had, by the time Holmar came into the king's service, transformed the politics of the Frankish court as completely as Holmar's father had predicted it would — the bishops were now political actors of the first importance, the church's administrative network had merged with the royal administration at every level, and the management of correspondence between the court and the ecclesiastical hierarchy had become the most consequential clerical work in the kingdom. Holmar did it well. He had his father's precision with documents and his own developed faculty for reading the space between what a letter said and what its writer intended, and he moved between the court and the bishops' houses with the comfortable authority of a man who understood both worlds from the inside.
@@ -797,64 +351,64 @@ Gunnarr received his land in the Rye valley. The administration tightened its pr
 </div>
 <div class="children-block">
 <p><em>Children:</em><br>
-- <strong>Leifr Holmr II</strong> — see next entry.</p></div>
+- <strong>Leifr Holmr Ⅱ</strong> — see next entry.</p></div>
 </article>
 <div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
 <article class="ancestor-entry" id="leifr-holmr-ii">
   <div class="entry-nameplate">
-    <h2 class="entry-name">LEIFR HOLMR II</h2>
+    <h2 class="entry-name">LEIFR HOLMR Ⅱ</h2>
     <div class="entry-dateline">~870 AD — Yorkshire, England</div>
   </div>
-  <p>Leifr Holmr II was the first of the line to be born in English soil, in the farmstead his father Sigurðr had established in the North Riding in the years following the Danish conquest of Jorvik. He came into the world as the Danelaw was consolidating — the Norse settlements taking root, the Danish administration organising itself, a new hybrid culture forming in the space between the conquerors and the conquered. He grew up bilingual, Norse at home and English in the market and the moot, moving between the two worlds with the ease of someone for whom cultural boundaries had always been permeable rather than fixed.</p>
-<p>He was a farmer and a local arbitrator — a man of the <em>thing</em>, the assembly, as his great-grandfather had been in Vestfold, called upon by his neighbours to resolve the disputes that the Danelaw's uneasy cohabitation of Norse and English custom generated in abundance. Property disputes, inheritance claims, the conflicting obligations of men who owed service under two incompatible legal traditions — these were the problems that came to Leifr Holmr II, and he resolved them with a practical ingenuity that owed as much to his Norse heritage of oral jurisprudence as to the English common law that was slowly asserting itself across the North. He married a woman of mixed English and Danish blood, which suited him in every sense: he was a man of both worlds, and he chose a wife who was the same.</p>
+  <p>Leifr Holmr Ⅱ was the first of the line to be born in English soil, in the farmstead his father Sigurðr had established in the North Riding in the years following the Danish conquest of Jorvik. He came into the world as the Danelaw was consolidating — the Norse settlements taking root, the Danish administration organising itself, a new hybrid culture forming in the space between the conquerors and the conquered. He grew up bilingual, Norse at home and English in the market and the moot, moving between the two worlds with the ease of someone for whom cultural boundaries had always been permeable rather than fixed.</p>
+<p>He was a farmer and a local arbitrator — a man of the <em>thing</em>, the assembly, as his great-grandfather had been in Vestfold, called upon by his neighbours to resolve the disputes that the Danelaw's uneasy cohabitation of Norse and English custom generated in abundance. Property disputes, inheritance claims, the conflicting obligations of men who owed service under two incompatible legal traditions — these were the problems that came to Leifr Holmr Ⅱ, and he resolved them with a practical ingenuity that owed as much to his Norse heritage of oral jurisprudence as to the English common law that was slowly asserting itself across the North. He married a woman of mixed English and Danish blood, which suited him in every sense: he was a man of both worlds, and he chose a wife who was the same.</p>
 <hr class="story-rule">
 <div class="story-block"><p>In the spring of his forty-third year, a matter was brought before the <em>thing</em> at Hovingham that Leifr recognised at once as something more than the boundary dispute it presented itself as. Two settlements — a Danish farmstead to the north of the Rye and an English village to its south — had come into conflict over the grazing rights to a stretch of upland moor. The Danish holder, a man named Ulfkell, produced three neighbours who testified that the moor had always been Norse-grazed and that the boundary stone marking the southern limit of his rights stood precisely where it had always stood. The English reeve of the opposing village, a man named Godwine, produced the village's elder inhabitants, who testified with equal conviction that the stone had not stood there in their youth, that it was newly placed, and that the moor had been shared common ground within living memory.</p>
 <p>Leifr listened to both sets of testimony in full before he spoke or asked a single question. He had learned from his father, who had learned it from his, that a man who speaks before he has listened has already surrendered his most reliable instrument. When both parties had finished, he walked to the disputed stone himself — taking with him only a boy of twelve, his cousin's son, whom he instructed to say nothing and observe everything — and examined it where it stood in the thin April turf.</p>
 <p>The stone was of a kind found throughout the North Riding: grey limestone, weathered, undistinguished. What distinguished it was not its composition but its base. Leifr crouched and pressed his fingers into the turf around the stone's foot, working them into the soil at each of its four aspects. On three sides the earth was compacted and cold, the root-mat of decades undisturbed. On the fourth — the southern face — the soil was fractionally looser and the grass roots, when he parted them with his thumb, were not yet fully interknit with the stone's surface, as they would have been had the stone stood through three winters. He said nothing of this yet. He asked the boy what he saw. The boy, after a moment, said: the sheep-droppings were older on the north side of the stone than on the south. Leifr nodded. The boy had seen it without being told what to look for, which meant it was real.</p>
 <p>He returned to the assembly and presented his finding without flourish: the stone had been moved within the past two years, almost certainly the previous autumn — placed, by the freshness of its setting, after the grazing season had ended, when no one would have been watching the upland closely. He did not accuse Ulfkell — who may himself have been innocent, as a man who buys a fraudulent document is not its forger. He identified the fraud and asked the assembly to note that Ulfkell's three witnesses, who had testified with such certainty that the stone stood <em>always</em> where it now stood, would need to account for why they had not mentioned, in their testimony about the long continuity of Danish grazing rights, any recollection of the autumn day when the stone had apparently been moved a hundred yards to the south.</p>
 <p>The assembly awarded the moor to shared use, as it had been. Ulfkell's witnesses withdrew their testimony under questioning that the assembly's lawman pursued from the opening Leifr had provided. It emerged that all three had been approached, the previous autumn, by a man from Jorvik who had paid them in silver for their deposition — a man the lawman traced, through diligent inquiry over the following months, to a small network of professional false witnesses operating across the boundary between Danish and English jurisdictions, exploiting the confusion between the two legal traditions to manufacture favourable outcomes for those who paid. The lawman laid his findings before the reeve of Jorvik. Three men were outlawed. The network, disrupted, would take a generation to reconstitute itself.</p>
-<p>Leifr Holmr II received his expenses and the community's gratitude. He returned to his farmstead the same afternoon, planted his spring barley, and said nothing further about the matter.</p>
+<p>Leifr Holmr Ⅱ received his expenses and the community's gratitude. He returned to his farmstead the same afternoon, planted his spring barley, and said nothing further about the matter.</p>
 </div>
 <div class="children-block">
 <p><em>Children:</em><br>
-- <strong>Ragnarr Holmr II</strong> — see next entry.</p></div>
+- <strong>Ragnarr Holmr Ⅱ</strong> — see next entry.</p></div>
 </article>
 <div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
 <article class="ancestor-entry" id="ragnarr-holmr-ii">
   <div class="entry-nameplate">
-    <h2 class="entry-name">RAGNARR HOLMR II</h2>
+    <h2 class="entry-name">RAGNARR HOLMR Ⅱ</h2>
     <div class="entry-dateline">~900 AD — Yorkshire, England</div>
   </div>
-  <p>He grew up in the years when the Danelaw was at its most confident and most vulnerable simultaneously — a Norse dominion that had sunk deep roots into the English north while remaining perpetually aware that the kingdoms of the south had not accepted its existence and would, when strong enough, contest it. Ragnarr Holmr II understood this dynamic with the clarity of someone who had been reading it since childhood, watching the growing power of the southern English kingdoms under Edward the Elder and his son Æthelstan with the attention of a man who knows that the outcome of a distant conflict will eventually determine the terms of his own life.</p>
+  <p>He grew up in the years when the Danelaw was at its most confident and most vulnerable simultaneously — a Norse dominion that had sunk deep roots into the English north while remaining perpetually aware that the kingdoms of the south had not accepted its existence and would, when strong enough, contest it. Ragnarr Holmr Ⅱ understood this dynamic with the clarity of someone who had been reading it since childhood, watching the growing power of the southern English kingdoms under Edward the Elder and his son Æthelstan with the attention of a man who knows that the outcome of a distant conflict will eventually determine the terms of his own life.</p>
 <p>He managed the family's land with his father's methodical precision and added to it a political alertness — a habit of maintaining connections across the boundary between the Danish and English communities, cultivating relationships on both sides of a line that he suspected, correctly, would not always be where it currently stood. He was neither warrior nor priest but something the age sometimes needed more urgently than either: a man who kept accounts, remembered testimony, and could be relied upon to hold a confidence without using it. When the English kings began extending their authority northward in the early tenth century, the Holmr family was positioned to accommodate the change without catastrophe.</p>
 <hr class="story-rule">
 <div class="story-block"><p>In the autumn of 927, in the years immediately following Æthelstan's great assembly at Eamont Bridge — where the northern kings had submitted and the political map of England had shifted irrevocably southward — a case came before the <em>thing</em> at Helmsley that no one could cleanly resolve. A substantial Danish landholder named Thorvald claimed that an English thegn, Osric of Nunnington, had seized a portion of Thorvald's upland pasture in the confusion of the recent political settlement, presenting to the newly installed English reeve documents asserting that the land had been granted to his family before the Danelaw itself had been established. Thorvald's own deeds, executed under Danish customary law, were in the estimation of the English reeve simply not legible as proper documents of title — they were written in a form the English administration did not recognise.</p>
-<p>Ragnarr Holmr II was not called to the <em>thing</em> for this case; he attended it as a neighbour, as was his custom, because he found that the cases that most required his attention were rarely the ones he had been asked to address. He listened. He noted that Osric's documents, though executed in the proper English form and written in a Latin he could partially parse, bore the seal of a minster that Ragnarr had cause to know had burned in a Danish raid nearly forty years before. The seal impression on the document was crisp and clean. A seal from a burned minster does not survive forty years of use in a state of crispness.</p>
+<p>Ragnarr Holmr Ⅱ was not called to the <em>thing</em> for this case; he attended it as a neighbour, as was his custom, because he found that the cases that most required his attention were rarely the ones he had been asked to address. He listened. He noted that Osric's documents, though executed in the proper English form and written in a Latin he could partially parse, bore the seal of a minster that Ragnarr had cause to know had burned in a Danish raid nearly forty years before. The seal impression on the document was crisp and clean. A seal from a burned minster does not survive forty years of use in a state of crispness.</p>
 <p>He approached the reeve after the <em>thing</em> had suspended the proceedings pending further inquiry, and laid before him, quietly, what he had observed. He added that this was the second document he had seen in the past two years bearing a seal from an institution claimed to have been destroyed before the issuing date — the first had been a disputed charter in a case from the previous year in which an English claimant had similarly prevailed over a Danish one, using documentation that had persuaded the court but had nagged at Ragnarr since. He produced, from the leather satchel he carried to every <em>thing</em>, his own notes from that prior hearing.</p>
 <p>The reeve took the matter to the bishop's clerk at Whitby, who knew something of monastic seals and their history. The clerk confirmed that the minster whose seal appeared on both documents had indeed been burned in 886, that no successor institution had been established, and that the seal matrix — the physical object used to make the impression — ought not to exist. An inquiry followed, conducted by the bishop's officers, which traced both documents to a single scriptorium operating, improbably, in the undercroft of a merchant house in Jorvik. The merchant was an Englishman with Danish partners. The network behind the forgeries was, the inquiry concluded, the same one that had been disrupted a generation earlier — reorganised, re-funded, and equipped now with stolen seal matrices sufficient to give its products the appearance of both legal traditions.</p>
-<p>Osric lost his claim to the upland pasture. The scriptorium was closed. Ragnarr Holmr II, when the bishop's officer came to thank him, said only that he had noticed a detail that seemed worth mentioning, and expressed his confidence that the bishop's administration had done the substantive work.</p>
+<p>Osric lost his claim to the upland pasture. The scriptorium was closed. Ragnarr Holmr Ⅱ, when the bishop's officer came to thank him, said only that he had noticed a detail that seemed worth mentioning, and expressed his confidence that the bishop's administration had done the substantive work.</p>
 </div>
 <div class="children-block">
 <p><em>Children:</em><br>
-- <strong>Sigurðr Holmr II</strong> — see next entry.</p></div>
+- <strong>Sigurðr Holmr Ⅱ</strong> — see next entry.</p></div>
 </article>
 <div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
 <article class="ancestor-entry" id="sigurr-holmr-ii">
   <div class="entry-nameplate">
-    <h2 class="entry-name">SIGURÐR HOLMR II</h2>
+    <h2 class="entry-name">SIGURÐR HOLMR Ⅱ</h2>
     <div class="entry-dateline">~930 AD — Yorkshire, England</div>
   </div>
-  <p>Sigurðr Holmr II lived through the gradual erosion of the Danelaw — the slow reassertion of English royal authority that Edgar's consolidation of a unified kingdom would complete in his lifetime, the Norse culture of the north receding year by year before the administrative and ecclesiastical machinery of a unified English kingdom. He adapted, as his family had always adapted, by making himself useful to whoever was consolidating power at any given moment.</p>
+  <p>Sigurðr Holmr Ⅱ lived through the gradual erosion of the Danelaw — the slow reassertion of English royal authority that Edgar's consolidation of a unified kingdom would complete in his lifetime, the Norse culture of the north receding year by year before the administrative and ecclesiastical machinery of a unified English kingdom. He adapted, as his family had always adapted, by making himself useful to whoever was consolidating power at any given moment.</p>
 <p>His particular contribution was a facility with the documentary record — the land charters, the court rolls, the ecclesiastical records that the English administration used to govern in ways the Norse oral tradition had not required. He had taught himself to read Latin in middle age, at a point when most men of his background considered such learning either unnecessary or vaguely suspicious, because he had identified it as the key to the kind of influence his family had always sought — the influence of the person who understands the document on which everything else depends. He served in the household of an English thegn as a steward and local assessor, reading documents on the thegn's behalf with a thoroughness that the thegn, who could not read, found entirely satisfactory.</p>
 <hr class="story-rule">
-<div class="story-block"><p>The case that tested Sigurðr Holmr II most severely was not a land dispute but something he had not encountered before in the family's long habit of adjudication: a murder that had been made to look like an accident, and a man about to hang for it who was, Sigurðr was almost certain, innocent.</p>
+<div class="story-block"><p>The case that tested Sigurðr Holmr Ⅱ most severely was not a land dispute but something he had not encountered before in the family's long habit of adjudication: a murder that had been made to look like an accident, and a man about to hang for it who was, Sigurðr was almost certain, innocent.</p>
 <p>A Danish freeholder named Arnkell had been found dead in the millrace of a water-mill outside Kirkby Moorside in the summer of 957, apparently drowned when he fell from the mill platform in the dark. His son Knut had been accused of striking him first — two men in the adjacent alehouse had heard a quarrel between father and son that evening, had heard a shout and a splash, and had given testimony before the thegn's court that left little room for the interpretation of accident. Knut was condemned.</p>
 <p>Sigurðr was not present at the original proceedings, but he happened to pass the mill three days after the hearing, riding back from a matter in Kirkby, and stopped on the bridge to water his horse. He looked at the millrace — a reflexive habit, the family's compulsion to observe what is in front of them — and noticed that the mill platform, from which Arnkell had allegedly fallen, was some four feet above the water. A man struck from the platform would have fallen into the race, yes; but he would have fallen as a man falls who has been struck, face-first or tumbling, and the current was not strong enough to have repositioned him significantly. Yet the account at trial described Arnkell as found face-up, arms extended, in the posture of a man who had stepped back and slipped.</p>
 <p>He spoke to the mill-keeper, who had found the body. The mill-keeper, when asked to describe the platform's surface on the night in question, mentioned that he had resanded it not three days before — the old sand having grown slick with damp. New sand grips. A man does not slip from a newly sanded platform unless he is pushed with considerable force, in which case he does not land face-up in the posture of one who has slipped.</p>
 <p>Sigurðr then asked the two alehouse witnesses to describe the quarrel they had heard: its subject, its duration, and — the question that interested him — whether they had heard the shout and the splash in immediate succession or with an interval between. Both, when pressed individually, acknowledged they had heard a long silence between the raised voices and the sound of the water; they had assumed the argument had paused, as arguments do. Sigurðr pointed out that a silence between a quarrel and a death was not evidence of a blow struck in anger but of a calculation — a man waiting for the right moment, or for a man to be led to the platform's edge.</p>
 <p>He brought these observations to the thegn's reeve, carefully and without accusation. He identified the question of the sand, the question of the posture, and the question of the silence — three separate details that, taken together, made the simple account of son-striking-father difficult to sustain, and opened the possibility that both the killing and the witnesses' interpretation of the quarrel had been engineered. Who had interest in Arnkell's land? Sigurðr did not speculate on that; it was the reeve's business. The reeve inquired. It emerged that a local steward — an English man who had been in dispute with Arnkell over a tenancy — had spoken with the two alehouse witnesses in the days before the hearing. The steward was called before the thegn's court. Under questioning, the witnesses revised their testimony. Knut was released.</p>
 <p>The steward was found to have been acting on behalf of a third party — a Jorvik merchant who had wished to acquire Arnkell's mill-land as part of a larger consolidation of properties in the valley. The merchant was fined and lost his standing in the borough. Whether he was the last link in the chain or merely a convenient one, the record does not say.</p>
-<p>Sigurðr Holmr II returned to his accounts. Knut Arnkellson, when he came to give his thanks, was told only that the evidence had been examined with the care it deserved.</p>
+<p>Sigurðr Holmr Ⅱ returned to his accounts. Knut Arnkellson, when he came to give his thanks, was told only that the evidence had been examined with the care it deserved.</p>
 </div>
 <div class="children-block">
 <p><em>Children:</em><br>
@@ -894,7 +448,7 @@ Gunnarr received his land in the Rye valley. The administration tightened its pr
 <p>He could not identify the individual who had done it in the market. He could, however, identify the pattern: all eleven light bales had passed through a single wool-pack house in Thirsk — a warehouse where sellers routinely lodged their bales overnight before the market opened, in the care of a packhouse keeper named Cynewulf. He brought this observation to the portreeve of Northallerton, not as an accusation but as a matter requiring investigation. The portreeve searched the packhouse and found, behind a false wall in the storeroom, a quantity of good Yorkshire wool, loosely packed, amounting to somewhat less than forty pounds — a quantity consistent with what had been taken from eleven bales.</p>
 <p>Cynewulf, when questioned, named the man who collected the wool every quarter: a Jorvik merchant's factor. The merchant, when the portreeve's men found him, was the grandson of the Jorvik merchant whose network Gunnarr's grandfather Ragnarr had disrupted three-quarters of a century before. The family business, it seemed, had not been entirely suppressed — it had contracted, gone quiet, changed its methods, and re-emerged. Cynewulf had been one of six packhouse keepers across the North Riding operating identically; the fraud had been running for at least four years.</p>
 <p>The portreeve pursued it as his own discovery, presenting the packhouse evidence to the shire reeve with the thoroughness that the case warranted. Cynewulf and his five counterparts were tried. The merchant factor fled south and was outlawed in his absence. The merchant's accounts, when examined by the shire reeve's clerk, revealed a network of payments that the clerk could not fully trace but that reached, apparently, into the clerical administration of at least one monastic house in York.</p>
-<p>Gunnarr Holmr received his assessor's fee for the Northallerton market and went home. In his own records — the private notes the family had kept since Sigurðr Holmr II had begun to write Latin — he added the merchant's name to the lineage of the Jorvik network, connecting it through three generations to the false witnesses of the <em>thing</em> at Hovingham in his great-grandfather's time. The shape his father had begun to perceive was, in his own records, becoming a line.</p>
+<p>Gunnarr Holmr received his assessor's fee for the Northallerton market and went home. In his own records — the private notes the family had kept since Sigurðr Holmr Ⅱ had begun to write Latin — he added the merchant's name to the lineage of the Jorvik network, connecting it through three generations to the false witnesses of the <em>thing</em> at Hovingham in his great-grandfather's time. The shape his father had begun to perceive was, in his own records, becoming a line.</p>
 </div>
 <div class="children-block">
 <p><em>Children:</em><br>
@@ -928,7 +482,7 @@ Gunnarr received his land in the Rye valley. The administration tightened its pr
     <div class="entry-dateline">~1055 AD — Yorkshire, England</div>
   </div>
   <p>The name Eadmund was Anglo-Saxon — a deliberate choice reflecting the family's recognition that the Scandinavian phase of their identity was ending and the English one asserting itself as the permanent condition. Cnut's Danish empire had not outlasted Cnut; England was English again, after a fashion, and the men of the North Riding were adjusting their self-presentation accordingly. His father had spent the last decade of his life watching the succession question grow more dangerous with each passing year — Harold Godwinson, Duke William of Normandy, and Harald Hardrada of Norway all casting their shadows over a throne that Edward the Confessor seemed unlikely to fill for much longer — and had raised Eadmund in the understanding that a reckoning was coming and that the family's survival would depend on reading it clearly.</p>
-<p>Eadmund Holmr was perhaps ten years old when Harold was crowned, and a young man of eleven when the world changed at Hastings in October 1066. The Conquest was catastrophic for most English landholders in Yorkshire, and doubly so after the Harrying of the North in 1069–70, when William I's army systematically destroyed the agricultural infrastructure of the region, leaving a landscape of burned settlements and starving survivors that observers described as uninhabitable for years afterward. Eadmund Holmr survived it — the family's land survived, diminished but intact. What accommodations were made, what services rendered to the new Norman overlords, what was surrendered to preserve what remained, is not fully recorded. What is recorded is that the Holmr family held their land in the North Riding in 1086, when the Domesday survey was compiled, and that Eadmund presented himself to the commissioners with accurate accounts, answered their questions without hesitation, and was noted as a reliable witness.</p>
+<p>Eadmund Holmr was perhaps ten years old when Harold was crowned, and a young man of eleven when the world changed at Hastings in October 1066. The Conquest was catastrophic for most English landholders in Yorkshire, and doubly so after the Harrying of the North in 1069–70, when William Ⅰ's army systematically destroyed the agricultural infrastructure of the region, leaving a landscape of burned settlements and starving survivors that observers described as uninhabitable for years afterward. Eadmund Holmr survived it — the family's land survived, diminished but intact. What accommodations were made, what services rendered to the new Norman overlords, what was surrendered to preserve what remained, is not fully recorded. What is recorded is that the Holmr family held their land in the North Riding in 1086, when the Domesday survey was compiled, and that Eadmund presented himself to the commissioners with accurate accounts, answered their questions without hesitation, and was noted as a reliable witness.</p>
 <hr class="story-rule">
 <div class="story-block"><p>The Domesday survey was, for most of its subjects, an instrument of anxiety — a royal inquiry of unknown purpose, conducted by strangers, with consequences that could not be predicted. For Eadmund Holmr, it was an opportunity that he recognised before most of his neighbours had recovered their composure. He had been preparing for it, in his way, for years.</p>
 <p>When the commissioners arrived in the North Riding in the summer of 1086, they found in Eadmund a man who could answer their questions about his own holdings immediately, precisely, and in Latin — the administrative language of the new regime — and who could also, with the calm authority of a man who had been assessing his neighbours' affairs as a matter of professional habit, provide reliable testimony about the holdings around him. He had, it emerged, a more accurate picture of the landholding arrangements in his district than the Norman sub-infeudation itself had yet produced, because he had spent the twenty years since the Conquest observing which holdings had genuinely transferred, which were in dispute, and which had been claimed on paper by Norman lords who had never set foot on them.</p>
@@ -970,30 +524,30 @@ Gunnarr received his land in the Rye valley. The administration tightened its pr
     <h2 class="entry-name">ROBERT HOLMR</h2>
     <div class="entry-dateline">~1110 AD — Yorkshire, England</div>
   </div>
-  <p>Robert Holmr grew up in the reign of Henry I — the Beauclerc, the scholar-king, the man who brought a measure of administrative order to his father's conquest — and came of age in the chaos of the Anarchy, the civil war between Stephen and Matilda that tore England apart from 1135 to 1154 and reduced large parts of the country to the condition that the chroniclers described, with unusual precision, as a time when God and his angels slept. Yorkshire was not the worst of it, but it was not untouched, and Robert Holmr spent the middle decades of his life managing an estate through conditions of radical uncertainty.</p>
-<p>He managed it well. He had a Norman name and an English temperament and his family's imperturbable habit of reading the situation as it actually was rather than as he might have wished it to be, and in the Anarchy that combination was worth more than allegiance to either claimant. He supported order where it existed, kept his head down where it did not, and emerged from the civil war with the estate intact and his reputation for sound judgement enhanced by the simple fact of having survived a period when a great many men of property had not. He was, in the understated fashion of his age and position, a man whose evidence settled cases — whose word, in the local courts that resumed their function under Henry II, was accepted without question.</p>
+  <p>Robert Holmr grew up in the reign of Henry Ⅰ — the Beauclerc, the scholar-king, the man who brought a measure of administrative order to his father's conquest — and came of age in the chaos of the Anarchy, the civil war between Stephen and Matilda that tore England apart from 1135 to 1154 and reduced large parts of the country to the condition that the chroniclers described, with unusual precision, as a time when God and his angels slept. Yorkshire was not the worst of it, but it was not untouched, and Robert Holmr spent the middle decades of his life managing an estate through conditions of radical uncertainty.</p>
+<p>He managed it well. He had a Norman name and an English temperament and his family's imperturbable habit of reading the situation as it actually was rather than as he might have wished it to be, and in the Anarchy that combination was worth more than allegiance to either claimant. He supported order where it existed, kept his head down where it did not, and emerged from the civil war with the estate intact and his reputation for sound judgement enhanced by the simple fact of having survived a period when a great many men of property had not. He was, in the understated fashion of his age and position, a man whose evidence settled cases — whose word, in the local courts that resumed their function under Henry Ⅱ, was accepted without question.</p>
 <hr class="story-rule">
 <div class="story-block"><p>The matter that Robert Holmr resolved in the spring of 1153 — in the final, exhausted months of the Anarchy, when both claimants were negotiating the settlement that would produce the Treaty of Wallingford — was one that the regular courts could not have addressed even if they had been functioning, because it existed in the gap between all jurisdictions: the gap that the grey fellowship, as Robert had come to think of it from his grandfather's notes, had always exploited.</p>
 <p>A wool merchant of Malton named Aldred had been found dead on the road between Malton and Pickering, his packhorse still loaded, his purse untouched. The sheriff's men, such as they were in a county where the sheriff's authority was intermittently observed, concluded robbery interrupted — the killers frightened off before they could take the goods. Aldred's widow accepted this account, because accepting it meant no further investigation and no further disturbance of a grief she was managing with great difficulty.</p>
 <p>Robert Holmr, who had known Aldred for thirty years, did not accept it. A robbery interrupted before the goods were taken did not explain why the merchant had been travelling the Pickering road that morning instead of the Scarborough road, which was his normal route to his principal buyer. It did not explain why his saddlebags, though outwardly intact, had been repacked — Robert could see this clearly from the way the straps sat, the buckles fastened in the wrong order for a man who always tacked his horse the same way, whom he had known to tack it himself a hundred times. And it did not explain the scrap of vellum tucked inside the left bag, between a bolt of undyed cloth and the merchant's travelling accounts, written in a clerk's hand and containing nothing but a date three days previous and a sum of money — a sum that matched, Robert realised when he consulted his memory, the amount of a disputed debt between Aldred and a rival merchant named Osbert of Kirkby.</p>
 <p>He brought the vellum to Aldred's widow and asked her about Osbert. She said she knew of no dispute. Robert went to Osbert, not as an accuser but as a neighbour inquiring after a shared friend, and in the course of a conversation that took most of an afternoon, he established three things: that Osbert had known Aldred would be on the Pickering road that morning, that he had acquired Aldred's principal buyer as his own client within the week following the death, and that he had recently paid a sum in silver to a man he described as a travelling packman, for services he described as transportation.</p>
 <p>Robert took these observations to the sheriff's deputy — the sheriff himself was with Stephen's forces and unavailable — and presented them not as proof of murder, which he could not prove, but as a pattern that made the interrupted-robbery account unlikely and warranted further inquiry into Osbert's movements on the relevant morning. The deputy, a capable man operating under difficult conditions, conducted the inquiry. Osbert, under questioning, gave an account of his movements that two witnesses contradicted. He was held for the itinerant justices when they resumed their circuits under the new Henrician settlement.</p>
-<p>What Robert found most significant, and what he recorded in the family notes he passed to his son, was the role of the clerk whose hand had written the vellum note. He was a man employed by a York money-lender — a man whose name appeared, in a different connection, in the account his father Willelm had made of the Thornton cell and the Jorvik document-dealer. The thread was continuous. The network that had manufactured false witnesses at the <em>thing</em> of Hovingham in 870, that had forged seal matrices in the reign of Æthelred, that had sold false confiscation orders to Norman adventurers in 1086, that had redirected tithe receipts through suborned canons under Henry I, was still present and operating — thinned, changed in its personnel, adapted to the civil war's particular opportunities, but structurally the same: an organisation willing to facilitate any transaction, legal or otherwise, for payment, and capable of doing so across every boundary of law and jurisdiction in the north of England.</p>
-<p>Robert Holmr passed his notes to his son William, who would move in a world — the world of Henry II's great legal reforms — where the mechanisms to address such a network would, for the first time, begin to exist. The grey fellowship had grown old. The family had grown patient.</p>
+<p>What Robert found most significant, and what he recorded in the family notes he passed to his son, was the role of the clerk whose hand had written the vellum note. He was a man employed by a York money-lender — a man whose name appeared, in a different connection, in the account his father Willelm had made of the Thornton cell and the Jorvik document-dealer. The thread was continuous. The network that had manufactured false witnesses at the <em>thing</em> of Hovingham in 870, that had forged seal matrices in the reign of Æthelred, that had sold false confiscation orders to Norman adventurers in 1086, that had redirected tithe receipts through suborned canons under Henry Ⅰ, was still present and operating — thinned, changed in its personnel, adapted to the civil war's particular opportunities, but structurally the same: an organisation willing to facilitate any transaction, legal or otherwise, for payment, and capable of doing so across every boundary of law and jurisdiction in the north of England.</p>
+<p>Robert Holmr passed his notes to his son William, who would move in a world — the world of Henry Ⅱ's great legal reforms — where the mechanisms to address such a network would, for the first time, begin to exist. The grey fellowship had grown old. The family had grown patient.</p>
 <p>The courts were coming.</p>
 </div>
 <div class="children-block">
 <p><em>Children:</em><br>
-- <strong>William Holmr</strong> — <a href="book-5.html">see Book V</a></p></div>
+- <strong>William Holmr</strong> — <a href="book-5.html">see Book Ⅴ</a></p></div>
 <hr class="story-rule">
-<div style="text-align:center"><em>End of Book IV</em></div>
+<div style="text-align:center"><em>End of Book Ⅳ</em></div>
 </article>
 </main>
-<div style="text-align:center;padding:1rem 0 0;"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
 <footer class="book-footer">
   <div class="footer-ornament">✦ ✦ ✦</div>
-  <div class="footer-series">The Holmes Chronicle</div>
-  <nav class="footer-nav"><a href="book-3.html">← Book III: The Roman World</a><a href="index.html">Series Index</a><a href="book-5.html">Book V: Halstead Manor →</a></nav>
+  <div class="footer-series" ><a href="index.html">The Holmes Chronicle</a></div>
+  <nav class="footer-nav"><a href="book-3.html">← Book Ⅲ</a><a href="book-5.html">Book Ⅴ →</a></nav>
 </footer>
 </div>
 </body>

@@ -3,476 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book V: Halstead Manor — The Holmes Chronicle</title>
-  <meta name="description" content="The Holmes Chronicle — a chronicle of 132 generations of the Holmes line, 2050 BC to 2021 AD.">
-  <style>
-
-/* ── Google Fonts ── */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;500;600&family=Cinzel+Decorative:wght@400&display=swap');
-
-/* ── Custom Properties ── */
-:root {
-  --ink:        #1a1612;
-  --ink-light:  #3d3530;
-  --ink-faint:  #7a6f68;
-  --parchment:  #f7f3ec;
-  --cream:      #ede8df;
-  --gold:       #8b6914;
-  --gold-light: #c9a84c;
-  --gold-pale:  #e8d9a8;
-  --rule:       #c4b28a;
-  --rule-faint: #ddd3b8;
-  --red:        #7a1f1f;
-  --max-w:      68ch;
-  --wide-w:     90ch;
-}
-
-/* ── Reset & Base ── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-html {
-  scroll-behavior: smooth;
-  font-size: 18px;
-}
-
-body {
-  background-color: #2b2520;
-  background-image:
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 2px,
-      rgba(0,0,0,0.03) 2px,
-      rgba(0,0,0,0.03) 4px
-    );
-  color: var(--ink);
-  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
-  line-height: 1.8;
-  min-height: 100vh;
-}
-
-/* ── Page Shell ── */
-.page-shell {
-  max-width: 820px;
-  margin: 0 auto;
-  background-color: var(--parchment);
-  background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
-  box-shadow: 0 0 60px rgba(0,0,0,0.6), inset 0 0 120px rgba(139,105,20,0.04);
-  min-height: 100vh;
-}
-
-/* ── Site Header ── */
-.site-header {
-  background-color: var(--ink);
-  background-image: linear-gradient(135deg, #1a1612 0%, #2d2318 50%, #1a1612 100%);
-  padding: 0.5rem 2.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 2px solid var(--gold);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.site-header a {
-  color: var(--gold-light);
-  text-decoration: none;
-  font-family: 'Cinzel', serif;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  opacity: 0.85;
-  transition: opacity 0.2s;
-}
-
-.site-header a:hover { opacity: 1; }
-
-.header-series {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 0.65rem;
-  color: var(--gold-pale);
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-}
-
-.header-nav {
-  display: flex;
-  gap: 1.5rem;
-  align-items: center;
-}
-
-/* ── Book Hero ── */
-.book-hero {
-  padding: 4rem 3rem 3rem;
-  text-align: center;
-  border-bottom: 1px solid var(--rule);
-  background-image: linear-gradient(180deg, rgba(139,105,20,0.05) 0%, transparent 100%);
-  position: relative;
-}
-
-.book-hero::before {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--gold), transparent);
-  margin: 0 auto 2rem;
-}
-
-.book-hero::after {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--gold), transparent);
-  margin: 2rem auto 0;
-}
-
-.book-numeral {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 0.75rem;
-  letter-spacing: 0.25em;
-  color: var(--gold);
-  text-transform: uppercase;
-  margin-bottom: 0.75rem;
-}
-
-.book-title-main {
-  font-family: 'Cinzel', serif;
-  font-size: clamp(1.8rem, 5vw, 3rem);
-  font-weight: 600;
-  color: var(--ink);
-  line-height: 1.2;
-  margin-bottom: 0.5rem;
-  letter-spacing: 0.02em;
-}
-
-.book-dates {
-  font-family: 'EB Garamond', serif;
-  font-style: italic;
-  font-size: 1.15rem;
-  color: var(--ink-faint);
-  margin-bottom: 0.4rem;
-}
-
-.book-regions {
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
-  color: var(--ink-faint);
-  text-transform: uppercase;
-  font-family: 'Cinzel', serif;
-  font-weight: 400;
-}
-
-/* ── Table of Contents ── */
-.toc-section {
-  padding: 2.5rem 3rem;
-  border-bottom: 1px solid var(--rule);
-  background-color: rgba(196,178,138,0.08);
-}
-
-.toc-heading {
-  font-family: 'Cinzel', serif;
-  font-size: 0.8rem;
-  letter-spacing: 0.2em;
-  color: var(--gold);
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.toc-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 0.15rem 2rem;
-  max-width: var(--wide-w);
-  margin: 0 auto;
-}
-
-.toc-entry {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  padding: 0.3rem 0;
-  border-bottom: 1px dotted var(--rule-faint);
-}
-
-.toc-entry a {
-  text-decoration: none;
-  color: var(--ink-light);
-  font-family: 'EB Garamond', serif;
-  font-size: 0.95rem;
-  transition: color 0.15s;
-  flex: 1;
-}
-
-.toc-entry a:hover {
-  color: var(--gold);
-}
-
-.toc-date {
-  font-family: 'EB Garamond', serif;
-  font-style: italic;
-  font-size: 0.82rem;
-  color: var(--ink-faint);
-  white-space: nowrap;
-}
-
-/* ── Main Content ── */
-.content-body {
-  padding: 3rem 3rem 5rem;
-  max-width: var(--wide-w);
-  margin: 0 auto;
-}
-
-/* ── Prefatory Note ── */
-.prefatory-note {
-  background-color: rgba(196,178,138,0.12);
-  border-left: 3px solid var(--gold);
-  border-right: 3px solid var(--gold);
-  padding: 1.5rem 2rem;
-  margin: 2rem 0 3rem;
-  font-style: italic;
-  color: var(--ink-light);
-  font-size: 0.97rem;
-  line-height: 1.9;
-}
-
-.prefatory-note p + p { margin-top: 1em; }
-
-/* ── Ancestor Entry ── */
-.ancestor-entry {
-  margin-bottom: 4rem;
-  padding-top: 2.5rem;
-  border-top: 1px solid var(--rule-faint);
-  scroll-margin-top: 80px;
-}
-
-.ancestor-entry:first-of-type {
-  border-top: none;
-  padding-top: 0;
-}
-
-.entry-nameplate {
-  margin-bottom: 1.5rem;
-}
-
-.entry-name {
-  font-family: 'Cinzel', serif;
-  font-size: clamp(1.1rem, 3vw, 1.55rem);
-  font-weight: 600;
-  color: var(--ink);
-  letter-spacing: 0.04em;
-  line-height: 1.2;
-  margin-bottom: 0.3rem;
-}
-
-.entry-dateline {
-  font-family: 'EB Garamond', serif;
-  font-style: italic;
-  font-size: 0.97rem;
-  color: var(--gold);
-  letter-spacing: 0.02em;
-}
-
-/* ── Paragraphs ── */
-.ancestor-entry p {
-  margin-bottom: 1.1em;
-  font-size: 1.02rem;
-  color: var(--ink);
-  max-width: var(--max-w);
-  text-align: justify;
-  hyphens: auto;
-}
-
-/* Story separator (---) */
-.story-rule {
-  border: none;
-  height: 1px;
-  background: linear-gradient(90deg, transparent 0%, var(--rule) 30%, var(--rule) 70%, transparent 100%);
-  margin: 2rem 0;
-  position: relative;
-}
-
-.story-rule::after {
-  content: '❧';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background: var(--parchment);
-  padding: 0 0.75rem;
-  color: var(--gold);
-  font-size: 0.9rem;
-}
-
-/* ── Story Block ── */
-.story-block {
-  background-color: rgba(139,105,20,0.05);
-  border-left: 3px solid var(--gold);
-  border-right: 1px solid var(--rule-faint);
-  padding: 1.5rem 1.75rem;
-  margin: 0;
-}
-
-.story-block p {
-  max-width: var(--max-w) !important;
-}
-
-
-.children-block {
-  margin-top: 1.5rem;
-  padding: 1rem 1.25rem;
-  background-color: rgba(196,178,138,0.1);
-  border-left: 2px solid var(--rule);
-  font-size: 0.93rem;
-  color: var(--ink-light);
-}
-
-.children-block p {
-  font-style: italic;
-  margin-bottom: 0.4rem !important;
-  max-width: 100% !important;
-  text-align: left !important;
-}
-
-.children-block ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.children-block li {
-  padding: 0.2rem 0;
-  padding-left: 1rem;
-  position: relative;
-}
-
-.children-block li::before {
-  content: '—';
-  position: absolute;
-  left: 0;
-  color: var(--gold);
-}
-
-/* ── Special sections (Book VIII sub-headings) ── */
-.section-heading {
-  font-family: 'Cinzel', serif;
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--ink-light);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin: 2.5rem 0 1rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--rule-faint);
-}
-
-.sub-section-heading {
-  font-family: 'EB Garamond', serif;
-  font-size: 1.1rem;
-  font-weight: 600;
-  font-style: italic;
-  color: var(--ink-light);
-  margin: 2rem 0 0.75rem;
-}
-
-/* ── Book Footer ── */
-.book-footer {
-  background-color: var(--ink);
-  background-image: linear-gradient(135deg, #1a1612 0%, #2d2318 50%, #1a1612 100%);
-  padding: 2.5rem 3rem;
-  text-align: center;
-  border-top: 2px solid var(--gold);
-}
-
-.footer-ornament {
-  color: var(--gold);
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  letter-spacing: 0.5rem;
-}
-
-.footer-series {
-  font-family: 'Cinzel', serif;
-  font-size: 0.7rem;
-  letter-spacing: 0.2em;
-  color: var(--gold-pale);
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
-}
-
-.footer-nav {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.footer-nav a {
-  font-family: 'Cinzel', serif;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  color: var(--gold-light);
-  text-decoration: none;
-  text-transform: uppercase;
-  opacity: 0.8;
-  transition: opacity 0.2s;
-}
-
-.footer-nav a:hover { opacity: 1; }
-
-/* ── Back to top ── */
-.back-to-top {
-  display: inline-block;
-  margin-top: 1rem;
-  font-family: 'Cinzel', serif;
-  font-size: 0.68rem;
-  letter-spacing: 0.15em;
-  color: var(--gold-light);
-  text-decoration: none;
-  text-transform: uppercase;
-  opacity: 0.6;
-  transition: opacity 0.2s;
-}
-.back-to-top:hover { opacity: 1; }
-
-/* ── Responsive ── */
-@media (max-width: 640px) {
-  .content-body { padding: 2rem 1.5rem 4rem; }
-  .book-hero    { padding: 2.5rem 1.5rem 2rem; }
-  .toc-section  { padding: 2rem 1.5rem; }
-  .site-header  { padding: 0.5rem 1.25rem; }
-  .toc-grid     { grid-template-columns: 1fr; }
-}
-
-/* ── Print ── */
-@media print {
-  .site-header, .book-footer { display: none; }
-  body { background: white; }
-  .page-shell { box-shadow: none; }
-}
-
-
-  </style>
+  <title>The Holmes Chronicle — Book Ⅴ</title>
+  <meta name="description" content="The Holmes Chronicle">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;500;600&family=Cinzel+Decorative:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
 </head>
 <body>
 <div class="page-shell">
-<header class="site-header"><nav class="header-nav"><span><a href="book-4.html">← Book IV</a></span>
-<span><a href="index.html" class="header-series">The Holmes Chronicle</a></span>
-<span><a href="book-6.html">Book VI →</a></span></nav></header>
+<header class="site-header">
+  <nav class="header-nav">
+    <span class="header-nav"><a href="book-4.html">← Book Ⅳ</a></span>
+    <span class="header-series"><a href="index.html">The Holmes Chronicle</a></span>
+    <span class="header-nav"><a href="book-6.html">Book Ⅵ →</a></span>
+  </nav></header>
 <div id="top" class="book-hero">
-  <div class="book-numeral">Book V</div>
+  <div class="book-numeral">Book Ⅴ</div>
   <h1 class="book-title-main">Halstead Manor</h1>
-  <div class="book-dates">~1150 AD – ~1485 AD</div>
-  <div class="book-regions">England · Normandy · The Holy Land · The Low Countries</div>
+  <div class="book-dates">~1150 AD – ~1854 AD</div>
+  <div class="book-regions">England · Normandy · The Holy Land · The Low Countries · The Empire</div>
 </div>
 <section class="toc-section">
   <div class="toc-heading">Contents</div>
   <div class="toc-grid">
-    <div class="toc-entry"><a href="#william-holmr">WILLIAM HOLMR</a><span class="toc-date">~1140</span></div><div class="toc-entry"><a href="#robert-holmr">ROBERT HOLMR</a><span class="toc-date">~1160</span></div><div class="toc-entry"><a href="#geoffrey-holmes">GEOFFREY HOLMES</a><span class="toc-date">~1190</span></div><div class="toc-entry"><a href="#urkell-de-holmes">URKELL DE HOLMES</a><span class="toc-date">~1219</span></div><div class="toc-entry"><a href="#thomas-de-holmes">THOMAS DE HOLMES</a><span class="toc-date">~1240</span></div><div class="toc-entry"><a href="#john-de-holmes">JOHN DE HOLMES</a><span class="toc-date">~1270</span></div><div class="toc-entry"><a href="#william-de-holmes">WILLIAM DE HOLMES</a><span class="toc-date">~1300</span></div><div class="toc-entry"><a href="#richard-de-holmes">RICHARD DE HOLMES</a><span class="toc-date">~1330</span></div><div class="toc-entry"><a href="#robert-de-holmes">ROBERT DE HOLMES</a><span class="toc-date">~1360</span></div><div class="toc-entry"><a href="#henry-holmes">HENRY HOLMES</a><span class="toc-date">~1390</span></div><div class="toc-entry"><a href="#edward-holmes">EDWARD HOLMES</a><span class="toc-date">~1420</span></div>
+    <div class="toc-entry"><a href="#william-holmr">WILLIAM HOLMR</a><span class="toc-date">~1140</span></div><div class="toc-entry"><a href="#robert-holmr">ROBERT HOLMR</a><span class="toc-date">~1160</span></div><div class="toc-entry"><a href="#geoffrey-holmes">GEOFFREY HOLMES</a><span class="toc-date">~1190</span></div><div class="toc-entry"><a href="#urkell-de-holmes">URKELL DE HOLMES</a><span class="toc-date">~1219</span></div><div class="toc-entry"><a href="#thomas-de-holmes">THOMAS DE HOLMES</a><span class="toc-date">~1240</span></div><div class="toc-entry"><a href="#john-de-holmes">JOHN DE HOLMES</a><span class="toc-date">~1270</span></div><div class="toc-entry"><a href="#william-de-holmes">WILLIAM DE HOLMES</a><span class="toc-date">~1300</span></div><div class="toc-entry"><a href="#richard-de-holmes">RICHARD DE HOLMES</a><span class="toc-date">~1330</span></div><div class="toc-entry"><a href="#robert-de-holmes">ROBERT DE HOLMES</a><span class="toc-date">~1360</span></div><div class="toc-entry"><a href="#henry-holmes">HENRY HOLMES</a><span class="toc-date">~1390</span></div><div class="toc-entry"><a href="#edward-holmes">EDWARD HOLMES</a><span class="toc-date">~1420</span></div><div class="toc-entry"><a href="#sir-walter-holmes">SIR WALTER HOLMES</a><span class="toc-date">~1461</span></div><div class="toc-entry"><a href="#sir-edward-holmes">SIR EDWARD HOLMES</a><span class="toc-date">~1480</span></div><div class="toc-entry"><a href="#sir-ralph-holmes">SIR RALPH HOLMES</a><span class="toc-date">~1530</span></div><div class="toc-entry"><a href="#sir-stamford-holmes">SIR STAMFORD HOLMES</a><span class="toc-date">~1570</span></div><div class="toc-entry"><a href="#sir-henry-holmes">SIR HENRY HOLMES</a><span class="toc-date">~1615</span></div><div class="toc-entry"><a href="#sir-symonds-holmes">SIR SYMONDS HOLMES</a><span class="toc-date">~1640</span></div><div class="toc-entry"><a href="#sir-richmond-holmes">SIR RICHMOND HOLMES</a><span class="toc-date">~1670</span></div><div class="toc-entry"><a href="#sir-selwyn-holmes">SIR SELWYN HOLMES</a><span class="toc-date">~1715</span></div><div class="toc-entry"><a href="#sir-seymour-holmes">SIR SEYMOUR HOLMES</a><span class="toc-date">~1760</span></div><div class="toc-entry"><a href="#sheridan-holmes">SHERIDAN HOLMES</a><span class="toc-date">~1796</span></div><div class="toc-entry"><a href="#william-scott-holmes">WILLIAM SCOTT HOLMES</a><span class="toc-date">1819</span></div>
   </div>
 </section>
 <p style="text-align:center; margin: 1.5rem 0 2rem;">
@@ -494,8 +48,8 @@ body {
     <h2 class="entry-name">WILLIAM HOLMR</h2>
     <div class="entry-dateline">~1140 — Yorkshire, England</div>
   </div>
-  <p>William Holmr was born in the worst years of the Anarchy and grew up in the peace that Henry II imposed upon a country exhausted by civil war — the Plantagenet settlement, with its systematic reconstruction of royal justice and administrative order, providing precisely the kind of environment in which a man of his particular gifts could find productive employment. The family estate in the North Riding had come through the chaos intact, thanks to his father's careful management, and William inherited both the land and the reputation that went with it: a family known for accurate accounts, reliable testimony, and the uncommon quality of meaning exactly what they said.</p>
-<p>He made himself useful to the new Plantagenet administration in the way the family had always made itself useful — by being the most reliable reader of a situation in whatever room he was in. He served as a local assessor under the early Assize system that Henry II was extending across England, evaluating land valuations and witnessing charters with the scrupulous precision of a man who understood that the document, once sealed, became the reality it described, and that errors in documents had consequences that outlasted the men who made them.</p>
+  <p>William Holmr was born in the worst years of the Anarchy and grew up in the peace that Henry Ⅱ imposed upon a country exhausted by civil war — the Plantagenet settlement, with its systematic reconstruction of royal justice and administrative order, providing precisely the kind of environment in which a man of his particular gifts could find productive employment. The family estate in the North Riding had come through the chaos intact, thanks to his father's careful management, and William inherited both the land and the reputation that went with it: a family known for accurate accounts, reliable testimony, and the uncommon quality of meaning exactly what they said.</p>
+<p>He made himself useful to the new Plantagenet administration in the way the family had always made itself useful — by being the most reliable reader of a situation in whatever room he was in. He served as a local assessor under the early Assize system that Henry Ⅱ was extending across England, evaluating land valuations and witnessing charters with the scrupulous precision of a man who understood that the document, once sealed, became the reality it described, and that errors in documents had consequences that outlasted the men who made them.</p>
 <hr class="story-rule">
 <div class="story-block"><p>In the autumn of 1163, William Holmr was called to give his assessment in a matter that the itinerant justices, then making their way through the North Riding, had found themselves unable to resolve. Two men — a free tenant named Drogo and a minor lord named Hervey de Mauley — both claimed the holding of a disputed virgate at the edge of the moor near Pickering. Each produced documents. Each produced witnesses. The itinerant justice, a careful man but not a subtle one, had been proceeding for a fortnight without conclusion.</p>
 <p>William examined the documents first, before speaking to any of the witnesses. He noted that Drogo's charter was written on parchment of consistent colour throughout its surface — consistent, that is, except for two words in the grants clause, where the parchment was slightly paler and the ink fractionally darker, as if the words had been written separately and at a different time. He said nothing of this yet. He then asked to speak with the witnesses in private, not together but one by one, requesting from each a precise description of the boundary markers as they appeared on the day they had witnessed the charter's making. There were four witnesses to Drogo's charter. The first described a standing stone to the north of the disputed field. The second described a ditch. The third described the standing stone again, which reassured him; but the fourth, asked the same question, described a great oak that no one else had mentioned.</p>
@@ -514,7 +68,7 @@ body {
     <div class="entry-dateline">~1160 — Halstead, Yorkshire</div>
   </div>
   <p>Robert Holmr was the man who made the family seat. The house at Halstead — a modest stone structure on rising ground above the valley, looking north toward the moors — was built in his time, on land the family had held since before the Conquest but never before formalised into a manor. It was Robert who established the household, organised the demesne, and created the permanent base from which the family would operate for the next three centuries and more.</p>
-<p>He was a man of local consequence rather than national ambition — a justice in the manor court, a wool dealer, a neighbour whose opinion was sought in disputes because he was known to weigh evidence before pronouncing. He administered Halstead through the latter years of Henry II's long reign, when the itinerant justices were bringing the king's law to every corner of England and the local court system was being formalised into something more durable than it had been. Robert Holmr made himself a useful part of that system, and the reputation it gave him was, in its modest way, the foundation on which everything that followed was built.</p>
+<p>He was a man of local consequence rather than national ambition — a justice in the manor court, a wool dealer, a neighbour whose opinion was sought in disputes because he was known to weigh evidence before pronouncing. He administered Halstead through the latter years of Henry Ⅱ's long reign, when the itinerant justices were bringing the king's law to every corner of England and the local court system was being formalised into something more durable than it had been. Robert Holmr made himself a useful part of that system, and the reputation it gave him was, in its modest way, the foundation on which everything that followed was built.</p>
 <hr class="story-rule">
 <div class="story-block"><p>In the summer of 1184, a dispute came before the manor court at Halstead that was, on its surface, a simple matter of debt: a draper of Pickering named Ulf Robeard claimed that a journeyman weaver named Osbert owed him twelve shillings for cloth supplied, and that Osbert had absconded from the town before paying. Osbert, brought before the court from the village of Sinnington where he had settled, denied the debt entirely. He said he had paid Robeard in full two months past, in the draper's storeroom before three witnesses, and had never received his quittance because Robeard had left the room to fetch the wax for the seal and not returned.</p>
 <p>Robert Holmr heard the case with the attentiveness he gave to all proceedings — and found, in the account Robeard presented, a detail that sat uneasily. Robeard described Osbert as having paid him in a mixture of silver pennies and cut halfpence. This was entirely credible. What was less credible was the draper's claim that the sum was made up of eight whole pennies and eight cut halfpence — which was arithmetically possible for twelve shillings, but was an oddly precise recollection for a man who had, as he said, received the money distractedly during a busy afternoon and then immediately gone to fetch sealing wax that he apparently never delivered.</p>
@@ -533,7 +87,7 @@ body {
     <h2 class="entry-name">GEOFFREY HOLMES</h2>
     <div class="entry-dateline">~1190 — Halstead Manor, Yorkshire</div>
   </div>
-  <p>Geoffrey Holmes was the first of the line to bear the name in its settled English form — no longer the Norse "Holmr," not yet the Norman "de Holmes," but plainly and durably "Holmes," the name of a family attached to a place. He came of age in the reign of Richard I and lived through the early years of John — a transition from an absentee king to a disastrous one, which kept the practical business of English local administration largely in the hands of men like Geoffrey Holmes, who understood the system and kept it running while those above them were otherwise occupied.</p>
+  <p>Geoffrey Holmes was the first of the line to bear the name in its settled English form — no longer the Norse "Holmr," not yet the Norman "de Holmes," but plainly and durably "Holmes," the name of a family attached to a place. He came of age in the reign of Richard Ⅰ and lived through the early years of John — a transition from an absentee king to a disastrous one, which kept the practical business of English local administration largely in the hands of men like Geoffrey Holmes, who understood the system and kept it running while those above them were otherwise occupied.</p>
 <p>He served as a minor official in the ecclesiastical courts of the Diocese of York — a position that required, above all else, the ability to assess testimony: to determine, from the manner of a witness as much as from his words, whether what was being said corresponded to what was true. It was work that the family mind was peculiarly suited to, and Geoffrey Holmes pursued it with a quiet thoroughness that earned him the trust of his superiors and the wariness of anyone who came before him with a fabricated account. He could not always say how he knew a man was lying; he simply knew, and was almost never wrong.</p>
 <hr class="story-rule">
 <div class="story-block"><p>The summer of 1205 brought before the ecclesiastical court at York a case of considerable local sensitivity: a widow named Maud of Skelton claimed that her late husband's brother, a priest of the parish of Helperby named Aldwin, had suborned two parishioners to give false testimony before the archdeacon, testifying that Maud's husband had made a deathbed declaration assigning the disputed portion of his estate to the Church rather than to his wife. Maud had no witnesses of her own; her husband had died in the night, and she had been asleep in the adjacent chamber.</p>
@@ -570,7 +124,7 @@ body {
     <h2 class="entry-name">THOMAS DE HOLMES</h2>
     <div class="entry-dateline">~1240 — Yorkshire, England</div>
   </div>
-  <p>Thomas de Holmes inherited from his father a settled estate and a local reputation for fair dealing, and spent the middle decades of the thirteenth century holding both intact through a period of considerable political turbulence. The Baron's Wars of 1264–67 — the conflict between Henry III and Simon de Montfort that convulsed English political life and drew every landowner of consequence into one camp or another — presented him with the dilemma that had faced his ancestors at every comparable crossroads: which side, and when.</p>
+  <p>Thomas de Holmes inherited from his father a settled estate and a local reputation for fair dealing, and spent the middle decades of the thirteenth century holding both intact through a period of considerable political turbulence. The Baron's Wars of 1264–67 — the conflict between Henry Ⅲ and Simon de Montfort that convulsed English political life and drew every landowner of consequence into one camp or another — presented him with the dilemma that had faced his ancestors at every comparable crossroads: which side, and when.</p>
 <p>He chose, as Yorkshire gentry tended to choose, the path of local administration over baronial adventure — presenting himself as a servant of order rather than a partisan of any faction. This was not cowardice; it was a precise reading of the situation that recognised how little a North Riding manor stood to gain from the victory of either side, and how much from the survival of the legal and administrative structures through which men like Thomas de Holmes exercised their particular kind of influence. He sat on the commission of the peace, administered the local court, and died with his estate, his reputation, and his head all intact.</p>
 <hr class="story-rule">
 <div class="story-block"><p>The crisis came not in the wars themselves but in their aftermath. In the spring of 1268, as the royalist administration was reasserting control across England and the Montfortian cause lay in ruins after the Battle of Evesham, Thomas was approached by a knight of the East Riding named Sir Piers de Fauconberg with a request that was framed as a neighbourly courtesy and was nothing of the kind.</p>
@@ -665,7 +219,7 @@ body {
     <div class="entry-dateline">~1390 — Yorkshire, England</div>
   </div>
   <p>Henry Holmes dropped the Norman "de" from the family name — a small act that marked a large shift. The Holmes family was English now, rooted in English soil, operating within English law, and bearing an English name without qualification or prefix. The fourteenth century had made them so, as it had made so much else: the plague, the wars, the slow erosion of the French connection that the Conquest had imposed, had all worked together to produce a North Riding gentry family indistinguishable, to the eye, from a dozen others in the same county.</p>
-<p>The distinction lay in the mind. The Lollard controversy was burning through the Church in Henry's time, and the question of where a man stood on Wycliffe and the reforming party was not merely theological but potentially fatal — Henry IV had made heresy a capital offence in 1401, and the flames at Smithfield were not metaphorical. Henry Holmes kept the family out of it entirely, which required not passivity but active, daily intelligence — the reading of which neighbours were observed, which conversations were reported, which enthusiasms were safe to express and in whose company. He understood the dangers of his moment with a precision that his descendants would have recognised immediately, even across five centuries.</p>
+<p>The distinction lay in the mind. The Lollard controversy was burning through the Church in Henry's time, and the question of where a man stood on Wycliffe and the reforming party was not merely theological but potentially fatal — Henry Ⅳ had made heresy a capital offence in 1401, and the flames at Smithfield were not metaphorical. Henry Holmes kept the family out of it entirely, which required not passivity but active, daily intelligence — the reading of which neighbours were observed, which conversations were reported, which enthusiasms were safe to express and in whose company. He understood the dangers of his moment with a precision that his descendants would have recognised immediately, even across five centuries.</p>
 <hr class="story-rule">
 <div class="story-block"><p>In the winter of 1407, a young clergyman of the parish of Coxwold came to Halstead in evident distress, having ridden twenty miles in hard weather to speak with Henry Holmes, whose reputation for discretion he had heard recommended by the widow of an Ampleforth gentleman. The clergyman — a deacon named Rede — explained his situation with the careful precision of a man who had thought about what he could safely say and had concluded that he could not afford to say less than everything.</p>
 <p>Rede had been approached, three months earlier, by a man who presented himself as an official of the Diocese of York, bearing credentials that appeared authentic, who informed the deacon that a complaint of Lollard sympathy had been lodged against him with the Bishop's consistory court — a complaint based on a sermon Rede had preached in the summer, in which he had suggested that the reading of scripture in English was not inherently sinful. The diocesan official had indicated that the complaint might be withdrawn, the matter resolved without formal proceedings, if the deacon were willing to make a contribution to certain purposes that the official did not specify. The sum named was thirty shillings.</p>
@@ -686,7 +240,7 @@ body {
     <h2 class="entry-name">EDWARD HOLMES</h2>
     <div class="entry-dateline">~1420 — Yorkshire, England</div>
   </div>
-  <p>Edward Holmes served in the retinue of a Yorkshire lord in the French campaigns of Henry V, was present at Agincourt in October 1415 — not in the front rank, but present, which was enough — and came home to a kingdom that was beginning, almost before the cheering had stopped, to fall apart. The English position in France collapsed through the 1420s and 1430s with a speed that suggested the whole vast enterprise had been held together by the force of one man's will, and that will was gone. Edward Holmes watched the process from Yorkshire with the cold attention of someone who had seen enough of war to have no illusions about it, and who understood that the political instability now visibly approaching would require of his son exactly the quality that the family had always, in one form or another, possessed: the ability to read the field before the battle was joined.</p>
+  <p>Edward Holmes served in the retinue of a Yorkshire lord in the French campaigns of Henry Ⅴ, was present at Agincourt in October 1415 — not in the front rank, but present, which was enough — and came home to a kingdom that was beginning, almost before the cheering had stopped, to fall apart. The English position in France collapsed through the 1420s and 1430s with a speed that suggested the whole vast enterprise had been held together by the force of one man's will, and that will was gone. Edward Holmes watched the process from Yorkshire with the cold attention of someone who had seen enough of war to have no illusions about it, and who understood that the political instability now visibly approaching would require of his son exactly the quality that the family had always, in one form or another, possessed: the ability to read the field before the battle was joined.</p>
 <p>He raised Walter in that understanding — teaching him not tactics but judgement, not loyalty but the assessment of where loyalty was most wisely placed. It was, given what was coming, the most useful education a father could have provided.</p>
 <hr class="story-rule">
 <div class="story-block"><p>In the spring of 1440, when the Wars of the Roses were still a decade from open violence but the factional pressures beneath the surface of Lancastrian England were already straining the peace, a knight of the East Riding named Sir Gervais Huntingdon came to Edward Holmes at Halstead on a matter he described as urgent and which he could not explain until he was certain the room contained no one but the two of them.</p>
@@ -696,23 +250,261 @@ body {
 <p>Edward considered this. A genuine representative of a duke did not have letters delayed in the post; he carried them, or he waited until he had them before making promises. This was the tell of an improviser — a man working without genuine backing, constructing his authority as he went. The question was whether he was an independent fraudster seeking to sell information to whichever side paid, or an agent of one side using the appearance of the other's recruitment to generate a list of suspected sympathisers.</p>
 <p>He told Huntingdon to do nothing for six weeks, and in those six weeks he made inquiry — through former soldiers of his acquaintance, through a York attorney who served clients of both factions, through the controlled channels of reputation and counter-reputation that a man of his standing could navigate without attracting comment — into whether anyone answering the man's description was known to the circle of either York's or Lancaster's established agents in the north. The answer, after six weeks, was no: the man was not known to either side's networks. He was operating independently — extracting information from anxious gentry in both factions, selling it, probably, to whoever offered the best price.</p>
 <p>Edward returned to Huntingdon with a simple instruction: tell the man, at their next meeting, that you have prepared the list he requested, and that you will deliver it at a place and time of his choosing. Then inform the Sheriff of Yorkshire of the meeting place before you attend it. Huntingdon did so. The man was apprehended with a leather satchel containing partial lists from three other knights, two of them Lancastrian in sympathy and one ostensibly Yorkist. The sheriff examined the material and sent his conclusions to the royal council — framing the arrest, accurately, as a matter of independent espionage without political implication for any of the nobles named. The three other knights whose names appeared were interviewed quietly and released; none was prosecuted. The man himself was imprisoned for eighteen months under a charge of fraudulent misrepresentation, which was the most that could be proved without involving the great lords whose names he had been trading.</p>
-<p>Edward Holmes was not named in any official record of the affair. He was fifty years old, and beginning to feel it. When he sat with his son Walter that winter and spoke — as he had always spoken, from the time the boy could listen — of observation and judgement and the distance that was necessary between a man and his conclusions, he was speaking from experience that went deeper than books and longer than the French wars. He was speaking as the fourteenth generation of a line that had been keeping the same kind of account, in one form or another, since a man named Holmr held the North Riding under Henry II and read a fraudulent land deed by the light of a candle and a polished lens of rock crystal.</p>
+<p>Edward Holmes was not named in any official record of the affair. He was fifty years old, and beginning to feel it. When he sat with his son Walter that winter and spoke — as he had always spoken, from the time the boy could listen — of observation and judgement and the distance that was necessary between a man and his conclusions, he was speaking from experience that went deeper than books and longer than the French wars. He was speaking as the fourteenth generation of a line that had been keeping the same kind of account, in one form or another, since a man named Holmr held the North Riding under Henry Ⅱ and read a fraudulent land deed by the light of a candle and a polished lens of rock crystal.</p>
 </div>
 <div class="children-block">
 <p><em>Children:</em><br>
-- <strong>Sir Walter Holmes</strong> — <a href="book-6.html">Book VI</a></p></div>
+- <strong>Sir Walter Holmes</strong> — see next entry.</p></div>
+</article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry">
+<div class="prefatory-note">
+<p><strong>A note before we proceed:</strong><br>The reader who has followed this chronicle from Ur to the Wars of the Roses will have observed that in every age there is, behind the particular crime, the particular fraud, the particular act of organised malice that each Holmes encounters, a shadow — a system of coordination that exceeds the scope of any individual criminal. In Babylon it was the syndicate of false assessors; in Rome the ring of falsified supply contracts; in the Plantagenet courts the brotherhood of document-forgers whose work could unseat a lord and seat another in his place. These organisations did not die. They adapted. They acquired new names and new methods as the centuries furnished new opportunities, but the essential structure — the hierarchy of deniable intermediaries, the intelligence apparatus turned to criminal purpose, the careful insulation of those at the centre from the evidence that implicated those at the margins — remained constant.</p>
+<p>The Brotherhood of the Grey Seal, as pieced together from the private records of successive generations at Halstead, was one such organisation. It operated through intermediaries who did not know the identities of those who employed them; it used the legal systems of the age as both its instrument and its cover; and it renewed itself, generation by generation, by recruiting men of technical skill — forgers, notaries, ecclesiastical clerks, court officials — whose involvement could be managed and, when necessary, disavowed. No Holmes ever saw the whole of it. What each Holmes saw was a pattern — the same structures of deniable coordination, the same careful insulation of those at the top from the evidence at the bottom — and left a record for the next.</p>
+<p>Sir Walter Holmes of Kirkbymoorside would carry that record into a new age: the age of the printing press, and an organisation that had learned, as all long-lived things learn, to transform itself without altering its essential nature. It would call itself, in that new age, the Fellowship of the Broken Seal. It was the same body under a different name, and it would require another Holmes to press it back — destroying it would be impossible — but press it back, as each generation had pressed it back, one link removed from the chain, one witness discredited, one forger's hand identified, in the long, patient, unacknowledged work of keeping the world from being entirely consumed by those who preyed upon it.</p>
+</div>
+</article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry" id="sir-walter-holmes">
+  <div class="entry-nameplate">
+    <h2 class="entry-name">SIR WALTER HOLMES of Kirkbymoorside</h2>
+    <div class="entry-dateline">~1461 — Yorkshire, England</div>
+  </div>
+  <p>Walter Holmes of Kirkbymoorside, a market town eight miles from Pickering in the North Riding, was a man who understood, with a clarity unusual in his age, that battles are decided before they are fought — by the reading of allegiances, the assessment of resources, and the cold calculation of which side, on a given morning, was more likely to prevail. He fought with the Yorkist forces of Edward Ⅳ at the Battle of Towton on the twenty-ninth of March 1461, Palm Sunday, in a snowstorm, in what became the bloodiest engagement ever fought on English soil. He chose correctly and survived. He was knighted by Edward in the years following, the family ascending another rung on the ladder they had been climbing, in one form or another, since the wool merchants of the fourteenth century.</p>
+<p>What distinguished Walter Holmes was not his courage, which was unremarkable for the age, but his political intelligence — the same faculty that had kept his ancestors alive through plague, war, and dynastic upheaval, now applied to the most dangerous game available. He had come to the Yorkist cause not through inheritance but through calculation: his father had raised him to study men rather than to follow them, and his study of the available options in 1460 had produced a conclusion so clear that when the time came to act upon it, he did so without hesitation. He was perhaps thirty years old at Towton, a man already formed, and the battle confirmed rather than created him.</p>
 <hr class="story-rule">
-<p><strong><em>Author's Note:</strong><br>The Brotherhood of the Grey Seal, as pieced together from the private records of successive generations at Halstead, was an organisation whose longevity depended on precisely the quality that made it invisible: it had no centre. It operated through intermediaries who did not know the identities of those who employed them; it used the legal systems of the age as both its instrument and its cover; and it renewed itself, generation by generation, by recruiting men of technical skill — forgers, notaries, ecclesiastical clerks, court officials — whose involvement could be managed and, when necessary, disavowed. No Holmes ever saw the whole of it. What each Holmes saw was a pattern — the same structures of deniable coordination, the same careful insulation of those at the top from the evidence at the bottom — and left a record for the next.</em></p>
-<p><em>Walter Holmes of Kirkbymoorside would carry that record into a new age: the age of the printing press, the Tudor state, and an organisation that had learned, as all long-lived things learn, to transform itself without altering its essential nature. It would call itself, in that new age, the Fellowship of the Broken Seal. It was the same body under a different name, and it would require another Holmes to press it back — not destroy it, never that, but press it back, as each generation had pressed it back, one link removed from the chain, one witness discredited, one forger's hand identified, in the long, patient, unacknowledged work of keeping the world from being entirely consumed by those who preyed upon it.</em></p>
+<div class="story-block">
+<p>In the years following the Yorkist settlement, Sir Walter served the new administration as a commissioner of array for the North Riding — the official responsible for mustering the local levies and, more practically, for assessing which Yorkshire gentlemen's loyalty to Edward was genuine and which was the loyalty of men waiting to see how things resolved. He was a shrewd reader of this question. He had a method: he asked each man not what he thought of the King, but what he thought his neighbour thought of the King. The indirect question, he had found, produced the unguarded answer in a way that the direct one never did. Men were careful about their own professions of loyalty; they were rather less careful about their neighbours'.</p>
+<p>It was in this capacity that he first encountered what he would later describe, in a letter to his son that survives among the family papers, as "a concerted practice of false testimony, working not for any one lord but for any lord that would pay." The occasion was an inquiry into the allegiance of a Yorkshire knight named Thursby, against whom a case of Lancastrian sympathy had been assembled with suspicious efficiency — three witnesses, all giving evidence of the same acts in the same words, their depositions so closely aligned as to suggest a common source rather than independent recollection. Sir Walter noted the alignment, and noted also that the three witnesses were all men who had passed through the coaching inn at Boroughbridge within the same fortnight — a fact he established not by interrogating them but by examining the inn's tallage roll, which he obtained from the keeper on the pretext of an inquiry into a disputed debt.</p>
+<p>He found, in the Boroughbridge roll, the name of a fourth man: a notary of York by the name of Roper, who had lodged two nights before any of the witnesses arrived, and who had departed the morning of the first deposition. He did not arrest Roper, who had committed no act that could be directly proved. He reported his findings to the sheriff, identified the discrepancies in the depositions, and left the determination of Thursby's guilt or innocence to the process he had served. Thursby was acquitted. Roper was noted. When the Yorkist sun began to set and Henry Tudor's star to rise, Walter read the shift early and repositioned himself accordingly, supporting Henry before Bosworth in 1485 with sufficient conviction to preserve the family's standing through the transition. He died with his name intact and his estate unforfeited, which in the England of the 1480s was an achievement requiring both intelligence and nerve. He left among his private papers a list of names — seven men in four counties, connected by their proximity to a series of false witness cases over twenty years — and a note in the margin, in his careful clerk's hand: <em>These are not separate men acting separately. Follow the notary.</em></p>
+</div>
+<div class="children-block">
+<p><em>Children:</em><br>
+- <strong>Sir Edward Holmes</strong> — see next entry.<br>
+- Sir Charles Holmes — knighted subsequently by Queen Elizabeth; a distinguished branch of the line.</p>
+</div>
+</article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry" id="sir-edward-holmes">
+  <div class="entry-nameplate">
+    <h2 class="entry-name">SIR EDWARD HOLMES</h2>
+    <div class="entry-dateline">~1480 — Yorkshire, England</div>
+  </div>
+  <p>Sir Edward Holmes inherited from his father a knighthood, a Yorkshire estate, and a political position of careful neutrality carefully maintained. He was a consolidator rather than an adventurer — a man who understood that the Tudor settlement, whatever its costs, represented stability, and that stability rewarded those who did not press their claims too vigorously or attract the attention of those above them. He managed the estate through the reigns of Henry Ⅶ and the early years of Henry Ⅷ with the methodical competence that had characterised the family's best generations, keeping his accounts in order, his tenants in reasonable contentment, and his opinions largely to himself.</p>
+<p>His particular gift was the reading of men in authority — the assessment, from posture and precedent and the small signals of royal favour, of who stood well at court and who did not. He made himself useful not by courting favour, which required a suppleness of character he did not possess, but by being the sort of man whom those who held favour wished to consult: a man whose assessments were accurate, whose counsel was disinterested, and who would not subsequently be found to have told both sides the same thing in different words. This was a rarer combination than it sounds, particularly at the court of the second Henry Tudor, where the performance of loyalty had become an art form requiring almost daily revision.</p>
 <hr class="story-rule">
-<div style="text-align:center"><em>End of Book V</em></div>
+<div class="story-block">
+<p>In the spring of 1523, Sir Edward became involved, through no design of his own, in a matter that required the particular quality of attention his father had passed to him. A merchant of York, one Thomas Batley, came to him with a document: a deed of conveyance purporting to transfer the title of a substantial wool-grazing farm to a gentleman creditor of his. Batley maintained he had never signed such a deed, and that the signature upon it was a forgery. The gentleman creditor — a man named Vessey, with connections to the Inns of Court in London — maintained otherwise, and had the support of two witnesses.</p>
+<p>Sir Edward examined the deed carefully. He knew something of documents; his father had taught him to read a manuscript not merely for its stated content but for the physical evidence of its production — the weight of the ink, the regularity of the hand, the quality of the parchment, the placement of the seal in relation to the fold marks. What he found, after an hour's examination by the light of his study window, was that the deed had been written on parchment that showed fold marks inconsistent with the seal's position: the document had been folded, the seal applied, and then the body of the text written afterward, which meant that the sealed blank had been prepared in advance and the conveyance written into it later. This was a sophisticated forgery, not a crude one — the work of someone who understood the process well enough to subvert it from within.</p>
+<p>He brought his findings not to Vessey's witnesses but directly to the Archbishop of York's commissary court, presenting the physical evidence with the precision of a man who understood that what cannot be argued away is what must be placed before the court. Vessey's case collapsed. The witnesses proved, under examination, to be men who had given testimony in similar proceedings twice before — both times in the Court of Common Pleas, both times in cases brought by creditors whose solicitor was connected, through a chain of introductions, to a notary whose name Sir Edward found, in the footnotes of his father's private papers, in a list of seven names with a marginal note: <em>Follow the notary.</em></p>
+<p>He wrote a memorandum of his findings — carefully, without accusation, in the form of an account of what he had observed and what he had concluded — and sent it to Thomas Cromwell, who was at that time principal secretary to Wolsey and already a man to whom such intelligence was welcome. What Cromwell did with it, the record does not say. What it does say is that the notary Roper's son, who had continued his father's practice, was disbarred from the York courts the following year on grounds unspecified in the formal record. The chain was not broken; but a link of it was removed.</p>
+</div>
+<div class="children-block">
+<p><em>Children:</em><br>
+- <strong>Sir Ralph Holmes</strong> — see next entry.</p>
+</div>
+</article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry" id="sir-ralph-holmes">
+  <div class="entry-nameplate">
+    <h2 class="entry-name">SIR RALPH HOLMES</h2>
+    <div class="entry-dateline">~1530 — Yorkshire, England</div>
+  </div>
+  <p>Sir Ralph Holmes came of age in the decade when the world turned. Henry Ⅷ's break with Rome, and the dissolution of the monasteries that followed, redistributed more land and wealth in a shorter time than any event in English history since the Conquest. It required only a clear eye and a willingness to act to profit considerably from the upheaval — and Sir Ralph, surveying the situation with the analytical detachment that ran in his blood, saw exactly what was available, converted to the new religion at a moment precisely calculated to be neither suspiciously early nor dangerously late, and acquired monastic lands in the North Riding at prices that reflected the Crown's eagerness to sell rather than the property's actual worth.</p>
+<p>He was not a man of principle in the theological sense; he was a man of observation in the practical one. The Reformation, to Sir Ralph Holmes, was a set of facts to be read and responded to, not a spiritual crisis to be resolved. He read them correctly, but reading them correctly was not, in the England of the 1530s and 1540s, sufficient to avoid all difficulty. The convulsion of the Church had created conditions of extraordinary opportunity for those whose business was the production of false documents: land titles disputed by dissolved monasteries and their former tenants, heresy accusations weaponised as instruments of financial pressure, recusancy charges deployed against men whose crime was not their religion but their land. The Fellowship of the Broken Seal — the network his father had brushed against and his grandfather had first identified — was operating at the height of its powers.</p>
+<hr class="story-rule">
+<div class="story-block">
+<p>In 1547, in the first year of Edward Ⅵ's reign and the most radical phase of the English Reformation, Sir Ralph was approached by a man named Cordell, a wool broker of Halifax, who came to him in some distress. Cordell's title to a grazing estate — acquired legitimately from the Crown at the dissolution of Rievaulx Abbey — had been challenged by a document asserting a prior claim by a gentleman of the West Riding named Dacre. The document was a pre-dissolution lease, purportedly granted by the last abbot of Rievaulx to Dacre's father for a term of ninety-nine years and therefore still valid. Cordell maintained he had never heard of any such lease in the twenty years he had held the land.</p>
+<p>Sir Ralph visited the estate, which he had occasion to know from his own land dealings, and spent two days in methodical examination. He did not begin with the document itself. He began with the land: the hedges, the drainage channels, the patterns of grazing evident in the turf, and the testimony of the oldest tenant, a man of seventy who had been born on the farm in the last decade of the previous century. From the tenant he learned that the land had been directly farmed by the abbey until its dissolution — that there had been no tenant of the family Dacre, no subtenant, no evidence of any occupation but the abbey's own in living memory.</p>
+<p>Then he examined the document, and found three things. The first was that the ink of the abbot's signature was of a slightly different shade from the ink of the body text — the shade consistent with writing done in an unheated room in cold weather, which the signature was, and the body text was not. The second was that the abbot's seal, which should have been affixed at the foot with a tongue of parchment cut from the foot of the document itself, was affixed with a separate tongue that had been added — the cutting edge of the original document foot visible as a faint line beneath the attached tongue. The third was that the witnesses listed in the document included a monk who, according to the abbey's own surviving records — which Sir Ralph obtained from the new owners of the Rievaulx buildings — had died in 1521, three years before the lease was purportedly executed.</p>
+<p>He presented these findings to the Court of Augmentations, which had jurisdiction over dissolved monastic property, with a written account of his method and his conclusions and a rider noting that the Dacre family's solicitor was a man named Whitmore, who had offices in Gray's Inn and had appeared as solicitor in eleven previous title disputes involving dissolved monastic property, in eight of which the challenging document had shown similar physical anomalies. The Court found for Cordell. Whitmore was referred to the relevant benchers of Gray's Inn, who suspended him from practice for a period of two years — at the end of which he returned to practice under a different name, in different chambers, working through a different set of intermediaries. The network was not destroyed. It was inconvenienced, and a portion of its income was redirected. Sir Ralph Holmes died considerably wealthier than he had been born, the family's position stronger than at any point since Walter's knighthood at Towton — and left his son, alongside the deeds to those newly acquired acres, a careful account of the solicitor's method and the physical tells of his forger's hand.</p>
+</div>
+<div class="children-block">
+<p><em>Children:</em><br>
+- <strong>Sir Stamford Holmes</strong> — see next entry.</p>
+</div>
+</article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry" id="sir-stamford-holmes">
+  <div class="entry-nameplate">
+    <h2 class="entry-name">SIR STAMFORD HOLMES</h2>
+    <div class="entry-dateline">~1570 — Yorkshire / London, England</div>
+  </div>
+  <p>Sir Stamford Holmes sat in successive Elizabethan and Jacobean parliaments and left almost no mark upon their proceedings, which was, one suspects, entirely deliberate. His two recorded contributions were these: in the first, he suggested during a debate on the transportation of convicts that the colonies of New England might serve as a destination for lawbreakers, and was informed by a colleague that felons were already being sent there as indentured labourers; in the second, he requested that the doors of St Stephen's Chapel be closed against the draught. He was a man who attended, observed, and kept his own counsel — the family's analytical habit turned, in this generation, toward the preservation of a comfortable anonymity in dangerous times. He understood, with the cold clarity of his line, that Elizabethan London was a city in which the difference between an intelligencer and a man being watched was entirely a matter of who held the warrant, and that conspicuousness of any kind was an invitation to both.</p>
+<p>He was not idle. He had inherited his father's knowledge of the Fellowship of the Broken Seal, and he had added to it: the years at Westminster had given him a view of the network's operations at the level of national politics that his Yorkshire predecessors had only glimpsed. He saw how the Fellowship served the various factions of the Elizabethan court — providing false witnesses for the prosecution of inconvenient men, fabricating treasonous correspondence on behalf of those who needed enemies convicted, supplying the apparatus of legal destruction to whoever had the money to commission it. He understood that the network's coordinator — the man his grandfather had called simply the notary, whose successors had moved through a succession of aliases and addresses — was now operating from London rather than the North, had graduated from land disputes to matters of state, and had become, in the language of a later century, a criminal intelligence service.</p>
+<hr class="story-rule">
+<div class="story-block">
+<p>In the spring of 1601, in the weeks following the Essex rebellion and its bloody aftermath, Sir Stamford became aware — through channels he never recorded — that a document was in circulation purporting to show that a member of the Privy Council had corresponded with Essex before the rising. The document was a forgery; Sir Stamford was certain of this before he had examined it, because the accused councillor was a man he had known for fifteen years, and because the content of the alleged correspondence was of a kind that could only have been written by someone who did not know how the man actually expressed himself. But certainty was not evidence, and evidence was what was needed.</p>
+<p>He obtained the document through an intermediary, spent four days in examination, and identified what he found not in its physical properties — which were carefully executed — but in its language. The supposed correspondent was a man who habitually employed the Latin ablative absolute in his written English, a syntactical habit so consistent across twenty years of correspondence that it amounted to a signature. The forged document contained none. It contained instead a phrase — <em>in consequence of which</em> — that appeared, in identical form, in three previous documents Sir Stamford had in his possession: the fabricated testimony of a case in York in 1547, the false lease of 1543, and a suborned deposition in a Chancery case of 1588. The phrase was the forger's own. He had used it reflexively, as a man uses a verbal tic in speech, and had carried it from document to document across half a century of criminal practice — or rather, across three generations of criminal practice, since the original forger's hand and the present forger's hand were visibly distinct but stylistically continuous, as a craft tradition passes from master to student.</p>
+<p>Sir Stamford brought his analysis to Robert Cecil, then principal secretary and effectively the director of Elizabethan intelligence, in a private meeting of which no official record was made. Cecil, who understood information and its applications better than almost any man in England, accepted the analysis, acted upon it, and ensured that the accused councillor's name was removed from the proceedings without the reason being publicly stated. He did not thank Sir Stamford formally, which Sir Stamford had not expected; Cecil's form of gratitude was the form most useful to a man in Sir Stamford's position — a continued willingness to receive him, and a corresponding willingness to forget where the information had come from.</p>
+<p>The Fellowship of the Broken Seal lost its most productive client — the Essex faction having ceased to exist — and contracted accordingly. Its central figure, who had been operating for thirty years under the name Crane, disappeared from the London record after 1601. Whether he died, retired, or simply changed his name and his address, Sir Stamford could not determine. He noted the disappearance and drew the only conclusion available: the organisation survived. Organisations of this kind always survived. They were, in their way, more durable than the states that tried to suppress them, because they had no fixed structure to destroy and no stated cause to defeat — only the permanent human appetite for the destruction of enemies and the protection of guilt.</p>
+<p>His more consequential domestic act was the marriage of his daughter into the Mycroft family of Yorkshire, connecting the Holmes line to George Riley Mycroft, naturalist and author of <em>The Beauties of Creation</em>, a man of considerable local reputation whose surname the family adopted as a given name and carried forward through every subsequent generation. It was a small act with a long echo.</p>
+</div>
+<div class="children-block">
+<p><em>Children:</em><br>
+- <strong>Sir Henry Holmes</strong> — see next entry.<br>
+- A daughter, who married into the Mycroft family of Yorkshire.</p>
+</div>
+</article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry" id="sir-henry-holmes">
+  <div class="entry-nameplate">
+    <h2 class="entry-name">SIR HENRY HOLMES</h2>
+    <div class="entry-dateline">~1615 — Yorkshire, England</div>
+  </div>
+  <p>Sir Henry Holmes was born in the reign of James Ⅰ and came of age watching the country slide, with gathering speed, toward catastrophe. He was not a political man by temperament — the family had cultivated a careful distance from controversy since Sir Stamford's parliamentary career of studied insignificance — but the 1640s did not permit neutrality, and Henry Holmes, when forced to declare himself, declared for the King. He raised his son Symonds in a Royalist household, instilled in him the obligations of loyalty and the habits of careful observation, and appears to have died during the Interregnum years, leaving his son to reclaim what he could when the monarchy was restored.</p>
+<p>The England of the 1630s had produced a new instrument of the Fellowship's art: the false informer, reporting to the Privy Council or to Parliament's committees the recusancy, sedition, or delinquency of men who could be ruined by the accusation alone, regardless of its truth. Henry Holmes had encountered this instrument once, in 1636, when a neighbour of his in the North Riding — a gentleman of old Catholic family named Pickering — came to him having received notice that an information had been laid against him for harbouring a recusant priest. Pickering maintained he had done no such thing. Henry Holmes, who knew Pickering's household as well as his own, was inclined to believe him, not from friendship but from evidence: Pickering's religion was his business, but his household management was meticulous and his staff loyal in the manner of a man who paid well and treated fairly, neither of which qualities was consistent with the harbouring of a fugitive without universal knowledge below stairs.</p>
+<hr class="story-rule">
+<div class="story-block">
+<p>He spent a day at Pickering's house, not examining the property — which had already been searched, without result — but examining the information itself, which Pickering had obtained a copy of through a connection in the Council. It was anonymous, as such informations tended to be, but it was specific: it named the room in which the priest had supposedly been concealed, the date, and the route by which he had been brought to the house. The route was wrong. Not improbably wrong — wrong in a way that only a man who had actually ridden it would know, because the stated route crossed a ford that had been bridged eight years earlier, and no person travelling in the direction described would have used a ford when a bridge stood a hundred yards away. The informer had described a journey he had learned of rather than made.</p>
+<p>Henry Holmes could not identify the informer from this fact alone. What he could do was demonstrate to the Council official responsible for pursuing the charge that the information contained evidence of its own fabrication — that whoever had supplied it had used directions to Pickering's house that predated the bridge, which was a matter of county record, and had therefore not been present when the supposed concealment occurred. The charge was not proceeded with. The official who received Henry Holmes's memorandum on the subject was a man named Welford, who was, as Henry would subsequently establish with some certainty, himself connected to the Fellowship — receiving commissions for the pursuit of false informations in exchange for a share of the fines and forfeitures that successful prosecution produced. Welford was not prosecuted; he was, instead, simply aware that Sir Henry Holmes had identified the tell in his informer's method, and this awareness constrained the informer's future work somewhat.</p>
+<p>He is a figure known almost entirely through his son — the generation that prepares rather than acts, whose significance lies in what it transmits rather than what it accomplishes. In a lineage as long as this one, such men are not the least important.</p>
+</div>
+<div class="children-block">
+<p><em>Children:</em><br>
+- <strong>Sir Symonds Holmes</strong> — see next entry.</p>
+</div>
+</article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry" id="sir-symonds-holmes">
+  <div class="entry-nameplate">
+    <h2 class="entry-name">SIR SYMONDS HOLMES</h2>
+    <div class="entry-dateline">~1640 — Yorkshire / London, England</div>
+  </div>
+  <p>Sir Symonds Holmes rode with Prince Rupert's cavalry at Marston Moor on the second of July 1644 and was present at one of the decisive defeats of the Royalist cause, surviving the rout that followed with his life and his convictions intact. The battle was not his finest hour — cavalry actions at that scale and in those conditions offered limited scope for the particular kind of intelligence his family excelled at — but the aftermath was. In the confusion of the Parliamentary pursuit, he gathered and preserved the dispatches of three Royalist officers, reading them in a ditch while the sound of musket fire faded, and extracting from them a clear picture of the Royalist commanders' intentions that he conveyed to Prince Rupert in time to prevent a mismanagement of the remaining forces that would have turned a defeat into an annihilation. He was commended for this, quietly, in terms that his commanding officer would later be unable to recall making.</p>
+<p>The family's estates suffered during the Interregnum years — sequestration, fines, the grinding attrition of supporting a losing side — but Sir Symonds did not go into exile, and at the Restoration he was among those who found themselves, after years of patient loyalty, in a position to be rewarded. He used that position with the precision of a man who had been waiting. He applied for and received a modest annuity in recognition of his service, cultivated the right connections at the restored court without becoming dependent on any of them, and retrieved the sequestered portion of his estate through a legal process so carefully documented that the Parliamentary committee's own records furnished the evidence of the restoration.</p>
+<hr class="story-rule">
+<div class="story-block">
+<p>What he did with the restored peace was characteristic of the best of his line. In the 1660s he became an early subscriber to Robert Hooke's <em>Micrographia</em> and a fellow of the newly chartered Royal Society — the first Holmes to apply the family's gift of close observation explicitly to the natural world, to set it within a framework of experiment and verification, to understand that the careful examination of minute particulars was not merely a practical skill but a method capable of unlocking the deepest secrets of nature. He corresponded with Hooke about the application of the microscope to the examination of documents — the magnification of ink strokes, the analysis of parchment fibre, the investigation of seal wax composition — and Hooke's notes on these conversations, preserved among his papers at the Royal Society, contain passages that read, to any student of a later Holmes, with an uncanny familiarity: <em>My friend S.H. observes that the forger cannot suppress his natural hand entirely; in the small strokes, the unattended particulars, it reasserts itself as a man's character reasserts itself when he believes he is not being observed.</em></p>
+<p>His great contribution to the Fellowship's eventual accounting was less dramatic but more consequential than any of his predecessors': he completed the genealogy. Working from his grandfather's list, his father's papers, and his own observations, he traced the succession of the network's central figures across one hundred and forty years — not continuously, for there were gaps, but with sufficient clarity to establish that they were a succession rather than a series of coincidences, and that the Fellowship was an institution rather than a conspiracy. He drafted this account carefully and sent it, with a covering letter he composed in a single evening and never redrafted, to Joseph Williamson, who was at that time the effective head of Charles Ⅱ's intelligence apparatus. Williamson's response was brief: <em>Your account is received and its significance is not lost upon me. I should wish to speak with you at your convenience.</em> The meeting that followed was not recorded. The Fellowship's operations in London contracted sharply in the years 1667 to 1670, in ways that suggested a dismantling rather than a natural decline. Sir Symonds's grandson Sherlock would say that he believed in the science of deduction; Sir Symonds Holmes, two centuries earlier, had understood something very similar, and had found the institution that would one day give it a name.</p>
+</div>
+<div class="children-block">
+<p><em>Children:</em><br>
+- <strong>Sir Richmond Holmes</strong> — see next entry.</p>
+</div>
+</article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry" id="sir-richmond-holmes">
+  <div class="entry-nameplate">
+    <h2 class="entry-name">SIR RICHMOND HOLMES</h2>
+    <div class="entry-dateline">~1670 — London / Yorkshire, England</div>
+  </div>
+  <p>Sir Richmond Holmes moved to London after his father's death and discovered, as a number of clever men have discovered before and since, that cleverness in the company of the dissolute court of Charles Ⅱ is an insufficient protection against its pleasures. His friendship with the Earl of Rochester — the most brilliant and most ruinous companion available to a young man of means in the 1670s — was expensive in every sense of the word, and Sir Richmond pursued it with an enthusiasm that his estate could not sustain. He could read men well enough; he simply chose, with the clarity of someone who knows exactly what they are doing, to read them toward his own entertainment rather than his own advantage.</p>
+<p>And yet there was one occasion — one moment in which the family's deeper nature asserted itself over the surface pleasures that Richmond had chosen as his medium — which warrants recording, not because it redeems him in any comprehensive sense, but because it demonstrates that the gift does not vanish in those who decline to cultivate it; it waits.</p>
+<hr class="story-rule">
+<div class="story-block">
+<p>In the autumn of 1678, Rochester lay dying at Woodstock, and Richmond Holmes had come to visit him. The journey took him through Oxford, where the city was in a state of considerable agitation: the Popish Plot, Titus Oates's magnificent and murderous fabrication, had reached its peak of credibility, and an acquaintance of Richmond's — a Jesuit-educated gentleman named Vane who had been at school with him and who was emphatically not a Jesuit — had been named in a deposition as a suspected conspirator. The deposition was anonymous. The charge was, in practical terms, a death sentence, since no jury in England in 1678 would acquit a man accused of Popish conspiracy, guilty or innocent.</p>
+<p>Richmond Holmes spent three days in Oxford — not for Vane's sake, exactly, but because the deposition had been brought to his attention and he had, reading it, noticed something that interested him the way a particular turn of card interests the dedicated gambler: the deposition described a meeting that was supposed to have taken place in a tavern in St Giles's on a date when Richmond himself had been in the same tavern and had not seen Vane, which proved nothing, but which suggested the possibility of establishing where Vane actually had been. He found it by the method his family had always used: he began not with what had allegedly happened but with what must have happened in parallel — the landlord, the ledgers, the serving boys, the physical evidence of an October evening that the deposition's author had chosen precisely because it appeared to offer no witness.</p>
+<p>He was wrong about that. There was a witness: a chandler's apprentice who had delivered candles to the tavern that evening and had noted Vane's absence, because Vane was a regular customer who owed the chandler money and the apprentice had been specifically instructed to look for him. The apprentice had not been asked about this by anyone. Richmond Holmes asked him, and obtained from him a sworn statement that he delivered to the counsel for the defence in Vane's preliminary examination, together with a letter identifying the deposition as the work of a professional witness — a man named Bedloe, who had already given testimony in two previous Popish Plot prosecutions and whose financial relationship with certain of Shaftesbury's associates Richmond had identified through a chain of tavern debts he had traced with the amused thoroughness of a man who understood the London credit market rather better than was good for his own solvency. The charge against Vane was not proceeded with.</p>
+<p>He did not do this from principle. He did it because he had noticed something wrong, and the family mind could not let a thing noticed go unexamined. It was the last serious application of the gift in his life. He died in 1687 owing large sums to a considerable number of people, the estate at Hutton le Moors mortgaged against debts that would take three generations to fully account for. He left his son Selwyn the name, the house, and the problem — and, folded into the back of his father's private papers, Sir Symonds's careful account of the Fellowship of the Broken Seal, with a marginal note in Richmond's own hand: <em>The old firm. Still trading, after its fashion. I leave it to someone with more patience than I have.</em></p>
+</div>
+<div class="children-block">
+<p><em>Children:</em><br>
+- <strong>Sir Selwyn Holmes</strong> — see next entry.</p>
+</div>
+</article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry">
+<div class="prefatory-note">
+<p><strong>A note on the network:</strong><br>The reader who has followed the Fellowship of the Broken Seal from its first appearance in the records of the Towton commissioners to its dismantling — partial, never total — by Sir Symonds Holmes in the reign of Charles Ⅱ will perhaps wonder what became of it in the century and a half that followed. The answer is what it has always been. The network did not die; it reorganised. The age of the forged document and the suborned witness gave way, as the eighteenth century offered new instruments, to the age of the forged financial instrument: the fraudulent insurance claim, the manipulated company prospectus, the letters of credit drawn on banks that did not exist and endorsed by merchants who had never heard of the goods they purported to certify. The language changed. The structure endured. And for three generations the line that had been appointed, in some sense deeper than any single man could entirely account for, to read and oppose that structure — fell silent.</p>
+<p>The entries below delve into that silence, and how it was broken.</p>
+</div>
+</article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry" id="sir-selwyn-holmes">
+  <div class="entry-nameplate">
+    <h2 class="entry-name">SIR SELWYN HOLMES</h2>
+    <div class="entry-dateline">~1715 — Yorkshire / London, England</div>
+  </div>
+  <p>Sir Selwyn Holmes inherited from his father Sir Richmond a name of distinction, a house at Hutton le Moors in a state of considerable disrepair, and debts that would have crushed a more prudent man entirely. He was not a prudent man. Reputed to be an intimate of Sir Francis Dashwood and a subscribing member of the Hell-Fire Club at Medmenham Abbey, he pursued pleasure with the same systematic energy that his ancestors had brought to the law, to commerce, and to the close observation of the world — the gift, in his case, bent entirely toward the identification of the next entertainment and the next creditor to be avoided. He was not unintelligent; those who knew him noted that he could read a man's weaknesses at a glance, and exploited that faculty without compunction in the card rooms of St James's. He could identify, within minutes of sitting down at the hazard table, which of his companions was playing above his means, which was concealing a run of luck behind false dejection, and which was simply drunk. He used these assessments to extract money from all three, feeling that if providence had granted him the ability to read men it would be ingratitude not to profit from it.</p>
+<p>He was not, it should be said, entirely without scruple. He did not cheat at cards — he had too much contempt for men who needed to cheat when reading the table was so much more satisfying and so considerably less dangerous. He maintained a certain rough loyalty to those few men he judged genuinely honest. And on one occasion, in the particular manner of his line — as if the gift would occasionally insist on its proper employment regardless of the man who possessed it — he performed a service that he would not, under normal circumstances, have undertaken.</p>
+<hr class="story-rule">
+<div class="story-block">
+<p>The occasion was the winter of 1742 and the man was a Yorkshire mill-owner named Hartcastle, who had taken lodgings in London to pursue a suit of law concerning a water-rights dispute, and who came to Sir Selwyn's attention through a mutual acquaintance at White's. Hartcastle was a plainspoken Yorkshireman of no great social gifts, and London had made him, in the space of six weeks, the victim of a scheme so confident in its execution that he had not yet understood he was its object. He had been approached by a pair of gentlemen offering a position in a joint-stock enterprise, the London and Westmorland Cloth Factors' Association, which proposed to buy Yorkshire fleeces at fixed prices, process them through associated fulling mills, and sell the finished cloth to military contractors at rates guaranteed by a letter of engagement from the Board of Ordnance. Hartcastle had been shown the letter of engagement, had been shown the articles of association, had been shown the account books of the enterprise's first operating year — all impeccably prepared — and had been on the point of committing a sum that represented, by Sir Selwyn's rapid calculation at Hartcastle's elbow, something very close to the man's entire available capital.</p>
+<p>Sir Selwyn had not intended to involve himself. He had been introduced to Hartcastle as a courtesy, had half-listened to the account of the enterprise with the detached amusement of a man who had seen schemes of this kind at sufficient range to know them for what they were, and was on the point of turning back to his wine when something in Hartcastle's account caught his ear — not the fraud itself, which was obvious enough once attended to, but a name. One of the gentleman-promoters was called Vane. It was not a name Sir Selwyn would ordinarily have noted; but he had, among his father Richmond's papers — which he had read once in youth, with the half-attention of a bored young man riffling through the detritus of another generation — a marginal note in his grandfather Symonds's hand that listed, among the known aliases of the Fellowship's coordinating figures, a William Vane of Holborn. The coincidence was almost certainly exactly that. But the word <em>almost</em> operated on Sir Selwyn's mind with an irritating persistence, and he found himself, before he had quite decided to, asking Hartcastle if he might see the letter of engagement from the Board of Ordnance.</p>
+<p>It was a forgery. Not a crude one; Sir Selwyn was not a document examiner of his grandfather's meticulous training, but he had spent enough years in London to know what a genuine letter of Ordnance business looked like, because he had seen them in the hands of men who actually received them, and he knew with a gambler's instinct for the slightly wrong thing that the seal on this document was impressed too deeply and too evenly — the work of a press rather than a hand seal, applied with controlled pressure rather than the variable effort that produced the authentic imperfection of genuine wax. He said nothing to Hartcastle in the moment; he excused himself, sent a note by a footboy to an acquaintance who served in a minor capacity at the Ordnance office, and received confirmation by ten o'clock the following morning that no letter of engagement had been issued to any body answering the description of the London and Westmorland Cloth Factors' Association within living institutional memory.</p>
+<p>He brought his findings to Hartcastle, who was shaken; and then, because he found on reflection that Richmond's marginalia had unsettled him more than he wished to admit, he went a step further and put the information — together with the name Vane and a physical description of both gentleman-promoters — before a magistrate of his acquaintance in Bow Street. The promoters were arrested before the week was out. At their examination it emerged that the same enterprise, under slightly varying names, had been presented to investors in Bristol, Manchester, and Edinburgh over the preceding three years, and that the forged Ordnance letters in each case displayed the same anomaly of the press-applied seal. Sir Selwyn declined to appear as a witness at the trial — the connection to his grandfather's papers was not something he wished to explain publicly — and the magistrate, who understood the value of sources that preferred obscurity, did not press the matter. He returned to his usual life with the slightly dazed expression of a man who has found himself, unexpectedly, doing something useful, and who is not entirely sure how he feels about it.</p>
+<p>That he preserved the family name and the remnant of the estate at all is perhaps the most that can be said in his favour, and it is not nothing.</p>
+</div>
+<div class="children-block">
+<p><em>Children:</em><br>
+- <strong>Sir Seymour Holmes</strong> — see next entry.</p>
+</div>
+</article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry" id="sir-seymour-holmes">
+  <div class="entry-nameplate">
+    <h2 class="entry-name">SIR SEYMOUR HOLMES</h2>
+    <div class="entry-dateline">~1760 — Yorkshire, England</div>
+  </div>
+  <p>Sir Seymour continued in the tradition his father had established, spending what Selwyn had left with the thoroughness of a man finishing a job. He was not without his moments: Erasmus Darwin, in a letter of 1791, makes passing reference to a conversation with a man he calls only "young Mycroft" — the family's habitual given name in this generation — remarking upon his remarkable acuity of observation, a faculty Darwin considered wasted on its owner. The observation is telling. The gift had not died in these diminished men; it had simply found nothing worthy of itself and turned inward, or sideways, or toward mischief. Where his father had applied the analytical intelligence of the line to the gaming table, Sir Seymour applied it to conversation — he was a devastating social observer, a man who could reconstruct the entire interior architecture of a dinner party from the order in which guests declined the fish course, and who used this faculty principally to amuse himself and unsettle others. He was brilliant company, when he chose to be. He was expensive company, at all other times.</p>
+<p>He was thirty-five years old in the summer of 1791, resident in London on the last stable remnant of his father's income, and he had fallen into the orbit of a man named Greave — a solicitor of Chancery Lane, agreeable in company, immensely well-informed about the fluctuating affairs of the great commercial houses, and possessed of an investment thesis of such apparent elegance that Sir Seymour, who was not without experience in the mechanisms by which clever men separated less clever men from their money, found himself nonetheless tempted. Greave's proposition was simple: he had access, through a client, to privileged intelligence concerning the forthcoming settlement of a major East India Company shipping dispute — intelligence that would, once public, materially affect the value of the Company's bonds, and on which a man of means and discretion might act in advance. Sir Seymour had enough means, at that point, to act on it. He had more than enough discretion to wonder why a solicitor with access to such intelligence required a partner.</p>
+<hr class="story-rule">
+<div class="story-block">
+<p>The answer, assembled by Sir Seymour in the course of an afternoon's reflection of a quality his father's friend Darwin would have found less surprising, was that Greave did not have the intelligence at all — that what he had was a mechanism for obtaining money from men who believed he had it, a process that had three stages: the initial approach with a credible but unverifiable claim; the apparent confirmation of the claim through a subsequent event that Greave had carefully engineered to appear consistent with his prediction; and then the investment, which would be made in the investor's name but managed through Greave's office, where it would cease to exist. The middle stage — the engineered confirmation — was the elegant part, and Sir Seymour had identified it only because he had been, in his youth, the sort of young man who engineered small versions of the same thing at cards, and who recognised the smell of a manufactured coincidence with the affection of an old acquaintance.</p>
+<p>He did not invest. He also did not go to the magistrates, which was the choice that distinguished him from his ancestor Selwyn: Sir Seymour lacked the residual scruple that had sent his father to Bow Street, and he had, in any case, no evidence of anything actionable, only the inference from a conjunction of observations that the scheme was fraudulent. What he did instead was something characteristic of the Georgian social world he inhabited: he talked. Carefully, and to the right people, and in terms that were suggestive rather than accusatory, he allowed it to be known in the clubs and coffeehouses that Greave's proposition was one he had declined, and that his reasons for doing so were available to any friend who cared to ask. The scheme did not proceed. Greave removed himself to Bristol. Whether Darwin's remark about wasted faculties referred to this episode or to another is impossible to determine; the letter's context has not survived.</p>
+<p>Sir Seymour died of an apoplexy in 1810, leaving behind debts, a crumbling manor house on the edge of the Yorkshire Moors, and a son of fourteen who would have to make of the wreckage what he could.</p>
+</div>
+<div class="children-block">
+<p><em>Children:</em><br>
+- <strong>Sheridan Holmes</strong> — see next entry.</p>
+</div>
+</article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry" id="sheridan-holmes">
+  <div class="entry-nameplate">
+    <h2 class="entry-name">SHERIDAN HOLMES</h2>
+    <div class="entry-dateline">~1796 — Yorkshire / Oxford, England</div>
+  </div>
+  <p>He inherited at fourteen — which is to say he inherited the name and the house and the obligation, the money having largely preceded him into oblivion. What remained was scraped together with sufficient ingenuity to see him through Christ Church, Oxford, where he distinguished himself in the informal debating societies rather than in the schools, and where his contemporaries remembered him as a man who listened more than he spoke and, when he spoke, said something worth attending to. He was remembered also for the discipline of his habits — remarkable in an Oxford undergraduate of the period, when dissolution was the norm and academic distinction a secondary consideration — and for a quality in his manner of argument that his friends struggled to name precisely: the impression, when speaking with him, that he had already identified the weakest point in your position before you had finished stating it, and was simply waiting, with the patience of a man who had nowhere else to be, for you to reach it yourself. He was not cruel about this; he was, if anything, gentle — he had the teacher's instinct rather than the prosecutor's, and derived more evident satisfaction from watching a man reason his way to a correct conclusion than from demonstrating the conclusion in advance.</p>
+<p>He travelled after Oxford — France, in the years immediately following Waterloo, when the continent was opening to English visitors with the giddy rush of a country released from a decade of confinement — and returned to Hutton le Moors with a French wife, Marie-Claude Vernet, whose family connections were respectable and whose intelligence matched his own. She was the great-niece of the painter Vernet, of whom Sherlock Holmes would later record that the family had artistic blood on their mother's side — and so they did, though what the lineage passed most reliably was not the painter's eye but something older and more precise: the capacity to read the world as a structured arrangement of evidence rather than as a stream of appearances.</p>
+<hr class="story-rule">
+<div class="story-block">
+<p>The gift reasserted itself in Sheridan Holmes with a clarity that suggested it had merely been dormant through the Georgian dissipation rather than extinguished. He read people, situations, and texts with equal facility, and those who brought him their disputes — for he had established a quiet local reputation as a man worth consulting — rarely found him mistaken. The manner in which his reputation established itself is instructive. It was not through any single dramatic resolution, but through an accumulation of smaller judgements — the assessment that a neighbour's steward was taking money from the grain sales, confirmed within a fortnight; the opinion that a contested will had been altered after the testator's death, vindicated when the solicitor was examined; the observation, offered without being asked, that the physician attending a sick child in the village was treating the wrong condition, and that the symptoms were consistent with something the physician had not considered, and which, when treated, resolved the illness in three days. Each was a small thing. Together they were a reputation. By the time he was twenty-five, men rode from Kirkbymoorside and beyond to consult him on questions of business, law, and the reliability of other men.</p>
+<p>In the spring of 1822, a year before his death, a case came to him that he understood immediately as different in kind from those that had preceded it — not a local dispute or a matter of domestic fraud, but a thread, if followed carefully, that connected to something considerably larger. A wool merchant of Pickering named Sowden came to him with a problem: he had been defrauded, he believed, in a marine insurance claim. A consignment of worsted cloth, insured through a London underwriter at Lloyd's Coffee House, had been reported lost at sea in a storm off the Dutch coast, and the underwriter had refused to pay, maintaining that the loss had been fraudulently staged — that the ship had not sunk but had discharged its cargo in a Dutch port, and that the captain had been in league with the merchant to collect the insurance premium on goods that were, at that very moment, being sold in Rotterdam. Sowden maintained this was false and that he had lost both his goods and his premium. The underwriter maintained otherwise and had, in support of his position, a sworn affidavit from a broker's clerk who claimed to have seen Sowden meet privately with the captain two weeks before the vessel's departure — a meeting Sowden denied absolutely.</p>
+<p>Sheridan Holmes spent a week on the matter, most of it not in Yorkshire but in a series of letters — his health was already declining, the consumption that would kill him already making long journeys inadvisable — to contacts in London and in the Dutch ports with whom he had established correspondence during his European travels. What he established, by this means, was a chain of three facts. The first was that the broker's clerk who had sworn the affidavit was a man who had appeared as a witness in two previous Lloyd's disputes within five years, both times in support of underwriters who had declined to pay claims, and both times in cases where the insured merchant was subsequently unable to pursue the matter through lack of funds. The second was that the ship in question had a documented history of mechanical difficulty that made its loss in a North Sea storm entirely consistent with its condition — a history of which the underwriter, had he obtained the ship's inspection records from the port of Hull rather than relying on the broker's account, must have been aware. The third was that the consignment's bill of lading, a copy of which Sowden had retained, bore a reference number from a series that Lloyd's own records indicated had been issued to a different broker entirely — meaning that the insurance policy had been arranged through intermediaries whose relationship to the underwriter was not what it appeared.</p>
+<p>He wrote a careful memorandum of these findings and sent it, through the solicitor who had originally referred Sowden to him, to the Committee of Lloyd's, together with a note naming the broker's clerk and identifying the two previous cases in which he had appeared. The Committee was then engaged in its own investigation of a pattern of fraudulent claim denials that it had begun to suspect was systematic rather than opportunistic, and Sheridan Holmes's memorandum — three weeks later, when he received an acknowledgement — had apparently confirmed a connection the Committee's own investigators had been unable to establish. Sowden received his settlement. The broker's clerk disappeared from the Lloyd's record; his employer, a Fenchurch Street firm called Grainger and Pryce, dissolved its partnership the following year under circumstances that the London Gazette described only as 'by mutual agreement of the principals.'</p>
+<p>He died of consumption in the autumn of 1823, aged twenty-seven, leaving Marie-Claude a widow with three young children in a draughty house on the edge of the moors, the family's fortunes still precarious and its future entirely uncertain. Among his papers was a letter he had received from the solicitor acting for the Lloyd's Committee, thanking him for his contribution and noting, with a precision that suggests the writer understood more than he said, that the Fenchurch Street firm had been identified in the Committee's investigation as one of three organisations operating what appeared to be a coordinated system of claim suppression across the London insurance markets — a system whose architecture, the letter observed, bore certain structural resemblances to schemes that students of commercial fraud would find familiar from rather earlier periods of English history. Sheridan Holmes had not lived to read this letter. Marie-Claude preserved it among the family papers, and it was among the documents that William Scott Holmes, at forty, would eventually read with the particular feeling of a man recognising the family business.</p>
+</div>
+<div class="children-block">
+<p><em>Children:</em><br>
+- <strong>William Scott Holmes</strong> — see next entry.<br>
+- Two further children, who did not survive to adulthood.</p>
+</div>
+</article>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<article class="ancestor-entry" id="william-scott-holmes">
+  <div class="entry-nameplate">
+    <h2 class="entry-name">WILLIAM SCOTT HOLMES</h2>
+    <div class="entry-dateline">born 26 November 1819 — Yorkshire, England</div>
+  </div>
+  <p>He was four years old when his father died, and grew up under the sole formation of his French mother — a woman of considerable character who managed the reduced household at Hutton le Moors with an economy and intelligence that kept the family from outright ruin, and who ensured that her eldest son received an education rather than merely a name. Marie-Claude Holmes, <em>née</em> Vernet, was in many respects the most remarkable person of her generation in this chronicle: a woman of French intellectual formation managing an English estate on reduced income, raising three children alone on the edge of the Yorkshire Moors, maintaining the family's social position through sheer force of competence, and communicating to her eldest son, in the years of his childhood and adolescence, a cast of mind that combined the French habit of systematic analysis with the English habit of attending to concrete particulars in a combination that would prove, in the generations following, extraordinarily productive. She told William, when he was old enough to be told, that his father had been a remarkable man and that the quality most worth inheriting from him was not his name or his intelligence, both of which were beyond William's choice, but his patience — his refusal to conclude before the evidence permitted, and his willingness to remain in the uncomfortable position of not yet knowing when not yet knowing was, in fact, the accurate position.</p>
+<p>William Scott Holmes was a quiet, methodical man, absorbed in the natural sciences and the management of the small estate, with little appetite for the London life that had destroyed his grandfather and great-grandfather alike. He married a woman of the local gentry, sensible and clear-eyed, who contributed to the household an emotional steadiness that the Holmes line had not always found easy to supply from within itself. He read widely — chemistry, geology, the natural history that was beginning, in his lifetime, to reshape the understanding of the living world — and maintained a correspondence with several members of the British Association that was valued by his correspondents as much for the precision of his questions as for the quality of his answers. He had no professional ambitions; the estate was modest but manageable, and the life of a Yorkshire gentleman-naturalist suited a temperament that preferred the long observation to the quick conclusion.</p>
+<hr class="story-rule">
+<div class="story-block">
+<p>He came to the matter in the family papers by accident, in the autumn of 1857, when Sherrinford, then a boy of ten, discovered in the estate's document chest a bundle of papers tied with red ribbon that proved, on examination, to be three generations of accumulated memoranda on the subject of the Fellowship of the Broken Seal. William Scott Holmes read them over the course of three evenings — Sir Symonds's genealogy, Sir Richmond's marginal note, Sheridan's Lloyd's memorandum and the solicitor's reply — with the attention of a man who has discovered that a subject he has been casually curious about is actually the central thread of his family's history. He made no dramatic resolution; he simply began to pay attention to what he had previously observed without attending to, which was the particular quality of criminal fraud in the Yorkshire wool and textile markets that had been, for as long as he could remember, a fact of commercial life that everyone acknowledged and nobody formally addressed.</p>
+<p>The case that eventually confirmed for him that the network was still operating — still recognisably the same organisation, now adapted to the mechanisms of the industrial economy rather than the medieval courts — concerned a man named Granger of Harrogate, a cloth-factor of his acquaintance who came to him in the autumn of 1858 in a state of considerable agitation. Granger had been served with a writ of debt claiming that he owed a sum of four hundred and eighty pounds to a Manchester commission agent, the debt evidenced by a promissory note bearing what was claimed to be his signature. Granger had never signed such a note; he had, indeed, never done business with the Manchester agent in question, a man named Tebb. The debt, if established, would ruin him.</p>
+<p>William Scott Holmes examined the note. He was not a handwriting expert, and he said so; but he was a chemist of the amateur sort, and he was acquainted with the properties of the iron gall inks that had been in common commercial use in Yorkshire for the past thirty years, and in particular with the rate at which such inks faded in exposure to light over time. The ink of the note's body text — the printed form, partially filled with pen — showed the characteristic fading of a document two or three years old, consistent with its stated date. The ink of the purported signature showed no fading whatsoever. It was, in his assessment, considerably newer than the document it authenticated — which was consistent with one explanation only.</p>
+<p>He brought his chemical analysis to a solicitor of Harrogate, who brought it to counsel, who brought it before the court in a preliminary examination with a supporting deposition from a professor of chemistry at the Yorkshire College who had reviewed William Scott Holmes's methodology and confirmed his conclusions. The note was found to be fraudulent. Tebb — the Manchester agent — was himself an intermediary and could not be made to disclose the identity of whoever had commissioned and supplied the forged note, but the solicitor, working from the details of two previous cases in which similar notes had appeared in the Yorkshire textile trade, identified a chain of bill-brokers passing through a Leeds firm with connections to a London discounting house whose senior partner, when the solicitor's enquiries reached him, proved to have changed his name twice in the preceding decade. The Leeds firm was wound up. The London partner retired to the Continent. The chain was not followed to its end; chains of this kind never were.</p>
+<p>But it was enough. William Scott Holmes sat with the bundle of red-ribboned papers that evening and wrote on the outside, in his careful naturalist's hand, a single sentence: <em>The organisation described here is still in being, still operating by variation on its established methods, and has been opposed, in each generation, by members of this family. I believe this to be neither accident nor coincidence.</em> He folded the bundle, replaced the ribbon, and returned it to the chest. In three years' time Sherlock would be born, and the long preparation would have its object. But that lay ahead; and William Scott Holmes was a man who did not anticipate conclusions he could not yet support.</p>
+<p>He was four years old when his father died, and grew up to leave the world in better order than he found it — which, given what he had inherited, was no small achievement.</p>
+<p>Of his children, the eldest, Sherrinford, took the estate; the second, Mycroft, went to London and became, in his own fashion, something entirely without precedent; and the third, Sherlock, born on the sixth of January 1854, became something else again.</p>
+</div>
+<div class="children-block">
+<p><em>Children:</em><br>
+- <strong>Sherlock Holmes</strong> — <a href="book-6.html">Book Ⅵ</a><br>
+- Mycroft Holmes — seven years Sherlock's senior; his faculties of observation and deduction exceeding even those of his younger brother, applied to the service of the British government in ways that Sherlock himself described as making him, at certain moments, the government itself.<br>
+- Sherrinford Holmes — eldest son; inherited the estate at Hutton le Moors; remained in Yorkshire throughout his life.</p>
+</div>
+<hr class="story-rule">
+<div style="text-align:center"><em>End of Book Ⅴ</em></div>
 </article>
 </main>
-<div style="text-align:center;padding:1rem 0 0;"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
 <footer class="book-footer">
   <div class="footer-ornament">✦ ✦ ✦</div>
-  <div class="footer-series">The Holmes Chronicle</div>
-  <nav class="footer-nav"><a href="book-4.html">← Book IV: The Frankish and Norse World</a><a href="index.html">Series Index</a><a href="book-6.html">Book VI: The Elizabethan Holmes →</a></nav>
+  <div class="footer-series" ><a href="index.html">The Holmes Chronicle</a></div>
+  <nav class="footer-nav"><a href="book-4.html">← Book Ⅳ</a><a href="book-6.html">Book Ⅵ →</a></nav>
 </footer>
 </div>
 </body>

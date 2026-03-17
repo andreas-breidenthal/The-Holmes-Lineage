@@ -3,468 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book I: The Ancient World — The Holmes Chronicle</title>
-  <meta name="description" content="The Holmes Chronicle — a chronicle of 132 generations of the Holmes line, 2050 BC to 2021 AD.">
-  <style>
-
-/* ── Google Fonts ── */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;500;600&family=Cinzel+Decorative:wght@400&display=swap');
-
-/* ── Custom Properties ── */
-:root {
-  --ink:        #1a1612;
-  --ink-light:  #3d3530;
-  --ink-faint:  #7a6f68;
-  --parchment:  #f7f3ec;
-  --cream:      #ede8df;
-  --gold:       #8b6914;
-  --gold-light: #c9a84c;
-  --gold-pale:  #e8d9a8;
-  --rule:       #c4b28a;
-  --rule-faint: #ddd3b8;
-  --red:        #7a1f1f;
-  --max-w:      68ch;
-  --wide-w:     90ch;
-}
-
-/* ── Reset & Base ── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-html {
-  scroll-behavior: smooth;
-  font-size: 18px;
-}
-
-body {
-  background-color: #2b2520;
-  background-image:
-    repeating-linear-gradient(
-      0deg,
-      transparent,
-      transparent 2px,
-      rgba(0,0,0,0.03) 2px,
-      rgba(0,0,0,0.03) 4px
-    );
-  color: var(--ink);
-  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
-  line-height: 1.8;
-  min-height: 100vh;
-}
-
-/* ── Page Shell ── */
-.page-shell {
-  max-width: 820px;
-  margin: 0 auto;
-  background-color: var(--parchment);
-  background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
-  box-shadow: 0 0 60px rgba(0,0,0,0.6), inset 0 0 120px rgba(139,105,20,0.04);
-  min-height: 100vh;
-}
-
-/* ── Site Header ── */
-.site-header {
-  background-color: var(--ink);
-  background-image: linear-gradient(135deg, #1a1612 0%, #2d2318 50%, #1a1612 100%);
-  padding: 0.5rem 2.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 2px solid var(--gold);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.site-header a {
-  color: var(--gold-light);
-  text-decoration: none;
-  font-family: 'Cinzel', serif;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  opacity: 0.85;
-  transition: opacity 0.2s;
-}
-
-.site-header a:hover { opacity: 1; }
-
-.header-series {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 0.65rem;
-  color: var(--gold-pale);
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-}
-
-.header-nav {
-  display: flex;
-  gap: 1.5rem;
-  align-items: center;
-}
-
-/* ── Book Hero ── */
-.book-hero {
-  padding: 4rem 3rem 3rem;
-  text-align: center;
-  border-bottom: 1px solid var(--rule);
-  background-image: linear-gradient(180deg, rgba(139,105,20,0.05) 0%, transparent 100%);
-  position: relative;
-}
-
-.book-hero::before {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--gold), transparent);
-  margin: 0 auto 2rem;
-}
-
-.book-hero::after {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--gold), transparent);
-  margin: 2rem auto 0;
-}
-
-.book-numeral {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 0.75rem;
-  letter-spacing: 0.25em;
-  color: var(--gold);
-  text-transform: uppercase;
-  margin-bottom: 0.75rem;
-}
-
-.book-title-main {
-  font-family: 'Cinzel', serif;
-  font-size: clamp(1.8rem, 5vw, 3rem);
-  font-weight: 600;
-  color: var(--ink);
-  line-height: 1.2;
-  margin-bottom: 0.5rem;
-  letter-spacing: 0.02em;
-}
-
-.book-dates {
-  font-family: 'EB Garamond', serif;
-  font-style: italic;
-  font-size: 1.15rem;
-  color: var(--ink-faint);
-  margin-bottom: 0.4rem;
-}
-
-.book-regions {
-  font-size: 0.85rem;
-  letter-spacing: 0.08em;
-  color: var(--ink-faint);
-  text-transform: uppercase;
-  font-family: 'Cinzel', serif;
-  font-weight: 400;
-}
-
-/* ── Table of Contents ── */
-.toc-section {
-  padding: 2.5rem 3rem;
-  border-bottom: 1px solid var(--rule);
-  background-color: rgba(196,178,138,0.08);
-}
-
-.toc-heading {
-  font-family: 'Cinzel', serif;
-  font-size: 0.8rem;
-  letter-spacing: 0.2em;
-  color: var(--gold);
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.toc-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 0.15rem 2rem;
-  max-width: var(--wide-w);
-  margin: 0 auto;
-}
-
-.toc-entry {
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  padding: 0.3rem 0;
-  border-bottom: 1px dotted var(--rule-faint);
-}
-
-.toc-entry a {
-  text-decoration: none;
-  color: var(--ink-light);
-  font-family: 'EB Garamond', serif;
-  font-size: 0.95rem;
-  transition: color 0.15s;
-  flex: 1;
-}
-
-.toc-entry a:hover {
-  color: var(--gold);
-}
-
-.toc-date {
-  font-family: 'EB Garamond', serif;
-  font-style: italic;
-  font-size: 0.82rem;
-  color: var(--ink-faint);
-  white-space: nowrap;
-}
-
-/* ── Main Content ── */
-.content-body {
-  padding: 3rem 3rem 5rem;
-  max-width: var(--wide-w);
-  margin: 0 auto;
-}
-
-/* ── Prefatory Note ── */
-.prefatory-note {
-  background-color: rgba(196,178,138,0.12);
-  border-left: 3px solid var(--gold);
-  border-right: 3px solid var(--gold);
-  padding: 1.5rem 2rem;
-  margin: 2rem 0 3rem;
-  font-style: italic;
-  color: var(--ink-light);
-  font-size: 0.97rem;
-  line-height: 1.9;
-}
-
-.prefatory-note p + p { margin-top: 1em; }
-
-/* ── Ancestor Entry ── */
-.ancestor-entry {
-  margin-bottom: 4rem;
-  padding-top: 2.5rem;
-  border-top: 1px solid var(--rule-faint);
-  scroll-margin-top: 80px;
-}
-
-.ancestor-entry:first-of-type {
-  border-top: none;
-  padding-top: 0;
-}
-
-.entry-nameplate {
-  margin-bottom: 1.5rem;
-}
-
-.entry-name {
-  font-family: 'Cinzel', serif;
-  font-size: clamp(1.1rem, 3vw, 1.55rem);
-  font-weight: 600;
-  color: var(--ink);
-  letter-spacing: 0.04em;
-  line-height: 1.2;
-  margin-bottom: 0.3rem;
-}
-
-.entry-dateline {
-  font-family: 'EB Garamond', serif;
-  font-style: italic;
-  font-size: 0.97rem;
-  color: var(--gold);
-  letter-spacing: 0.02em;
-}
-
-/* ── Paragraphs ── */
-.ancestor-entry p {
-  margin-bottom: 1.1em;
-  font-size: 1.02rem;
-  color: var(--ink);
-  max-width: var(--max-w);
-  text-align: justify;
-  hyphens: auto;
-}
-
-/* Story separator (---) */
-.story-rule {
-  border: none;
-  height: 1px;
-  background: linear-gradient(90deg, transparent 0%, var(--rule) 30%, var(--rule) 70%, transparent 100%);
-  margin: 2rem 0;
-  position: relative;
-}
-
-.story-rule::after {
-  content: '❧';
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background: var(--parchment);
-  padding: 0 0.75rem;
-  color: var(--gold);
-  font-size: 0.9rem;
-}
-
-/* ── Story Block ── */
-.story-block {
-  background-color: rgba(139,105,20,0.05);
-  border-left: 3px solid var(--gold);
-  border-right: 1px solid var(--rule-faint);
-  padding: 1.5rem 1.75rem;
-  margin: 0;
-}
-
-.story-block p {
-  max-width: var(--max-w) !important;
-}
-
-
-.children-block {
-  margin-top: 1.5rem;
-  padding: 1rem 1.25rem;
-  background-color: rgba(196,178,138,0.1);
-  border-left: 2px solid var(--rule);
-  font-size: 0.93rem;
-  color: var(--ink-light);
-}
-
-.children-block p {
-  font-style: italic;
-  margin-bottom: 0.4rem !important;
-  max-width: 100% !important;
-  text-align: left !important;
-}
-
-.children-block ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.children-block li {
-  padding: 0.2rem 0;
-  padding-left: 1rem;
-  position: relative;
-}
-
-.children-block li::before {
-  content: '—';
-  position: absolute;
-  left: 0;
-  color: var(--gold);
-}
-
-/* ── Special sections (Book VIII sub-headings) ── */
-.section-heading {
-  font-family: 'Cinzel', serif;
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--ink-light);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin: 2.5rem 0 1rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid var(--rule-faint);
-}
-
-.sub-section-heading {
-  font-family: 'EB Garamond', serif;
-  font-size: 1.1rem;
-  font-weight: 600;
-  font-style: italic;
-  color: var(--ink-light);
-  margin: 2rem 0 0.75rem;
-}
-
-/* ── Book Footer ── */
-.book-footer {
-  background-color: var(--ink);
-  background-image: linear-gradient(135deg, #1a1612 0%, #2d2318 50%, #1a1612 100%);
-  padding: 2.5rem 3rem;
-  text-align: center;
-  border-top: 2px solid var(--gold);
-}
-
-.footer-ornament {
-  color: var(--gold);
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-  letter-spacing: 0.5rem;
-}
-
-.footer-series {
-  font-family: 'Cinzel', serif;
-  font-size: 0.7rem;
-  letter-spacing: 0.2em;
-  color: var(--gold-pale);
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
-}
-
-.footer-nav {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.footer-nav a {
-  font-family: 'Cinzel', serif;
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  color: var(--gold-light);
-  text-decoration: none;
-  text-transform: uppercase;
-  opacity: 0.8;
-  transition: opacity 0.2s;
-}
-
-.footer-nav a:hover { opacity: 1; }
-
-/* ── Back to top ── */
-.back-to-top {
-  display: inline-block;
-  margin-top: 1rem;
-  font-family: 'Cinzel', serif;
-  font-size: 0.68rem;
-  letter-spacing: 0.15em;
-  color: var(--gold-light);
-  text-decoration: none;
-  text-transform: uppercase;
-  opacity: 0.6;
-  transition: opacity 0.2s;
-}
-.back-to-top:hover { opacity: 1; }
-
-/* ── Responsive ── */
-@media (max-width: 640px) {
-  .content-body { padding: 2rem 1.5rem 4rem; }
-  .book-hero    { padding: 2.5rem 1.5rem 2rem; }
-  .toc-section  { padding: 2rem 1.5rem; }
-  .site-header  { padding: 0.5rem 1.25rem; }
-  .toc-grid     { grid-template-columns: 1fr; }
-}
-
-/* ── Print ── */
-@media print {
-  .site-header, .book-footer { display: none; }
-  body { background: white; }
-  .page-shell { box-shadow: none; }
-}
-
-
-</style>
+  <title>The Holmes Chronicle — Book Ⅰ</title>
+  <meta name="description" content="The Holmes Chronicle">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;500;600&family=Cinzel+Decorative:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
 </head>
 <body>
 <div class="page-shell">
-<header class="site-header"><nav class="header-nav"><span><span style="opacity:0.3;font-family:Cinzel,serif;font-size:0.72rem;letter-spacing:0.12em;">← Previous</span></span>
-<span><a href="index.html" class="header-series">The Holmes Chronicle</a></span>
-<span><a href="book-2.html">Book II →</a></span></nav></header>
+<header class="site-header">
+  <nav class="header-nav">
+    <span class="header-nav"><a href="index.html">← Series</a></span>
+    <span class="header-series"><a href="index.html">The Holmes Chronicle</a></span>
+    <span class="header-nav"><a href="book-2.html">Book Ⅱ →</a></span>
+  </nav>
+</header>
 <div id="top" class="book-hero">
-  <div class="book-numeral">Book I</div>
+  <div class="book-numeral">Book Ⅰ</div>
   <h1 class="book-title-main">The Ancient World</h1>
   <div class="book-dates">~2050 BC – ~1390 BC</div>
   <div class="book-regions">Mesopotamia · Egypt · Canaan · Phoenicia · Crete · Mycenae</div>
@@ -535,14 +90,14 @@ Nanna-iddin brought his reconstruction to the school's director and to the overs
     <h2 class="entry-name">ENLIL-BANI</h2>
     <div class="entry-dateline">~1990 BC — Nippur, Mesopotamia</div>
   </div>
-  <p>Enlil is my creator — the name a statement of devotion to the god of the city that had given his family refuge, and perhaps also a statement of something more personal: the sense that the analytical faculty he had inherited was itself a form of creation, a god-given capacity for making order from disorder that set him apart from other men as clearly as if he had been formed differently. Enlil-bani served as a temple scribe in Nippur through the turbulent decades of the Isin-Larsa period, when the successor states of the old Ur III dynasty were competing for dominance across Mesopotamia with a violence that disrupted the agricultural and commercial life of the region in ways that the temple's accounts made visible long before they became visible in any other form.</p>
+  <p>Enlil is my creator — the name a statement of devotion to the god of the city that had given his family refuge, and perhaps also a statement of something more personal: the sense that the analytical faculty he had inherited was itself a form of creation, a god-given capacity for making order from disorder that set him apart from other men as clearly as if he had been formed differently. Enlil-bani served as a temple scribe in Nippur through the turbulent decades of the Isin-Larsa period, when the successor states of the old Ur Ⅲ dynasty were competing for dominance across Mesopotamia with a violence that disrupted the agricultural and commercial life of the region in ways that the temple's accounts made visible long before they became visible in any other form.</p>
 <p>He documented the movements of the Amorites — the semi-nomadic people pressing in from the northwest who would, within two generations, transform the political map of Mesopotamia entirely — with a precision that went beyond the requirements of his administrative role. He recorded their seasonal patterns, their preferred routes, the quantities of goods they traded and the prices they accepted, the leaders who negotiated and the leaders who did not. He was assembling, without a word for what he was doing, an intelligence assessment of a people in motion — the kind of document that a state would have commissioned and a scribe of lesser curiosity would never have thought to compile. The tablets survive. They tell us more about the Amorite migrations than almost any other source of the period. They also tell us something about the man who made them.</p>
 <hr class="story-rule">
 <div class="story-block">
 <p>The competing kings of Isin and Larsa were conducting, in the forty-third year after the fall of Ur, the kind of war that does not announce itself as war — a war of taxation, selective enforcement, road tolls, and the cultivation of local administrators whose loyalty could be purchased. The temple at Nippur, nominally neutral, was in practice subject to pressure from both sides, and the scribal school where Enlil-bani worked was periodically required to authenticate documents — royal grants, legal settlements, boundary agreements — whose authenticity was, in a number of cases, genuinely in question.
-A delegation arrived from the court of Lipit-Ishtar of Isin with a set of tablets purporting to record a grant from the final years of the Ur III dynasty — a grant of extensive agricultural land near Nippur to an ancestor of a prominent local family who now supported the Isin claim. The grant, if authentic, would significantly strengthen Isin's legal position in the region. The family produced their own copies. The Isin delegation produced palace copies. The tablets were formally consistent, correctly sealed, and written in plausible late Ur III scribal hand. Enlil-bani was asked to verify them.
-He worked for four days. He examined the clay fabric of the tablets under different angles of oblique light, an examination technique his mother had described from her own father's practice and which he had refined with his own systematic experiments. He compared the depth and angle of the stylus impressions against dated tablets he had himself verified — genuine late Ur III documents whose physical characteristics he had catalogued over years. He read the legal formulae against the corpus of authenticated grants from the same period, noting which phrases appeared and which were absent, and at what dates certain formulations had entered administrative use. On the fifth day he knew what he had, but he spent the sixth in silent review of his own reasoning, testing every inference for alternative explanations, finding none.
-The tablets were forgeries — carefully made, dating from within the previous decade, produced by someone with genuine command of late Ur III scribal conventions but insufficient knowledge of the specific clay deposits that the Ur palace had used for its archival materials, and insufficient attention to the precise year in which a particular legal formula had entered official use. Enlil-bani wrote his authentication report with meticulous care: not a declaration of forgery, which would have had immediate political consequences he was not positioned to manage, but a scholarly assessment of provenance that concluded the tablets could not be verified as originating from the palace archive they were claimed to come from, with full technical documentation of the basis for that conclusion. The Nippur temple administration delivered the report to both courts. Isin quietly withdrew its legal claim. The family that had produced the forged tablets dispersed from Nippur within the year. The scribal house that had manufactured the documents — a commercial operation in Larsa that sold authenticated legal fictions to clients with political needs — was identified by the Larsa authorities through subsequent investigation, the report having apparently prompted them to review other documents the house had produced. Enlil-bani was not mentioned in the investigation. He had written a scholarly report. Whatever the authorities chose to do with it was entirely their own affair.</p>
+A delegation arrived from the court of Lipit-Ishtar of Isin with a set of tablets purporting to record a grant from the final years of the Ur Ⅲ dynasty — a grant of extensive agricultural land near Nippur to an ancestor of a prominent local family who now supported the Isin claim. The grant, if authentic, would significantly strengthen Isin's legal position in the region. The family produced their own copies. The Isin delegation produced palace copies. The tablets were formally consistent, correctly sealed, and written in plausible late Ur Ⅲ scribal hand. Enlil-bani was asked to verify them.
+He worked for four days. He examined the clay fabric of the tablets under different angles of oblique light, an examination technique his mother had described from her own father's practice and which he had refined with his own systematic experiments. He compared the depth and angle of the stylus impressions against dated tablets he had himself verified — genuine late Ur Ⅲ documents whose physical characteristics he had catalogued over years. He read the legal formulae against the corpus of authenticated grants from the same period, noting which phrases appeared and which were absent, and at what dates certain formulations had entered administrative use. On the fifth day he knew what he had, but he spent the sixth in silent review of his own reasoning, testing every inference for alternative explanations, finding none.
+The tablets were forgeries — carefully made, dating from within the previous decade, produced by someone with genuine command of late Ur Ⅲ scribal conventions but insufficient knowledge of the specific clay deposits that the Ur palace had used for its archival materials, and insufficient attention to the precise year in which a particular legal formula had entered official use. Enlil-bani wrote his authentication report with meticulous care: not a declaration of forgery, which would have had immediate political consequences he was not positioned to manage, but a scholarly assessment of provenance that concluded the tablets could not be verified as originating from the palace archive they were claimed to come from, with full technical documentation of the basis for that conclusion. The Nippur temple administration delivered the report to both courts. Isin quietly withdrew its legal claim. The family that had produced the forged tablets dispersed from Nippur within the year. The scribal house that had manufactured the documents — a commercial operation in Larsa that sold authenticated legal fictions to clients with political needs — was identified by the Larsa authorities through subsequent investigation, the report having apparently prompted them to review other documents the house had produced. Enlil-bani was not mentioned in the investigation. He had written a scholarly report. Whatever the authorities chose to do with it was entirely their own affair.</p>
 </div>
 <div class="children-block">
 <p><em>Children:</em><br>
@@ -656,7 +211,7 @@ He declined the proposition, citing his need to protect his reputation as a reli
 <p>He was the first fully Egyptian member of the lineage — his father's Babylonian origin absorbed into the Egyptian world of his upbringing, his name, his training, his profession all entirely of the Nile. He served in the scribal bureau of the Memphis administration, in the department responsible for the assessment of agricultural production across the estates of the nome — the same fundamental work his ancestor Ur-Namma-iq had done in the ziggurat of Nanna at Ur, two centuries before, in a different language and a different theology and an entirely different civilisation, with the same gift applied to the same essential problem: the determination of what was true from the evidence of what had been produced, measured, and recorded. The Nile rose and fell; the grain was tallied; the assessor compared what was against what should be. Maatkheru was excellent at this, in the way that the family had always been excellent at this, for reasons that no-one in his world had yet found words to explain.</p>
 <hr class="story-rule">
 <div class="story-block">
-<p>The nome of Sapi-Res, south of Memphis, declared in the seventeenth year of Amenemhat III's reign that its barley harvest had failed — a drought affecting the eastern agricultural district, the irrigation canals inadequate to compensate, the yield insufficient to meet the temple levy and the nome's contribution to the royal granaries. The declaration was accompanied by a properly formatted report from the nome's agricultural assessors, sealed and attested. The central administration in Memphis received dozens of such declarations each year; most were genuine, some were not. Maatkheru's bureau was responsible for the verification of declarations from the nomes of Middle Egypt, and he read the Sapi-Res report on the morning it arrived.
+<p>The nome of Sapi-Res, south of Memphis, declared in the seventeenth year of Amenemhat Ⅲ's reign that its barley harvest had failed — a drought affecting the eastern agricultural district, the irrigation canals inadequate to compensate, the yield insufficient to meet the temple levy and the nome's contribution to the royal granaries. The declaration was accompanied by a properly formatted report from the nome's agricultural assessors, sealed and attested. The central administration in Memphis received dozens of such declarations each year; most were genuine, some were not. Maatkheru's bureau was responsible for the verification of declarations from the nomes of Middle Egypt, and he read the Sapi-Res report on the morning it arrived.
 He noted that the Nile flood records for the relevant district, maintained by the palace flood-gauge stations, showed a flood height in the previous inundation season that was adequate — not exceptional, but adequate — to water the barley fields of the eastern district. He noted that the canal maintenance records from the previous five years showed expenditure on the irrigation infrastructure of the eastern district that was inconsistent with the degraded state the report described. He noted that the nome's population records showed no increase in the petitions for relief grain that routinely followed genuine crop failures in the region — petitions from the dependent farmers who would have been the first to suffer. The report described a famine that the administrative record did not support.
 Maatkheru requested, through the standard channels of the bureau, an on-site assessment of the Sapi-Res eastern district — a routine field inspection, he noted in the request, to be conducted at the bureau's discretion. He conducted it himself, travelling south with a team of two junior assessors. What he found in the field was unremarkable: a harvest that had been below average but far from catastrophic, and granaries that were somewhat emptier than the harvest would have explained. The grain was elsewhere. Over two weeks of patient inquiry — speaking with the village headmen, the canal workers, the dependent farmers, the priests of the nome temple — he assembled the chain: the nome governor had been diverting surplus grain for six years through a network of unofficial storage facilities, in partnership with a merchant house in Memphis that was redistributing the grain through private sale at prices that reflected the artificial scarcity the diversions created.
 His field report to the bureau was precise, documented, and expressed throughout in the neutral language of administrative assessment. The bureau referred it to the vizier. The vizier referred it to the pharaoh. The nome governor was removed, tried, and sentenced. The merchant house was dissolved. The vizier's office received public credit for the investigation. Maatkheru returned to Memphis and opened the next file. True of voice, his name said. He had not found it difficult to be.</p>
@@ -697,8 +252,8 @@ Amenemhat-nakht brought his analysis to the high priest of Amun, and separately 
 <hr class="story-rule">
 <div class="story-block">
 <p>The Thirteenth Dynasty was not dying gracefully. Its kings succeeded one another with increasing speed — seven in the decade before Kha-em-waset's fortieth year — and each succession produced, in the administrative apparatus of the Karnak temple, a period of anxiety and reorientation during which the normal oversight of transactions was relaxed by the distraction of political uncertainty. Kha-em-waset had come to understand these periods as the moments of maximum institutional vulnerability, when the fraudulent and the opportunistic moved most boldly because the attention of those who might stop them was directed elsewhere. He therefore directed his own attention most carefully during precisely these periods.
-In the interregnum following the death of Sobekhotep IV, a series of land grants appeared in the temple registry — grants of agricultural estates in the nome's western district, purporting to transfer properties from the temple's holdings to a consortium of private individuals in consideration of services rendered to the late king. The grants bore the royal seal of Sobekhotep IV. They were presented by a man named Nebwenenef, who described himself as the executor of the late king's testamentary intentions and who produced, in addition to the grants, a letter of authorisation from a senior palace official confirming his mandate.
-Kha-em-waset examined the grants and the letter. He had, by this point in his career, handled more documents bearing the royal seal than almost anyone in the Karnak administration, and he knew the seal as a craftsman knows his own tools. The seal impression on the grants was correct in every particular — too correct, he thought, with the quiet certainty of a man who has learned to trust the discomfort that perfection produces. He compared it against the authenticated seal impressions in the temple's archive from the same period of the late king's reign and found a variation of one sixty-fourth of a finger's width in the diameter of the central cartouche. The original seal had been re-cut at some point — not replaced but modified, producing an impression that was consistent with the original but not identical to it. The modification corresponded in date, when Kha-em-waset worked backward through the archive, to the final illness of Sobekhotep IV, when the seal would have been in the custody of the palace chamberlain and the king was no longer physically reviewing the documents it authenticated.
+In the interregnum following the death of Sobekhotep Ⅳ, a series of land grants appeared in the temple registry — grants of agricultural estates in the nome's western district, purporting to transfer properties from the temple's holdings to a consortium of private individuals in consideration of services rendered to the late king. The grants bore the royal seal of Sobekhotep Ⅳ. They were presented by a man named Nebwenenef, who described himself as the executor of the late king's testamentary intentions and who produced, in addition to the grants, a letter of authorisation from a senior palace official confirming his mandate.
+Kha-em-waset examined the grants and the letter. He had, by this point in his career, handled more documents bearing the royal seal than almost anyone in the Karnak administration, and he knew the seal as a craftsman knows his own tools. The seal impression on the grants was correct in every particular — too correct, he thought, with the quiet certainty of a man who has learned to trust the discomfort that perfection produces. He compared it against the authenticated seal impressions in the temple's archive from the same period of the late king's reign and found a variation of one sixty-fourth of a finger's width in the diameter of the central cartouche. The original seal had been re-cut at some point — not replaced but modified, producing an impression that was consistent with the original but not identical to it. The modification corresponded in date, when Kha-em-waset worked backward through the archive, to the final illness of Sobekhotep Ⅳ, when the seal would have been in the custody of the palace chamberlain and the king was no longer physically reviewing the documents it authenticated.
 He brought his finding to the new king's vizier through a private audience arranged by a temple official he trusted, presenting it not as an accusation but as an authentication concern requiring the vizier's attention and the resources of the palace to investigate. The vizier investigated. Nebwenenef was found to be a minor palace functionary with connections to a consortium of Theban landowners who had been systematically exploiting royal transitions for three generations — acquiring property during the confusion of each succession through documents of questionable provenance, then consolidating the acquisitions before the new administration was sufficiently organised to challenge them. The pattern had operated four times before Kha-em-waset caught it. It did not operate again. The vizier received credit for the discovery. The new king, in his first year, issued an administrative decree requiring all land grants from the previous reign to be re-verified against the primary palace records. It was, Kha-em-waset thought, a sensible reform. He drafted the technical guidance for how the re-verification should be conducted.</p>
 </div>
 <div class="children-block">
@@ -962,17 +517,17 @@ He stood at the crossing-place between the world of the first book and the world
 </div>
 <div class="children-block">
 <p><em>Children:</em><br>
-- <strong>Holkos of Athens</strong> — <a href="book-2.html">see Book II</a></p>
+- <strong>Holkos of Athens</strong> — <a href="book-2.html">see Book Ⅱ</a></p>
 </div>
 <hr class="story-rule">
-<div style="text-align:center"><em>End of Book I</em></div>
+<div style="text-align:center"><em>End of Book Ⅰ</em></div>
 </article>
 </main>
-<div style="text-align:center;padding:1rem 0 0;"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
 <footer class="book-footer">
   <div class="footer-ornament">✦ ✦ ✦</div>
-  <div class="footer-series">The Holmes Chronicle</div>
-  <nav class="footer-nav"><a href="index.html">Series Index</a><a href="book-2.html">Book II: The Greek World →</a></nav>
+  <div class="footer-series" ><a href="index.html">The Holmes Chronicle</a></div>
+  <nav class="footer-nav"><a href="index.html">← Series</a><a href="book-2.html">Book Ⅱ →</a></nav>
 </footer>
 </div>
 </body>
