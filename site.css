@@ -12,6 +12,12 @@
   --rule:       #c4b28a;
   --rule-faint: #ddd3b8;
   --red:        #7a1f1f;
+
+  /* ── Universal script token mappings ── */
+  --paper:  var(--parchment);
+  --aged:   var(--cream);
+  --rust:   var(--red);
+  --faded:  var(--ink-faint);
 }
 
 /* ── Reset & Base ── */
