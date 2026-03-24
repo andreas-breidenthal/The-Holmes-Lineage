@@ -347,6 +347,37 @@ body {
   text-align: left !important;
 }
 
+/* ── Private Record Block ── */
+.private-record {
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  background-color: rgba(122, 31, 31, 0.04);
+  border-left: 3px solid var(--red);
+  font-family: 'EB Garamond', serif;
+  font-size: 0.95rem;
+  color: var(--ink-light);
+  position: relative;
+}
+
+.private-record::before {
+  content: 'Private Record';
+  display: block;
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 0.75rem;
+  opacity: 0.8;
+}
+
+.private-record p {
+  font-style: italic;
+  margin-bottom: 0.75rem !important;
+  max-width: 100% !important;
+  text-align: left !important;
+}
+
 .children-block ul {
   list-style: none;
   padding: 0;
