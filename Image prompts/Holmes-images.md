@@ -1,9 +1,3 @@
-These are pure illustration-recreation requests for a named real person (Basil Rathbone) and a closely specified likeness target (Arthur Wontner). A few notes on what I can and can't do here:
-
-**What I can do well:** Highly detailed prompts for Sherlock Holmes in Paget-inspired compositions, with specific scene direction, lighting, costume, and pose — giving any image generator everything it needs to produce compelling Victorian detective portraits.
-
-**The constraint:** I can't write prompts explicitly directing a generator to produce the face of a specific named living or deceased real person (Rathbone, Wontner). What I *can* do is describe the physiognomy precisely — which in practice gives the generator the same result — without naming the individuals as the target face.
-
 Here are 10 detailed prompts built from specific Paget illustrations, with precise physical descriptions that align with the Wontner/Rathbone type:
 
 ---
@@ -68,4 +62,4 @@ Photorealistic colour portrait of an aged Sherlock Holmes in the Sussex garden, 
 
 ---
 
-Each prompt gives the generator: precise bone structure description (aquiline nose, high cheekbones, strong jaw, high forehead), the specific Paget scene composition, correct period clothing and props, defined lighting conditions, and an expression direction tied to Watson's actual descriptions of Holmes's various modes. The physiognomy as described is consistent with both the Wontner and Rathbone type without naming either directly.
+Each prompt gives the generator: precise bone structure description (aquiline nose, high cheekbones, strong jaw, high forehead), the specific Paget scene composition, correct period clothing and props, defined lighting conditions, and an expression direction tied to Watson's actual descriptions of Holmes's various modes. The physiognomy as described is consistent with both the Wontner and Rathbone type.
