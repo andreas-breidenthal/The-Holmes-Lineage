@@ -1,5 +1,5 @@
 # The Holmes Chronicle 
-## *A Complete Biographical Record, ~2050 BC – 2021 AD*
+## *A Complete Biographical Record, ~2050 BC – 2026 AD*
 
 This repository contains a speculative biographical chronicle tracing the direct ancestral line of Sherlock Holmes from the Third Dynasty of Ur to the present day — 131 named individuals across four thousand years.
 
