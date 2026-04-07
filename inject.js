@@ -48,9 +48,9 @@
    *
    * <header class="site-header">
    *   <nav class="header-nav">
-   *     <span class="header-nav">← Prev  (or greyed span)</span>
+   *     <span class="header-nav">←  (or greyed span)</span>
    *     <span class="header-series"><a href="index.html">The Holmes Chronicle</a></span>
-   *     <span class="header-nav">Next →  (or greyed span)</span>
+   *     <span class="header-nav">→  (or greyed span)</span>
    *   </nav>
    * </header>
    */
@@ -67,13 +67,13 @@
     if (prevHref) {
       const a = document.createElement("a");
       a.href = prevHref;
-      a.textContent = "← Prev";
+      a.textContent = "←";
       leftSpan.appendChild(a);
     } else {
       const s = document.createElement("span");
       s.className = "header-nav--disabled";
       s.setAttribute("aria-disabled", "true");
-      s.textContent = "← Prev";
+      s.textContent = "←";
       leftSpan.appendChild(s);
     }
     nav.appendChild(leftSpan);
@@ -93,13 +93,13 @@
     if (nextHref) {
       const a = document.createElement("a");
       a.href = nextHref;
-      a.textContent = "Next →";
+      a.textContent = "→";
       rightSpan.appendChild(a);
     } else {
       const s = document.createElement("span");
       s.className = "header-nav--disabled";
       s.setAttribute("aria-disabled", "true");
-      s.textContent = "Next →";
+      s.textContent = "→";
       rightSpan.appendChild(s);
     }
     nav.appendChild(rightSpan);
