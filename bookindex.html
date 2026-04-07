@@ -27,11 +27,44 @@
   </a>
 </p>
 </div>
-
-<div id="toc-container">
-  <p style="text-align:center; font-family:'Cinzel',serif; letter-spacing:0.08em; font-size:0.8rem; color:var(--gold);">Loading entries…</p>
+<div class="books-grid">
+<a class="book-card" href="book-1.html">
+  <div class="card-numeral">Book Ⅰ</div>
+  <div class="card-title">The Ancient World</div>
+  <div class="card-dates">~2050 BC – ~1300 BC</div>
+  <div class="card-regions">Mesopotamia · Egypt · Canaan · Phoenicia · Crete · Mycenae</div>
+</a>
+<a class="book-card" href="book-2.html">
+  <div class="card-numeral">Book Ⅱ</div>
+  <div class="card-title">The Greek World</div>
+  <div class="card-dates">~1360 BC – ~400 BC</div>
+  <div class="card-regions">Mycenae · Athens · Tyre · Lydia · Nineveh</div>
+</a>
+<a class="book-card" href="book-3.html">
+  <div class="card-numeral">Book Ⅲ</div>
+  <div class="card-title">The Roman World</div>
+  <div class="card-dates">~460 BC – ~400 AD</div>
+  <div class="card-regions">Rome · The Provinces · Britannia · Constantinople</div>
+</a>
+<a class="book-card" href="book-4.html">
+  <div class="card-numeral">Book Ⅳ</div>
+  <div class="card-title">The Frankish & Norse World</div>
+  <div class="card-dates">~370 AD – ~1200 AD</div>
+  <div class="card-regions">Gaul · Northumbria · The Carolingian Court · Byzantium</div>
+</a>
+<a class="book-card" href="book-5.html">
+  <div class="card-numeral">Book Ⅴ</div>
+  <div class="card-title">Halstead Manor</div>
+  <div class="card-dates">~1140 AD – ~1880 AD</div>
+  <div class="card-regions">England · Normandy · The Holy Land · The Low Countries · The Empire</div>
+</a>
+<a class="book-card" href="book-6.html">
+  <div class="card-numeral">Book Ⅵ</div>
+  <div class="card-title">The Great Detective Lives On</div>
+  <div class="card-dates">1854 – 2026</div>
+  <div class="card-regions">Yorkshire · London · Sussex · Boston · United States</div>
+</a>
 </div>
-
 <p class="index-colophon">
 The gift survived the fire. It always did.<br>
 From the scribe of Ur to the present day, the same faculty — methodical observation,
@@ -41,59 +74,8 @@ finding in each the form that the age required.
 </p>
 <div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
 </div>
-
+  
   <script src="https://andreas-breidenthal.github.io/andreas-breidenthal/universal-header.js"></script>
   <script src="https://andreas-breidenthal.github.io/andreas-breidenthal/universal-footer.js"></script>
-
-<script>
-(async function () {
-  const container = document.getElementById('toc-container');
-  const total = 132;
-  const parser = new DOMParser();
-  const entries = [];
-
-  // Fetch all pages concurrently
-  const fetches = [];
-  for (let i = 1; i <= total; i++) {
-    fetches.push(
-      fetch('hc' + i + '.html')
-        .then(r => r.ok ? r.text() : null)
-        .then(html => {
-          if (!html) return { n: i, name: null, dateline: null };
-          const doc = parser.parseFromString(html, 'text/html');
-          const nameEl = doc.querySelector('.entry-name');
-          const dateEl = doc.querySelector('.entry-dateline');
-          return {
-            n: i,
-            name: nameEl ? nameEl.textContent.trim() : null,
-            dateline: dateEl ? dateEl.textContent.trim() : null
-          };
-        })
-        .catch(() => ({ n: i, name: null, dateline: null }))
-    );
-  }
-
-  const results = await Promise.all(fetches);
-  results.sort((a, b) => a.n - b.n);
-
-  let html = '<section class="toc-section">';
-  html += '<div class="toc-heading">Contents</div>';
-  html += '<div class="toc-grid">';
-
-  for (const entry of results) {
-    if (!entry.name) continue;
-    html += '<div class="toc-entry">';
-    html += '<a href="hc' + entry.n + '.html">' + entry.name + '</a>';
-    html += '<span class="toc-date">' + entry.dateline + '</span>';
-    html += '</div>';
-  }
-
-  html += '</div>';
-  html += '</section>';
-
-  container.innerHTML = html;
-})();
-</script>
-
 </body>
 </html>
