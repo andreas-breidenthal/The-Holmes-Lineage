@@ -22,6 +22,11 @@
 
 (function () {
   "use strict";
+  /* ── Favicon ─────────────────────────────────────────────────── */
+  const link = document.createElement("link");
+  link.rel = "icon";
+  link.href = "favicon.ico";
+  document.head.appendChild(link);
 
   /* ── Configuration ─────────────────────────────────────────────────── */
   const INDEX_URL        = "index.html";
