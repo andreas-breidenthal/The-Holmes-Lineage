@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Holmes Chronicle — A Speculative Genealogy of Sherlock Holmes | Andreas Breidenthal</title>
+  <meta name="description" content="One hundred and thirty-one generations across four thousand years. A speculative genealogy tracing the Holmes analytical gift from ancient Mesopotamia to the present day — each bearer embedded at the heart of their civilisation, each quietly dismantling organised crime across every age of human history.">
+  <meta name="author" content="Andreas Breidenthal">
+  <meta property="og:title" content="The Holmes Chronicle — A Speculative Genealogy of Sherlock Holmes">
+  <meta property="og:description" content="One hundred and thirty-one generations across four thousand years. A speculative genealogy tracing the Holmes analytical gift from ancient Mesopotamia to the present day.">
+  <meta property="og:type" content="book">
+  <meta name="description" content="The Holmes Chronicle">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;500;600&family=Cinzel+Decorative:wght@400&family=Inconsolata:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+<div class="page-shell">
+<div id="top" class="index-hero">
+  <img src="images/chronicle-cover.webp" alt="The Holmes Chronicle — 2050 BC to 2026 AD, by Andreas Breidenthal" style="display:block; margin: 0 auto 2rem; max-width: 480px; width: 100%; border-radius: 4px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);">
+  <p class="series-description">One hundred and thirty-one generations across four thousand years — each bearing the same inherited analytical gift, each embedded at the heart of their civilisation, each quietly dismantling the organised criminal networks that persist across every age of human history.</p>
+<p style="text-align:center; margin: 1.5rem 0 2rem;">
+  <a href="https://js.histropedia.com/sheets/?id=19J3xFbEKqgaDgycVKwqNJv5xZJbZZD7tcS0PcTYHApA" 
+     target="_blank" 
+     style="font-family: 'Cinzel', serif; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.8rem; color: var(--gold); text-decoration: none;">
+    View the Chronicle Timeline
+  </a>
+</p>
+</div>
+
+<div id="toc-container">
+  <p style="text-align:center; font-family:'Cinzel',serif; letter-spacing:0.08em; font-size:0.8rem; color:var(--gold);">Loading entries…</p>
+</div>
+
+<p class="index-colophon">
+The gift survived the fire. It always did.<br>
+From the scribe of Ur to the present day, the same faculty — methodical observation,
+inference from particulars, the patient dismantling of what ordinary intelligence
+cannot see — passed from parent to child across one hundred and thirty-one generations,
+finding in each the form that the age required.
+</p>
+<div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
+</div>
+
+  <script src="https://andreas-breidenthal.github.io/andreas-breidenthal/universal-header.js"></script>
+  <script src="https://andreas-breidenthal.github.io/andreas-breidenthal/universal-footer.js"></script>
+
+<script>
+(async function () {
+  const container = document.getElementById('toc-container');
+  const total = 132;
+  const parser = new DOMParser();
+  const entries = [];
+
+  // Fetch all pages concurrently
+  const fetches = [];
+  for (let i = 1; i <= total; i++) {
+    fetches.push(
+      fetch('hc' + i + '.html')
+        .then(r => r.ok ? r.text() : null)
+        .then(html => {
+          if (!html) return { n: i, name: null, dateline: null };
+          const doc = parser.parseFromString(html, 'text/html');
+          const nameEl = doc.querySelector('.entry-name');
+          const dateEl = doc.querySelector('.entry-dateline');
+          return {
+            n: i,
+            name: nameEl ? nameEl.textContent.trim() : null,
+            dateline: dateEl ? dateEl.textContent.trim() : null
+          };
+        })
+        .catch(() => ({ n: i, name: null, dateline: null }))
+    );
+  }
+
+  const results = await Promise.all(fetches);
+  results.sort((a, b) => a.n - b.n);
+
+  // Build TOC markup using only tags present in the original index
+  let html = '<div class="books-grid" style="display:block;">';
+
+  for (const entry of results) {
+    if (!entry.name) continue;
+    html += '<a class="book-card" href="hc' + entry.n + '.html" style="display:flex; align-items:baseline; gap:1.2em; text-decoration:none;">';
+    html += '<div class="card-numeral" style="min-width:2.8em; text-align:right; flex-shrink:0;">' + entry.n + '</div>';
+    html += '<div class="card-title">' + entry.name + '</div>';
+    html += '<div class="card-dates" style="margin-left:auto; flex-shrink:0;">' + entry.dateline + '</div>';
+    html += '</a>';
+  }
+
+  html += '</div>';
+
+  container.innerHTML = html;
+})();
+</script>
+
+</body>
+</html>
