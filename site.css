@@ -216,7 +216,7 @@ body {
   font-style: italic;
   font-size: 0.82rem;
   color: var(--ink-faint);
-  white-space: nowrap;
+  white-space: normal;
 }
 
 /* ── Main Content ── */
