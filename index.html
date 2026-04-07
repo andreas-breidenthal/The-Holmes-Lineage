@@ -49,15 +49,21 @@ finding in each the form that the age required.
 <script>
 (async function () {
   const container = document.getElementById('toc-container');
-  const total = 132;
+  const total = 131;
   const parser = new DOMParser();
   const entries = [];
 
   // Fetch all pages concurrently
   const fetches = [];
+  const sequence = [];
   for (let i = 1; i <= total; i++) {
+    sequence.push({ file: 'hc' + i + '.html', n: i });
+    if (i === 124) sequence.push({ file: 'hc124b.html', n: null });
+  }
+
+  for (const item of sequence) {
     fetches.push(
-      fetch('hc' + i + '.html')
+      fetch(item.file)
         .then(r => r.ok ? r.text() : null)
         .then(html => {
           if (!html) return { n: i, name: null, dateline: null };
@@ -65,11 +71,11 @@ finding in each the form that the age required.
           const nameEl = doc.querySelector('.entry-name');
           const dateEl = doc.querySelector('.entry-dateline');
           return {
-            n: i,
+            n: item.n,
             name: nameEl ? nameEl.textContent.trim() : null,
-            dateline: dateEl ? dateEl.textContent.trim() : null          };
+            dateline: dateEl ? dateEl.textContent.trim().replace(' — ', '<br>') : null          };
         })
-        .catch(() => ({ n: i, name: null, dateline: null }))
+        .catch(() => ({ n: item.n, name: null, dateline: null }))
     );
   }
 
