@@ -67,8 +67,8 @@ finding in each the form that the age required.
           return {
             n: i,
             name: nameEl ? nameEl.textContent.trim() : null,
-            dateline: dateEl ? dateEl.textContent.trim() : null,
-          })
+            dateline: dateEl ? dateEl.textContent.trim() : null          };
+        })
         .catch(() => ({ n: i, name: null, dateline: null }))
     );
   }
