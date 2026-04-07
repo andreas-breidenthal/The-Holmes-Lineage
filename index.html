@@ -77,20 +77,19 @@ finding in each the form that the age required.
   const results = await Promise.all(fetches);
   results.sort((a, b) => a.n - b.n);
 
-  let html = '<section class="toc-section">';
-  html += '<div class="toc-heading">Contents</div>';
-  html += '<div class="toc-grid">';
+    // Build TOC markup using only tags present in the original index
+  let html = '<div class="books-grid" style="display:block;">';
 
   for (const entry of results) {
     if (!entry.name) continue;
-    html += '<div class="toc-entry">';
-    html += '<a href="hc' + entry.n + '.html">' + entry.name + '</a>';
-    html += '<span class="toc-date">' + entry.dateline + '</span>';
-    html += '</div>';
+    html += '<a class="book-card" href="hc' + entry.n + '.html" style="display:flex; align-items:baseline; gap:1.2em; text-decoration:none;">';
+    html += '<div class="card-numeral" style="min-width:2.8em; text-align:right; flex-shrink:0;">' + entry.n + '</div>';
+    html += '<div class="card-title">' + entry.name + '</div>';
+    html += '<div class="card-dates" style="margin-left:auto; flex-shrink:0;">' + entry.dateline + '</div>';
+    html += '</a>';
   }
 
   html += '</div>';
-  html += '</section>';
 
   container.innerHTML = html;
 })();
