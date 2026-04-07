@@ -31,17 +31,26 @@
   /* ── Configuration ─────────────────────────────────────────────────── */
   const INDEX_URL        = "index.html";
   const SITE_TITLE       = "The Holmes Chronicle";
-  const LAST_ENTRY       = 132;   // update if the chronicle grows
+  const LAST_ENTRY       = 131;   // update if the chronicle grows
   const UNIVERSAL_FOOTER = "https://andreas-breidenthal.github.io/andreas-breidenthal/universal-footer.js";
 
   /* ── Derive prev / next from the current filename ───────────────────── */
   const filename = window.location.pathname.split("/").pop();
+  const SPECIAL_NAV = {
+    "hc124.html":  { prev: "hc123.html",  next: "hc124b.html" },
+    "hc124b.html": { prev: "hc124.html",  next: "hc125.html"  },
+    "hc125.html":  { prev: "hc124b.html", next: "hc126.html"  }
+  };
+
   const match    = filename.match(/^hc(\d+)\.html$/i);
 
   let prevHref = "";
   let nextHref = "";
 
-  if (match) {
+  if (SPECIAL_NAV[filename]) {
+    prevHref = SPECIAL_NAV[filename].prev;
+    nextHref = SPECIAL_NAV[filename].next;
+  } else if (match) {
     const n = parseInt(match[1], 10);
     prevHref = n > 1          ? "hc" + (n - 1) + ".html" : "";
     nextHref = n < LAST_ENTRY ? "hc" + (n + 1) + ".html" : "";
