@@ -184,7 +184,7 @@ body {
 
 .toc-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: 1fr;
   gap: 0.15rem 2rem;
   max-width: var(--wide-w);
   margin: 0 auto;
