@@ -16,7 +16,7 @@
  *   hc132 → Prev = hc131,      Next greyed out
  *
  * Footer structure mirrors the existing .book-footer exactly:
- *   ✦ ✦ ✦  /  The Holmes Chronicle  /  ← Prev  Index  Next →
+ *   ✦ ✦ ✦  /  The Holmes Chronicle  /  ← Prev  Next →
  * Followed by universal-footer.js (CC0, Archives, GitHub, Opinions, ↑ Top).
  */
 
@@ -157,12 +157,6 @@
       s.textContent = "← Prev";
       nav.appendChild(s);
     }
-
-    // Index
-    const idxLink = document.createElement("a");
-    idxLink.href = INDEX_URL;
-    idxLink.textContent = "Index";
-    nav.appendChild(idxLink);
 
     // Next
     if (nextHref) {
