@@ -614,7 +614,6 @@ body {
   font-style: italic;
   font-size: 1.05rem;
   color: var(--ink-faint);
-  text-transform: uppercase;
   margin-bottom: 0.2rem;
 }
 
