@@ -593,7 +593,7 @@ body {
 
 .card-numeral {
   font-family: 'Cinzel Decorative', serif;
-  font-size: 0.65rem;
+  font-size: 0.82rem;
   letter-spacing: 0.2em;
   color: var(--gold);
   text-transform: uppercase;
@@ -605,16 +605,16 @@ body {
   font-size: 1.05rem;
   font-weight: 600;
   color: var(--ink);
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
   letter-spacing: 0.02em;
 }
 
 .card-dates {
   font-family: 'EB Garamond', serif;
   font-style: italic;
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: var(--ink-faint);
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.3rem;
 }
 
 .card-regions {
