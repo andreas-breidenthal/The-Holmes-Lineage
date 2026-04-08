@@ -529,7 +529,7 @@ body {
   font-family: 'Cinzel Decorative', serif;
   font-size: clamp(2rem, 6vw, 3.5rem);
   font-weight: 600;
-  color: var(--gold-light);
+  color: var(--ink);
   line-height: 1.15;
   letter-spacing: 0.12em;
   margin-bottom: 0.75rem;
@@ -539,7 +539,7 @@ body {
   font-family: 'EB Garamond', serif;
   font-style: italic;
   font-size: 1.25rem;
-  color: var(--gold-light);
+  color: var(--ink-light);
   margin-bottom: 1rem;
 }
 
