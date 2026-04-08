@@ -554,7 +554,7 @@ body {
 
 .books-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 2fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 0;
   padding: 0;
 }
@@ -562,7 +562,7 @@ body {
 .book-card {
   display: block;
   text-decoration: none;
-  padding: 1rem 1.5rem;
+  padding: 2rem 2.5rem;
   border-bottom: 1px solid var(--rule-faint);
   border-right: 1px solid var(--rule-faint);
   transition: background-color 0.2s;
@@ -597,7 +597,7 @@ body {
   letter-spacing: 0.2em;
   color: var(--gold);
   text-transform: uppercase;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.2rem;
 }
 
 .card-title {
@@ -614,7 +614,7 @@ body {
   font-style: italic;
   font-size: 1.05rem;
   color: var(--ink-faint);
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
 }
 
 .card-regions {
