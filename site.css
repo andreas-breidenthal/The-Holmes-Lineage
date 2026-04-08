@@ -490,6 +490,7 @@ body {
   .toc-section  { padding: 2rem 1.5rem; }
   .site-header  { padding: 0.5rem 1.25rem; }
   .toc-grid     { grid-template-columns: 1fr; }
+  .books-grid   { grid-template-columns: 1fr; }
 }
 
 /* ── Print ── */
@@ -554,7 +555,7 @@ body {
 
 .books-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 2fr;
   gap: 0.15rem 2rem;
   max-width: var(--wide-w);
   margin: 0 auto;
