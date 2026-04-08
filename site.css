@@ -564,7 +564,7 @@ body {
 .book-card {
   display: block;
   text-decoration: none;
-  padding: 2rem 3rem;
+  padding: 2rem 4rem;
   border-bottom: 1px solid var(--rule-faint);
   border-right: 1px solid var(--rule-faint);
   transition: background-color 0.2s;
