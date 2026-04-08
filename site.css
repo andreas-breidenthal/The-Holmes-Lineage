@@ -555,7 +555,7 @@ body {
 
 .books-grid {
   display: grid;
-  grid-template-columns: 2fr;
+  grid-template-columns: 1fr 1fr;
   gap: 0.15rem 2rem;
   max-width: var(--wide-w);
   margin: 0 auto;
