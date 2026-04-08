@@ -612,7 +612,7 @@ body {
 .card-dates {
   font-family: 'EB Garamond', serif;
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--ink-faint);
   margin-bottom: 0.4rem;
 }
