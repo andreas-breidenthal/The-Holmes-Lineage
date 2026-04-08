@@ -85,7 +85,7 @@ finding in each the form that the age required.
   results.sort((a, b) => (a.n ?? 124.5) - (b.n ?? 124.5));
 
     // Build TOC markup using only tags present in the original index
-  let html = '<div class="books-grid" style="display:block; padding: 0 0.5rem;">';
+  let html = '<div class="books-grid">';
   for (const entry of results) {
     if (!entry.name) continue;
     html += '<a class="book-card" href="hc' + entry.n + '.html" style="display:flex; flex-direction:column; text-decoration:none; padding-left:0.5rem; padding-right:0.5rem;">';
