@@ -89,8 +89,7 @@ finding in each the form that the age required.
   let html = '<div class="books-grid">';
   for (const entry of results) {
     if (!entry.name) continue;
-    html += '<a class="book-card" href="hc' + entry.n + '.html" style="display:flex; flex-direction:column; text-decoration:none; padding-left:0.5rem; padding-right:0.5rem;">';
-    html += '<div style="display:flex; justify-content:space-between; align-items:baseline;">';
+    html += '<a class="book-card" href="' + (entry.n ? 'hc' + entry.n + '.html' : 'hc124b.html') + '" style="display:flex; flex-direction:column; text-decoration:none; padding-left:0.5rem; padding-right:0.5rem;">';    html += '<div style="display:flex; justify-content:space-between; align-items:baseline;">';
     html += '<div class="card-title" style="margin:0;">' + entry.name + '</div>';
     html += '</div>';
     html += '<div style="display:flex; justify-content:space-between; align-items:baseline;">';
