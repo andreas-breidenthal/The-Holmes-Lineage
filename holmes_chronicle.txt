@@ -1274,7 +1274,7 @@ The warehouse contained grain.
 
 Not cedar. Grain — old grain, by the smell, the kind kept as a buffer against the lean years, legitimate and unremarkable. It filled the space completely. There was no evidence that cedar had ever been here, or that it had been hastily removed. The grain had settled into the corners with the patience of things that have been sitting undisturbed for months.
 
-Amenhotep-sa-Hapu stared at it. “The theft was reported three days ago. His steward said twenty talents of cedar, gone between one evening and the next morning. You cannot move twenty talents of cedar and replace it with—”
+Amenhotep-sa-Hapu stared at it. “The theft was reported three days ago. His steward said twenty hundred-deben weights of cedar, gone between one evening and the next morning. You cannot move twenty hundred-deben weights of cedar and replace it with—”
 
 “No,” Nabi-ilum agreed. “You cannot. Which is why it was never moved.” He turned and walked back into the light. I followed. After a moment, so did the Harbour Master.
 
@@ -1378,7 +1378,7 @@ The Account Of Hori
 
 ------------------------------------------------------------------------
 
-From the administrative correspondence archive of the Memphis nome bureau. Recovered from the sealed cache of the House of Records, deposited in the reign of Amenemhat IV. Translated from the hieratic by the scribal office of the Bureau of Royal Documents.
+From the administrative correspondence archive of the Memphis nome bureau. Recovered from the sealed cache of the House of Records, deposited in the reign of Sobekhotep II. Translated from the hieratic by the scribal office of the Bureau of Royal Documents.
 
 I set down this account not because the law requires it — the matter was concluded to the satisfaction of the vizier’s office and the correct seals were applied to the correct papyri — but because I am an old man now and I have spent my life in the company of records, and I know that a record which omits the truth of what happened is a record that lies by silence. Ma’at does not permit that. Neither does my conscience, which is perhaps the same thing stated differently.
 
@@ -1530,7 +1530,7 @@ His eyes, when he looks up from the papyrus, have the quality of water in the ch
 
 He is waiting.
 
-Written in the reign of Amenemhat, the third of that name, living and healthy. May the record stand true.
+Written in the reign of Sobekhotep, the second of that name, living and healthy. May the record stand true.
 
 Hori, Overseer of the Bureau of Agricultural Assessment, Memphis, servant of Ma’at, True of Voice.
 
@@ -1734,7 +1734,7 @@ I have added this note to ensure that some record exists of what actually occurr
 
 Hapu
 Overseer of Temple Lands
-Third year of the reign of Sekhemre-Khutawy, may he live forever
+Third year of the reign of Khaneferre, may he live forever
 
 The inspectorate’s official summary attributes the discovery of the Karnak land register discrepancies to the thoroughness of the regular audit process and commends the department for its diligence. Amenemhat-nakht is mentioned once, as a junior scribe who assisted in the survey. His name does not appear in the temple’s formal records again until he is appointed, fourteen months later, to a position in the royal treasury’s inspectorate — an appointment made, according to the appointment document, on the recommendation of the chief priest of Amun, acting on information received from sources the document does not specify.
 
@@ -1956,7 +1956,7 @@ The Matter Of Amenhotep-Sa-Hapu
 
 ------------------------------------------------------------------------
 
-Recorded by Hori, his assistant, in the seventeenth year of the reign of Sekhemre-Sewadjtawy, may he be granted life, stability, and dominion
+Recorded by Hori, his assistant, in the seventeenth year of the reign of Merneferre, may he be granted life, stability, and dominion
 
 The season of Akhet had turned heavy that year.
 
@@ -3218,7 +3218,7 @@ The body of Rib-Hadda the overseer was found at the mouth of the third shaft of 
 
 He had been struck once, very hard, behind the left ear. The instrument was not recovered. He was face-down in the spoil-heap at the shaft entrance, and he had been there, the mine physician estimated, since some point in the darkness before dawn.
 
-By midday, the Cypriote port-captain Akhenaten-Ra — an Egyptian-named man of Cypriote birth who administered the royal mine interests and who wore the title of his office like armour against the complexity of his actual duties — had arrested our factor, Aziru son of Bomilcar of Tyre.
+By midday, the Cypriote port-captain Ahmose-mery-Ra — an Egyptian-named man of Cypriote birth who administered the royal mine interests and who wore the title of his office like armour against the complexity of his actual duties — had arrested our factor, Aziru son of Bomilcar of Tyre.
 
 The logic was, as Hanno-Baal later noted, not without a certain municipal poetry. Aziru had argued loudly with Rib-Hadda in the market three days before the death. The argument concerned the weighing of a consignment of copper ingots — specifically, whether the weights applied to them matched the weights recorded in the official tablets. Aziru said they did not. Rib-Hadda said that our factor was impugning the honour of a man appointed by the Alashiyan administration. The harbour square had been full of witnesses, and several of them had heard Aziru make remarks that stopped just short of a formal curse.
 
@@ -3226,11 +3226,11 @@ Aziru was a short, dark-tempered man of forty years who had been working the cop
 
 The port-captain did not know it, or did not find it relevant.
 
-Akhenaten-Ra came to us on the second day after the arrest. He was not, I should say, a foolish man — he was simply a man whose function had been designed by a system that valued closure over accuracy, and he had served that system long enough that its values had become his own. He came because the Tyrian merchant house was an important commercial relationship and because he required, as he delicately expressed it, “the cooperation of the Canaanite community in bringing this matter to a swift resolution.”
+Ahmose-mery-Ra came to us on the second day after the arrest. He was not, I should say, a foolish man — he was simply a man whose function had been designed by a system that valued closure over accuracy, and he had served that system long enough that its values had become his own. He came because the Tyrian merchant house was an important commercial relationship and because he required, as he delicately expressed it, “the cooperation of the Canaanite community in bringing this matter to a swift resolution.”
 
 What he meant was: confirm that your man did it, and we will proceed efficiently.
 
-Hanno-Baal received him in the reed-mat shade of our house’s courtyard, on a bench near the small olive tree that grew there with improbable persistence. He had been sitting motionless for the better part of the morning, which I had learned to recognise as his thinking posture — not sleep, not leisure, but some internal process that used stillness as its fuel. He rose when the port-captain arrived, offered the appropriate courtesies, and listened to Akhenaten-Ra’s account with every appearance of respectful attention.
+Hanno-Baal received him in the reed-mat shade of our house’s courtyard, on a bench near the small olive tree that grew there with improbable persistence. He had been sitting motionless for the better part of the morning, which I had learned to recognise as his thinking posture — not sleep, not leisure, but some internal process that used stillness as its fuel. He rose when the port-captain arrived, offered the appropriate courtesies, and listened to Ahmose-mery-Ra’s account with every appearance of respectful attention.
 
 “You have the public dispute,” he said, when the port-captain finished. “You have the timing. You have no witness to the act itself?”
 
@@ -3242,7 +3242,7 @@ Hanno-Baal received him in the reed-mat shade of our house’s courtyard, on a b
 
 “Is consistent with approximately every man of working age on this island,” Hanno-Baal said pleasantly. “Port-Captain, I would like to examine the body, the shaft entrance, and the weight-records of the Tamassos overseer’s office for the past two years.”
 
-Akhenaten-Ra’s expression underwent a small contraction. “The records of the overseer’s office are an administrative matter—”
+Ahmose-mery-Ra’s expression underwent a small contraction. “The records of the overseer’s office are an administrative matter—”
 
 “They are the reason the argument occurred. A weight dispute is not an insult to a man’s honour unless the weights are carrying something heavier than copper.” Hanno-Baal tilted his head slightly. “You might prefer to know what they contain before this proceeds to formal adjudication. If I am wrong, nothing is lost. If I am right, you will have been very wise to look.”
 
@@ -3258,7 +3258,7 @@ At the shaft entrance, he moved in the way I had come to recognise: not quickly,
 
 “He was not killed here,” he said, straightening.
 
-“He was found here,” said Akhenaten-Ra.
+“He was found here,” said Ahmose-mery-Ra.
 
 “He was found here. He was killed approximately thirty paces to the east, where the ground changes from spoil to natural surface, and dragged to this point. The drag-marks have been partially obscured — someone kicked spoil-dust over them — but the direction of disturbance in the debris is plain enough. Also, the wound was to the left rear of the skull. Rib-Hadda was left-handed. A man facing him in anger strikes the right side. A man he trusted, walking beside him on his left, strikes the left side.”
 
@@ -3268,7 +3268,7 @@ He paused, turning slowly to look at the working shed where the mine’s daily r
 
 The port-captain said nothing. I wrote everything down.
 
-The weight-records, as it proved, did not require formal authorisation. The keeper of the shed — a thin boy of perhaps sixteen who had been assigned the task of guard and recorder by Rib-Hadda himself — had, in the shock of the morning’s events, forgotten to lock the door, and Hanno-Baal had observed this on arrival and said nothing. He simply walked to the shed while Akhenaten-Ra was occupied examining the drag-marks and opened the door and read.
+The weight-records, as it proved, did not require formal authorisation. The keeper of the shed — a thin boy of perhaps sixteen who had been assigned the task of guard and recorder by Rib-Hadda himself — had, in the shock of the morning’s events, forgotten to lock the door, and Hanno-Baal had observed this on arrival and said nothing. He simply walked to the shed while Ahmose-mery-Ra was occupied examining the drag-marks and opened the door and read.
 
 I stood behind him and tried to see what he saw. The tablets were organised by season and by consignment — each load of copper ingots recorded by weight, by source shaft, and by destination vessel. They were, on their surface, orderly records. The kind that suggest competence.
 
@@ -3290,11 +3290,11 @@ The light in the shed was the flat yellow of morning oil-lamps — we had lit tw
 
 I thought about what Hanno-Baal had said: a man who had finally added his own years of short payment and arrived at the true sum. I thought about arriving at a sum like that. What it would feel like in the body. What it might make a man do, before dawn, on a road he had walked his whole working life.
 
-He laid it before the port-captain in the courtyard that evening, with Akhenaten-Ra seated across from him and the Tamassos weight-records arranged between them on a linen cloth.
+He laid it before the port-captain in the courtyard that evening, with Ahmose-mery-Ra seated across from him and the Tamassos weight-records arranged between them on a linen cloth.
 
 He spoke for some time, unhurried. He explained the mechanism of the fraud with the same tone he used when explaining anything — the tone of a patient teacher who has already understood his student’s confusion and is simply providing the path out of it. He showed the port-captain the columns. He explained the arithmetic. He explained what the gap between the two sets of records meant in practical terms — how much copper, over two years, how many men, how many seasons of short weight.
 
-Akhenaten-Ra said nothing for a long time after.
+Ahmose-mery-Ra said nothing for a long time after.
 
 Then: “The motive for killing him was, then, the dispute.”
 
@@ -3304,7 +3304,7 @@ Then: “The motive for killing him was, then, the dispute.”
 
 “The Alashiyan administration appointed Rib-Hadda. They certified his weights. They accepted his consignment records.” Hanno-Baal’s voice was still entirely neutral. “If the fraud is made public, the questions about administrative oversight become somewhat pointed. More pressingly, the consignment records — which now appear to show the true quantities shipped — contradict the official shaft output records, which means every receiving house in the eastern sea has tablets demonstrating they received more copper than was officially produced. The accounting difficulty would be considerable.”
 
-Akhenaten-Ra looked at him for a long time. “What do you propose?”
+Ahmose-mery-Ra looked at him for a long time. “What do you propose?”
 
 “Aziru is innocent. I propose you know this, and that you act accordingly, and that the matter of who struck Rib-Hadda remains an open question in the official record — a robbery, perhaps, or an unknown enemy. Rib-Hadda was not, on examination, a man without enemies.” He paused. “I further propose that the weight-standards at Tamassos be quietly revised, and that the new overseer be a man whose arithmetic is both accurate and whose honesty is monitored with rather more attention than his predecessor’s.”
 
@@ -3843,7 +3843,7 @@ I record this at the instruction of Akaros the interpreter, who told me that an 
 
 The archive room had no window.
 
-This was its purpose and its virtue. The tablets could not be baked by direct sun before their contents were verified; the dust of the citadel could not settle on a fresh inscription and fill the characters before the checker had read them; the traders and factors and military men who passed through the Lion Gate had no angle from which to observe what the palace chose to record and what it chose not to. The archive was a sealed world within the sealed world of the citadel, and the air was full of scents: of damp clay, of lamp-oil pressed from olives grown in the lower fields below the walls, of the particular mineral cold that stone accumulates in darkness even in the months of summer heat. The lamp that burned in the corner when we found it had been burning long enough to blacken the ceiling above it in a half-circle that spread like a stain. The smoke had nowhere to go. Neither, in the end, had Thalos.
+This was its purpose and its virtue. The tablets could not be baked by direct sun before their contents were verified; the dust of the citadel could not settle on a fresh inscription and fill the characters before the checker had read them; the traders and factors and military men who passed through the Cyclopean gates had no angle from which to observe what the palace chose to record and what it chose not to. The archive was a sealed world within the sealed world of the citadel, and the air was full of scents: of damp clay, of lamp-oil pressed from olives grown in the lower fields below the walls, of the particular mineral cold that stone accumulates in darkness even in the months of summer heat. The lamp that burned in the corner when we found it had been burning long enough to blacken the ceiling above it in a half-circle that spread like a stain. The smoke had nowhere to go. Neither, in the end, had Thalos.
 
 He was the senior scribe of the Linear B archive. He had served the palace for nineteen years, and he lay now on his side against the western shelving rack with his face turned toward the door and his reed still gripped in his right hand, as a man who falls in a field grips the tool he was carrying because the hand does not know yet that the work is done. The back of his skull had been struck once. The clay tablet on which he had been working lay on the floor beside him, fallen from the writing board when he fell, not yet dry.
 
@@ -3941,7 +3941,7 @@ He looked at me then, and I had the brief sensation — not unpleasant, but diso
 
 “What will you do?”
 
-He was quiet for a moment. The cook-fire smell was stronger now, and somewhere below the Lion Gate a cart-wheel had caught on the road-stone and was crying against it in a long, rhythmic complaint.
+He was quiet for a moment. The cook-fire smell was stronger now, and somewhere below the citadel gate a cart-wheel had caught on the road-stone and was crying against it in a long, rhythmic complaint.
 
 “I will do,” he said, “what can be done with the evidence I can use in the forum I have available. Which means Arepatos dies for Thalos’s death, and the business arrangement that produced that death becomes slightly more expensive and difficult for its architect, which is not justice but is the closest available approximation of it.” He rose from the wall. “Record that, Dorykles, at the end of your account. Not the name — I will not give you the name — but the principle. That the full truth is not always the truth that can be spoken. That a good scribe knows the difference between what the tablet contains and what it means. And that Thalos knew it too.”
 
@@ -4386,11 +4386,11 @@ I looked. I said, with confidence: “Also Arkitas.”
 
 Holkos smiled, very slightly, in a way I did not care for, because it was not the smile of a man who has been agreed with. It was the smile of a teacher whose student has just provided the demonstration the lesson requires.
 
-“Menandros,” he said, “you know the hand of Arkitas because you have worked alongside him for years and you see its forms as a unified whole, a single impression. I am looking at it for the first time this morning, which means I am looking at it as a collection of individual decisions — where a sign-maker chooses to begin a sign, how he completes the downstroke, whether he lifts the stylus between the horizontal wedges or draws them in a single motion.” He set the two tablets side by side on the table edge. “The hand of Arkitas, across your archive records, is a hand formed in the Mycenae tradition with one peculiarity: he begins the sign for ko — the syllable that opens the commodity notation for copper, ko-pe-re-ja — with an upward motion. Not unusual; it is one of the variant forms. Consistent, across twenty tablets I examined. He has done it this way since he first learned the sign.”
+“Menandros,” he said, “you know the hand of Arkitas because you have worked alongside him for years and you see its forms as a unified whole, a single impression. I am looking at it for the first time this morning, which means I am looking at it as a collection of individual decisions — where a sign-maker chooses to begin a sign, how he completes the downstroke, whether he lifts the stylus between the horizontal wedges or draws them in a single motion.” He set the two tablets side by side on the table edge. “The hand of Arkitas, across your archive records, is a hand formed in the Mycenae tradition with one peculiarity: he begins the sign for ka — the syllable that opens the commodity notation for bronze, ka-ko — with an upward motion. Not unusual; it is one of the variant forms. Consistent, across twenty tablets I examined. He has done it this way since he first learned the sign.”
 
 He tapped the final tablet.
 
-“The last entry of the evening was made by a person who begins ko with a downward motion. It is the more common form. It is not the form Arkitas used. The hand is an imitation — a good one, made by someone who had studied Arkitas’s records carefully enough to reproduce the proportions and the spacing, but who could not entirely suppress their own ingrained habits when they reached a sign they had always written differently.”
+“The last entry of the evening was made by a person who begins ka with a downward motion. It is the more common form. It is not the form Arkitas used. The hand is an imitation — a good one, made by someone who had studied Arkitas’s records carefully enough to reproduce the proportions and the spacing, but who could not entirely suppress their own ingrained habits when they reached a sign they had always written differently.”
 
 The room was quiet.
 
@@ -6378,7 +6378,7 @@ The fog that morning came in from the Saronic side.
 
 This is worth recording because in eleven years of walking the isthmus at dawn to open the crossing-house, I had learned to read the two gulfs as I would read the faces of men in negotiation: the Corinthian side open and blustery and honest in its moods, the Saronic side subtle, withholding, given to silences that meant more than its noise. When the fog came from the Saronic, I always felt that something was being concealed from me, and that the day would require more attention than my bones wished to give it.
 
-On the morning I mean to describe, the fog was so dense that I could smell the Saronic — brine and cedar-pitch and the particular corruption of the shellfish beds near Cenchreae — before I could see the harbour below, and the clay tablets under my arm were already softening at the edges from the damp when I reached the crossing-house door and found Holkos already inside.
+On the morning I mean to describe, the fog was so dense that I could smell the Saronic — brine and cedar-pitch and the particular corruption of the shellfish beds near Cenchreae — before I could see the harbour below, and the wooden wax-boards under my arm were already softening at the edges from the damp when I reached the crossing-house door and found Holkos already inside.
 
 He had lit the oil lamp himself. He was studying the transit tallies I had left on the counting-table the previous evening.
 
@@ -6621,7 +6621,7 @@ He never spoke of it as unfinished. He never expressed the frustration of incomp
 Perhaps he had decided to practice patience.
 
 Here Philon’s account of this matter closes.
-The clay tablets on which the formal crossing records were kept are partially preserved in the Corinthian archive and confirm the recovery of the stolen tin and the subsequent penalties imposed on the two men convicted. Kadmos does not appear in the formal record. The Phoenician-jointed vessel does not appear in any subsequent Corinthian transit documentation.
+The wooden wax-boards on which the formal crossing records were kept are partially preserved in the Corinthian archive and confirm the recovery of the stolen tin and the subsequent penalties imposed on the two men convicted. Kadmos does not appear in the formal record. The Phoenician-jointed vessel does not appear in any subsequent Corinthian transit documentation.
 The wax-to-clay transcription from which this narrative is drawn was found among the personal archive of Philon’s household, separate from the consortium’s official documents. It was clearly recopied by Philon himself in his later years, with small additions and clarifications inserted in an older man’s hand.
 Menander of Corinth — the son — appears in later records as a figure of some commercial reputation in his own right, operating primarily in the Aegean eastern routes. His method of assessing cargo discrepancies was apparently considered unusual by his contemporaries, and at least one source notes that he had a habit of examining the records of adjacent institutions rather than limiting his scrutiny to those directly under review.
 He had, apparently, his father’s eyes.
@@ -6668,7 +6668,7 @@ He did not look up when I arrived.
 
 “The helot,” he said.
 
-“Is already in the cell beneath the gymnasium,” I said. “Theron ordered it.”
+“Is already in the cell beneath the guardhouse,” I said. “Theron ordered it.”
 
 “Yes,” he said. “Theron would.”
 
@@ -6908,7 +6908,7 @@ I was the one who noticed Sostis was gone.
 
 He had been attached to my station for three weeks — a loan from the deme-scribe of Kollytos, who had more boys than work that season and had sent him to the agora to learn the practice of commercial notation. He was perhaps sixteen, thin in the way boys are before they fill into themselves, with ink perpetually on the inside of his right wrist and a habit of muttering the numbers back under his breath as he wrote them, as though the figures needed to be spoken to be trusted.
 
-His task each morning was the same: arrive before the first light touched the Parthenon's eastern frieze, collect the wax tablets from the lockbox at the prytaneion's lower office, and walk the outer colonnade from the fish stalls at the northern end to the cloth merchants at the south, marking down which stalls had paid their placement fees and which required a second approach. It was dull work. He did it without complaint.
+His task each morning was the same: arrive before the first light touched the high citadel wall, collect the wax tablets from the lockbox at the chieftain's lower office, and walk the outer colonnade from the fish stalls at the northern end to the cloth merchants at the south, marking down which stalls had paid their placement fees and which required a second approach. It was dull work. He did it without complaint.
 
 On the morning I am describing, I arrived at my station at the usual hour to find his stylus lying on top of the closed lockbox, which had not been opened. The tablets were still inside. Sostis was not there, and — this was what struck me as wrong before anything else — he had not placed his sandals under the bench as he always did when he expected to be moving across the rough stone of the outer colonnade. The sandals were not there either. He had come, set the stylus down, and left, or been led away, before he had opened the box.
 
@@ -6916,7 +6916,7 @@ I looked at this for some time. Then I went to find Holkos-Akaros.
 
 I should explain what he was, and what he was not, because the agora in that period was not an abstraction — it was a specific space with specific arrangements, and his authority within it was of a kind that does not translate easily.
 
-He was not a magistrate. He held no formal office in the sense that the epistatai or the agoranomoi held office. What he held was something older and less written-down: a position of recognised competence over the spatial logic of the market itself. Who stood where, who had moved, what the arrangement of the stalls implied about the flow of buyers from one end to the other — these were his domain. The council consulted him when disputes arose over placement. Merchants sent their disputes to him before they escalated to formal arbitration, because his resolutions were faster and because he was known to be correct.
+He was not a magistrate. He held no formal office in the sense that the elders or the market overseers held office. What he held was something older and less written-down: a position of recognised competence over the spatial logic of the market itself. Who stood where, who had moved, what the arrangement of the stalls implied about the flow of buyers from one end to the other — these were his domain. The council consulted him when disputes arose over placement. Merchants sent their disputes to him before they escalated to formal arbitration, because his resolutions were faster and because he was known to be correct.
 
 He was not comfortable at rest. I had observed this in the weeks since Sostis had been assigned to my station and I had begun, by proximity, to observe Holkos-Akaros more closely than before. When the agora was empty — at midday, when the heat drove everyone to shade — he became difficult to speak with. He would sit, but there was something in the set of his shoulders that suggested the sitting was an imposition. He would pick up objects and set them down. He had a habit, during these intervals, of playing with a length of cord — not absently, but with intent, tying and untying a specific sequence of knots that I never saw him look at, as though his hands needed the problem more than his mind did.
 
@@ -6956,7 +6956,7 @@ He said this without apparent alarm. He might have been describing the arrangeme
 
 I did not.
 
-"He comes through the Herms Gate, not the main road. He told me so on his second day. Said it was faster. What he meant was that it passed by a fuller's stall where a girl whose name I was not informed of works on alternate mornings." He allowed himself, briefly, something that was not quite a smile. "He mentioned the route without meaning to, while explaining why he was sometimes two minutes earlier than expected and sometimes four minutes later."
+"He comes through the north gate, not the main road. He told me so on his second day. Said it was faster. What he meant was that it passed by a fuller's stall where a girl whose name I was not informed of works on alternate mornings." He allowed himself, briefly, something that was not quite a smile. "He mentioned the route without meaning to, while explaining why he was sometimes two minutes earlier than expected and sometimes four minutes later."
 
 He was already walking.
 
@@ -7016,7 +7016,7 @@ In the street outside, in the dust and the thin morning light, Sostis stood blin
 
 "How did you know the storeroom?" he asked. He addressed Holkos-Akaros. His voice was steadier than it had any right to be.
 
-"You told me you came through the Herms Gate," Holkos-Akaros said. "And you told me when you arrived. And you had not opened the lockbox. The men who took you knew your route and your timing, which means they had watched you, which means they were from this district, not the Kerameikos. There are two creditors in this district who use runners. One is a cautious man who settles his disputes through arbitration. The other—" He gestured at the door we had come through. "The storeroom, I knew because I have placed stalls near every street in this agora for eleven years. I know what is behind every wall."
+"You told me you came through the north gate," Holkos-Akaros said. "And you told me when you arrived. And you had not opened the lockbox. The men who took you knew your route and your timing, which means they had watched you, which means they were from this district, not the Kerameikos. There are two creditors in this district who use runners. One is a cautious man who settles his disputes through arbitration. The other—" He gestured at the door we had come through. "The storeroom, I knew because I have placed stalls near every street in this agora for eleven years. I know what is behind every wall."
 
 Sostis was quiet for a moment.
 
@@ -7030,7 +7030,7 @@ He looked at me.
 
 I should note, for the sake of the record that this account is itself intended to supplement: the council's tablet for that day contains an entry about the eastern colonnade amendment. The name of the creditor does not appear in any official document. No arbitration record was altered. The case involving the deme-scribe's debt concluded the following month in the ordinary way.
 
-Sostis returned to his station the next morning. He came, as before, through the Herms Gate. His route, as before, depended on whether the fuller's stall was open. He did not speak of what had happened, and I did not ask him to.
+Sostis returned to his station the next morning. He came, as before, through the north gate. His route, as before, depended on whether the fuller's stall was open. He did not speak of what had happened, and I did not ask him to.
 
 What I recorded, I recorded here. The rest belongs to the official ledgers, which say what was arranged, and not what it cost to arrange it.
 
@@ -7212,7 +7212,7 @@ It came first as a sound without meaning — the kind of high, broken note that 
 
 Nikodoros the Phrygian was dead in his stall.
 
-I say Phrygian because that is how he was known, though he had lived these eleven years in Athens and paid the stranger's toll without complaint and kept his stall between the fullers and the lamp-sellers with the tidiness of a man who understood that the trust of a market is built from small dignities accumulated over time. He traded in dyed wool and in certain pigments that came up the coastal routes from the islands, and his prices were fair, and his weights were correct, and he was, in the estimation of the elders, precisely the kind of metic whose presence in the agora cost Athens nothing and gave her something.
+I say Phrygian because that is how he was known, though he had lived these eleven years in Athens and paid the stranger's toll without complaint and kept his stall between the fullers and the lamp-sellers with the tidiness of a man who understood that the trust of a market is built from small dignities accumulated over time. He traded in dyed wool and in certain pigments that came up the coastal routes from the islands, and his prices were fair, and his weights were correct, and he was, in the estimation of the elders, precisely the kind of outlander whose presence in the agora cost Athens nothing and gave her something.
 
 He was found by the fuller's apprentice, who had come early to open his master's shutters. The apprentice — a boy named Sophos, perhaps twelve years old — had seen the stall open, which was unusual, and had seen Nikodoros within it, which was not unusual, and had called a greeting, which Nikodoros had not returned, and had then stepped closer, which was when the sound without meaning became words.
 
@@ -8685,7 +8685,7 @@ Phrasilas died for a middling house. This is not a detail the official record co
 
 I contain it here.
 
-Lysanias, clerk, market authority of Sardis, in the reign of Alyattes, second year of the new weighing standards.
+Lysanias, clerk, market authority of Sardis, in the reign of Ardys, second year of the new weighing standards.
 
 Children:
 
@@ -9046,7 +9046,7 @@ The Account Of Demetrios
 
 Set down in the third year of the archonship of Damasias, that those who come after may know how truth was separated from mere expectation, and how a man may be wronged by his own certainty more grievously than by any thief.
 
-The morning had come in off the Saronic Gulf with a weight to it — not the clean heat of high summer but something thicker, a salt-damp that settled into the colonnades of the agora and made the lamp-smoke cling at shoulder height rather than rising properly toward the sky. The oil-sellers near the Stoa of the Herms burned inferior stuff that season; I remember it distinctly because the smell followed you everywhere, a rancid sweetness like figs left too long in the press, and it coloured the whole affair in memory with a quality of something slightly spoiled.
+The morning had come in off the Saronic Gulf with a weight to it — not the clean heat of high summer but something thicker, a salt-damp that settled into the colonnades of the agora and made the lamp-smoke cling at shoulder height rather than rising properly toward the sky. The oil-sellers near the northern colonnade burned inferior stuff that season; I remember it distinctly because the smell followed you everywhere, a rancid sweetness like figs left too long in the press, and it coloured the whole affair in memory with a quality of something slightly spoiled.
 
 I had found Holkos in his usual condition of that period — which is to say, in no condition at all. He was seated on the low stone bench behind the fuller’s establishment where the wall holds the morning shadow longest, and he had not, so far as I could determine, moved since I had left him the previous evening. Before him lay a broken piece of pottery, an ostrakon, and he was examining it with the particular quality of attention he gave to things that other men had finished examining and discarded. His sandals were beside him but not on his feet. He had, I knew, been awake all night — not from any evidence he would have offered willingly, but because the lamp in the window above had been burning when I came through the lane at the false dawn.
 
@@ -10088,7 +10088,7 @@ The Matter Of The Trader Called Brennus The Younger
 
 ------------------------------------------------------------------------
 
-Set Down by Titus Lurco, Junior Notary of the Capitoline Temple Archives, in the Year of the Consulship of Marcus Furius Camillus and Lucius Aemilius Mamercinus.
+Set Down by Titus Lurco, Junior Notary of the Capitoline Temple Archives, in the Year of the Consular Tribunate of Marcus Furius Camillus and Lucius Valerius Publicola.
 
 I have been asked, more than once, why I bother to write these things down. My duty is the archive — the official record, the tablets of census and tribute, the wax impressions of contracts fulfilled and debts discharged. The Senate does not commission accounts of how its decisions were reached, only that they were reached. The how is considered, by most of my superiors, to be beneath the dignity of record.
 
@@ -10280,7 +10280,7 @@ I wrote what he told me not to omit, and I omitted what he told me not to write.
 
 I have endeavoured, in this account, to do the same.
 
-Set down in the temple archive by Titus Lurco, in the year of the consulship of Marcus Furius Camillus and Lucius Aemilius Mamercinus, for the record of those who come after and who will know how to read what is between the lines.
+Set down in the temple archive by Titus Lurco, in the year of the Consular Tribunate of Marcus Furius Camillus and Lucius Valerius Publicola, for the record of those who come after and who will know how to read what is between the lines.
 
 A marginal notation in a different hand, added later, reads:
 "See also the accounts of the following year,
@@ -10310,13 +10310,13 @@ An Account Of Proceedings Before The Aediles
 
 Recorded by Quintus Attius, clerk to the office of the aedile, in his private journal, being a supplement to the official record which contains rather less of the truth
 
-The fog that comes off the Tiber in the month of November does not drift — it settles, as a creditor settles into a chair he intends to occupy for some time. It finds the gaps between the buildings of the lower Forum and fills them, and it coats the travertine in a moisture that makes the stone look older than it is, which is already very old. The lamps hung outside the basilica that morning burned with a smell of tallow and wet rope, and their light achieved very little except to remind a man standing beneath them that light, like justice, operates at a considerable disadvantage in certain conditions.
+The fog that comes off the Tiber in the month of November does not drift — it settles, as a creditor settles into a chair he intends to occupy for some time. It finds the gaps between the buildings of the lower Forum and fills them, and it coats the travertine in a moisture that makes the stone look older than it is, which is already very old. The lamps hung outside the temple archive that morning burned with a smell of tallow and wet rope, and their light achieved very little except to remind a man standing beneath them that light, like justice, operates at a considerable disadvantage in certain conditions.
 
-I arrived early because Lucius Holcus had told me to arrive early. He had said it the previous evening in the way he said most things — not as an instruction, but as a statement of fact regarding the future, offered in the expectation that the future would conform to it. "You will be at the basilica before the second hour," he had said, and then returned to the document he was reading, which he held at an angle to the lamp as though the angle itself contained information.
+I arrived early because Lucius Holcus had told me to arrive early. He had said it the previous evening in the way he said most things — not as an instruction, but as a statement of fact regarding the future, offered in the expectation that the future would conform to it. "You will be at the temple archive before the second hour," he had said, and then returned to the document he was reading, which he held at an angle to the lamp as though the angle itself contained information.
 
 He was already there when I arrived.
 
-He was standing outside the east entrance, wearing the toga he reserved for proceedings of significance — not his best toga, which he considered an instrument of distraction, but the one he called his working garment, which was a white wool of no particular quality, pressed and clean and notable only for the absence of adornment. He was examining the bronze hinge of the basilica door with an attention I would have found peculiar had I not, by that point in my association with him, learned that his attention was rarely without purpose.
+He was standing outside the east entrance, wearing the toga he reserved for proceedings of significance — not his best toga, which he considered an instrument of distraction, but the one he called his working garment, which was a white wool of no particular quality, pressed and clean and notable only for the absence of adornment. He was examining the bronze hinge of the temple archive door with an attention I would have found peculiar had I not, by that point in my association with him, learned that his attention was rarely without purpose.
 
 "Quintus," he said, without looking at me. "You will observe that this hinge is new."
 
@@ -10354,7 +10354,7 @@ Lucius Holcus rose.
 
 He did not begin with the deed. This was the first unexpected thing. He began, instead, with the hinge of a box.
 
-"With the magistrate's permission," he said, and produced from the leather case he carried a small bronze hinge — a hinge, I noticed with a start, of the same new style as the basilica door's replacement — "I wish to discuss the rate at which bronze acquires oxide in the conditions of a document chest."
+"With the magistrate's permission," he said, and produced from the leather case he carried a small bronze hinge — a hinge, I noticed with a start, of the same new style as the temple archive door's replacement — "I wish to discuss the rate at which bronze acquires oxide in the conditions of a document chest."
 
 Crispinus looked at the hinge. The magistrate, a man named Publius Sempronius Gallus who had the face of someone who had been told, several times, that he was about to receive surprising information and had chosen to receive it sitting down, looked at the hinge.
 
@@ -10404,7 +10404,7 @@ The magistrate's seal on the deed — the certification mark of the office that 
 
 His name was Aulus Marius Rufus.
 
-He was currently the senior presiding magistrate of the Board of Twenty. He was sixty-three years old, in good health, and possessed of a reputation for administrative rectitude that was, as I subsequently confirmed in careful inquiry, entirely deserved — in all matters except this one, which was not a matter of rectitude but of one particular afternoon seventeen years ago, when a deed had come before him for certification and he had certified it without adequate attention to whether the surveyor's measurements had been independently verified.
+He was currently the senior presiding magistrate of the Board of Decemvirs. He was sixty-three years old, in good health, and possessed of a reputation for administrative rectitude that was, as I subsequently confirmed in careful inquiry, entirely deserved — in all matters except this one, which was not a matter of rectitude but of one particular afternoon seventeen years ago, when a deed had come before him for certification and he had certified it without adequate attention to whether the surveyor's measurements had been independently verified.
 
 He had, in short, certified a deed that was incorrect — not through corruption, but through the ordinary human failure of trusting a surveyor's figures without checking them. The figures had been wrong. The boundary stone was in the wrong place. And rather than correct this error, which would have required an admission of insufficient attention on a document he had certified, and which had never — until now — been contested, a member of the Septimian family had instead chosen to commission a replacement deed, with the original error reproduced, given a false date, and inserted into the archive to serve as a foundation for a claim that the contemporary Aemilians were encroaching on land that was, in documented fact, theirs.
 
@@ -10412,7 +10412,7 @@ The error was Rufus's. The fraud was Septimian. And the instrument that connecte
 
 Lucius Holcus finished his presentation and sat down. He poured a small amount of water from the pitcher provided for counsel and drank it with the manner of a man who has completed a task he finds moderately satisfactory.
 
-The silence in the basilica was of a specific kind — the silence of people who have understood something they had not previously understood and are in the process of determining what understanding it requires of them.
+The silence in the temple archive was of a specific kind — the silence of people who have understood something they had not previously understood and are in the process of determining what understanding it requires of them.
 
 It was Gallus, the magistrate, who broke it. He was not, as I have said, a man to whom surprise came comfortably, but he was a competent administrator, and what he said was: "I wish to speak with counsel privately."
 
@@ -10424,7 +10424,7 @@ The settlement was as follows: the Septimian boundary deed was declared procedur
 
 The name Aulus Marius Rufus appeared in no part of the official record.
 
-The new hinge on the basilica door, I subsequently discovered, had been fitted at the instruction of the Board of Twenty's administrative office following a report — a report that had never been filed but had been verbally described to a relevant freedman — that the door's previous hinge was causing difficulty in the secure closure of the archive room adjacent to the eastern entrance.
+The new hinge on the temple archive door, I subsequently discovered, had been fitted at the instruction of the Board of Decemvirs's administrative office following a report — a report that had never been filed but had been verbally described to a relevant freedman — that the door's previous hinge was causing difficulty in the secure closure of the archive room adjacent to the eastern entrance.
 
 That evening I asked Lucius Holcus whether he was satisfied with the outcome.
 
@@ -10436,7 +10436,7 @@ He was reading. He held the position for a moment in which reading was suspended
 
 The pause that followed was longer than his usual pauses.
 
-"Aulus Marius Rufus," he said finally, "made an error of insufficient attention twenty-two years ago, on an afternoon on which he was probably occupied with seventeen other matters. He then spent seventeen years in ignorance that the error had been exploited. He has now been made aware of it, privately, and has taken steps he will not fail to take again." He turned another page. "The Board of Twenty functions. Its members are capable and experienced. The mechanism is sound. Removing a gear from a sound mechanism because the gear is scratched is the action of a man who prefers pure components to working systems."
+"Aulus Marius Rufus," he said finally, "made an error of insufficient attention twenty-two years ago, on an afternoon on which he was probably occupied with seventeen other matters. He then spent seventeen years in ignorance that the error had been exploited. He has now been made aware of it, privately, and has taken steps he will not fail to take again." He turned another page. "The Board of Decemvirs functions. Its members are capable and experienced. The mechanism is sound. Removing a gear from a sound mechanism because the gear is scratched is the action of a man who prefers pure components to working systems."
 
 "And if his error had been deliberate?" I asked.
 
@@ -10446,7 +10446,7 @@ He looked up then. Not the long equine patience — something shorter and more d
 
 He returned to his document. The lamp burned with its tallow smell, and somewhere in the walls of the building a mouse was engaged in the investigations that mice have always conducted in the archives of those who keep records, and the fog outside had come in off the Tiber and taken its position for the night.
 
-I went home and wrote down what I had seen, in the private journal that is not the official record, because the official record does not have room for the smell of cedar oil, or the angle of a hinge, or the silence in a basilica when a wall comes down one stone at a time.
+I went home and wrote down what I had seen, in the private journal that is not the official record, because the official record does not have room for the smell of cedar oil, or the angle of a hinge, or the silence in a temple archive when a wall comes down one stone at a time.
 
 The official record credits the settlement to the sound administration of the aedile's office, and to the effective operation of Roman procedure.
 
@@ -11596,7 +11596,7 @@ The manuscripts he purchased from the Corinthian dealer were, he told me later, 
 
 I believed him.
 
-Written in the consulship of Lucius Quinctius Flamininus, in the city of Ephesus, Province of Asia.
+Written in the consulship of Lucius Quinctius Flamininus, in the city of Ephesus, Kingdom of Pergamum.
 
 Preserved in the copied administrative records of the eastern staff.
 
@@ -11788,7 +11788,7 @@ I stood beside him in the cold Judean dark and felt the weight of what he was ca
 
 "What will you report?" I asked.
 
-"I will report," he said, "that I have completed my review of the valley district commercial records and find no irregularities that fall within the scope of the Roman treaty administration's oversight." He turned back toward the settlement. "Which is technically true. The fraud is a matter entirely between the Temple treasury and the Temple's own district administrators. It is not a Roman matter. My remit is commercial treaty compliance, and the treaty's commercial provisions are satisfied."
+"I will report," he said, "that I have completed my review of the valley district commercial records and find no irregularities that fall within the scope of the Roman commercial treaty's terms." He turned back toward the settlement. "Which is technically true. The fraud is a matter entirely between the Temple treasury and the Temple's own district administrators. It is not a Roman matter. My remit is commercial treaty compliance, and the treaty's commercial provisions are satisfied."
 
 "And bar Eleazar?"
 
@@ -12024,7 +12024,7 @@ The Rabbi looked at the scroll for a long moment.
 
 "You can do that?"
 
-"I am the Roman Assessor of Accounts for this district. My office has the authority to require the production of original survey documentation and to conduct independent verification. It is an authority I have rarely used because it is cumbersome and generates administrative resentment. In this case I consider the cumbersomeness worthwhile."
+"I am the Roman Envoy for Commercial Treaties. My office has the influence to require the production of original survey documentation and to conduct independent verification. It is an authority I have rarely used because it is cumbersome and generates administrative resentment. In this case I consider the cumbersomeness worthwhile."
 
 Rabbi Eleazar was quiet for a long time. Long enough that I heard the gate-hinge of the house next door open and close twice.
 
@@ -13189,7 +13189,7 @@ The Account of Gaius Diocles
 
 Transcribed from His Private Papers
 
-I have recorded here, as faithfully as I am able, the events of the fifth day before the Ides of October, in the consulship of Acilius Glabrio and Trajan Hadrianus. I do so not because I believe the account flattering to myself — it is not — but because I have concluded that a true account of how Marcus Holcus Aurelius works is of greater value than a comfortable one. He would say, were I to show him these pages, that the distinction between those two things is the whole of philosophy. He might be right. He is, on the evidence of my experience with him, usually right, which is both the most useful and the most humbling quality a teacher can possess.
+I have recorded here, as faithfully as I am able, the events of the fifth day before the Ides of October, in the consulship of Manius Acilius Glabrio and Bellicius Torquatus. I do so not because I believe the account flattering to myself — it is not — but because I have concluded that a true account of how Marcus Holcus Aurelius works is of greater value than a comfortable one. He would say, were I to show him these pages, that the distinction between those two things is the whole of philosophy. He might be right. He is, on the evidence of my experience with him, usually right, which is both the most useful and the most humbling quality a teacher can possess.
 
 I have omitted certain names where their inclusion would place living persons in danger. Marcus himself suggested this. “Truth,” he said, “is not the same as disclosure. A physician who publishes the ailments of his patients has confused two virtues and produced a vice.”
 
@@ -13277,7 +13277,7 @@ We began at the portico. He examined the space where Caius had sat.
 
 “Because he could not sleep. Or because he did not go home.” He straightened. “Both possibilities lead to the same question: what happened the evening before our session that made sleep or home impossible?”
 
-I thought about it. “The day before the session — I saw him near the Basilica Julia in the late afternoon.”
+I thought about it. “The day before the session — I saw him near the old citadel wall in the late afternoon.”
 
 Marcus turned to look at me with the particular attention he gives to information that fits a space he has already identified.
 
@@ -13998,7 +13998,7 @@ He had a leather satchel still looped over one arm. Inside it was a contract of 
 
 I sent for Byzantos Holkos that same morning, before the site foremen had assembled the work gangs. This required some negotiation, because Holkos served in the imperial chancery and his time was not freely distributed, but I had dealt with him twice before in matters of questionable land titles, and I knew that he would come quickly if the word seal appeared in my message. It did, and he came.
 
-He arrived at the sixth hour, walking through the site with the particular gait he always had on such occasions — not the abstracted drift of a man taking in scenery, but a kind of focused stillness, as though he were listening to something the rest of us could not hear. He was perhaps forty-five years of age at this time, lean in the way of men who forget to eat when their minds are occupied, with the deep-set dark eyes common to his family and a habit of wearing his notarial robes loosely, as though he had dressed in some haste and then immediately forgotten he had dressed at all.
+He arrived at the sixth hour, walking through the site with the particular gait he always had on such occasions — not the abstracted drift of a man taking in scenery, but a kind of focused stillness, as though he were listening to something the rest of us could not hear. He was perhaps sixty-five years of age at this time, lean in the way of men who forget to eat when their minds are occupied, with the deep-set dark eyes common to his family and a habit of wearing his notarial robes loosely, as though he had dressed in some haste and then immediately forgotten he had dressed at all.
 
 He looked at Phokas for a long time without speaking. Then he crouched beside the body, examined the neck, the hands, the sandals, and finally the satchel, all without touching anything he had not first indicated he intended to touch.
 
@@ -14422,7 +14422,7 @@ The Matter of Alaric the Trader
 
 ------------------------------------------------------------------------
 
-Resolved at Noviodunum in the Year of Our Lord Three Hundred and Twenty-Five, in the Consulship of Paulinus and Iulianus
+Resolved at Noviodunum in the Year of Our Lord Three Hundred and Twenty-Five, in the Consulship of Gratian and Equitius
 
 What follows is set down by my own hand, Flavius Marcellinus, notary attached to the headquarters of the Danubian command, in the garrison town of Noviodunum. I have written it not for the archive — which will record what it has been told to record — but for a single reader, to whom it will be sent under seal. I have changed no material fact. I have softened no conclusion. If what I describe reflects poorly on men of rank, that is the fault of those men, and not of my pen. I write it because I was there, and because Holkos-Theodoros has asked me to write it, and because I have learned, in the short time I have known him, that when he asks for something he has already calculated why it is necessary.
 
@@ -14612,7 +14612,7 @@ I think about the body on the planking — the arm extended, pointing across the
 
 The river, at any rate, still smells of iron and rotting reed. Some things, at least, can be relied upon.
 
-Here ends the Account of Flavius Marcellinus, Notary of the Danubian Command, sealed in the consulship of Paulinus and Iulianus.
+Here ends the Account of Flavius Marcellinus, Notary of the Danubian Command, sealed in the Consulship of Gratian and Equitius.
 
 Children:
 
@@ -15325,11 +15325,11 @@ HOLMAR OF THE MEROVINGIANS
 
 Clovis I converted to Catholic Christianity in 496 AD — an act of political calculation as much as spiritual conviction, aligning the Frankish kingdom with the bishops of Rome and the remaining Roman population of Gaul in a single stroke of extraordinary strategic intelligence. Holmar of the Merovingians was a child in the Frankish world when the conversion reshaped it, and he grew up in the court it had transformed — recognising as an adult what he had absorbed as a boy: the gift applied at the scale of kingdoms, the reading of a situation — religious, political, demographic — and the identification of the single decisive act that would reshape it permanently.
 
-He served in the Merovingian administration through the consolidation of the Frankish realm, managing the correspondence between the court and the ecclesiastical hierarchy that was now the kingdom’s most important political relationship. He was a Catholic, as all sensible men became Catholic in that decade, and he wore the faith with the same comfortable practicality with which his ancestors had worn their successive identities — sincerely enough to function, without allowing it to obstruct his judgement.
+He served in the Merovingian administration through the consolidation of the Constantinian realm, managing the correspondence between the court and the ecclesiastical hierarchy that was now the kingdom’s most important political relationship. He was a Catholic, as all sensible men became Catholic in that decade, and he wore the faith with the same comfortable practicality with which his ancestors had worn their successive identities — sincerely enough to function, without allowing it to obstruct his judgement.
 
 The account that follows is preserved in the hand of Lucius, a clerk attached to the royal chancery in Reims, whose duty it was to copy, collate, and retain records of correspondence between the court and the bishops. His notes reflect what he was permitted to see, and the order in which he encountered it, but his record preserves the sequence of events with care, and his uncertainty at certain points is itself part of what survives.
 
-The matter of the Bishop of Soissons and certain correspondence
+The matter of the Bishop of Nicaea and certain correspondence
 
 ------------------------------------------------------------------------
 
@@ -15339,7 +15339,7 @@ The fog that settles on Reims in the deep months does not blow in from anywhere.
 
 It was on such a morning that I first saw the bishop’s mule tied at the gate.
 
-I say the bishop’s mule because I recognised the animal before I recognised its owner — a grey-brown creature of particular ugliness, with a brand on its left flank that I had catalogued in correspondence the previous autumn, when the Bishop of Soissons had sent three letters in rapid succession regarding the disposition of certain church properties in the valley of the Aisne. I had filed those letters. I remembered the seal. The mule’s brand matched what I had copied. It is the clerk’s habit to notice these things, though I confess I did not, at that time, understand what the noticing was worth.
+I say the bishop’s mule because I recognised the animal before I recognised its owner — a grey-brown creature of particular ugliness, with a brand on its left flank that I had catalogued in correspondence the previous autumn, when the Bishop of Nicaea had sent three letters in rapid succession regarding the disposition of certain church properties in the valley of the Aisne. I had filed those letters. I remembered the seal. The mule’s brand matched what I had copied. It is the clerk’s habit to notice these things, though I confess I did not, at that time, understand what the noticing was worth.
 
 Holmar was awake.
 
@@ -15347,7 +15347,7 @@ This is not a thing that can be stated simply, because Holmar’s relationship w
 
 He was in the latter state when I arrived that morning. He was standing at the window of the correspondence room, looking down at the courtyard, and he said, without turning:
 
-“The Bishop of Soissons has not slept. He has ridden through the night. He does not wish to be seen arriving.”
+“The Bishop of Nicaea has not slept. He has ridden through the night. He does not wish to be seen arriving.”
 
 “I saw his mule,” I said.
 
@@ -15363,7 +15363,7 @@ He sat, and picked up a wax tablet he had apparently been working on before I ar
 
 “He has been waiting in the antechamber for twenty minutes,” Holmar said, without looking up. “He will have composed himself sufficiently by now. Yes. Bring him up.”
 
-The Bishop of Soissons was a man of perhaps fifty-five years, broad in the frame, with the hands of someone who had worked before he had prayed and had not entirely forgotten it. He had been a bishop for eleven years. He had navigated the conversion — the great seismic conversion, the one that had remade everything — with, as far as the official record showed, exemplary grace: he had written the right letters to the right men, attended the right councils, and emerged on the correct side of a transformation that had consumed less careful ecclesiastics entirely.
+The Bishop of Nicaea was a man of perhaps fifty-five years, broad in the frame, with the hands of someone who had worked before he had prayed and had not entirely forgotten it. He had been a bishop for eleven years. He had navigated the conversion — the great seismic conversion, the one that had remade everything — with, as far as the official record showed, exemplary grace: he had written the right letters to the right men, attended the right councils, and emerged on the correct side of a transformation that had consumed less careful ecclesiastics entirely.
 
 He sat across from Holmar with the posture of a man trying very hard not to appear afraid, which is to say, he was visibly afraid.
 
@@ -15377,17 +15377,17 @@ The bishop produced it from beneath his cloak. He had not put it in the letter-c
 
 The bishop’s jaw tightened. “I don’t know what accommodation—”
 
-“Bishop.” Holmar’s voice did not change in volume or warmth. It simply became more precise. “I manage the correspondence between this court and the ecclesiastical hierarchy of the Frankish realm. I have done so for nine years. There is no bishop in this kingdom whose dealings with this court I do not have filed, summarised, and remembered. I ask not because I do not know there is an accommodation, but because I wish to hear your account of it, which will differ from the official record in ways that are relevant.”
+“Bishop.” Holmar’s voice did not change in volume or warmth. It simply became more precise. “I manage the correspondence between this court and the ecclesiastical hierarchy of the Constantinian realm. I have done so for nine years. There is no bishop in this kingdom whose dealings with this court I do not have filed, summarised, and remembered. I ask not because I do not know there is an accommodation, but because I wish to hear your account of it, which will differ from the official record in ways that are relevant.”
 
 A silence. Outside, the fog pressed against the window.
 
-“In the winter of 484,” the bishop said finally, “before the — before everything changed — I received a request from the court of Syagrius. The last Roman governor. He was asking for the Church’s assistance in — in a matter of tax collection. There were Frankish settlers in three valleys who had not paid the Roman levy in four years. He wished the Church to — to apply persuasion. Spiritual persuasion.”
+“In the winter of 484,” the bishop said finally, “before the — before everything changed — I received a request from the court of Licinius. The former emperor. He was asking for the Church’s assistance in — in a matter of tax collection. There were Gothic foederati in three valleys who had not paid the Roman levy in four years. He wished the Church to — to apply persuasion. Spiritual persuasion.”
 
 “And you did.”
 
 “I wrote three letters. To three of my priests. Advising them to make clear to their congregations that — that the obligations of God and of Caesar were not in conflict.”
 
-“You used the Church’s authority to collect Roman taxes from Frankish settlers on behalf of a Roman governor,” Holmar said, “two years before Clovis defeated that same governor and absorbed his territory into the Frankish realm.”
+“You used the Church’s authority to collect Roman taxes from Gothic foederati on behalf of a Roman governor,” Holmar said, “two years before Constantine defeated that same emperor and absorbed his territory into the unified realm.”
 
 The bishop said nothing.
 
@@ -15411,11 +15411,11 @@ I have said that Holmar’s relationship with sleep was unusual. His relationshi
 
 He sent me for specific files. Not categories of files — specific letters, specific dates, specific senders. He knew what he was looking for before he looked for it, which is the only explanation I have for the precision of his requests.
 
-“The letters from the Council of Clermont, the winter session,” he said at one point. “The attendance record and the drafts of the three disciplinary motions.”
+“The letters from the Council of Serdica, the winter session,” he said at one point. “The attendance record and the drafts of the three disciplinary motions.”
 
 I found them. He read them. He set them aside.
 
-“The correspondence from Bishop Remigius regarding the preparation of the baptismal ceremony. All of it. Including the drafts.”
+“The correspondence from Bishop Eusebius regarding the preparation of the baptismal ceremony. All of it. Including the drafts.”
 
 I found those too. There were eleven documents. He read each one and arranged them in a sequence that did not correspond to their dates.
 
@@ -15431,29 +15431,29 @@ He set both letters down.
 
 “Who sent it?” I asked.
 
-He did not answer immediately. He was looking at the attendance record from the Council of Clermont.
+He did not answer immediately. He was looking at the attendance record from the Council of Serdica.
 
-“The new order,” he said, “requires loyalty tests. The Church has absorbed a great many men who served the old arrangements — Roman governors, Arian accommodators, political Christians who wore the faith like a travelling cloak and removed it when the weather changed. Bishop Remigius and his circle are building something permanent. They need to know who can be trusted. A threatening letter is a crude instrument, but it is efficient.” He closed the file. “The bishop of Soissons is being evaluated, not destroyed.”
+“The new order,” he said, “requires loyalty tests. The Church has absorbed a great many men who served the old arrangements — Roman governors, Arian accommodators, political Christians who wore the faith like a travelling cloak and removed it when the weather changed. Bishop Eusebius and his circle are building something permanent. They need to know who can be trusted. A threatening letter is a crude instrument, but it is efficient.” He closed the file. “The Bishop of Nicaea is being evaluated, not destroyed.”
 
 “And the accommodation? The Roman tax matter?”
 
-“Is irrelevant,” Holmar said. “Every bishop in this kingdom made accommodations. Clovis knows this. The king did not convert because his bishops were pure — he converted because the bishops were useful, and the bishops were useful because they were already embedded in the social fabric of Gaul, which required them to have dealt with whoever was governing that fabric at the time. An accommodation made in 484 to a Roman governor is, in the new political reality, evidence of pragmatism. It is not a crime. It is a qualification.”
+“Is irrelevant,” Holmar said. “Every bishop in this kingdom made accommodations. Constantine knew this. The emperor did not convert because his bishops were pure — he converted because the bishops were useful, and the bishops were useful because they were already embedded in the social fabric of Gaul, which required them to have dealt with whoever was governing that fabric at the time. An accommodation made in 484 to a Roman governor is, in the new political reality, evidence of pragmatism. It is not a crime. It is a qualification.”
 
 He stood, moving to the window. The fog was still there. It had not shifted in twelve hours.
 
 “The letter is not a threat,” he said. “It is an audition.”
 
-The following morning, he sent for the bishop of Soissons, and he also sent — this was the part that surprised me, and I record it because it surprised me, which means it was deliberate — a note to the chancery of Bishop Remigius, requesting that the archdeacon responsible for the winter correspondence might be available to attend a brief administrative consultation.
+The following morning, he sent for the Bishop of Nicaea, and he also sent — this was the part that surprised me, and I record it because it surprised me, which means it was deliberate — a note to the chancery of Bishop Eusebius, requesting that the archdeacon responsible for the winter correspondence might be available to attend a brief administrative consultation.
 
 The archdeacon arrived first. He was a young man, thin-faced and careful, with the eyes of someone accustomed to reading other people’s letters and writing nothing incautious in his own. He sat in the antechamber and waited.
 
-The bishop of Soissons arrived and was shown to the correspondence room. Holmar kept him standing.
+The Bishop of Nicaea arrived and was shown to the correspondence room. Holmar kept him standing.
 
 “I know who sent the letter,” Holmar said, without preface. “I know why. And I know what you should do.”
 
 “Who—”
 
-“That is not the useful question. The useful question is what the sending of the letter means, and what your response to it should be.” He moved to the table, where the filed correspondence was still spread. “The accommodation of 484 is not a liability. It is a record of a man who served the institution of the Church consistently across a change of regime — who used the Church’s authority as the Church’s authority, in the service of order and of obligation, regardless of which temporal power was making the request. Bishop Remigius does not need bishops who were loyal to the Franks before the conversion. He cannot find any — there were none. He needs bishops who were loyal to the Church before the conversion, and whose loyalty to the Franks now is an extension of that prior loyalty, not a replacement of it. Your letter of 484 demonstrates exactly that.”
+“That is not the useful question. The useful question is what the sending of the letter means, and what your response to it should be.” He moved to the table, where the filed correspondence was still spread. “The accommodation of 484 is not a liability. It is a record of a man who served the institution of the Church consistently across a change of regime — who used the Church’s authority as the Church’s authority, in the service of order and of obligation, regardless of which temporal power was making the request. Bishop Eusebius does not need bishops who were loyal to the new capital before the conversion. He cannot find any — there were none. He needs bishops who were loyal to the Church before the conversion, and whose loyalty to the Franks now is an extension of that prior loyalty, not a replacement of it. Your letter of 484 demonstrates exactly that.”
 
 The bishop stared at him. “They are not trying to destroy me.”
 
@@ -15485,7 +15485,7 @@ He sat down. He was suddenly, visibly exhausted — the collapse that followed t
 
 I have set this account down as faithfully as I am able, which is to say I have recorded what I witnessed and have omitted what I was not present for and what I was asked not to include.
 
-The Bishop of Soissons received his invitation, as Holmar said he would, and was given a position in the new synodal structure, where he served with distinction for fourteen years. The official record of the synodal appointments credits Bishop Remigius with the identification and elevation of his subordinates, which is accurate, as far as it goes.
+The Bishop of Nicaea received his invitation, as Holmar said he would, and was given a position in the new synodal structure, where he served with distinction for fourteen years. The official record of the synodal appointments credits Bishop Eusebius with the identification and elevation of his subordinates, which is accurate, as far as it goes.
 
 The threatening letter is not in any archive I have access to. I assume it was burned.
 
@@ -15519,7 +15519,7 @@ The Third Account of Holmar of Austrasia
 
 ------------------------------------------------------------------------
 
-Set down by Aurelius, Clerk to the Judiciary, in the year of our Lord five hundred and fifty-two, in the reign of Theodoric the Great’s successors, at Metz.
+Set down by Aurelius, Clerk to the Judiciary, in the year of our Lord five hundred and fifty-two, in the reign of Theuderic’s successors, at Metz.
 
 There are days in the court at Metz when the hall smells of wet wool and grievance in equal measure. The autumn had come early that year, driving rain sideways off the Rhine plain and through every gap in the stonework that the old Roman builders had not thought to seal — which was, after three generations of Frankish occupancy, a considerable number of gaps. The rushes on the floor had not been changed since the feast of Saint Remigius and they gave off, in the damp, a smell of something ancient and unhappy. The oil lamps along the eastern wall smoked badly in that weather; the tallow was river-rendered, cut with something cheaper, and it left a greasy, animal smell on everything it touched, including the documents one was attempting to read.
 
@@ -15913,7 +15913,7 @@ Holmar listened without interruption. When Sigurd had finished, he asked only: "
 
 Holmar examined the letter — the parchment, the ink, the folds — and began to ask questions not about guilt, but about knowledge. Who knew. Who had seen. Who could remember.
 
-Over the next three days, he walked the quay, spoke in alehouses, visited counting houses, and asked one question in the correct place. From parchment, habit, and memory, he identified the writer: a young clerk named Ferold, recently come from Ribe.
+Over the next three days, he walked the quay, spoke in alehouses, visited counting houses, and asked one question in the correct place. From parchment, habit, and memory, he identified the writer: a young clerk named Ferold, recently come from the southern markets.
 
 He confronted the clerk directly. Not with accusation, but with reconstruction — laying out the path by which the letter had come to exist, and the calculation behind it. Ferold admitted it. He had intended to extract payment and leave the region. He had seen enough of Edvar’s operations to understand that he did not wish to remain entangled in them.
 
@@ -15957,7 +15957,7 @@ The Accounts of Hrefna
 
 ------------------------------------------------------------------------
 
-Set down in the year of Our Lord six hundred and seventy-one, though the hall does not yet number its years in that fashion.
+Set down in the year of Our Lord seven hundred and eleven, though the hall does not yet number its years in that fashion.
 
 The fjord breathed that autumn as though it were a living thing preparing to die. I had noticed this before — the way the water goes grey and flat in the weeks before the first ice, how the smell of it changes from salt-and-fish to something older and colder, like wet stone in a cave that sees no sun. The seabirds stopped their noise. The pine forest across the water became a dark smear, indistinct, as if the world were quietly erasing itself at its edges.
 
@@ -16241,7 +16241,7 @@ The fog came off the fjord that morning as it always does in the last weeks of s
 
 I noticed the expression because I notice faces — it is, I suppose, the clerk’s equivalent of what Ragnarr does with everything else. But I could not have told you what was wrong with it then. I only knew there was something.
 
-Ketill’s report, delivered first to the jarl’s steward and then, at the steward’s insistence, to the assembled household, was this: he had departed Tønsberg twelve days prior with a cargo of Frankish silver — payment for furs already delivered south the previous season, and now returning north in coin — along with three bales of prime winter fox taken in trade at a settlement along the way. The ship had been his own small knarr, crewed by four men he had sailed with before. On the ninth day out, some thirty miles south of the Hvaler islands, they had been set upon by two longships moving fast out of a morning haze. The attack had been swift and merciless. His men were dead. The silver and the furs were gone. He alone had survived by going into the water and clinging to floating wreckage until a fishing vessel out of Sarpsborg had pulled him from the sea half-dead of cold.
+Ketill’s report, delivered first to the jarl’s steward and then, at the steward’s insistence, to the assembled household, was this: he had departed Tønsberg twelve days prior with a cargo of Frankish silver — payment for furs already delivered south the previous season, and now returning north in coin — along with three bales of prime winter fox taken in trade at a settlement along the way. The ship had been his own small ship, crewed by four men he had sailed with before. On the ninth day out, some thirty miles south of the Hvaler islands, they had been set upon by two longships moving fast out of a morning haze. The attack had been swift and merciless. His men were dead. The silver and the furs were gone. He alone had survived by going into the water and clinging to floating wreckage until a fishing vessel out of Sarpsborg had pulled him from the sea half-dead of cold.
 
 The steward received this with the gravity appropriate to a significant loss — the silver was not a trivial sum, and the jarl had expectations attached to it — and announced that enquiries would be made among the coastal settlements for any account of two longships moving in the area. This was the correct and expected response. It was also, as I would shortly learn, entirely useless.
 
@@ -16267,7 +16267,7 @@ Ketill told him about the wreckage. He was fluent and detailed. The longships ha
 
 “Yes.”
 
-“A knarr’s prow.”
+“A trader’s prow.”
 
 “Yes.”
 
@@ -16490,7 +16490,7 @@ Set down in the time of Ragnarr Holmr, called the Younger, in the years of the r
 
 The fog that comes off the moors in autumn is not the fog of other places. I have written charters in York, and I have sat in the scriptorium at Whitby and watched sea-mist move through the harbour like something with purpose, but neither of those prepared me for what rises from the Danelaw flatlands in the weeks before the great cold sets in. It does not drift. It settles, the way debts settle — gradually, without announcement, until you look up from your work and find that the world has contracted to the length of your arm. The smell of it is particular: peat and standing water and something older, something the land exhales from deeper than any plough has ever reached.
 
-It was in such a fog, in the thirtieth year of Edward’s reign, that a man named Ulfketill Brandsson was found dead beside the boundary stone that marked the eastern edge of his own land.
+It was in such a fog, in the fourth year of King Edmund's reign, that a man named Ulfketill Brandsson was found dead beside the boundary stone that marked the eastern edge of his own land.
 
 I heard the news as Ragnarr Holmr heard most news of consequence — at the morning meal, from a man who had ridden through the night and arrived with mud on his boots and an expression that suggested he would not soon recover from what he had seen. The messenger was Ulfketill’s own steward, a nervous Englishman named Godwin who served the Danish household with the particular anxious diligence of a man who has made himself useful across a divide he does not fully trust. He stood in the doorway of Ragnarr’s hall while the fire-smoke tried to find its way out past him, and he said that his master was dead, and that the shire-reeve was already at the estate, and that he did not know what would happen to any of them.
 
