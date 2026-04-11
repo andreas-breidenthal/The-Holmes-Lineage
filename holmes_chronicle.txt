@@ -9,6 +9,8 @@ From the scribe of Ur to the present day, the same faculty — methodical observ
 
 ========================================================================
 
+1.
+
 UR-NAMMA-IQ
 
 ~2050 BC — Ur, Mesopotamia
@@ -115,31 +117,31 @@ Then he stopped and placed three tablets in a line before him, separated from th
 
 We came. I positioned myself where I could see the tablets and also write. The three tablets lay in sequence — the first from the second month, the second from the third, the third from the fourth month of the accounting year.
 
-"The grain store receives barley from thirty-two dependent farms," Ur-Namma-iq said. "The barley is weighed at entry. The weight is recorded on the entry tablet. The entry tablet is then cross-referenced against the storage tablet, which records the total weight held in each chamber at the end of each ten-day period. If the entry tablets and the storage tablets agree, the accounts are clean. If they disagree, there is either an error or a dishonesty." He placed his finger on the first tablet. "In the second month, the total weight received, as recorded on the entry tablets, was three thousand, two hundred and forty-four talents of barley." He moved his finger to the second tablet. "In the third month, the storage tablet shows three thousand, two hundred and eleven talents held in the second chamber at the start of the month — which is what remained after the ration distributions of the second month were deducted." He paused. "Enlil-itu. How much barley was distributed in rations during the second month?"
+"The grain store receives barley from thirty-two dependent farms," Ur-Namma-iq said. "The barley is weighed at entry. The weight is recorded on the entry tablet. The entry tablet is then cross-referenced against the storage tablet, which records the total weight held in each chamber at the end of each ten-day period. If the entry tablets and the storage tablets agree, the accounts are clean. If they disagree, there is either an error or a dishonesty." He placed his finger on the first tablet. "In the second month, the total weight received, as recorded on the entry tablets, was three thousand, two hundred and forty-four gur of barley." He moved his finger to the second tablet. "In the third month, the storage tablet shows three thousand, two hundred and eleven gur held in the second chamber at the start of the month — which is what remained after the ration distributions of the second month were deducted." He paused. "Enlil-itu. How much barley was distributed in rations during the second month?"
 
-I had not been expecting to be addressed. I looked at the tablets he indicated and added the figures he pointed to. "Thirty-one talents," I said. "Approximately."
+I had not been expecting to be addressed. I looked at the tablets he indicated and added the figures he pointed to. "Thirty-one gur," I said. "Approximately."
 
-"Thirty-three talents. But you are close, and the exactness is not yet the point. The point is this: three thousand, two hundred and forty-four received, minus thirty-three distributed, leaves three thousand, two hundred and eleven held. Which is precisely what the storage tablet records. The accounts agree. Correct?"
+"Thirty-three gur. But you are close, and the exactness is not yet the point. The point is this: three thousand, two hundred and forty-four received, minus thirty-three distributed, leaves three thousand, two hundred and eleven held. Which is precisely what the storage tablet records. The accounts agree. Correct?"
 
 "Correct," I said.
 
-"Now." He picked up the third tablet — the one from the fourth month. "At the start of the fourth month, how many talents does the storage tablet claim are held in the second chamber?"
+"Now." He picked up the third tablet — the one from the fourth month. "At the start of the fourth month, how many gur does the storage tablet claim are held in the second chamber?"
 
 I looked. "Three thousand and four."
 
 "Three thousand and four. And in the third month, what was received according to the entry tablets?"
 
-I looked. The entry tablets for the third month were beside us, and I added the figures. "Two hundred and nineteen talents."
+I looked. The entry tablets for the third month were beside us, and I added the figures. "Two hundred and nineteen gur."
 
 "And what was distributed?"
 
-"Thirty-one talents."
+"Thirty-one gur."
 
 "So: three thousand, two hundred and eleven, plus two hundred and nineteen received, minus thirty-one distributed." He did not write this down. He did not need to. "Equals three thousand, three hundred and ninety-nine."
 
 "But the tablet says three thousand and four," I said.
 
-"The tablet says three thousand and four," he agreed. He set it down with the precision of a man placing the final stone of a construction. "There are three hundred and ninety-five talents of barley that the entry records show were received but the storage records show were never stored. Three hundred and ninety-five talents of barley that passed the entry threshold and disappeared before reaching the second chamber." He looked up at Nanna-ki-ag, and then at Ku-Enlil, who had gone very still against the wall. "Three hundred and ninety-five talents is not an error. It is not a miscounting. It is not the kind of discrepancy that accumulates from inattention. It is a systematic removal — conducted at the threshold between entry and second chamber, over the course of the third month — of grain that was recorded as received but never recorded as distributed because it was never distributed through official channels."
+"The tablet says three thousand and four," he agreed. He set it down with the precision of a man placing the final stone of a construction. "There are three hundred and ninety-five gur of barley that the entry records show were received but the storage records show were never stored. Three hundred and ninety-five gur of barley that passed the entry threshold and disappeared before reaching the second chamber." He looked up at Nanna-ki-ag, and then at Ku-Enlil, who had gone very still against the wall. "Three hundred and ninety-five gur is not an error. It is not a miscounting. It is not the kind of discrepancy that accumulates from inattention. It is a systematic removal — conducted at the threshold between entry and second chamber, over the course of the third month — of grain that was recorded as received but never recorded as distributed because it was never distributed through official channels."
 
 The silence in the chamber was the kind that has weight.
 
@@ -157,7 +159,7 @@ Nanna-ki-ag counted. He counted twice. His expression when he finished was not t
 
 "Thirty-six," Nanna-ki-ag said.
 
-"Thirty-six," Ur-Namma-iq said. "Four jars, each of standard capacity, removed through this doorway — the doorway shows the scraping of the jar base against the post — at some point during the third month. Four jars, each holding approximately one hundred talents. Four hundred talents — which is within reasonable margin of the three hundred and ninety-five the tablets tell us went missing." He turned to face Ku-Enlil.
+"Thirty-six," Ur-Namma-iq said. "Four jars, each of standard capacity, removed through this doorway — the doorway shows the scraping of the jar base against the post — at some point during the third month. Four jars, each holding approximately one gur. Four gur — which is within reasonable margin of the three hundred and ninety-five the tablets tell us went missing." He turned to face Ku-Enlil.
 
 The watchman was a man of perhaps fifty years, weathered and solid in the way of men who have spent their lives in physical work. His face showed nothing — and this was itself a form of information, because a man confronted with such an accounting should show something. Confusion, at minimum. Outrage, at idealism. He showed neither, which meant he had already understood where the accounting led and had prepared himself for it.
 
@@ -165,7 +167,7 @@ The watchman was a man of perhaps fifty years, weathered and solid in the way of
 
 I looked at Ku-Enlil. He was looking at Ur-Namma-iq, and there was something in his face now — the something that had been absent before — and it was not guilt exactly and it was not defiance. It was the expression of a man who has played a very intricate game and has just had it explained to him, move by move, by his opponent. Something almost like recognition.
 
-"The weight assessment tablet," Ur-Namma-iq said, "for the entry threshold on the sixteenth day of the third month — I will ask you to examine it specifically — has been altered. The original impression has been smoothed and re-inscribed. The smoothing was not complete. If you hold the tablet at a lateral angle to strong lamplight, you can read the ghost of the original number beneath the revision. The original number is four hundred and eleven talents greater than the revised number." He looked at Nanna-ki-ag. "That tablet is your warrant. You will want to hold it carefully."
+"The weight assessment tablet," Ur-Namma-iq said, "for the entry threshold on the sixteenth day of the third month — I will ask you to examine it specifically — has been altered. The original impression has been smoothed and re-inscribed. The smoothing was not complete. If you hold the tablet at a lateral angle to strong lamplight, you can read the ghost of the original number beneath the revision. The original number is four hundred and eleven gur greater than the revised number." He looked at Nanna-ki-ag. "That tablet is your warrant. You will want to hold it carefully."
 
 There was a moment, after the guard had taken Ku-Enlil from the complex, in which Ur-Namma-iq and I were alone in the outer chamber. The lamps were burning low. The tablets were still arranged before us on the floor, four hundred and twelve records of the temple's transactions with the world, each one a small and faithful inscription of something that had happened between a human being and a quantity of grain.
 
@@ -206,6 +208,8 @@ Children:
 - Nanna-iddin — see next entry.
 
 ========================================================================
+
+2.
 
 NANNA-IDDIN
 
@@ -377,6 +381,8 @@ Children:
 
 ========================================================================
 
+3.
+
 ENLIL-BANI
 
 ~1990 BC — Nippur, Mesopotamia
@@ -391,7 +397,9 @@ The Account Of Puzur-Shamash
 
 ------------------------------------------------------------------------
 
-The season of the dry wind had settled over Nippur like a hand pressed flat against the face of the city. The great ziggurat rose into haze rather than sky, and the canal that fed the lower quarter had retreated to a thread of brown water between cracked banks of mud. The bitumen caulking of the temple’s eastern storeroom had begun to weep in the heat, and the smell of it — a thick, mineral darkness, like the underside of the earth itself — had worked its way into every corridor of the administrative quarter, so that one tasted it on the lips even when eating.
+The dry wind came from the north that season, and it came with news before any runner did. Every caravan master who had travelled the road from Assur arrived thinner than expected, speaking of roads that had narrowed to dust and watering-holes that had retreated from their banks. The shortfall was legible before a single tally was struck, to anyone who had learned to read the road rather than wait for the tablets.
+
+Enlil-bani was already calculating when the runner arrived.
 
 It was in this season that the caravan of Yasim-El arrived at the Enlil Gate.
 
@@ -575,6 +583,8 @@ Children:
 
 ========================================================================
 
+4.
+
 IMGUR-ENLIL
 
 ~1960 BC — Haran, Mesopotamia
@@ -722,6 +732,8 @@ Children:
 - Iddiyatum — see next entry.
 
 ========================================================================
+
+5.
 
 IDDIYATUM
 
@@ -891,6 +903,8 @@ Children:
 
 ========================================================================
 
+6.
+
 ILI-IDDINAM
 
 ~1900 BC — Babylon, Mesopotamia
@@ -997,6 +1011,8 @@ Children:
 - Awil-Marduk — see next entry.
 
 ========================================================================
+
+7.
 
 AWIL-MARDUK
 
@@ -1190,6 +1206,8 @@ Children:
 
 ========================================================================
 
+8.
+
 NABI-ILUM
 
 ~1840 BC — Memphis, Egypt
@@ -1341,6 +1359,8 @@ Children:
 - Maatkheru — see next entry.
 
 ========================================================================
+
+9.
 
 MAATKHERU
 
@@ -1520,13 +1540,15 @@ Children:
 
 ========================================================================
 
+10.
+
 AMENEMHAT-NAKHT
 
 ~1780 BC — Thebes, Egypt
 
 Amun is foremost — he is strong. The name declared the theological position of his moment: Thebes was asserting itself as the dominant city of Upper Egypt, its local god Amun rising toward the supreme position in the Egyptian pantheon that he would occupy for centuries, and the family’s habit of attaching its given names to the ascendant divinity expressed itself, in this generation, in a name that was both piety and politics. Amenemhat-nakht served in the temple complex of Amun at Karnak as a junior priest-scribe — not a member of the higher priesthood, which was hereditary and closed, but one of the literate administrators on whom the temple’s growing economic and administrative estate network depended.
 
-He worked in the department responsible for the temple’s land records — the documentation of the estates and agricultural holdings from which Karnak drew its revenue — and brought to that work his family’s forensic precision. The temple’s records in this period were complex, disputed, and in several cases the product of creative interpretation rather than accurate survey, and Amenemhat-nakht’s systematic review of the land register produced, in his third year of service, a report that identified discrepancies between the recorded boundaries and the actual ones sufficient to account for a significant shortfall in the temple’s annual grain income. The priesthood was not grateful. The pharaoh’s treasury, which had been wondering about the same shortfall, was.
+He worked in the department responsible for the temple’s land records — the documentation of the estates and agricultural holdings from which Karnak drew its revenue — and brought to that work his family’s exacting precision. The temple’s records in this period were complex, disputed, and in several cases the product of creative interpretation rather than accurate survey, and Amenemhat-nakht’s systematic review of the land register produced, in his third year of service, a report that identified discrepancies between the recorded boundaries and the actual ones sufficient to account for a significant shortfall in the temple’s annual grain income. The priesthood was not grateful. The pharaoh’s treasury, which had been wondering about the same shortfall, was.
 
 His superior, the overseer of temple lands, was a man named Hapu, whose authority rested on long familiarity with the registers and whose caution made him resistant to conclusions that disrupted established balances. Hapu permitted Amenemhat-nakht access to the full archive but expected that, in time, the younger scribe would confirm what was already believed. Hapu’s role as both guardian of the record and guardian of its stability shaped how the investigation could proceed, and his presence defined the limits within which Amenemhat-nakht had to work.
 
@@ -1726,6 +1748,8 @@ Children:
 
 ========================================================================
 
+11.
+
 KHA-EM-WASET
 
 ~1750 BC — Thebes, Egypt
@@ -1915,6 +1939,8 @@ Children:
 - Djehuty-mes — see next entry.
 
 ========================================================================
+
+12.
 
 DJEHUTY-MES
 
@@ -2142,6 +2168,8 @@ Children:
 
 ========================================================================
 
+13.
+
 PTAH-HOTEP
 
 ~1690 BC — Memphis, Egypt
@@ -2329,6 +2357,8 @@ Children:
 - Nefer-ib-Ra — see next entry.
 
 ========================================================================
+
+14.
 
 NEFER-IB-RA
 
@@ -2522,6 +2552,8 @@ Children:
 - Abdi-Milki — see next entry.
 
 ========================================================================
+
+15.
 
 ABDI-MILKI
 
@@ -2766,6 +2798,8 @@ Children:
 
 ========================================================================
 
+16.
+
 BAAL-EZER
 
 ~1600 BC — Tyre, Canaan
@@ -2960,11 +2994,13 @@ Children:
 
 ========================================================================
 
+17.
+
 RIB-ADDI
 
 ~1570 BC — Tyre, Canaan
 
-Addu is great — the storm-god of the northern Semitic world, whose name this ancestor shared with the later king of Byblos whose frantic letters to the pharaoh would survive in the Amarna archive, testaments to a man watching his city fall and finding, in the correspondence of diplomacy, no adequate response to the reality of military force. This Rib-Addi was not a king but a factor — a ship-owner’s agent at Tyre, responsible for the management of cargoes, the assessment of hulls, the negotiation of freight rates, and the constant, grinding detective work of determining whether a given merchant, a given ship, and a given cargo were what they claimed to be.
+Addu is great — the storm-god of the northern Semitic world, whose name this ancestor shared with the later king of Byblos whose frantic letters to the pharaoh would survive in the Amarna archive, testaments to a man watching his city fall and finding, in the correspondence of diplomacy, no adequate response to the reality of military force. This Rib-Addi was not a king but a factor — a ship-owner’s agent at Tyre, responsible for the management of cargoes, the assessment of hulls, the negotiation of freight rates, and the constant, grinding assessment work of determining whether a given merchant, a given ship, and a given cargo were what they claimed to be.
 
 He grew up in his father’s house with the family’s double inheritance — the scribal precision of the Babylonian and Egyptian traditions running through the male line, and the commercial intelligence of the Tyrian merchant world surrounding him in the city where he was born. He had his father’s eye for the false document and his grandfather’s understanding of the parallel commercial stream — the unofficial channel that ran alongside the official one, skimming from it and sustaining itself on the difference between what the records showed and what actually moved. He applied both to the port with the comprehensive thoroughness of a man who has been given an interesting problem and who does not stop working at it merely because it has become inconvenient.
 
@@ -3096,7 +3132,7 @@ The room was quiet except for the harbor sounds below — the creak of mooring-r
 
 Shuppiluliuma said nothing. He had stopped being composed. His hands were working at his linen robe.
 
-“The mechanism is straightforward and has been used before, though not often with this degree of care. The ship departs with its cargo certified and witnessed — I certified it myself, which I note with some professional irritation. The ship makes an unrecorded stop at a secondary port — Dor, in this case, which is small enough that an irregular stop may be arranged with the right payment to the right men, and far enough from Tyre that news of it does not travel quickly. The cargo is offloaded. The ship continues to its destination with its legitimate cargo intact. At the destination, the captain files a jettison report. The ship-owner files a loss claim. The captain takes a share of the recovered copper's value. The ship-owner takes the rest, plus the insurance value of the claimed loss, which —” he looked at the freight log copy I had placed before him— “in this case would be payable from the Merchants' Common Pool, which means that every trading house in this port contributes to the compensation of a theft that was committed against them.”
+“The mechanism is straightforward and has been used before, though not often with this degree of care. The ship departs with its cargo certified and witnessed — I certified it myself, which I note with some professional irritation. The ship makes an unrecorded stop at a secondary port — Dor, in this case, which is small enough that an irregular stop may be arranged with the right payment to the right men, and far enough from Tyre that news of it does not travel quickly. The cargo is offloaded. The ship continues to its destination with its legitimate cargo intact. At the destination, the captain files a jettison report. The ship-owner files a loss claim. The captain takes a share of the recovered copper's value. The ship-owner takes the rest, plus his recovery share from the loss-reckoning, which —” he looked at the freight log copy I had placed before him— “in this case would be payable from the Merchants' Common Pool, which means that every trading house in this port contributes to the compensation of a theft that was committed against them.”
 
 A long silence.
 
@@ -3153,6 +3189,8 @@ Children:
 - Hanno-Baal — see next entry.
 
 ========================================================================
+
+18.
 
 HANNO-BAAL
 
@@ -3313,6 +3351,8 @@ Children:
 - Baal-yaton — see next entry.
 
 ========================================================================
+
+19.
 
 BAAL-YATON
 
@@ -3572,11 +3612,13 @@ Children:
 
 ========================================================================
 
+20.
+
 AKAR-WOS
 
 ~1480 BC — Knossos, Crete
 
-The name was the family’s old name-element — Akar, the Semitic thread that had run through the lineage since the great-grandfather’s migration to the Tyrian coast — grafted onto a Minoan sound that made it pronounceable to the palace functionaries among whom he grew up. Akar-wos was born on Crete to a Canaanite father and a Minoan mother, and grew up as the thoroughgoing hybrid that the island’s cosmopolitan culture made possible — Semitic in his commercial instincts and his forensic cast of mind, Minoan in his language and his knowledge of the palace economy, and possessed of the interpreter’s particular gift of seeing each world clearly because he was never entirely of either. He worked in the palace economy at Knossos as a merchant-interpreter, facilitating the transactions between the Minoan administration and the foreign traders — Egyptian, Syro-Palestinian, Cypriote, early Mycenaean — who came to the island in the considerable numbers that Knossos’s commercial dominance attracted.
+The name was the family’s old name-element — Akar, the Semitic thread that had run through the lineage since the great-grandfather’s migration to the Tyrian coast — grafted onto a Minoan sound that made it pronounceable to the palace functionaries among whom he grew up. Akar-wos was born on Crete to a Canaanite father and a Minoan mother, and grew up as the thoroughgoing hybrid that the island’s cosmopolitan culture made possible — Semitic in his commercial instincts and his analytical cast of mind, Minoan in his language and his knowledge of the palace economy, and possessed of the interpreter’s particular gift of seeing each world clearly because he was never entirely of either. He worked in the palace economy at Knossos as a merchant-interpreter, facilitating the transactions between the Minoan administration and the foreign traders — Egyptian, Syro-Palestinian, Cypriote, early Mycenaean — who came to the island in the considerable numbers that Knossos’s commercial dominance attracted.
 
 Linear A, the Minoan script, is still undeciphered by modern scholars; Akar-wos read and wrote it as a matter of professional necessity, in the same way that his ancestors had read Sumerian or demotic Egyptian — as the local language of record that the gift was applied to, rather than as an end in itself. The tablets he produced in the course of his work — recording the terms of transactions, the quantities of goods, the obligations of counterparties — were among the administrative documents of a palace culture that would be destroyed within two generations, its script falling silent with it. He did not know that. He knew only that the accounts balanced, that the transactions were recorded accurately, and that a man who maintained the archive with honesty in a world where the archive was the institution was performing a service without which everything else failed.
 
@@ -3777,6 +3819,9 @@ Children:
 
 - Akaros — see next entry.
 
+========================================================================
+
+21.
 
 AKAROS
 
@@ -3916,6 +3961,8 @@ Children:
 - Akaros the Younger — see next entry.
 
 ========================================================================
+
+22.
 
 AKAROS THE YOUNGER
 
@@ -4087,6 +4134,8 @@ Children:
 
 ========================================================================
 
+23.
+
 HOLKOS OF CORINTH
 
 ~1390 BC — Corinth, Greece
@@ -4103,7 +4152,7 @@ The Matter Of The Death Of Arkelaos The Rhodian
 
 Set down by Pythodoros, assistant to the scribe Menekles, in the administrative record of the Corinthian crossing, in the reign of the wanax, in the season of the early harvest. I have appended my own observations where the record of Menekles leaves gaps, though I confess that my hand reaches more readily toward meaning than my master’s did, and I have tried, where I noticed this fault, to pull it back.
 
-There is a smell to the isthmus that no man who has worked it ever forgets, and that no man who has merely passed through it can adequately describe. It is the smell of two seas at once — the salt of the Saronic sharper, carrying the mineral edge of the eastern trade, the Corinthian Gulf to the west softer and darker, faintly of pine resin where the timber ships discharge. Between these two olfactory worlds lies the strip of land across which everything must be carried, and in the carrying, the smells mix and do not resolve. The oil that keeps the wooden sledge-runners greased against the packed earth of the crossing-track — rendered from fish-heads and old marrow-bones, a vile compound that works admirably — sits beneath everything else like a persistent bass note. In the heat of summer it rises, and the crossing-track becomes a lane of particular stench that the workers no longer notice and that visitors remark upon without exception.
+There is a smell to the isthmus that no man who has worked it ever forgets, and that no man who has merely passed through it can adequately describe. It is the smell of two seas at once — the salt of the Saronic sharper, carrying the mineral edge of the eastern trade, the Corinthian Gulf to the west softer and darker, faintly of pine resin where the timber ships discharge. Between these two olfactory worlds lies the strip of land across which everything must be carried, and in the carrying, the smells mix and do not resolve. The oil that keeps the wooden sledge-runners greased against the packed earth of the crossing-track — no formal road, nothing so grand as that, only the worn groove of a thousand crossings before this one, rendered navigable by fish-head grease and old marrow-bones, a vile compound that works admirably — sits beneath everything else like a persistent bass note. In the heat of summer it rises, and the crossing-track becomes a lane of particular stench that the workers no longer notice and that visitors remark upon without exception.
 
 It was into this smell that I, Pythodoros, descended on the morning the body was found, following at a careful distance behind Holkos of Corinth, who walked as he always walked on a matter of business: quickly, with his chin slightly forward, his narrow eyes already reading the ground before his feet had reached it.
 
@@ -4250,6 +4299,8 @@ Children:
 - Holkos of Athens — see next entry.
 
 ========================================================================
+
+24.
 
 HOLKOS OF ATHENS
 
@@ -4413,6 +4464,8 @@ Children:
 - Holkos the Elder — see next entry.
 
 ========================================================================
+
+25.
 
 HOLKOS THE ELDER
 
@@ -4659,6 +4712,8 @@ Children:
 
 ========================================================================
 
+26.
+
 HOLKOS THE YOUNGER
 
 ~1300 BC — Hittite Anatolia
@@ -4850,6 +4905,8 @@ Children:
 - Akar-Teshub — see next entry.
 
 ========================================================================
+
+27.
 
 AKAR-TESHUB
 
@@ -5109,6 +5166,8 @@ Children:
 
 ========================================================================
 
+28.
+
 HOLKOS OF WILUSA
 
 ~1240 BC — Wilusa, Anatolia
@@ -5123,7 +5182,7 @@ The Private Notes Of Eutykhos
 
 ------------------------------------------------------------------------
 
-Set down in the third month of the siege, when the Greek fires could be seen from the eastern tower on clear nights, and the smell of the lower city’s cookfires had already begun to change from cedar-smoke to something thinner and more careful.
+Set down in the third month of the siege, when the Greek fires could be seen from the eastern tower on clear nights, and the sound of the lower city had already changed — less hammering from the smiths' quarter, fewer children in the streets below the wall. A city under siege learns to make less noise. It is one of the first things to go.
 
 The grain-stores of Wilusa occupied the lower level of the great citadel complex, cut into the living rock beneath the administrative quarter so that the temperature remained constant through both the killing heat of summer and the mountain cold of winter. This was not an accident of architecture. The man who had designed them had understood that a city under pressure is a city that will eventually be fed or not be fed, and that the distance between those two outcomes is measured in what you keep and what you lose. The stores were the city’s true heart. Everyone who understood Wilusa understood this. Including, as it proved, the man who would later stand in the smaller of the two grain rooms with blood on the hem of his robe and a story that did not survive contact with Holkos for more than the length of a single morning.
 
@@ -5285,6 +5344,8 @@ Children:
 
 ========================================================================
 
+29.
+
 HOLKOS THE WANDERER
 
 ~1210 BC — The Levant
@@ -5432,6 +5493,8 @@ Children:
 - Akar-Baal of Tyre — see next entry.
 
 ========================================================================
+
+30.
 
 AKAR-BAAL OF TYRE
 
@@ -5594,6 +5657,8 @@ Children:
 - Baal-Shillek — see next entry.
 
 ========================================================================
+
+31.
 
 BAAL-SHILLEK
 
@@ -5818,6 +5883,8 @@ Children:
 - Hanno-Milki — see next entry.
 
 ========================================================================
+
+32.
 
 HANNO-MILKI
 
@@ -6050,6 +6117,8 @@ Children:
 - Holkos of the Western Sea — see next entry.
 
 ========================================================================
+
+33.
 
 HOLKOS OF THE WESTERN SEA
 
@@ -6288,6 +6357,8 @@ Children:
 - Holkos of Corinth — see next entry.
 
 ========================================================================
+
+34.
 
 HOLKOS OF CORINTH
 
@@ -6561,6 +6632,8 @@ Children:
 
 ========================================================================
 
+35.
+
 AKAROS OF SPARTA
 
 ~1030 BC — Sparta, Greece
@@ -6672,6 +6745,8 @@ Children:
 - Akaros of Athens — see next entry.
 
 ========================================================================
+
+36.
 
 AKAROS OF ATHENS
 
@@ -6808,6 +6883,8 @@ Children:
 - Holkos-Akaros — see next entry.
 
 ========================================================================
+
+37.
 
 HOLKOS-AKAROS
 
@@ -6965,6 +7042,8 @@ Children:
 
 ========================================================================
 
+38.
+
 HOLKOS THE ARBITER
 
 ~940 BC — Athens, Greece
@@ -7110,6 +7189,8 @@ Children:
 - Holkos of the Agora — see next entry.
 
 ========================================================================
+
+39.
 
 HOLKOS OF THE AGORA
 
@@ -7267,6 +7348,8 @@ Children:
 
 ========================================================================
 
+40.
+
 AKAROS OF DELPHI
 
 ~880 BC — Delphi, Greece
@@ -7417,6 +7500,8 @@ Children:
 
 ========================================================================
 
+41.
+
 HOLKOS OF MACEDONIA
 
 ~850 BC — Macedonia, Greece
@@ -7431,9 +7516,9 @@ The Account of Darios
 
 ------------------------------------------------------------------------
 
-The smell of the season told you before your eyes could confirm it.
+The sound of the settlement told you before the tallies could confirm it.
 
-Late autumn in the northern settlements carries a particular odour: the sweetness of cut barley already thinning to dust, the sharp cold of the first killing frosts pressing down from the mountains to the north, and beneath it all, the persistent musk of livestock held too long in their enclosures. When the herds move well, this smell disperses. When they do not, it thickens and settles into the walls of the storehouses like smoke into wool, and a man of experience knows without looking at a single tally-mark that something in the counting of animals has gone wrong.
+Late autumn in the northern hills has its own rhythm — the creak of carts on the grain road, the particular cadence of cattle being driven from summer pasture before the first snow closes the high passes. Holkos of Macedonia heard neither of these things on the morning he arrived at Aegae. The carts were still. The pass road was empty. A man who had spent his life reading the movement of goods between places knew, without consulting a single tally-mark, that the movement had stopped.
 
 Holkos told me this on the morning he arrived at Perdas's settlement, before he had been inside the gate for the time it takes to water a horse. He stood in the outer yard, set down his travelling pack on the cold earth, and breathed through his nose with the deliberate attention of a man reading a surface for tracks.
 
@@ -7568,6 +7653,8 @@ Children:
 - Holkos of Sardis — see next entry.
 
 ========================================================================
+
+42.
 
 HOLKOS OF SARDIS
 
@@ -7738,6 +7825,8 @@ Children:
 - Holkos of Susa — see next entry.
 
 ========================================================================
+
+43.
 
 HOLKOS OF SUSA
 
@@ -7930,6 +8019,8 @@ Children:
 
 ========================================================================
 
+44.
+
 HOLKOS-NABU
 
 ~760 BC — Nineveh, Assyria
@@ -8067,6 +8158,8 @@ Children:
 - Holkos of Nineveh — see next entry.
 
 ========================================================================
+
+45.
 
 HOLKOS OF NINEVEH
 
@@ -8259,6 +8352,8 @@ Children:
 - Holkos the Assyrian — see next entry.
 
 ========================================================================
+
+46.
 
 HOLKOS THE ASSYRIAN
 
@@ -8458,6 +8553,8 @@ Children:
 
 ========================================================================
 
+47.
+
 HOLKOS OF SARDIS
 
 ~670 BC — Sardis, Lydia
@@ -8596,6 +8693,8 @@ Children:
 
 ========================================================================
 
+48.
+
 HOLKOS OF MILETUS
 
 ~640 BC — Miletus, Ionia
@@ -8728,7 +8827,7 @@ Dexios looked at the floor. "I—there is some practical difficulty in—the tor
 
 "A skilled assessor can—"
 
-"Yes. But dense cargo—lead, iron fittings, worked bronze—can be packed beneath lighter cargo, and the visual ratio is inverted. A hold that looks sixty percent full may be eighty percent full by weight, if the lower layers are substantially denser than the upper ones." He turned to Eumenes, and now his voice changed: became more precise, more clinical. "What does your vessel carry on the Phocaean run?"
+"Yes. But dense cargo—lead, iron fittings, worked bronze—can be packed beneath lighter cargo, and the visual ratio is inverted. A hold that looks six parts in ten full may be eight parts in ten full by weight, if the lower layers are substantially denser than the upper ones." He turned to Eumenes, and now his voice changed: became more precise, more clinical. "What does your vessel carry on the Phocaean run?"
 
 "Textiles outbound, as the manifests show. Mixed cargo returning—oil, some pottery, timber fittings."
 
@@ -8797,6 +8896,8 @@ Children:
 - Holkos of Sybaris — see next entry.
 
 ========================================================================
+
+49.
 
 HOLKOS OF SYBARIS
 
@@ -8926,6 +9027,8 @@ Children:
 - Holkos of Athens — see next entry.
 
 ========================================================================
+
+50.
 
 HOLKOS OF ATHENS
 
@@ -9100,6 +9203,8 @@ Children:
 - Holkos-Sokrates — see next entry.
 
 ========================================================================
+
+51.
 
 HOLKOS-SOKRATES
 
@@ -9347,6 +9452,8 @@ Children:
 
 ========================================================================
 
+52.
+
 HOLKOS THE PHILOSOPHER
 
 ~520 BC — Athens, Greece
@@ -9539,6 +9646,8 @@ Children:
 
 ========================================================================
 
+53.
+
 HOLKOS OF MEMPHIS
 
 ~490 BC — Memphis, Egypt
@@ -9683,6 +9792,8 @@ Children:
 
 ========================================================================
 
+54.
+
 MARCUS-HOLKOS
 
 ~460 BC — Rome, Roman Republic
@@ -9791,7 +9902,7 @@ I record this as accurately as I am able. I have training in accounts, not in co
 
 Demetrios sent a jar of Milesian wine to the address on the Aventine that I provided, on his behalf, because Marcus-Holkos would not take a fee.
 
-Whether Marcus-Holkos drank it or used it for something else, I cannot say. I suspect the latter. He had, I had begun to notice, an extensive and somewhat alarming interest in the chemistry of fermentation that had little to do with the pleasures of drinking.
+Whether Marcus-Holkos drank it or used it for something else, I cannot say. I suspect the latter. He had, I had begun to notice, an extensive and somewhat alarming interest in the study of fermentation that had little to do with the pleasures of drinking.
 
 Thus closes this account. The tablets are accurate to the best of my knowledge. The wax is my own.
 
@@ -9802,6 +9913,8 @@ Children:
 - Marcus Holcus — see next entry.
 
 ========================================================================
+
+55.
 
 MARCUS HOLCUS
 
@@ -9899,7 +10012,7 @@ He looked at me when he said this. Not with accusation — Marcus Holcus did not
 
 Grumio stared at him. "You can determine the duration from—"
 
-"From the price variance in the recorded transactions, cross-referenced against the publicly known grain prices in the Forum over the same period. The fraud introduced a systematic error of approximately three percent. Over fourteen months, across the volume Gnaeus Pulvillus handled, that represents a quantity of grain sufficient to feed this city's lower slopes for two weeks. It is not a small matter."
+"From the price variance in the recorded transactions, cross-referenced against the publicly known grain prices in the Forum over the same period. The fraud introduced a systematic error of approximately three parts in every hundred. Over fourteen months, across the volume Gnaeus Pulvillus handled, that represents a quantity of grain sufficient to feed this city's lower slopes for two weeks. It is not a small matter."
 
 I will compress the next portion of the inquiry, not because it was without interest, but because my record of it is incomplete — there were intervals in which Marcus Holcus conducted examinations of individuals without my presence, and I will not fabricate what I did not witness.
 
@@ -9958,6 +10071,8 @@ Children:
 - Gaius Holcus — see next entry.
 
 ========================================================================
+
+56.
 
 GAIUS HOLCUS
 
@@ -10177,6 +10292,8 @@ Children:
 
 ========================================================================
 
+57.
+
 LUCIUS HOLCUS
 
 ~380 BC — Rome, Roman Republic
@@ -10345,6 +10462,8 @@ Children:
 
 ========================================================================
 
+58.
+
 PUBLIUS HOLCUS
 
 ~360 BC — Carthage, Africa
@@ -10474,6 +10593,8 @@ Children:
 - Marcus Holcus Minor — see next entry.
 
 ========================================================================
+
+59.
 
 MARCUS HOLCUS MINOR
 
@@ -10678,6 +10799,8 @@ Children:
 - Gaius Holcus Minor — see next entry.
 
 ========================================================================
+
+60.
 
 GAIUS HOLCUS MINOR
 
@@ -10889,6 +11012,8 @@ Children:
 
 ========================================================================
 
+61.
+
 LUCIUS HOLCUS MAIOR
 
 ~285 BC — Rome, Roman Republic
@@ -11091,6 +11216,8 @@ Children:
 
 ========================================================================
 
+62.
+
 QUINTUS HOLCUS
 
 ~260 BC — Rome, Roman Republic
@@ -11151,7 +11278,7 @@ I looked at the discs, the numbers, the strings connecting them. "A record of da
 
 He stepped back. His voice had not risen, but something in its quality had altered — the way a string on a cithara changes quality when properly tuned.
 
-"I have now described two events," he said. "But what I have described is not two events. It is one event, performed twice. The visible cavalry. The hidden mass. The target's own certainty used against him. Hannibal does not defeat Roman armies. He borrows Roman armies. He turns them into instruments of their own destruction. He knows what a Roman consul will do when he sees cavalry running — what any man trained inside Roman doctrine will do — and he engineers the appearance of cavalry running." He paused. "This is not generalship, Aemilius. It is psychology. It is the same analysis I apply to a corrupt grain merchant or a fraudulent census-taker. The man has a system. All systems have a signature. And I have been reading this man's signature for eight months."
+"I have now described two events," he said. "But what I have described is not two events. It is one event, performed twice. The visible cavalry. The hidden mass. The target's own certainty used against him. Hannibal does not defeat Roman armies. He borrows Roman armies. He turns them into instruments of their own destruction. He knows what a Roman consul will do when he sees cavalry running — what any man trained inside Roman doctrine will do — and he engineers the appearance of cavalry running." He paused. "This is not generalship, Aemilius. It is the reading of men. It is the same analysis I apply to a corrupt grain merchant or a fraudulent census-taker. The man has a system. All systems have a signature. And I have been reading this man's signature for eight months."
 
 He crossed to the central table and placed before me a document — a proper document, bound in the senatorial manner, with Fabianus's seal already impressed on the outer fold. My own master's seal. I had not known it had been requested.
 
@@ -11290,6 +11417,8 @@ Children:
 - Gaius Holcus Tertius — see next entry.
 
 ========================================================================
+
+63.
 
 GAIUS HOLCUS TERTIUS
 
@@ -11480,6 +11609,8 @@ Children:
 - Marcus Holcus Primus — see next entry.
 
 ========================================================================
+
+64.
 
 MARCUS HOLCUS PRIMUS
 
@@ -11709,6 +11840,8 @@ Children:
 
 ========================================================================
 
+65.
+
 LUCIUS HOLCUS SECUNDUS
 
 ~140 BC — Jerusalem, Judea
@@ -11723,7 +11856,7 @@ The Account of Gaius Tertullius Varro
 
 ------------------------------------------------------------------------
 
-I have been a keeper of records for eleven years. I know the smell of a papyrus that has been scraped and rewritten—that faint ghost of old ink that the pumice cannot entirely remove—and I know the particular silence of a man who has prepared his lies in advance and is waiting with professional patience for the questions he expects to receive.
+I have been a keeper of records for eleven years. I know the weight of a papyrus that has been scraped and rewritten—heavier than it should be by the thickness of its second skin—and I know the particular silence of a man who has prepared his lies in advance and is waiting with professional patience for the questions he expects to receive.
 
 I did not know, when I first entered the service of Lucius Holcus Secundus, that I would spend the greater portion of my career watching him ask the questions no one expected, and watching men come undone entirely as a result.
 
@@ -11935,6 +12068,8 @@ Children:
 
 ========================================================================
 
+66.
+
 FLAVIUS HOLCUS
 
 ~115 BC — Rome, Roman Republic
@@ -12043,7 +12178,7 @@ He stopped pacing. He turned and looked at me with the expression I had come to 
 
 "He purchased goodwill. He paid for the friendship of powerful men."
 
-"He purchased insurance," Holcus said. "That is a more precise description. A man like Varro—moderately wealthy, no military distinction, no great family—survives in Rome through a very particular mechanism. He makes himself useful to men who are powerful enough to protect him, and he does this by giving them things they want: money, information, access to his trade connections, his warehouses, his ships. In return, they place their names—implicitly or explicitly—between him and danger." He walked back to his table and stood behind it, which was as close as he came to a formal posture. "Now. Sulla's proscriptions are coming. Everyone in Rome knows they are coming—the lists will be published soon. What does a man like Varro do?"
+"He purchased protection," Holcus said. "That is a more precise description. A man like Varro—moderately wealthy, no military distinction, no great family—survives in Rome through a very particular mechanism. He makes himself useful to men who are powerful enough to protect him, and he does this by giving them things they want: money, information, access to his trade connections, his warehouses, his ships. In return, they place their names—implicitly or explicitly—between him and danger." He walked back to his table and stood behind it, which was as close as he came to a formal posture. "Now. Sulla's proscriptions are coming. Everyone in Rome knows they are coming—the lists will be published soon. What does a man like Varro do?"
 
 I considered. "He tries to ensure his name is not on the list."
 
@@ -12130,6 +12265,8 @@ Children:
 - Tiberius Holcus — see next entry.
 
 ========================================================================
+
+67.
 
 TIBERIUS HOLCUS
 
@@ -12317,6 +12454,8 @@ Children:
 
 ========================================================================
 
+68.
+
 CLAUDIUS HOLCUS
 
 ~55 BC — Caesarea Maritima, Judea
@@ -12503,27 +12642,29 @@ Dion of Caesarea, in the seventeenth year of the reign of Herod, called the Grea
 
 Children:
 
-- Vespasian Holcus — see next entry.
+- Sabinus Holcus — see next entry.
 
 ========================================================================
 
-VESPASIAN HOLCUS
+69.
+
+SABINUS HOLCUS
 
 ~5 BC — Jerusalem, Judea
 
-He was given a name he would later share with his emperor — a choice that demonstrated the family’s habitual sensitivity to which names were ascending in Roman estimation. Vespasian Holcus served in the military administration of Judea in the years before the great revolt of 66 AD, in the deteriorating conditions of a province that Roman misgovernance had been pushing toward explosion for two generations, and which was now, as he reported in dispatches that went largely unheeded, within a very few years of one.
+He bore the name of the Sabine hill-country families from which the Flavian dynasty would later emerge — a connection the family appears to have cultivated deliberately, placing themselves in proximity to a line whose ascent they had read, with their customary accuracy, some decades before Rome had done the same. Sabinus Holcus served in the military administration of Judea in the years before the great revolt of 66 AD, in the deteriorating conditions of a province that Roman misgovernance had been pushing toward explosion for two generations, and which was now, as he reported in dispatches that went largely unheeded, within a very few years of one.
 
 He read the situation with complete accuracy and was ignored with complete consistency, which was, by this point in the family’s Roman history, a familiar experience. He possessed a patience that bordered on severity — a refusal to conclude beyond what the evidence would bear, even when delay cost him influence. When the revolt came he had already arranged his removal from the immediate theatre, and he watched the destruction of Jerusalem in 70 AD from a distance, with the particular grief of a man who had known it was coming and had failed to make anyone listen.
 
-His account survives not in the official dispatches themselves, many of which were lost in provincial archives, but in the careful copies and annotations of Lucius Varro, a junior clerk in Caesarea who attached himself to Vespasian Holcus during his final years in Judea. Varro’s record, preserved in part through the son to whom Holcus entrusted it, is the source of what follows. It is precise, though occasionally coloured by a clerk’s unease at conclusions he did not always understand when first he heard them.
+His account survives not in the official dispatches themselves, many of which were lost in provincial archives, but in the careful copies and annotations of Lucius Varro, a junior clerk in Caesarea who attached himself to Sabinus Holcus during his final years in Judea. Varro’s record, preserved in part through the son to whom Holcus entrusted it, is the source of what follows. It is precise, though occasionally coloured by a clerk’s unease at conclusions he did not always understand when first he heard them.
 
 The Account of Lucius Varro
 
 ------------------------------------------------------------------------
 
-Copied in the third year of Vespasian Caesar's reign, from notes kept during my service under the military administrator Vespasian Holcus, that his methods and his predictions might not perish entirely from the record, though the record itself perished from consequence.
+Copied in the third year of Vespasian Caesar's reign, from notes kept during my service under the military administrator Sabinus Holcus, that his methods and his predictions might not perish entirely from the record, though the record itself perished from consequence.
 
-I must say at the outset that I am a clerk and not a philosopher, and that when I first attached myself to the service of Vespasian Holcus in the administration at Caesarea, I expected to keep grain tallies and copy correspondence in triplicate. What I actually kept was a private record of something far more disturbing — the systematic dismantling, piece by piece, of a province's future, conducted not by its enemies but by its administrators, observed with perfect clarity by one man, and ignored with perfect consistency by everyone to whom he reported.
+I must say at the outset that I am a clerk and not a philosopher, and that when I first attached myself to the service of Sabinus Holcus in the administration at Caesarea, I expected to keep grain tallies and copy correspondence in triplicate. What I actually kept was a private record of something far more disturbing — the systematic dismantling, piece by piece, of a province's future, conducted not by its enemies but by its administrators, observed with perfect clarity by one man, and ignored with perfect consistency by everyone to whom he reported.
 
 Whether that record constitutes heroism or tragedy, I still cannot say. I have set it down as honestly as my limited gifts permit.
 
@@ -12589,7 +12730,7 @@ He dictated that evening until the lamp oil in the office was exhausted. I wrote
 
 The subsequent months produced the architecture piece by piece.
 
-The Temple taxation. He had the figures from the money-changers' assessments — Holcus had a gift for finding figures that were technically public record but practically invisible, buried in the administrative strata where no one who mattered ever looked. The Temple, he demonstrated in dispatch number two, was collecting from the rural population at rates that, when combined with Roman provincial taxation, produced a combined burden that he calculated with careful precision. He laid it out in percentages of estimated yield, in absolute measures of grain and oil and coin, in comparison to what the agricultural science of a hill-country smallholder could reasonably produce in a normal year, and in what a failed harvest left remaining.
+The Temple taxation. He had the figures from the money-changers' assessments — Holcus had a gift for finding figures that were technically public record but practically invisible, buried in the administrative strata where no one who mattered ever looked. The Temple, he demonstrated in dispatch number two, was collecting from the rural population at rates that, when combined with Roman provincial taxation, produced a combined burden that he calculated with careful precision. He laid it out in proportional fractions of estimated yield, in absolute measures of grain and oil and coin, in comparison to what the agricultural science of a hill-country smallholder could reasonably produce in a normal year, and in what a failed harvest left remaining.
 
 "But this has presumably always been the case, more or less," I ventured, reading back my own notes to check a figure. "The Temple has always collected. Rome has always taxed."
 
@@ -12665,6 +12806,8 @@ Children:
 
 ========================================================================
 
+70.
+
 TRAJANUS HOLCUS
 
 ~25 AD — Londinium, Britannia
@@ -12679,7 +12822,7 @@ The field notes of Quintus Marcellus
 
 ------------------------------------------------------------------------
 
-The fog that settles on Londinium in autumn is not the clean mist of the Campanian hills. It comes off the Tamesis like breath from a sick animal — grey, close, carrying the particular mingling of tidal mud, fresh timber, and woodsmoke from a hundred cooking fires that have not yet learned to draw properly through roofs built by men who were making their first roofs. I have measured roads across three provinces. I know the smell of a new town, of raw ambition laid in straight lines over old earth. Londinium smelled of all of that, and beneath it, always, of something older that would not be covered.
+The fog that settles on Londinium in autumn is not the clean mist of the Campanian hills. It comes off the Tamesis like breath from a sick animal — grey, close, pressing down on a town of fresh timber and raw ambition, muffling the sounds of the work-gangs before the second hour and leaving every building looking as though it had been erected the day before, which in most cases it had. I have measured roads across three provinces. I know the smell of a new town, of raw ambition laid in straight lines over old earth. Londinium smelled of all of that, and beneath it, always, of something older that would not be covered.
 
 I was at my table before first light, plotting survey distances for the road east toward Camulodunum, when I heard feet on the wooden stairs — not the heavy regulation tread of soldiers but the rapid, decisive step of a man who has already solved a problem in his mind and is moving his body to confirm the solution. Trajanus Holcus appeared in my doorway still pulling his cloak across his shoulders, his dark eyes already moving around the room in that manner he had of measuring everything at once, as a carpenter glances at a beam and knows immediately whether it is sound.
 
@@ -12872,6 +13015,8 @@ Children:
 
 ========================================================================
 
+71.
+
 HADRIANUS HOLCUS
 
 ~70 AD — Vindolanda, Britannia
@@ -13026,11 +13171,13 @@ Children:
 
 ========================================================================
 
+72.
+
 MARCUS HOLCUS AURELIUS
 
 ~100 AD — Rome, Roman Empire
 
-Bearing the name that would later be shared with the philosopher-emperor — whether by family design or coincidence, the record does not say — Marcus Holcus Aurelius was born at the height of the Antonine age — the period that later historians would come to regard as the summit of Roman prosperity, which is perhaps an exaggeration but captures something true about the particular quality of light that falls on an empire at its zenith. He was a man formed by that light: educated in Stoic philosophy, committed to the life of reason, convinced that the examined life was the only one worth living, and possessed of a detachment from his own comfort and advancement that his contemporaries found either admirable or impractical depending on their temperament.
+Bearing the name that would later be shared with the philosopher-emperor — whether by family design or coincidence, the record does not say — Marcus Holcus Aurelius was born in the age of the Five Good Emperors — the period that later historians would come to regard as the summit of Roman prosperity, which is perhaps an exaggeration but captures something true about the particular quality of light that falls on an empire at its zenith. He was a man formed by that light: educated in Stoic philosophy, committed to the life of reason, convinced that the examined life was the only one worth living, and possessed of a detachment from his own comfort and advancement that his contemporaries found either admirable or impractical depending on their temperament.
 
 He taught philosophy in Rome — not in the formal sense of a school or a chair, but in the old Socratic manner of the Athenian agora, engaging students in the examination of their assumptions through questions so precisely targeted that the student invariably ended by discovering, in the ruins of a position he had held comfortably for years, the truth that had been buried beneath it. His particular habit, noted even by those who did not admire him, was to refuse conclusions until every lesser explanation had been exhausted, a discipline that made his conversations slower than most and their conclusions more difficult to escape.
 
@@ -13329,6 +13476,8 @@ Children:
 
 ========================================================================
 
+73.
+
 SEPTIMIUS HOLCUS
 
 ~130 AD — Carthage, North Africa
@@ -13461,21 +13610,23 @@ These are the working journals of Tiberius Cassian, clerk to the proconsular com
 
 Children:
 
-- Caracallus Holcus — see next entry.
+- Antoninus Holcus — see next entry.
 
 ========================================================================
 
-CARACALLUS HOLCUS
+74.
+
+ANTONINUS HOLCUS
 
 ~185 AD — Byzantium
 
-Caracallus Holcus came to professional maturity in the years of the Severan dynasty and reached maturity as the empire’s third-century crisis began to gather — the decades of plague, invasion, economic disruption, and imperial instability that would kill fifty emperors in fifty years and nearly kill Rome itself. He read the situation, as men of his family read all situations, with cold clarity, and drew from his reading a conclusion that was becoming increasingly obvious to anyone who would face it: the empire’s centre of gravity was moving east.
+Antoninus Holcus came to professional maturity in the years of the Severan dynasty and reached maturity as the empire’s third-century crisis began to gather — the decades of plague, invasion, economic disruption, and imperial instability that would kill fifty emperors in fifty years and nearly kill Rome itself. He read the situation, as men of his family read all situations, with cold clarity, and drew from his reading a conclusion that was becoming increasingly obvious to anyone who would face it: the empire’s centre of gravity was moving east.
 
-He moved with it. Relocating from Rome to Byzantium — the ancient Greek city on the Bosphorus that would, within two generations, be transformed into the new capital of the world — Caracallus Holcus established the family in a position from which they could observe, and participate in, the great administrative shift from Latin west to Greek east that was the defining structural fact of the later empire. He was an early man in a city that was already important and would become, in his grandchildren’s time, the centre of the world — which gave him advantages that he was careful to use.
+He moved with it. Relocating from Rome to Byzantium — the ancient Greek city on the Bosphorus that would, within two generations, be transformed into the new capital of the world — Antoninus Holcus established the family in a position from which they could observe, and participate in, the great administrative shift from Latin west to Greek east that was the defining structural fact of the later empire. He was an early man in a city that was already important and would become, in his grandchildren’s time, the centre of the world — which gave him advantages that he was careful to use.
 
 The account that survives of his most significant inquiry in Byzantium is preserved in a set of wax tablets later copied to parchment by a clerk named Menandros, a meticulous but occasionally impatient observer whose annotations suggest both admiration and a persistent difficulty in following the full chain of Holcus’s reasoning. His record, though at times compressed, is sufficiently exact in its details to allow the reconstruction that follows.
 
-The account of Caracallus Holcus
+The account of Antoninus Holcus
 
 ------------------------------------------------------------------------
 
@@ -13483,7 +13634,7 @@ Recorded by Menandros, freedman and clerk, in the year of the consulship of Quin
 
 The Bosphorus in autumn has a particular quality of light — grey without being dull, silver without warmth — that falls on the water and the city walls alike and makes both look as though they are being slowly forgotten. The fishing boats that come through the strait from the Euxine bring cold air from the north, and it settles in the streets below the acropolis and between the close-set houses of the Greek quarter, and does not leave until midday, and returns by late afternoon, so that the city exists in a condition of perpetual half-chill that I have come to regard as its natural humour.
 
-It was in such an afternoon that Aemilius Strabo came to the door of the apartment on the street above the old Milesian quarter where Caracallus Holcus had established himself some four years prior — the upper floor of a building owned by a Syrian merchant who asked no inconvenient questions and kept his oil-lamps trimmed with an exceptionally pungent cedar oil that I had come to recognise, even from the street below, as the smell of the place where puzzles were kept.
+It was in such an afternoon that Aemilius Strabo came to the door of the apartment on the street above the old Milesian quarter where Antoninus Holcus had established himself some four years prior — the upper floor of a building owned by a Syrian merchant who asked no inconvenient questions and kept his oil-lamps trimmed with an exceptionally pungent cedar oil that I had come to recognise, even from the street below, as the smell of the place where puzzles were kept.
 
 I say that Strabo came to the door. I should say more precisely that he came to the door, retreated, walked the length of the street, returned, stood for a period I estimate at no less than a quarter of an hour, and then knocked. I observed all of this from my position at the small table near the window where I was engaged in copying a set of commercial accounts that Holcus had been asked to verify and which he had handed to me with the remark that figures told better stories than men, but that I should note any figure that had been corrected and tell him what the original entry appeared to have been.
 
@@ -13644,6 +13795,8 @@ Children:
 - Constantinus Holcus — see next entry.
 
 ========================================================================
+
+75.
 
 CONSTANTINUS HOLCUS
 
@@ -13817,9 +13970,11 @@ Children:
 
 ========================================================================
 
+76.
+
 BYZANTOS HOLKOS
 
-~260 AD — Constantinople
+~260 AD — Byzantium
 
 The name shifted back toward Greek in his generation — “Holkos” rather than “Holcus,” the Latin veneer thinning as the eastern empire recovered its Greek identity with increasing confidence. Byzantos Holkos was born in Byzantium and came into his career precisely as Constantine was transforming the city into Constantinople — the new Rome of the east, built with the speed and ambition that only an emperor’s will could command. He served in the imperial household administration during the great building programme of the 330s, managing the documentation of land acquisition, construction contracts, and the complex resettlement of populations that the creation of a new capital from an existing city required. He was a man of the transition — present when the city changed its name, its religion, and its destiny within the space of a single decade.
 
@@ -13982,10 +14137,11 @@ Children:
 - Holkos the Byzantine — see next entry.
 
 ========================================================================
+77.
 
 HOLKOS THE BYZANTINE
 
-~290 AD — Constantinople
+~290 AD — Byzantium
 
 Holkos the Byzantine reached the height of his career in the city that was still being built around him — Constantinople in the 350s and 360s, its great churches and colonnaded streets not yet finished, the smell of new stone everywhere, the sense of a world being deliberately constructed rather than gradually accumulated. He was among the first generation for whom the city was simply home rather than a transformation, and he brought to it the analytical habits of a family that had been reading the world’s changes since before Greece existed.
 
@@ -14250,6 +14406,7 @@ Children:
 - Holkos-Theodoros — see next entry.
 
 ========================================================================
+78.
 
 HOLKOS-THEODOROS
 
@@ -14463,6 +14620,8 @@ Children:
 
 ========================================================================
 
+79.
+
 HULMAR THE GOTH
 
 ~370 AD — Frankish lands
@@ -14564,6 +14723,8 @@ Children:
 - Hulmar of the Rhine — see next entry.
 
 ========================================================================
+
+80.
 
 HULMAR OF THE RHINE
 
@@ -14792,6 +14953,8 @@ Children:
 - Holmar of Burgundy — see next entry.
 
 ========================================================================
+
+81.
 
 HOLMAR OF BURGUNDY
 
@@ -15027,6 +15190,8 @@ Children:
 
 ========================================================================
 
+82.
+
 HOLMAR THE FRANK
 
 ~460 AD — Frankish territory
@@ -15151,6 +15316,8 @@ Children:
 - Holmar of the Merovingians — see next entry.
 
 ========================================================================
+
+83.
 
 HOLMAR OF THE MEROVINGIANS
 
@@ -15336,6 +15503,8 @@ Children:
 
 ========================================================================
 
+84.
+
 HOLMAR OF AUSTRASIA
 
 ~520 AD — Austrasia, Frankish Territory
@@ -15423,6 +15592,8 @@ Children:
 - Holmar of the Rhine — see next entry.
 
 ========================================================================
+
+85.
 
 HOLMAR OF THE RHINE
 
@@ -15515,6 +15686,8 @@ Children:
 - Holmar Northward — see next entry.
 
 ========================================================================
+
+86.
 
 HOLMAR NORTHWARD
 
@@ -15614,6 +15787,8 @@ Children:
 
 ========================================================================
 
+87.
+
 HOLMAR OF FRISIA
 
 ~610 AD — Dorestad, Frisia
@@ -15692,6 +15867,8 @@ Children:
 
 ========================================================================
 
+88.
+
 HOLMAR OF JUTLAND
 
 ~640 AD — Jutland, Denmark
@@ -15706,7 +15883,7 @@ The Account of Ketil
 
 ------------------------------------------------------------------------
 
-The smell of low tide had settled over the coastal region that morning — salt and rot and the particular sourness of the tanning pits along the eastern quarter — and Holmar had not yet opened his shutters when Sigurd Factor came to his door.
+Holmar had not yet opened his shutters when Sigurd Factor came to his door.
 
 He heard the man before he saw him. Sigurd's sandals were new, the leather still stiff, and they struck the wooden step outside with a sharp, anxious rhythm — not the patient knock of a man with business to conduct, but the rapid, uneven beat of a man who had been rehearsing his words since before dawn and was no longer certain any of them were right.
 
@@ -15763,6 +15940,8 @@ Children:
 - Holmar of Vestfold — see next entry.
 
 ========================================================================
+
+89.
 
 HOLMAR OF VESTFOLD
 
@@ -15857,6 +16036,8 @@ Children:
 - Sigr Holmr — see next entry.
 
 ========================================================================
+
+90.
 
 SIGR HOLMR
 
@@ -15956,6 +16137,8 @@ Children:
 
 ========================================================================
 
+91.
+
 LEIFR HOLMR
 
 ~750 AD — Vestfold, Norway
@@ -16037,6 +16220,8 @@ Children:
 - Ragnarr Holmr — see next entry.
 
 ========================================================================
+
+92.
 
 RAGNARR HOLMR
 
@@ -16136,6 +16321,8 @@ Children:
 
 ========================================================================
 
+93.
+
 SIGURÐR HOLMR
 
 ~830 AD — Yorkshire, England
@@ -16204,6 +16391,8 @@ Children:
 - Leifr Holmr Ⅱ — see next entry.
 
 ========================================================================
+
+94.
 
 LEIFR HOLMR II
 
@@ -16280,6 +16469,8 @@ Children:
 - Ragnarr Holmr II — see next entry.
 
 ========================================================================
+
+95.
 
 RAGNARR HOLMR Ⅱ
 
@@ -16395,6 +16586,8 @@ Children:
 
 ========================================================================
 
+96.
+
 SIGURÐR HOLMR II
 
 ~930 AD — Yorkshire, England
@@ -16501,6 +16694,8 @@ Children:
 
 ========================================================================
 
+97.
+
 ÞORFINNR HOLMR
 
 ~960 AD — Yorkshire, England
@@ -16595,7 +16790,9 @@ Children:
 
 ========================================================================
 
-GUNNNARR HOLMR
+98.
+
+GUNNARR HOLMR
 
 ~990 AD — Yorkshire, England
 
@@ -16682,6 +16879,8 @@ Children:
 - Halfdan Holmr — see next entry.
 
 ========================================================================
+
+99.
 
 HALFDAN HOLMR
 
@@ -16847,6 +17046,8 @@ Children:
 
 ========================================================================
 
+100.
+
 EADMUND HOLMR
 
 ~1055 AD — Yorkshire, England
@@ -16890,6 +17091,8 @@ Children:
 - Willelm Holmr — see next entry.
 
 ========================================================================
+
+101.
 
 WILLELM HOLMR
 
@@ -16997,6 +17200,8 @@ Children:
 
 ========================================================================
 
+102.
+
 ROBERT HOLMR
 
 ~1110 AD — Yorkshire, England
@@ -17077,6 +17282,8 @@ Children:
 
 ========================================================================
 
+103.
+
 WILLIAM HOLMR
 
 ~1140 — Yorkshire, England
@@ -17154,6 +17361,8 @@ Children:
 - Robert Holmr — see next entry.
 
 ========================================================================
+
+104.
 
 ROBERT HOLMR
 
@@ -17277,6 +17486,8 @@ Children:
 
 ========================================================================
 
+105.
+
 GEOFFREY HOLMES
 
 ~1190 — Halstead Manor, Yorkshire
@@ -17340,6 +17551,8 @@ Children:
 - Urkell de Holmes — see next entry.
 
 ========================================================================
+
+106.
 
 URKELL DE HOLMES
 
@@ -17424,6 +17637,8 @@ Children:
 - Thomas de Holmes — see next entry.
 
 ========================================================================
+
+107.
 
 THOMAS DE HOLMES
 
@@ -17596,6 +17811,8 @@ Children:
 
 ========================================================================
 
+108.
+
 JOHN DE HOLMES
 
 ~1261 — Yorkshire, England
@@ -17668,6 +17885,8 @@ Children:
 
 ========================================================================
 
+109.
+
 WILLIAM DE HOLMES
 
 ~1300 — Yorkshire, England
@@ -17722,6 +17941,8 @@ Children:
 
 ========================================================================
 
+110.
+
 RICHARD DE HOLMES
 
 ~1330 — Yorkshire, England
@@ -17769,6 +17990,8 @@ Children:
 - Robert de Holmes — see next entry.
 
 ========================================================================
+
+111.
 
 ROBERT DE HOLMES
 
@@ -17826,6 +18049,8 @@ Children:
 - Henry Holmes — see next entry.
 
 ========================================================================
+
+112.
 
 HENRY HOLMES
 
@@ -17909,6 +18134,8 @@ Children:
 
 ========================================================================
 
+113.
+
 EDWARD HOLMES
 
 ~1420 — Yorkshire, England
@@ -17950,6 +18177,8 @@ Children:
 - Walter Holmes — see next entry.
 
 ========================================================================
+
+114.
 
 SIR WALTER HOLMES
 
@@ -18044,6 +18273,8 @@ Children:
 
 ========================================================================
 
+115.
+
 SIR EDWARD HOLMES
 
 ~1485 — Yorkshire, England
@@ -18106,6 +18337,8 @@ Children:
 
 ========================================================================
 
+116.
+
 SIR RALPH HOLMES
 
 ~1510 — Yorkshire, England
@@ -18164,6 +18397,8 @@ Children:
 
 ========================================================================
 
+117.
+
 SIR STAMFORD HOLMES
 
 ~1557 — London, England
@@ -18218,6 +18453,8 @@ Children:
 - A daughter, who married into the Mycroft family of Yorkshire.
 
 ========================================================================
+
+118.
 
 SIR HENRY HOLMES
 
@@ -18292,6 +18529,8 @@ Children:
 - Sir Symonds Holmes — see next entry.
 
 ========================================================================
+
+119.
 
 SIR SYMONDS HOLMES
 
@@ -18392,6 +18631,8 @@ Children:
 
 ========================================================================
 
+120.
+
 SIR RICHMOND HOLMES
 
 ~1670 — Yorkshire, England
@@ -18463,6 +18704,8 @@ Children:
 - Sir Selwyn Holmes — see next entry.
 
 ========================================================================
+
+121.
 
 SIR SELWYN HOLMES
 
@@ -18577,6 +18820,8 @@ Children:
 
 ========================================================================
 
+122.
+
 SIR SEYMOUR HOLMES
 
 ~1760 — Yorkshire, England
@@ -18642,6 +18887,8 @@ Children:
 - Sheridan Holmes — see next entry.
 
 ========================================================================
+
+123.
 
 SHERIDAN HOLMES
 
@@ -18756,6 +19003,8 @@ Children:
 
 ========================================================================
 
+124.
+
 WILLIAM SCOTT HOLMES
 
 1819 — Yorkshire, England
@@ -18856,6 +19105,8 @@ It may be noted that Baring-Gould has named Sherlock’s father ‘Siger Holmes.
 Philip José Farmer’s Wold Newton framework is a separate matter: an acknowledged work of fiction, built around a real meteorite. The meteorite did indeed fall, however, the gift is much older.
 
 ========================================================================
+
+124b.
 
 A note on this entry and the following:
 Having followed the generations from the temple of Nanna at Ur — through Egypt and Canaan, Greece and Rome, through Frankish and Norse lands, the Danelaw and the United Kingdom — we arrive now at a generation for which the record is inexhaustible.
@@ -18989,6 +19240,8 @@ The reader who has not yet read them has a great pleasure ahead.
 
 ========================================================================
 
+125.
+
 SHERLOCK HOLMES
 
 1854 — Yorkshire, England
@@ -19032,6 +19285,8 @@ The chronicler who has followed this line from its beginning -- from the scribe 
 The organisation that the great detective knew as Moriarty's empire did not die with its Napoleon. It had not died with any of its previous commanders, across the four thousand years this chronicle spans. It reorganised. It found new instruments, new languages, new legitimate fronts behind which the same essential structure -- hierarchical, durable, insulated from prosecution by layers of apparent respectability -- continued its operations. The Whitechapel counting house that appears in the records of the second Sherlock's time bore a different name in each subsequent generation. The address did not change. Addresses, unlike names, are harder to fabricate from nothing.
 
 ========================================================================
+
+126.
 
 SHERLOCK HOLMES II
 
@@ -19112,6 +19367,8 @@ Children:
 
 ========================================================================
 
+127.
+
 SHERLOCK HOLMES Ⅲ
 
 1914 — Sussex, England
@@ -19185,6 +19442,8 @@ Children:
 - Sherlock Holmes Ⅳ — see next entry.
 
 ========================================================================
+
+128.
 
 SHERLOCK HOLMES Ⅳ
 
@@ -19319,6 +19578,8 @@ Children:
 - Sherlock Holmes Ⅴ — see next entry.
 
 ========================================================================
+
+129.
 
 SHERLOCK HOLMES Ⅴ
 
@@ -19513,6 +19774,8 @@ Children:
 
 ========================================================================
 
+130.
+
 SHERLOCK HOLMES Ⅵ
 
 1999 — United States
@@ -19623,6 +19886,8 @@ Children:
 - Eleanor Holmes (born 2026)
 
 ========================================================================
+
+131.
 
 SHERLOCK HOLMES Ⅶ
 
