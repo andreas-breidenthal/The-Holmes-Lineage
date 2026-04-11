@@ -4326,7 +4326,7 @@ I understand it now.
 
 The morning had the particular quality that late summer mornings in Athens sometimes acquire: a stillness so absolute that the air itself seems to be waiting. The smell of the citadel at that hour is always the same — limestone dust, the rendered fat of last night’s lamps, and beneath both of those the older smell of the rock itself, which is a smell like the inside of a sealed jar, dry and mineral and slightly airless, as though the hill is slowly breathing out something it has held since before men came to put walls upon it.
 
-The gate-hinge of the archive — I will not forget its sound, a particular iron complaint in two notes, the second lower than the first — made that sound at the moment I arrived to begin the morning copy-work, and I pushed through to find the room occupied more than I had anticipated.
+The gate-hinge of the archive — I will not forget its sound, a distinctive bronze shriek, a rising pitch that caught at the top of the swing — made that sound at the moment I arrived to begin the morning copy-work, and I pushed through to find the room occupied more than I had anticipated.
 
 Arkitas lay between the central table and the east shelf, on his back, with his arms arranged in a way that suggested he had not arranged them himself. His oil lamp had burned to nothing on the table beside the tablet-press. The tablets from the previous evening’s session were laid in their drying rack along the north wall, still soft enough that the morning chill had not fully set them.
 
@@ -14422,7 +14422,7 @@ The Matter of Alaric the Trader
 
 ------------------------------------------------------------------------
 
-Resolved at Noviodunum in the Year of Our Lord Three Hundred and Twenty-Five, in the Consulship of Gratian and Equitius
+Resolved at Noviodunum in the Year of Our Lord Three Hundred and Seventy-Four, in the Consulship of Gratian and Equitius
 
 What follows is set down by my own hand, Flavius Marcellinus, notary attached to the headquarters of the Danubian command, in the garrison town of Noviodunum. I have written it not for the archive — which will record what it has been told to record — but for a single reader, to whom it will be sent under seal. I have changed no material fact. I have softened no conclusion. If what I describe reflects poorly on men of rank, that is the fault of those men, and not of my pen. I write it because I was there, and because Holkos-Theodoros has asked me to write it, and because I have learned, in the short time I have known him, that when he asks for something he has already calculated why it is necessary.
 
@@ -15381,13 +15381,13 @@ The bishop’s jaw tightened. “I don’t know what accommodation—”
 
 A silence. Outside, the fog pressed against the window.
 
-“In the winter of 484,” the bishop said finally, “before the — before everything changed — I received a request from the court of Licinius. The former emperor. He was asking for the Church’s assistance in — in a matter of tax collection. There were Gothic foederati in three valleys who had not paid the Roman levy in four years. He wished the Church to — to apply persuasion. Spiritual persuasion.”
+“In the winter of 484,” the bishop said finally, “before the — before everything changed — I received a request from the court of Syagrius. The last Roman ruler in Gaul. He was asking for the Church’s assistance in — in a matter of tax collection. There were Gothic foederati in three valleys who had not paid the Roman levy in four years. He wished the Church to — to apply persuasion. Spiritual persuasion.”
 
 “And you did.”
 
 “I wrote three letters. To three of my priests. Advising them to make clear to their congregations that — that the obligations of God and of Caesar were not in conflict.”
 
-“You used the Church’s authority to collect Roman taxes from Gothic foederati on behalf of a Roman governor,” Holmar said, “two years before Constantine defeated that same emperor and absorbed his territory into the unified realm.”
+“You used the Church’s authority to collect Roman taxes from Gothic foederati on behalf of a Roman governor,” Holmar said, “two years before Clovis defeated that same ruler and absorbed his territory into the unified realm.”
 
 The bishop said nothing.
 
@@ -15411,11 +15411,11 @@ I have said that Holmar’s relationship with sleep was unusual. His relationshi
 
 He sent me for specific files. Not categories of files — specific letters, specific dates, specific senders. He knew what he was looking for before he looked for it, which is the only explanation I have for the precision of his requests.
 
-“The letters from the Council of Serdica, the winter session,” he said at one point. “The attendance record and the drafts of the three disciplinary motions.”
+“The letters from the Council of Orléans, the winter session,” he said at one point. “The attendance record and the drafts of the three disciplinary motions.”
 
 I found them. He read them. He set them aside.
 
-“The correspondence from Bishop Eusebius regarding the preparation of the baptismal ceremony. All of it. Including the drafts.”
+“The correspondence from Bishop Remigius regarding the preparation of the baptismal ceremony. All of it. Including the drafts.”
 
 I found those too. There were eleven documents. He read each one and arranged them in a sequence that did not correspond to their dates.
 
@@ -15431,9 +15431,9 @@ He set both letters down.
 
 “Who sent it?” I asked.
 
-He did not answer immediately. He was looking at the attendance record from the Council of Serdica.
+He did not answer immediately. He was looking at the attendance record from the Council of Orléans.
 
-“The new order,” he said, “requires loyalty tests. The Church has absorbed a great many men who served the old arrangements — Roman governors, Arian accommodators, political Christians who wore the faith like a travelling cloak and removed it when the weather changed. Bishop Eusebius and his circle are building something permanent. They need to know who can be trusted. A threatening letter is a crude instrument, but it is efficient.” He closed the file. “The Bishop of Nicaea is being evaluated, not destroyed.”
+“The new order,” he said, “requires loyalty tests. The Church has absorbed a great many men who served the old arrangements — Roman governors, Arian accommodators, political Christians who wore the faith like a travelling cloak and removed it when the weather changed. Bishop Remigius and his circle are building something permanent. They need to know who can be trusted. A threatening letter is a crude instrument, but it is efficient.” He closed the file. “The Bishop of Nicaea is being evaluated, not destroyed.”
 
 “And the accommodation? The Roman tax matter?”
 
@@ -15443,7 +15443,7 @@ He stood, moving to the window. The fog was still there. It had not shifted in t
 
 “The letter is not a threat,” he said. “It is an audition.”
 
-The following morning, he sent for the Bishop of Nicaea, and he also sent — this was the part that surprised me, and I record it because it surprised me, which means it was deliberate — a note to the chancery of Bishop Eusebius, requesting that the archdeacon responsible for the winter correspondence might be available to attend a brief administrative consultation.
+The following morning, he sent for the Bishop of Nicaea, and he also sent — this was the part that surprised me, and I record it because it surprised me, which means it was deliberate — a note to the chancery of Bishop Remigius, requesting that the archdeacon responsible for the winter correspondence might be available to attend a brief administrative consultation.
 
 The archdeacon arrived first. He was a young man, thin-faced and careful, with the eyes of someone accustomed to reading other people’s letters and writing nothing incautious in his own. He sat in the antechamber and waited.
 
@@ -15453,7 +15453,7 @@ The Bishop of Nicaea arrived and was shown to the correspondence room. Holmar ke
 
 “Who—”
 
-“That is not the useful question. The useful question is what the sending of the letter means, and what your response to it should be.” He moved to the table, where the filed correspondence was still spread. “The accommodation of 484 is not a liability. It is a record of a man who served the institution of the Church consistently across a change of regime — who used the Church’s authority as the Church’s authority, in the service of order and of obligation, regardless of which temporal power was making the request. Bishop Eusebius does not need bishops who were loyal to the new capital before the conversion. He cannot find any — there were none. He needs bishops who were loyal to the Church before the conversion, and whose loyalty to the Franks now is an extension of that prior loyalty, not a replacement of it. Your letter of 484 demonstrates exactly that.”
+“That is not the useful question. The useful question is what the sending of the letter means, and what your response to it should be.” He moved to the table, where the filed correspondence was still spread. “The accommodation of 484 is not a liability. It is a record of a man who served the institution of the Church consistently across a change of regime — who used the Church’s authority as the Church’s authority, in the service of order and of obligation, regardless of which temporal power was making the request. Bishop Remigius does not need bishops who were loyal to the new capital before the conversion. He cannot find any — there were none. He needs bishops who were loyal to the Church before the conversion, and whose loyalty to the Franks now is an extension of that prior loyalty, not a replacement of it. Your letter of 484 demonstrates exactly that.”
 
 The bishop stared at him. “They are not trying to destroy me.”
 
@@ -15485,7 +15485,7 @@ He sat down. He was suddenly, visibly exhausted — the collapse that followed t
 
 I have set this account down as faithfully as I am able, which is to say I have recorded what I witnessed and have omitted what I was not present for and what I was asked not to include.
 
-The Bishop of Nicaea received his invitation, as Holmar said he would, and was given a position in the new synodal structure, where he served with distinction for fourteen years. The official record of the synodal appointments credits Bishop Eusebius with the identification and elevation of his subordinates, which is accurate, as far as it goes.
+The Bishop of Nicaea received his invitation, as Holmar said he would, and was given a position in the new synodal structure, where he served with distinction for fourteen years. The official record of the synodal appointments credits Bishop Remigius with the identification and elevation of his subordinates, which is accurate, as far as it goes.
 
 The threatening letter is not in any archive I have access to. I assume it was burned.
 
