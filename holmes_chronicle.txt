@@ -11400,7 +11400,7 @@ I am writing them now, in this account, which is — as Holcus himself described
 
 The official document will name the consuls. It will record the battle. It will note, in the careful language of institutional record-keeping, that the army advanced and was engaged and sustained losses, and it will proceed to the organizational response and the emergency measures and the Senate's emergency session.
 
-This document will record that a man in a room that smelled of rancid lamp-oil, surrounded by wax tablets and clay discs on strings, read the mind of a Carthaginian general across two hundred miles of Italian terrain, wrote down what he read in plain Latin, submitted it in the proper form through the proper channels, and watched, from a distance measured in weeks, while the pattern he had described unfolded exactly as he had described it.
+This document will record that a man in a room that smelled of rancid lamp-oil, surrounded by wax tablets and clay discs on strings, reconstructed the tactical constraints of a Carthaginian general across two hundred miles of Italian terrain, wrote down what he read in plain Latin, submitted it in the proper form through the proper channels, and watched, from a distance measured in weeks, while the pattern he had described unfolded exactly as he had described it.
 
 He did not say: I told them. He said: The work continues.
 
@@ -13031,7 +13031,7 @@ The account of Aelius Sabinus
 
 ------------------------------------------------------------------------
 
-Set down at Vindolanda, in the fourteenth year of the reign of the divine Hadrian.
+Set down at Vindolanda, in the twenty-first year of the reign of William the Conqueror.
 
 I have been advised by those wiser in the ways of the cursus publicus that the official record of the survey commission will credit the resolution of the matter of Titus Varro’s death to the diligence of the commission itself, and to the particular acumen of its senior legal assessors. This is the correct version. This is the version that will be filed at York and copied to Rome and placed in whatever archive outlasts us all.
 
@@ -13177,7 +13177,7 @@ MARCUS HOLCUS AURELIUS
 
 ~100 AD — Rome, Roman Empire
 
-Bearing the name that would later be shared with the philosopher-emperor — whether by family design or coincidence, the record does not say — Marcus Holcus Aurelius was born in the age of the Five Good Emperors — the period that later historians would come to regard as the summit of Roman prosperity, which is perhaps an exaggeration but captures something true about the particular quality of light that falls on an empire at its zenith. He was a man formed by that light: educated in Stoic philosophy, committed to the life of reason, convinced that the examined life was the only one worth living, and possessed of a detachment from his own comfort and advancement that his contemporaries found either admirable or impractical depending on their temperament.
+Bearing the name that would later be shared with the philosopher-emperor — whether by family design or coincidence, the record does not say — Marcus Holcus Aurelius was born in the age of the Five Good Emperors — the period that later historians would come to regard as the summit of Roman prosperity, which is perhaps an exaggeration but captures something true about the particular quality of light that falls on an empire at its zenith. He was a man formed by that light: educated in the logic of the Ionian sages, committed to the life of reason, convinced that the examined life was the only one worth living, and possessed of a detachment from his own comfort and advancement that his contemporaries found either admirable or impractical depending on their temperament.
 
 He taught philosophy in Rome — not in the formal sense of a school or a chair, but in the old Socratic manner of the Athenian agora, engaging students in the examination of their assumptions through questions so precisely targeted that the student invariably ended by discovering, in the ruins of a position he had held comfortably for years, the truth that had been buried beneath it. His particular habit, noted even by those who did not admire him, was to refuse conclusions until every lesser explanation had been exhausted, a discipline that made his conversations slower than most and their conclusions more difficult to escape.
 
@@ -13199,7 +13199,7 @@ The morning of Caius Primus’s disappearance began, as most mornings in the sha
 
 Rome in October is not Rome in July. The heat that makes the city a kind of slow punishment has retreated, and in its place comes a particular energy — street vendors sharper, the clatter of cart-wheels on the stone of the Subura more assertive, the smell of the insulae in the cooler air not the thick rot of summer but something sharper and more complicated, the accumulated record of ten thousand daily lives compressed into the narrow streets. I mention this because Marcus has taught me to begin with the senses, to anchor the account in what was actually present rather than what I wished to be present, and what was present that morning was the smell of wet stone and lamp-smoke and the specific quality of autumn Roman light that turns everything the colour of old honey.
 
-I arrived at the portico where Marcus conducts his examinations to find seven students already seated on the low benches arranged in the courtyard’s lower tier. Caius Primus was among them — I noticed him particularly because he had arrived before me, which was unusual. He was not a punctual young man by temperament, but that morning he sat with the posture of someone who has been awake for several hours and has spent them in uncomfortable thought. He was perhaps nineteen, the son of a grain merchant of middling but respectable prosperity, enrolled with Marcus for the kind of philosophical education that the better families in Rome had decided was appropriate preparation for a public career, though what a public career requires of Stoic epistemology I have never been entirely certain.
+I arrived at the portico where Marcus conducts his examinations to find seven students already seated on the low benches arranged in the courtyard’s lower tier. Caius Primus was among them — I noticed him particularly because he had arrived before me, which was unusual. He was not a punctual young man by temperament, but that morning he sat with the posture of someone who has been awake for several hours and has spent them in uncomfortable thought. He was perhaps nineteen, the son of a grain merchant of middling but respectable prosperity, enrolled with Marcus for the kind of philosophical education that the better families in Rome had decided was appropriate preparation for a public career, though what a public career requires of natural philosophy I have never been entirely certain.
 
 Marcus arrived last, as he always does — not from discourtesy but from what he calls the pedagogical advantage of observation. He stands at the entrance for a moment before anyone notices him, examining the group with the particular quality of attention that I have come to recognise as assessment rather than greeting. He sees, in that moment, things I have since learned to look for and still cannot reliably find.
 
@@ -14526,9 +14526,9 @@ The garrison physician was a competent Antiochene named Paulos who had served en
 
 "The substance," said Holkos-Theodoros. "Is it consistent with ink?"
 
-Paulos examined the discolouration beneath the nails of the first two fingers of the right hand. "With a particular kind of ink," he said slowly. "I have seen something similar in the eastern trade — not Roman manufacture. Certain Gothic scribes use a preparation of oak-gall and metallic salts in different proportions than we do. It produces a darker residue and it sets more slowly." He looked up. "A man who had been writing with such an ink, writing quickly and at length, might have it under his nails if he had not washed carefully afterward."
+Paulos examined the discolouration beneath the nails of the first two fingers of the right hand. "With a particular kind of ink," he said slowly. "I have seen something similar in the eastern trade — not Roman manufacture. certain scribes of the northern tribes use a preparation of oak-gall and metallic salts in different proportions than we do. It produces a darker residue and it sets more slowly." He looked up. "A man who had been writing with such an ink, writing quickly and at length, might have it under his nails if he had not washed carefully afterward."
 
-"He was writing on the night of his death," said Holkos-Theodoros. "Writing in Gothic preparation. Writing, therefore, either in the Gothic script or in a cipher that used Gothic materials — which suggests either that his document was intended to be read on the Gothic shore, or that it was encrypted in a form that only someone familiar with Gothic scribal practice could decode." He paused. "Was there a document found with the body?"
+"He was writing on the night of his death," said Holkos-Theodoros. "Writing in a foreign preparation. Writing, therefore, either in the Gothic script or in a cipher that used Gothic materials — which suggests either that his document was intended to be read on the northern shore, or that it was encrypted in a form that only someone familiar with Gothic scribal practice could decode." He paused. "Was there a document found with the body?"
 
 "Nothing," said Paulos.
 
@@ -14546,7 +14546,7 @@ Holkos-Theodoros broke the seal and read it without expression. He read it twice
 
 "What does it say?" I asked.
 
-"It says what I expected it to say," he said. "It names his handler — the officer through whom his reports passed before they reached Constantinople. It notes that in the last four dispatches, the handler had altered his reports before forwarding them — suppressing the most significant findings about Gothic military organisation, changing his estimates of the timeline of pressure from the east, softening his conclusions about the likelihood of large-scale westward migration." He looked at me steadily. "And it names who the handler reported to."
+"It says what I expected it to say," he said. "It names his handler — the officer through whom his reports passed before they reached Constantinople. It notes that in the last four dispatches, the handler had altered his reports before forwarding them — suppressing the most significant findings about Kaskian military organisation, changing his estimates of the timeline of pressure from the east, softening his conclusions about the likelihood of large-scale westward migration." He looked at me steadily. "And it names who the handler reported to."
 
 I waited.
 
@@ -14590,7 +14590,7 @@ He was already at the door.
 
 He left. I sat with my tablet and my lamp and the sound of the river, and I wrote.
 
-Three days after the events described above, Holkos-Theodoros departed Noviodunum without formal announcement of his departure, which was consistent with his arrival. Tribune Gallus closed the matter of Alaric the trader as death by misadventure, possibly attendant upon intoxication, possibly involving persons unknown on the Gothic shore. This finding was transmitted to the relevant offices and produced no further inquiry.
+Three days after the events described above, Holkos-Theodoros departed Noviodunum without formal announcement of his departure, which was consistent with his arrival. Tribune Gallus closed the matter of Alaric the trader as death by misadventure, possibly attendant upon intoxication, possibly involving persons unknown on the northern shore. This finding was transmitted to the relevant offices and produced no further inquiry.
 
 The officer whose name appeared in Alaric's hidden document continued in his post for two more years, was elevated to a command position in the eastern Balkans, and died of a fever in the third year thereafter. Whether the man in Constantinople to whom Holkos-Theodoros dispatched his sealed account made any use of it, I do not know. I was not in a position to know.
 
