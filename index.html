@@ -19,8 +19,8 @@
 <div class="page-shell">
 <div id="top" class="index-hero">
   <h2 style="font-family: 'Cinzel Decorative', serif; color: var(--gold-light); text-shadow: -0.5px -0.5px 0px var(--gold-pale), 1px -1px 0px var(--gold)">THE</h2>
-  <h1 style="font-family: 'Cinzel Decorative', serif; font-size: 2.5rem; color: var(--gold-light); text-shadow: -0.75px -0.75px 0px var(--gold-pale), 1.5px -1.5px 0px var(--gold)">HOLMES CHRONICLE</h1>
-  <h3 style="font-family: 'Cinzel Decorative', serif; color: var(--gold-light); text-shadow: -0.5px -0.5px 0px var(--gold-pale), 1px -1px 0px var(--gold)">∼ 2050 BC - 2026 AD ∽</h3>
+  <h1 style="font-family: 'Cinzel Decorative', serif; font-size: 2rem; color: var(--gold-light); text-shadow: -0.75px -0.75px 0px var(--gold-pale), 1.5px -1.5px 0px var(--gold)">HOLMES CHRONICLE</h1>
+  <h3 style="font-family: 'Cinzel Decorative', serif; color: var(--gold-light); text-shadow: -0.5px -0.5px 0px var(--gold-pale), 1px -1px 0px var(--gold)">∽ 2050 BC - 2026 AD ∼</h3>
   <img src="images/chronicle-cover-blank.webp" alt="The Holmes Chronicle — 2050 BC to 2026 AD, by Andreas Breidenthal" style="display:block; margin: 0 auto 2rem; max-width: 480px; width: 100%; border-radius: 24px; box-shadow: 0 8px 32px rgba(0,0,0,0.6);">
   <p class="series-description">One hundred and thirty-one generations across four thousand years — each bearing the same inherited analytical gift, each embedded at the heart of their civilisation, each quietly dismantling the organised criminal networks that persist across every age of human history.</p>
 <p style="text-align:center; margin: 1.5rem 0 2rem;">
@@ -32,21 +32,21 @@
 </p>
 </div>
 
-<div class="content-body">
+<main class="book-hero">
  
-  <div class="ancestor-entry">
+  <article class="ancestor-entry">
+    <div class="entry-nameplate">
+    <h2 class="entry-name">FOREWORD</h2>
+    <div class="entry-dateline">By Olivia Watson, Washington D.C., 2026</div>
+  </div>
  
-    <p class="book-title-main">FOREWORD</p>
-  
-    <p class="entry-dateline">By Olivia Watson, Washington D.C., 2026</p>
-
     <p>In January of 1920, my great-great-grandfather, Dr. John H. Watson, received a visitor at his home in Queen Anne Street. He had not expected Mycroft Holmes. In the years since Sherlock’s retirement to the Sussex Downs, the elder Holmes brother had become, if anything, more immovable than ever — a man whose world had contracted to his rooms, his club, and whatever remained of the governmental functions he had never formally held and never entirely relinquished.</p>
 
     <p>He came once, and once only, and he did not stay long. What he left behind was a key.</p>
   
     <p>My great-great-grandfather recorded the visit in a letter, never sent, discovered among his papers after his death and passed with careful instructions through four generations of our family. I reproduce the relevant passage here, exactly as he wrote it:</p>
   
-    <p class="story-block">“Mycroft was much altered — reduced in frame though not, I think, in mind — and he came to the point with a directness that reminded me powerfully of his brother in his best years. He told me he had a vault. That it had been in the keeping of the Holmes family, or those appointed by them, for longer than either of us could properly conceive. That he was the last of his line able to maintain its custodianship, and that he had decided — after, I gathered, considerable deliberation — that the time had come to place it in other hands. He said he had chosen mine.<br>
+    <p class="children-block">“Mycroft was much altered — reduced in frame though not, I think, in mind — and he came to the point with a directness that reminded me powerfully of his brother in his best years. He told me he had a vault. That it had been in the keeping of the Holmes family, or those appointed by them, for longer than either of us could properly conceive. That he was the last of his line able to maintain its custodianship, and that he had decided — after, I gathered, considerable deliberation — that the time had come to place it in other hands. He said he had chosen mine.<br>
     
       I asked him why. He looked at me for a long moment with those extraordinary eyes — the eyes that always made me feel, as Sherlock’s never quite did, that I was being thoroughly and perhaps unfavourably assessed — and he said: ‘Because you have spent your life beside the best mind of your generation, Watson, and you recorded what you saw with fidelity and without vanity. That combination is rarer than intelligence. It is rarer, even, than genius. The vault requires it.’<br>
 
@@ -70,14 +70,14 @@
 
       Washington D.C., 2026</p>
   
-  </div>
+  </article>
 
-</div>
-  
+</main>
+
 <div id="toc-container">
   <p style="text-align:center; font-family:'Cinzel Decorative',serif; letter-spacing:0.08em; font-size:0.8rem; color:var(--gold-light);">Loading entries…</p>
 </div>
-
+<main class="content-body">
 <p class="index-colophon">
 The gift survived the fire. It always did.<br>
 From the scribe of Ur to the present day, the same faculty — methodical observation,
@@ -85,6 +85,7 @@ inference from particulars, the patient dismantling of what ordinary intelligenc
 cannot see — passed from parent to child across one hundred and thirty-one generations,
 finding in each the form that the age required.
 </p>
+</main>
 <div style="text-align:center"><a href="#top" class="back-to-top">↑ Back to top</a></div>
 </div>
 
@@ -131,11 +132,11 @@ finding in each the form that the age required.
   for (const entry of results) {
     if (!entry.name) continue;
     html += '<a class="book-card" href="' + (entry.n ? 'hc' + entry.n + '.html' : 'hc124b.html') + '" style="display:flex; flex-direction:column; text-decoration:none; padding-left:0.5rem; padding-right:0.5rem;">';    html += '<div style="display:flex; justify-content:space-between; align-items:baseline;">';
-    html += '<div class="card-title" style="margin:0;">' + entry.name + '</div>';
+    html += '<div class="card-title" style="margin: 0 0.75rem;">' + entry.name + '</div>';
     html += '</div>';
     html += '<div style="display:flex; justify-content:space-between; align-items:baseline;">';
-    html += '<div class="card-numeral">' + (entry.n ?? 'Special Entry') + '</div>';
-    html += '<div class="card-dates" style="white-space:normal; overflow-wrap:break-word; text-align:right;">' + entry.dateline + '</div>';
+    html += '<div class="card-numeral" style="margin: 0 0.25rem;">' + (entry.n ?? 'Special Entry') + '</div>';
+    html += '<div class="card-dates" style="white-space:normal; overflow-wrap:break-word; text-align:right; margin: 0 0.5rem;">' + entry.dateline + '</div>';
     html += '</div>';
     html += '</a>';
   }
