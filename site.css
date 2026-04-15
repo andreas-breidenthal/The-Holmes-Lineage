@@ -565,7 +565,7 @@ body {
   display: block;
   text-decoration: none;
   padding: 2rem 2.5rem;
-  border-bottom: 1px solid var(--rule-faint);
+  border-top: 1px solid var(--rule-faint);
   border-right: 1px solid var(--rule-faint);
   transition: background-color 0.2s;
   position: relative;
