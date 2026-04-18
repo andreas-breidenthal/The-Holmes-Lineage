@@ -11,5 +11,5 @@ One hundred and thirty-one generations across four thousand years — each beari
 [Read the Chronicle →](https://andreas-breidenthal.github.io/The-Holmes-Chronicle/index.html)
 
 
-The gift survived the fire. It always did.
+>The gift survived the fire. It always did.
 From the scribe of Ur to the present day, the same faculty — methodical observation, inference from particulars, the patient dismantling of what ordinary intelligence cannot see — passed from parent to child across one hundred and thirty-one generations, finding in each the form that the age required.
