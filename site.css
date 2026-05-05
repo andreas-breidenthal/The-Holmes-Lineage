@@ -140,7 +140,7 @@ body {
 
 .book-title-main {
   font-family: 'Cinzel', serif;
-  font-size: clamp(1.1rem, 8vw, 3rem);
+  font-size: clamp(1.1rem, 10vw, 3rem);
   font-weight: 600;
   color: var(--ink);
   line-height: 1.2;
