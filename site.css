@@ -263,7 +263,7 @@ body {
 
 .entry-name {
   font-family: 'Cinzel', serif;
-  font-size: clamp(1.5rem, 5vw, 3rem);
+  font-size: clamp(1.8rem, 5vw, 3rem);
   font-weight: 600;
   color: var(--ink);
   letter-spacing: 0.04em;
